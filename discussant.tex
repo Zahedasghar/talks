@@ -1,0 +1,288 @@
+\documentclass[]{tufte-handout}
+
+% ams
+\usepackage{amssymb,amsmath}
+
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \makeatletter
+  \@ifpackageloaded{fontspec}{}{\usepackage{fontspec}}
+  \makeatother
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+  \makeatletter
+  \@ifpackageloaded{soul}{
+     \renewcommand\allcapsspacing[1]{{\addfontfeature{LetterSpace=15}#1}}
+     \renewcommand\smallcapsspacing[1]{{\addfontfeature{LetterSpace=10}#1}}
+   }{}
+  \makeatother
+
+\fi
+
+% graphix
+\usepackage{graphicx}
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+
+% booktabs
+\usepackage{booktabs}
+
+% url
+\usepackage{url}
+
+% hyperref
+\usepackage{hyperref}
+
+% units.
+\usepackage{units}
+
+
+\setcounter{secnumdepth}{-1}
+
+% citations
+\usepackage{natbib}
+\bibliographystyle{plainnat}
+
+
+% pandoc syntax highlighting
+
+% table with pandoc
+
+% multiplecol
+\usepackage{multicol}
+
+% strikeout
+\usepackage[normalem]{ulem}
+
+% morefloats
+\usepackage{morefloats}
+
+
+% tightlist macro required by pandoc >= 1.14
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% title / author / date
+\title[Growth vs Value Funds Investment]{Exploring US Mutual Funds
+Market}
+\author{Zahid Asghar}
+\date{2022-06-24}
+
+
+\begin{document}
+
+\maketitle
+
+
+
+
+\hypertarget{introduction}{%
+\section{Introduction}\label{introduction}}
+
+Its very important study highlighting performance of growth funds vs
+value funds using various statistical criteria. US mutual funds industry
+is one of the most important part of global economy and studying it in
+depth is always of great interest for investors, academia and policy
+makers. I appreciate the hardwork and effort put by the scholars in the
+paper. This study aims at suggesting whether to invest in value funds or
+growth funds and conclude that one should invest in small-cap value
+funds. A sample data of 65 mutual funds (further divided into 6
+categories large, medium, small (growth and mutual funds)) are taken
+from \textbf{Morningstar database}. Various statistical criteria are
+used to evaluate the performance of value funds vs growth funds and
+accordingly an investment strategies mainly based upon M\^{}2 results
+has been suggested.
+
+I have following comments which may not necessarily be in order of
+importance.
+
+\hypertarget{comments}{%
+\subsection{Comments}\label{comments}}
+
+Two or three investment strategies: growth vs value vs hybrid. As such
+there is no single strategy which dominates all and there are boom and
+bust cycles for each strategy. Russel1000 index for growth and value
+funds indicate big cycles where the two performed poorly. 1970s to 1987
+(27\% fall on single day), value funds dominated while onward till 2000,
+its growth funds, 2000 till 2008/09 its value funds again and now once
+again during the last 12 years or so growth funds are performing better.
+Funds performance is mainly a cyclical phenomenon so evaluating
+performance at a given time and advising uniform strategy to investors
+is not an idea practiced anywhere. poorly or good on the basis of some
+formula .
+
+\begin{quote}
+\emph{Big part of interest in it lies because of its popularity}
+\end{quote}
+
+I think reason for academicians interest is
+
+\begin{quote}
+The mutual fund industry plays an increasingly important role in US
+economy over the past few decades mutual fund industry have showed
+tremendous growth as more and more investors investing in US mutual
+funds.
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  Questions changed from one part of the document to another. I shall
+  suggest a unique precise question should be designed for having a
+  precise answer. Reader remains confused throughout out the document
+  \textbf{whether its comparison of techniques or comparison of
+  performance of growth vs value vs hybrid investment strategies or
+  devising investment strategy\ldots?}
+\end{itemize}
+
+\hypertarget{claim}{%
+\subsection{Claim}\label{claim}}
+
+\begin{quote}
+This study will provide important information to investors to decide
+which fund to choose by considering benefits of holding growth or value
+funds.
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  I think its a bit tall claim as there is no single best strategy which
+  will be useful or dominate or one may say its the behavior of the
+  investor which matters. In growth funds, one is interested what will
+  be future earning stream (like investing in Apple in 2007/8 and then
+  annualising profit of 25\% till now was growth strategy) . Growth
+  investor invest in companies like \textbf{FB, Google, Netflix,
+  Amazon\ldots{}} where future growth is very high but it maybe very
+  costly right now. While value investor is a \textbf{Bargain hunter}
+  and tries to pick stocks which are \textbf{boring, established and
+  predictable as happens in mature industries}. She loves at investing
+  stocks that are priced 30/40/50 discount to their worth or intrinsic
+  value.
+\end{itemize}
+
+\hypertarget{technical-jargon}{%
+\subsection{Technical jargon}\label{technical-jargon}}
+
+Story telling style is missing : one is last in techniques and becomes
+difficult for reader to get the crux of the matter. Jensen alpha,
+Sharpe, Treynor, M-square, and other technical jargon dominate the story
+instead of growth vs value vs hybrid strategies of investments.
+
+Is this study about comparing M-square with other measures or devising
+investment strategies or something else needs to be clarified.
+\textbf{Survivor bias} is defined in detail but how its taken care in
+this study is not clear. Simply selecting those which survived 2005-09
+throughtout this study will not ensure no survivor bias unless we have
+some information about those which did not survive during the period.
+
+\begin{itemize}
+\tightlist
+\item
+  Is this sample reasonable to make a statement or generalize results
+  for 10,000 plus US mutual funds: 65/10000 is less than 0.65\% of
+  population? If homogeniety, it maybe acceptable with reservation but
+  with a lot of hetrogeniety. Moreover, its a lopsided sample as sample
+  is not well balanced so comparing too many companies in one case and
+  too few in other categories.
+\end{itemize}
+
+\begin{quote}
+Not ``I'' it is ``We\ldots{}''
+\end{quote}
+
+\begin{quote}
+Not ``My study'' , it should be ``Our study\ldots{}''
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  Most of the measures are very standard and has been part of the
+  literature for decades. There is need just to cite those tools instead
+  of providing all basic details like that of t-test, rank correlation
+  and many others.
+\end{itemize}
+
+\hypertarget{findings}{%
+\subsection{Findings}\label{findings}}
+
+\begin{quote}
+One of problem defined as if expenses and management fee has any effect
+on mutual fund performance is found insignificant. Mean difference is
+not significant for any fund category under growth or value funds. It
+indicates that expenses does not cause radical shift in performance of
+mutual fund under study.
+\end{quote}
+
+-what variables and data are used for expenses and management fee ?
+Probably I missed while reading this very lengthy document.
+
+Its written in findings
+
+\textbf{Findings implied that US equity mutual funds mangers do not
+posses significant market timing skill,however there are some evidence
+of `stock picking' or selection skills demonstrated by manger.}
+
+From which part of the results you draw this result. I think one should
+restrict to what one has evaluated and say that measures we have used
+show that the 65 funds we have selected have ``VALUE fund investment''
+is better strategy. As mentioned earlier \textbf{sample seems
+non-representative as well as lopsided}. - How many large cap growth,
+value, small cap growth/value funds in US funds market? What should be
+sampling strategy and which sampling strategy is listed in literature in
+such a case. - On the basis of alpha or any technical calculations , one
+cant make statement about growth fund managers unless one studies
+manager\ldots.
+
+\hypertarget{conclusions}{%
+\subsection{Conclusions}\label{conclusions}}
+
+How have you reached at the following two conclusions?
+
+\textbf{In perspective of new researches, more investment style
+categories be included so draw inferences if any other fund category
+provide understanding to investor to diversify their investment.}
+
+\textbf{Investment in small cap funds is essential as small funds
+categories performed well on alpha intercept by obtaining more funds
+with positive selectivity. It is also evident form average Jensen alpha
+for small growth and value funds. So it is highly recommended that
+investor and mangers should consider diverse investment policy.}
+
+\hypertarget{suggestions}{%
+\subsection{Suggestions}\label{suggestions}}
+
+\begin{itemize}
+\item
+  Storytelling way
+\item
+  Clear and precise research question
+\item
+  Choice of time period needs to be justified
+\item
+  How findings of 2005-09 data are valid today : issue of internal and
+  external validity and change in nature of economy over last 15 years
+\item
+  Russel 1000 index for growth and value funds investments: 4 cycles
+\item
+  Short time period missed boom and bust cycles
+\item
+  Title: Exploring growth vs value funds while conclusions are like some
+  breakthrough strategy to invest in value funds.
+\item
+  Need to update data before generalizing results
+\item
+  Have a precise research question(s) whether technical analysis, funds
+  performance or valuation of funds
+\item
+  Sample size should be at least acceptable
+\item
+  Implications for domestic market
+\end{itemize}
+
+
+
+\end{document}

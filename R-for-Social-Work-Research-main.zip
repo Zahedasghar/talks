@@ -1,0 +1,67 @@
+---
+title: "Chart of the weeks: Pakistan Railways"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+library(readxl)
+library(tidyverse)
+library(ggthemes)
+Railways <- read_excel("~/Railways.xlsx",    sheet = "Sheet2")
+rways<-saveRDS(Railways, file="rways.RData")
+rways<-readRDS("rways.RData")
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+#| 
+rways<-rways|>mutate(year=c(1966:2021))
+library(lubridate)
+
+
+g<-ggplot(rways)+ aes(x=year, y=`Number of Passengers carried (Millions)`)+geom_line()+
+  theme_solarized()+labs(title = "Yearly number of passengers (in millions) carried by Pakistan Railways ", subtitle = "From 150 million passengers travelling by rail in 1978  number has gone below 30 million \n in 2020.  When population increase is taken into account in the same time perios, it seems \n travelling by railways is no more a preferred mode for people of Pakistan with current \n infrastructure and facilities. ", caption = "Data: Pakistan Economics Survey")
+
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+```{r}
+g+ theme(
+ plot.title = element_text(face = "bold"),
+ plot.title.position = "plot",axis.text = element_text(
+ color = "#28a87d"
+ )
+)
+
+```
+
+```{r}
+g1<-g+theme(
+ plot.title = element_text(face = "bold"),
+ plot.title.position = "plot",axis.text = element_text(
+ color = "#28a87d"
+ )
+)+annotate(
+ geom = "text",
+ x = c(1980, 1995,2015,2020),
+ y = c(145, 80,50,30),
+ label = c("Maximum utilization", "A significant fall 1982-2005", "Another dip","Final blow"),
+ color = c("black", "firebrick", "firebrick", "firebrick"),
+ size = c(5, 5,5,5),
+ fontface = c("plain", "bold", "bold","bold")
+ )
+ggsave("g1.png")
+ggsave("g1.pdf")
+```

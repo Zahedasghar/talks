@@ -1,0 +1,74 @@
+/*-- scss:defaults --*/
+  @font-face {
+    font-family: 'FiraCode';
+    src: url('../../../../../FiraCode-Regular.woff2') format('woff2'),
+    url('../../../../../FiraCode-Regular.woff') format('woff');
+  }
+
+$font-family-monospace: 'FiraCode';
+
+$theme-sand: #F1EAE5;
+  $theme-white: #FFFFFF;
+ $theme-yellow: #F4BA02;
+  $theme-pink:#FF69B4; 
+  $theme-red:#FF0000;
+  $body-bg: $theme-sand;
+  $theme-darkblue: #2b2b8c;
+  $theme-blue: #99D9DD;
+  $theme-white: #F7F8F9;
+  $theme-green:#00FF00;
+
+/*-- scss:rules --*/
+.darkblue {
+  color: $theme-darkblue;
+  font-weight: bold;
+}  
+.green {
+  color: $theme-green;
+  font-weight: bold;
+}  
+
+
+.red {
+  color: $theme-red;
+  font-weight: bold;
+}  
+
+.blue {
+  color: $theme-blue;
+  font-weight: bold;
+}
+.yellow {
+  color: $theme-yellow;
+  font-weight: bold;
+}
+.pink {
+  color: $theme-pink;
+  font-weight: bold;
+}
+
+.reveal .slide a {
+  text-decoration: underline;
+}
+  .reveal pre code {
+    background-color: #232525;
+      color: #A9B7C6;
+  }
+
+.reveal div.sourceCode pre code {
+  padding: 25px;
+}
+
+.reveal div.sourceCode {
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px !important;
+  box-shadow: 0 20px 47px rgb(0 0 0 / 55%);
+  width: fit-content;
+  margin: auto !important;
+}
+
+code span.er {
+  color: #ebcb8b;
+    text-decoration: none;
+}

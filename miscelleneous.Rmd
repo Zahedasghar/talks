@@ -1,0 +1,116 @@
+---
+title: ".blue[Economy of Pakistan: Overview and Challenges]"
+subtitle: "Current economic challenges and way forward"
+author: "Zahid Asghar"
+institute: "Quaid-i-Azam University, Islamabad"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  xaringan::moon_reader:
+    chakra: libs/remark-latest.min.js
+    seal: false
+    css: [xaringan-themer.css, extra.css]
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=4, fig.retina=2, 
+  out.width="100%",
+  message = FALSE
+)
+```
+
+
+```{r xaringanthemer, echo=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#035AA6",
+  secondary_color = "#03A696",
+  colors = c(yellow = "#FFFC31", pink = "#E56399",orange= "#fb5607",
+ blue_violet   = "#8338ec",
+ zomp          = "#38A88E",
+ shadow        = "#87826E",
+ blue          = "#1381B0",
+ yellow_orange = "#FF961C")
+)
+```
+
+```{r qau-logo, echo=FALSE}
+xaringanExtra::use_logo(
+  image_url = "QAU-Logo.jpg"
+)
+```
+
+---
+class: center middle  title-slide
+background-image: url(qau.jpg)
+background-position:  100% 100%
+background-size:  cover
+
+
+# Economy of Pakistan: Way Forward
+
+
+#### Department of Economics, University of Lahore, Lahore
+
+
+
+### Zahid Asghar,SOE, Quaid-i-Azam University, Islamabad
+
+---
+class:  left   
+background-image: url(qau.jpg)
+background-position: 100% 0%
+background-size: 15% 
+
+### Growth fund vs value fund
+This question needs modification. Funds will not perform poorly or good on the basis of some formula .
+Two or three investment strategies: growth vs value vs hybrid. As such there is no single strategy which dominates all and there are boom and bust cycles for each strategy. Russel1000 index for growth and value funds indicate big cycles where the two performed poorly. 1970s to 1987 (27% fall on single day), value funds dominated while onward till 2000, its growth funds, 2000 till 2008/09 its value funds again and now once again during the last 12 years or so growth funds are performing better. So I think there is need to revise the question.
+---
+- I guess academics should study it to guide which investment strategy is better and if they are studying it for popularity , then :-). Reason for academicians interest is 
+>The mutual fund industry plays an increasingly important role in US economy over the past few decades 
+mutual fund industry have showed tremendous growth as more and more investors investing in US mutual 
+funds.
+- This is important question but through out the document, there seems a big confusion whether its comparison of techniques or comparison of performance of growth vs value vs hybrid investment strategies? 
+-This is important question but through out the document, there seems a big confusion whether its comparison of techniques or comparison of performance of growth vs value vs hybrid investment strategies? 
+---
+> This study will provide important information to investors to decide which fund to choose by considering 
+benefits of holding growth or value funds. 
+
+- I think its a bit tall claim as there is no single best strategy which will be useful or dominate or one may say its the behavior of the investor which matters. In growth funds, one is interested what will be future earning stream (like investing in Apple in 2007/8 and then annualising profit of 25% till now was growth strategy) .
+So these are two strategies and third one may be hybrid strategy. 
+- Story telling style is missing : one is last in techniques and becomes difficult for reader to get the crux of the matter. Jensen alpha, Sharpe, Treynor, M-square, and other technical jargon dominate the story instead of growth vs value vs hybrid strategies of investments. 
+
+---
+
+Is this study is about comparing M-square with other measures.
+- Survivor bias is defined in detail but how its taken care in this study is not clear. Simply selecting those which survived 2005-09 throughtout this study will not ensure no survivor bias unless we have some information about those which did not survive during the period. 
+- Is this sample reasonable to make a statement or generalize results for 10,000 plus US mutual funds: 65/10000 is less than 0.65% of population? If homogeniety, it maybe acceptable with reservation but with a lot of hetrogeniety. Moreover, its a lopsided sample as  sample is not well balanced so comparing too many companies in one case and too few in other categories. 
+
+> Not "I" it is "We..." 
+
+> Not "My study" , it should be "Our study..."
+
+
+---
+- Most of the measures are very standard and has been part of the literature for decades. There is need just to cite those tools instead of providing all basic details like that of t-test, rank correlation and many others. 
+---
+### Findings
+
+-From which part of the results you draw this result. I think one should restrict to what one has evaluated and say that measures we have used show that the 65 funds we have selected have "VALUE fund investment" is better strategy. As mentioned earlier sample seems non-representative as well as lopsided. So concluding about .... 
+- On the basis of alpha or any technical calculations , one cant make statement about growth fund managers unless one studies manager.... 
+
+---
+
+## Storytelling way
+## Clear and precise research question
+## Choice of time period needs to be justified
+## How findings of 2005-09 data are valid today : issue of internal and external validity and change in nature of economy over last 15 years
+## Russel 1000 index for growth and value funds investments: 4 cycles
+
+## Short time period missed boom and bust cycles

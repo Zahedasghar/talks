@@ -1,0 +1,307 @@
+---
+title: ".blue[Life Long Learning]"
+subtitle: "Preparing for Jobs that dont exist yet"
+author: "Zahid Asghar"
+institute: "Quaid-i-Azam University, Islamabad"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  xaringan::moon_reader:
+    seal: false
+    css: [xaringan-themer.css, extra.css]
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=4, fig.retina=2, 
+  out.width="100%",
+  message = FALSE
+)
+```
+
+
+```{r xaringanthemer, echo=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#035AA6",
+  secondary_color = "#03A696",
+  colors = c(yellow = "#FFFC31", pink = "#E56399",orange= "#fb5607",
+ blue_violet   = "#8338ec",
+ zomp          = "#38A88E",
+ shadow        = "#87826E",
+ blue          = "#1381B0",
+ yellow_orange = "#FF961C")
+)
+```
+
+```{r qau-logo, echo=FALSE}
+xaringanExtra::use_logo(
+  image_url = "logo.jpg"
+)
+```
+
+---
+class: center middle  title-slide
+background-image: url(qau.jpg)
+background-position:  100% 100%
+background-size:  cover
+
+
+# Book Review: Long Life Learning
+
+
+#### atomcamp, Islamabad
+
+
+
+### Zahid Asghar,SOE, Quaid-i-Azam University, Islamabad
+
+---
+class:  left   
+background-image: url(qau.jpg)
+background-position: 100% 0%
+background-size: 15% 
+
+## A 100 Year Work Life
+
+### > Learn, Earn, Rest Philosopy is now Learn, Earn, Learn, Earn
+
+- 150 Years old have already been born.
+> This is a different kind of future of work
+---
+## More than 12 Jobs in a Lifetime
+
+ > Default mental model: Education is one time phenomenon
+### > The Future of work= The Future of Learning
+
+#### Working learners: flexing between working and learning 
+#### Education and training will be more important than ever 
+
+## Whare are the on- and off-Ramps
+
+- one time degree not enough
+- Agree with LLL concept but no behvioral change 
+
+## Are we future proof
+- Not a race against machines but to work along machines
+
+---
+
+## Autmation make us more human
+
+### growing needs for human skills
+#### Skill names: soft, socio-emotional, noncognitive, power, foundational, common, transferable,baseline, 21st century, employability,workforce readiness, interpersonal,talent, life, professional skills
+### High emotional or social intelligence, adaptability, flexibility, judgement, resilience,system thinking, and communication.
+### .pink[Machines are not as good as we are at reading distress, fear, worry, confusion, elation, or tone]
+### .pink[Hybrid Skills: Human+Technical Skills]
+
+---
+## Challenges for future of colleges and universities
+### Traditional class culture will work no more
+### Industrial Era Education System
+### Class sizes of 40/50 not sustainable
+
+### Learning outcomes in credit hours
+### Grades : A+, A, B+, B, C+, C... miscast as a measure of student learning
+### Competency-based learning flips time-based learning on its head and centers on mastery of a subject regardless of the time it take to get there.
+### Learning is fixed, and time is variable.
+### Mastery-based learning vs time based learning
+
+---
+## Microcredentials : edx , coursera
+### Historically more disadvantaged population
+### Cost barriers and time to degree
+### A New Network of Employers
+- Emerging fields such as
+    - data science,
+    - logistics,
+    - or cloud management, or 
+    - to other subject not traditionally taught in colleges and universities
+
+---
+## Reskilling crisis
+### Neither reskilling their staff nor recruiting from outside
+### Pakistan: new organisations rather than solving a complex problemof solving human capital
+### buy or build talent
+### Pension and caring economy: more aged population living longer, home aid health work
+
+---
+Grasp the concept intuitively
+Lot of investment in 
+Uncertain world we are going to have
+## What kind of shifts
+- Mental model: Future of work: AI, ML, Automation 
+- Longer work life : How two year or 4 year degree over extended work life
+- 40 million workers striving in labor market when pandemic hit
+- cracks works
+What/where cracks most urgent to adress
+- Traditional model is not going to be sustainable in future
+- Where other consumers of education: adult learners (universities are not switching gears and not very flexible)
+- More precise education pathways not only degrees 
+- Hands on experiental age
+### Recurring themes (above ones)
+How much we need more in future
+
+---
+## Containers we articulate
+But today so many demands and future one cant predict what will happen in future
+-emergence of AI
+-Technology: not possible to predict
+-more precise education pathways
+-Future: broad conceptual abilities to understand problem solving skills rather going in a container of being math, physics, anthropology...
+- Specific way of looking at the world is nimble
+- Artist, teacher, ... container
+
+-One has to constantly upskill and think about systemic thinking
+
+### Big Question for Universities
+HIgh tuition universities
+where others consumers should go
+- better support services
+=Today most of the skills in demand are hybrid in nature
+---
+## 5 of ecosystem
+-more precise education pathways
+- integrated: hands on experience
+-fair and transparent hiring
+- 
+
+-
+---
+Cant predict what job will be in future
+broad conceptual kind of ability how problem solving across domains
+not major in math... that specific way is nimble 
+educational technology
+constantly upskill or adapt new appr
+
+## Question for universities is how are we deliberate thinking about the
+skill in applied context
+learning skills is one thing and how to apply is a different domain
+
+-negotiation skills
+-translation skills
+- not give skills to our graduates how to market themselves
+why those skills are important
+sotrytelling is critical
+how can these benefit them in future
+
+-language of employers and employees not same
+- AI is not taking your jobs but changing jobs
+-Knowledge transfer
+
+
+---
+## Five Guiding Principles
+
+## Navigable
+## Supportive
+## Targetted Education
+## Integrated Earning and Learning
+## Transparent and Fair Hiring
+
+---
+## Navigable
+m
+
+---
+## Supportive
+
+
+---
+##Targetted Education
+### Access to precise and relvant education tailored to their needs
+- Right skills
+- the right pathways
+- the right time
+### Education worth to their investment and signal to a prospective employer
+- MOre precise/targeted learning experiences: provide not only knowledge but 
+- human and technical skills,
+- professional networks 
+- hands-on practice that equip learners to be ready to work
+
+---
+
+### Pew Research Center 87% adults nee to develop skills
+### Degree a powerful signal/goldren ticket but what about .pink[working learners]
+### Courses for working learners or part time learners not be general ones
+### a bunch of classes that dont count
+
+---
+### Problem based learning
+### 21 century learning pathways: transdisciplinary only if learning is problem based
+- Problem based learning
+- Project based learning
+- hands on experientation
+> ### Weed out courses
+> ### What if students declared missions not majors
+### Flexible, self-paced
+
+---
+class: center middle title-slide
+
+# Human+skill-building model
+
+---
+class: center middle title-slide
+
+# Reskilling, Upskilling, skill shape
+
+> The term "skill shape" refers to the unique skill demands associated with a given career field, region, or individual.
+
+---
+## Integrated Earning and Learning
+
+> ### .orange[A new learning ecosystem must be integrated: Working learners need the time, the funding, the confidence, and the resources to integrate education and training with their existing responsibilities. A new learning ecosystem will reduce education friction and make advancement achievable by offering better funding options, new opportunities to learn while earning, and, ideally, more portable benefits.]
+
+### When you are poor: mental energies not free
+### day2day struggle to survive
+### federal funding, private capital, or philanthropy
+
+---
+## Transparent and Fairer Hiring
+> ### .orange[A new learning ecosystem must be transparent: The hiring process must be transparent, open, and fair—enabling job seekers to prove their competence and skills. When skills become the primary currency of the job market, employers will be able to access a more diverse pool of qualified candidates who have proved they have what it takes for the work ahead.]
+
+#### Assuming use of AI does not imply transparency
+
+#### Hiring on skills not on pedigree
+
+---
+class: left title-slide
+
+# Academic Silos
+Salman Khan, the founder of Khan Academy, criticizes the foundational structure of a college—departments—as “ghettoizing” learning (his words) in his book The One World Schoolhouse:
+> ### .pink[Genetics is taught in biology while probability is taught in math, even though one is really an application of the other. Physics is a separate class from algebra and calculus despite its being a direct application of them. Chemistry is partitioned off from physics even though they study many of the same phenomena at different levels. All of these divisions limit understanding and suggest a false picture of how the universe actually works.]
+
+> Khan blames the “balkanizing habits of our current system” for
+denying students “the benefit—the physiological benefit—of
+recognizing connections.”
+
+---
+class: center middle title-slide
+# Crednetial inflation
+# Microcredentials
+
+---
+class: center middle title-slide
+# Data trusts : to understand the language of employers, education training providers and job seekers
+## Lot of data going on between education system and HR, yet a fundamental disconnect between education and work
+
+---
+class:  title-slide
+# Conclusion
+
+### We dont succum to the present of work- to what we have today. Exponetial future 
+
+### If we simply admire to the problem or try to resist or curb advancements, we will see innovations burgeon in other pockets instead.
+ Brian David Johnson writes
+> ### "We build the future- the way to prepare for the future is to invest it. If we do not take action, we cede control, turning the future over to others- or worse, to the mindless efficiences of technology or economic greed"
+
+
+---
+
+

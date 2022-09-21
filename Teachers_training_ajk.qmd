@@ -1,0 +1,320 @@
+---
+title: "[Slides for classroom communication]{.blue}"
+author: "[CTTI, goAJK]{.red}<br>[Sep 22, 2022]{.yellow}"
+format: 
+  revealjs:
+    footer: "[Zahid Asghar](https://zahidasghar.com)&nbsp;&nbsp;&nbsp;"
+    logo: "logo_soe.jpg"
+    theme: [default, custom2.scss]
+    slide-number: c/t
+    incremental: true
+    title-slide-attributes:
+      data-background-image: images/hbr.jpg
+      data-background-size: cover 
+editor: visual
+---
+
+# If we want to move from a future we dont want to a future we want,we have to consciously practice bold thinking to achieve the desired future. {.centered background-color="#314f4f"}
+
+## ![](images/mandela.jpg){fig-align="center" width="1300" height="750"} {.centered background-color="#314f4f"}
+
+## About Me {.centered background-color="#314f4f"}
+
+::: columns
+::: {.column width="30%"}
+![](images/zahid.jpg){width="600"}
+:::
+
+::: {.column width="70%"}
+::: nonincremental
+-   Ph.D (Economics) --- Pakistan Institute of Development Economics, 2007
+-   MSc (Statistics)
+-   Specializations:
+    -   Applied Econoetrics
+    -   Data Analyst
+    -   Development Economics
+-   Research interests : data for policy, data and analytical skill development ,data for policy
+:::
+:::
+:::
+
+# [How to Give a Killer Presentation HBR](https://hbr.org/2013/06/how-to-give-a-killer-presentation)
+
+## Why do we teach? {.centered background-color="#314f4f"}
+
+::: incremental
+-   **What is your mission of teaching?**
+
+-   **What is happening when we teach?**
+
+-   **What is teaching?**
+:::
+
+##  {background-color="black" background-image="images/math.gif" background-size="300px" background-repeat="repeat"}
+
+##  {background-color="black" background-image="images/chem.gif" background-size="400px" background-repeat="repeat"}
+
+## Contents: {.centered background-color="#314f4f"}
+
+::: incremental
+1.  **Requirements of a good teacher**
+
+2.  **Types of Teacher**
+
+3.  **Lecturing**
+
+4.  **Requirements of Successful Lecturing**
+
+5.  **Oral presentation Material and Methods**
+
+6.  **Requirements of Ideal effective lecturing**
+
+7.  **Characteristics of Good Instructions.**
+:::
+
+##  {.centered background-color="#314f4f"}
+
+::: incremental
+8.  **Structure of the lecture**
+
+9.  **Summary of the requirements for an ideal and effective lecture**
+
+10. **Closure**
+
+11. **Summary**
+
+12. **Conclusion**
+:::
+
+------------------------------------------------------------------------
+
+## Good Teacher
+
+::: panel-tabset
+## good teacher
+
+![](images/good_teacher.png){fig-align="center" width="701"}
+
+## How to become a good teacher?
+
+![](images/good_teacher1.jpg){fig-align="center" width="676"}
+:::
+
+## Modes of communication {.centered background-color="#314f4f"}
+
+::: incremental
+-   [**Verbal**]{.yellow} **-- speaking words. Voice tone/pitch/volume.**
+
+-   **Intonation : sarcastic, sad Word choice : lecture , friends , scientific meeting,**
+
+-   [**Nonverbal**]{.yellow} **: Knowledge ,skill & eye contact ,. body language, facial expression , gestures.**
+
+-   [**Written Communication ; Explain ?**]{.yellow}
+:::
+
+## Types of Teachers {.centered background-color="#314f4f"}
+
+<div>
+
+::: incremental
+-   **A mediocre Teacher : Tells**
+-   [**A good Teacher : explains**]{.yellow}
+-   **A superior Teacher : demonstrates**
+-   [**A great Teacher : inspires**]{.pink}
+-   **A great Teacher uses : E C M T**
+-   [**(**]{.yellow}**E[ffective]{.yellow} C[lassroom]{.yellow} M[anagement]{.yellow} T[echniques]{.yellow})**
+:::
+
+</div>
+
+## [polleverywhere](pollev.com){.centered background-color="#314f4f"}
+
+[An ideal teacher](https://pollev-embeds.com/free_text_polls/lMfTtIjDiyJAdppRzvQbb)
+
+::: notes
+World is changing rapidly
+
+luck and preparedness
+
+daily microgains
+
+average life
+
+commitment, conviction, consistency, clarity
+:::
+
+## Lecturing {.centered background-color="#314f4f"}
+
+### is a process by which knowledge is transferred from the teacher [(expert)]{.yellow} to young learners[(students)]{.yellow}. Unfortunately, there is [no single magical formula]{.pink} for that but still quite possible by following a series of steps and procedures which I hope will be made part of this training.
+
+##  {.centered background-color="#314f4f"}
+
+**Lecturer job:lessen student fears and encourage students to pursue deeper understanding**
+
+a- [These include several teaching and curriculum approaches that can be integrated into typical quantitative methods classes.]{.yellow}
+
+b- integration during the class;
+
+-   expanded opportunities for two-way communication;
+
+-   developing co-ownership of the course along with the students;
+
+-   alternating lecture with small-group work to aid in learning difficult topics.
+
+## Poor slide {.centered background-color="#314f4f"}
+
+::: incremental
+-   [***Some students seem naturally enthusiastic about learning, but many need-or expect-their instructors to inspire, challenge, and stimulate them:***]{.darkblue}
+
+-   [***"Effective learning in the classroom depends on the teacher's ability ... ??***]{.darkblue}
+:::
+
+## Favorable classroom atmosphere {.centered background-color="#314f4f"}
+
+::: incremental
+-   **Some students seem naturally enthusiastic about learning, but many need-or expect-their instructors to [inspire, challenge, and stimulate]{.yellow} them:**
+
+-   [**"Effective learning in the classroom depends on the teacher's ability ... ??**]{.pink}
+:::
+
+## Teaching Modules {.centered background-color="#314f4f"}
+
+-   a-**Improving teaching provision within the department by identifying models of best practice and promoting new teaching initiatives and curriculum development.**
+
+-   b- **Promote links with other departments and/or disciplines where possible.**
+
+-   [**Trans-disciplinary and multidisciplinary**]{.red}
+
+## Interactive Learning {.centered background-color="#314f4f"}
+
+**Course assessment**
+
+**Students assessment**
+
+[**Teaching Methods**]{.yellow}
+
+::: r-fit-text
+A thousand teachers,
+:::
+
+::: r-fit-text
+a thousand methods.(Chinese proverb)
+:::
+
+## Oral Presentation: Methods and Materials {.centered background-color="#314f4f"}
+
+1.  [YOUR VOICE]{.pink}( audibility, pitch, pronunciation, pause. tone?.) How do you relieve monotony in your lecture?
+
+2.  [BODY LANGUAGE]{.pink style=".red"}(Gestures ,pacing but no unpleasant movements)
+
+3.  [APPEARANCE]{.pink} (posture , .freezing in one corner?)
+
+4.  [Speed]{.pink}
+
+## Effective Presentation {.centered background-color="#314f4f"}
+
+[Effective Presentation](https://www.branchtrack.com/projects/bv28y7r3) ![](images/presentation_sim.png){.r-stretch}
+
+# How to beat death by powerpoint {.centered background-color="#314f4f"}
+
+## Closure {.centered background-color="#314f4f"}
+
+1.  **No single teaching method covers everything**
+2.  **Optimal approach features a mixture of instructional methods and learning activities**
+3.  **Optimal mixture changes over time with change in students?**
+4.  **Students involvement in the learning process**
+5.  **Favorable classroom environment**
+
+## Summary {.centered background-color="#314f4f"}
+
+-   [**What one thing did you learn today?**]{.yellow}
+
+-   **How does today's lesson impact your understanding?**
+
+-   [**How would you summarize today's lecture for someone who wasn't here?**]{.yellow}
+
+-   **What was the most significant learning from today's lecture?**
+
+-   [**What was the most difficult concept in today's lecture?**]{.yellow}
+
+-   **What should I review further in our next lecture?**
+
+-   [**What was one thing you were unsure about in the lecture ?**]{.yellow}
+
+-   **Clarify areas of confusion**
+
+# The ability to learn faster than your competitors may be the only sustainable competitive advantage[^1] {.centered background-color="#314f4f"}
+
+[^1]: Peter Senge: The Fifth Discipline
+
+##  {.centered background-color="#314f4f"}
+
+::: columns
+::: {.column width="30%"}
+![](images/gr8_teacher.webp)[What makes a great teacher? A brief summary](https://owlcation.com/academia/Characteristics-Of-A-Good-Teacher)
+:::
+
+::: {.column width="70%"}
+::: incremental
+-   Expert communication skills
+-   Superior listening skills
+-   Deep knowledge and passion for their subject matter
+-   The ability to build caring relationships with students
+-   Friendliness and approachability
+-   Excellent preparation and organization skills
+-   Strong work ethic
+-   Community-building skills
+-   High expectations for all
+:::
+:::
+:::
+
+## Digital era education: challenges and oppotunities {.centered background-color="#314f4f"}
+
+-   [Immense learning sources](khanacademy.com)
+-   [youtube](youtube.com) and
+-   much more
+-   [Galton Board](https://galtonboard.com/)
+-   [Plinko](https://phet.colorado.edu/sims/html/plinko-probability/latest/plinko-probability_en.html)
+-   Flip based class room teaching
+
+##  {.centered background-color="#314f4f"}
+
+[Teaching methods for inspiring students of the future](https://www.youtube.com/watch?v=UCFg9bcW7Bk){.centered background-color="#314f4f"}
+
+-   "**The mind is not a vessel that needs filling, but wood that needs igniting.**" Plutarch AD46-AD120
+
+-   "**Education is not the learning of facts, but the training of the mind to think.**" Abert Einstein 1879-1955
+
+##  {.centered background-color="#314f4f"}
+
+**Allow students to engage in:**
+
+-   **Choice**
+
+-   **Collaboration**
+
+-   **Communication**
+
+-   **Critical Thinking**
+
+-   **Creativity** and [**greatest of all these is**]{.yellow}
+
+-   [**LOVE**]{.red}
+
+# [Stay Hungry, Stay Foolish]{.r-fit-text} {.centered background-color="#314f4f"}
+
+##  {.centered background-color="#314f4f"}
+
+[I *am a great* TEACHER]{.r-fit-text}
+
+[BECAUSE...]{.r-fit-text}
+
+## Great teacher {.centered background-color="#314f4f"}
+
+-   [Celebrate mistakes]{.r-fit-text}
+-   [Appreciate differences]{.r-fit-text}
+-   [Relay feedback]{.r-fit-text}
+-   [Evaluate themselves]{.r-fit-text}
+
+> **"[I have learned that people will forget what you]{.pink}[said]{.red}**, \[people will forget what you\] [**did**]{.red}, [but people will never forget how you made them]{.pink} [**feel**]{.red}." -Maya Angelou

@@ -1,0 +1,111 @@
+---
+title: "Presentation Guidelines"
+author: "Zahid Asghar"
+format: 
+  revealjs: 
+    theme: [simple, custom2.scss]
+
+editor: visual
+---
+
+```{r include=FALSE}
+library(tidyverse)
+library(httr)
+clrs <- MetBrewer::met.brewer(name = "Java")
+clrs_lt <- colorspace::lighten(clrs, 0.9)
+knitr::opts_chunk$set(fig.retina = 3, collapse = TRUE)
+options(digits = 3, width = 75)
+```
+
+## Guidlines and suggestions {.centered background-color="`r clrs[1]`"}
+
+::: {.incremental style="font-size: 1.5em"}
+-   Slides :ENNHANCE your presentation, not BE the presentation.
+
+-   Remember, only you can prevent [**"Death by PowerPoint"**]{.yellow}
+:::
+
+::: notes
+Presentation media is to enhance your presentation, not be the presentation. Its only you who can prevent death by PPT
+:::
+
+## Slide {background-color="`r clrs[1]`"}
+
+::: {.incremental style="font-size: 1.5em"}
+-   Highlight key points
+
+-   Be short and to the point, include only key words and phases for visual, reinforcement
+
+-   text and images should be placed within 95% of the slide. This ["action safe"]{.yellow} area is seen in the next slide.
+:::
+
+::: notes
+Highlight key points or reinforce what the facilitator is saying Be short and to the point, include only key words and phases for visual, reinforcement In order for your presentation to fit on most screens, text and images should be placed within 95% of the slide. This ["action safe"]{.yellow} area is seen in the next slide.
+:::
+
+## Layout {.centered}
+
+![](images/layout.png)
+
+##  {background-color="`r clrs[1]`"}
+
+بہت سارے اہم موضوع ہماری ریسرچ کا حصہ اس لئے نہیں بنتے کیوں کہ ان کے لئے ڈیٹا نہیں ہوتا یا مشکل سے حاصل ہوتا ہے.
+
+کیا اسکا مطلب ہوا کہ
+
+evidence based
+
+پالیسی کا تعلق موضوع کی اہمیت سے کم اور ہماری آسانی سے زیادہ جڑا ہوا ہے کہیں یہ اسی طرح تو نہیں ہے جیسے کسی نے چابی پارک میں گم کر دی اور روشنی کے نیچے ڈھونڈھ رہا تھا اور جب اس سے پوچھا بھی جہاں گم کی وہاں ڈھونڈھو تو اس نے جواب دیا وہاں اندھیرا ہے جب ہم پیسے سرکار سے لیں اور ریسرچ پاکستان کے اصل موضوع کی بجائے ان مضوعا ت پر کریں جن کا اصل مسائل سے لینا دینا نہیں ہے اور صرف ہماری آسانی ہے تو پھر ہم جتنی بھی ریسرچ کر لیں ترقی کی چابی نہیں ملے گی کیوں کہ ہم اسکو سہی جگہ ڈھونڈ ہی نہی رہے
+
+زاہد اصغر
+
+## 
+
+::: {.incremental stype="font-size: 1.4em"}
+-   Layout continuity from frame to frame conveys a sense of completeness
+-   Headings, subheadings, and logos should show up in the same spot on each frame
+-   Margins, fonts, font size, and colors should be consistent with graphics located in the same general position on each frame
+-   Lines, boxes, borders, and open space also should be consistent throughout
+:::
+
+## Fonts {background-color="`r clrs_lt[1]`"}
+
+::: {.incremental stype="font-size: 1.6em"}
+-   Font Style Should be Readable
+-   Recommended fonts: Arial, Tahoma,Veranda
+-   Standardize the Font Throughout
+:::
+
+# Font size {background-color="`r clrs[1]`"}
+
+::: incremental
+-   [The larger, the better.]{style="font-size: 1.4em"}
+
+-   [This is a good title size]{style="font-size: 1.8em"}
+
+-   [A good subtitle or bullet point size]{style="font-size: 1.6em"}
+
+-   [Content text should not be very small]{style="font-size: 1.0em"}
+
+-   [This font size is not recommended for content.]{style="font-size: .6em"}
+:::
+
+::: notes
+Remember, your slides must be readable, even at the back of the room. Title slide should not be less than 40 on Veranda Subtitile font should not be less than 32 on Veranda Text font should not be less than 24 on Veranda Avoid text font of 12 in slide on Veranda
+:::
+
+::: notes
+Remember, your slides must be readable, even at the back of the room. Title slide should not be less than 40 on Veranda Subtitile font should not be less than 32 on Veranda Text font should not be less than 24 on Veranda Avoid text font of 12 in slide on Veranda
+:::
+
+## Fonts
+
+Don't Sacrifice Readability for Style DON'T SACRIFICE READABILITY FOR STYLE Don't Sacrifice Readability for Style DON'T SACRIFICE READABILITY FOR STYLE
+
+## CAPS
+
+DO NOT USE ALL CAPITAL LETTERS Makes text hard to read Conceals acronyms Denies their use for EMPHASIS Italics Used for "quotes" Used to highlight thoughts or ideas Used for book, journal, or magazine titles
+
+## Use a Template
+
+Use a set font and color scheme. Different styles are disconcerting to the audience. You want the audience to focus on what you present, not the way you present.
