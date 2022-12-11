@@ -3,15 +3,15 @@ title: "Preparing and presenting an effective  lecture"
 subtitle: "CTTI, goAJK"
 logo: "images/soe_logo.jpg"
 author: "Zahid Asghar"
-date: "September ..., 2022"
+date: "September 22, 2022"
 format:
   revealjs: 
     slide-number: true
-    # chalkboard: 
+    chalkboard: true
     #   buttons: false 
     theme: [simple, custom2.scss]
     title-slide-attributes:
-      data-background-color: "#cf3a36"
+      data-background-color: "#447099"
 resources:
   - slides.pdf
 ---
@@ -24,12 +24,6 @@ clrs_lt <- colorspace::lighten(clrs, 0.9)
 knitr::opts_chunk$set(fig.retina = 3, collapse = TRUE)
 options(digits = 3, width = 75)
 ```
-
-
-# "If we want to move from [a future we dont want]{.red} to [a future we want]{.yellow}, we have to consciously [practice bold thinking]{.yellow} to achieve the [desired future.]{.yellow}" { background-color="`r clrs[5]`"}
-
-
-## ![](images/mandela.jpg){fig-align="center" width="1300" height="750"} {.centered .center .middle background-color="`r clrs_lt[6]`"}
 
 ## About Me {background-color="`r clrs[5]`"}
 
@@ -52,9 +46,29 @@ options(digits = 3, width = 75)
 :::
 :::
 
+# "If we want to move from [a future we dont want]{.red} to [a future we want]{.yellow}, we have to consciously [practice bold thinking]{.yellow} to achieve the [desired future.]{.yellow}" { background-color="`r clrs[1]`"}
+
+
+## ![](images/mandela.jpg){fig-align="center" width="1300" height="750"} {.centered .center .middle background-color="`r clrs_lt[6]`"}
+
+::: notes
+Where is this weapon in our society
+Why dont we have this weapons?
+Can we have this weapon by degress?
+If so then AJK is one of the most literate region than most regions of Pakistan?
+How many of you want independent Kashmir?
+How many of you have written blogs on it (how many sleepless nights you have to achieve this objective)?
+If none, then we dont want to move to a new future
+:::
+
+
 # [[How to Give a Killer Presentation HBR](https://hbr.org/2013/06/how-to-give-a-killer-presentation)]{background-color="`r clrs[5]`"}
 
 ##  {background-color="black" background-image="images/math.gif" background-size="300px" background-repeat="repeat"}
+
+::: notes
+Have you ever enjoyed teaching your subject as a fun?
+:::
 
 ##  {background-color="black" background-image="images/chem.gif" background-size="400px" background-repeat="repeat"}
 
@@ -68,9 +82,15 @@ options(digits = 3, width = 75)
 -   **What is teaching?**
 :::
 
+::: notes
+The opportunity to profoundly impact the lives of children. ·we think we have an impact to shape better future
+Mission: My mission is transform students to think deeply, critically and challenge themselvers and put them on a learning path
+
+:::
+
 ## Contents: {background-color="`r clrs_lt[5]`"}
 
-::: {.incremental style="font-size: 1.4em;"}
+::: {.incremental style="font-size: 1.3em;"}
 1.  **Requirements of a good teacher**
 
 2.  **Types of Teacher**
@@ -116,10 +136,10 @@ options(digits = 3, width = 75)
 
 ## Modes of communication {background-color="`r clrs_lt[5]`"}
 
-::: {.incremental style="font-size: 1.5em;"}
+::: {.incremental style="font-size: 1.4em;"}
 -   [**Verbal**]{.yellow} **-- speaking words. Voice tone/pitch/volume.**
 
--   **Intonation : sarcastic, sad Word choice : lecture , friends , scientific meeting,**
+-   [**Intonation]{.yellow} : sarcastic, sad Word choice : lecture , friends , scientific meeting,**
 
 -   [**Nonverbal**]{.yellow} **: Knowledge ,skill & eye contact ,. body language, facial expression , gestures.**
 
@@ -161,18 +181,18 @@ commitment, conviction, consistency, clarity
 
 ##  {background-color="`r clrs_lt[5]`"}
 
-::: {.incremental style="font-size: 1.2em;"}
+::: {.incremental style="font-size: 1.1em;"}
 Lecturer job:lessen student fears and encourage students to pursue deeper understanding
 
 -   [Through several teaching and curriculum approaches]{.yellow}
 
 -   [integration during the class;]{.yellow}
 
--   expanded opportunities for two-way communication;
+-   [expanded opportunities for two-way communication;]{.yellow}
 
--   developing co-ownership of the course along with the students;
+-   [developing co-ownership of the course along with the students;]{.yellow}
 
--   alternating lecture with small-group work to aid in learning difficult topics.
+-   [alternating lecture with small-group work to aid in learning difficult topics.]{.yellow}
 :::
 
 ## Poor slide {background-color="`r clrs[5]`"}
@@ -195,7 +215,7 @@ Lecturer job:lessen student fears and encourage students to pursue deeper unders
 
 ## Teaching Modules {background-color="`r clrs_lt[5]`"}
 
-::: {.incremental style="font-size: 1.4em;"}
+::: {.incremental style="font-size: 1.2em;"}
 -   a-**Improving teaching provision within the department by identifying models of best practice and promoting new teaching initiatives and curriculum development.**
 
 -   b- **Promote links with other departments and/or disciplines where possible.**
@@ -235,7 +255,7 @@ Lecturer job:lessen student fears and encourage students to pursue deeper unders
 
 ## Closure {background-color="`r clrs_lt[5]`"}
 
-::: {.incremental style="font-size: 1.3em"}
+::: {.incremental style="font-size: 1.1em"}
 1.  **No single teaching method covers everything**
 
 2.  **Optimal approach features a mixture of instructional methods and learning activities**
@@ -264,6 +284,13 @@ Lecturer job:lessen student fears and encourage students to pursue deeper unders
 -   [**What was one thing you were unsure about in the lecture ?**]{.yellow}
 
 -   **Clarify areas of confusion**
+
+::: notes
+So why not have summary notes polleverywhere.com
+for class activity
+If you notice I have one light Green color theme for all slides
+
+:::
 
 # [[How to beat death by powerpoint](https://youtu.be/8qIqwqgtz9o)]{background-color="`r clrs[3]`"}
 
@@ -303,20 +330,25 @@ Peter Senge: The Fifth Discipline
 
 ## Digital era education: challenges and oppotunities {background-color="`r clrs_lt[3]`"}
 
+:::{.incremental}
 -   [Immense learning sources](khanacademy.com)
 -   [youtube](youtube.com) and
 -   much more
 -   [Galton Board](https://galtonboard.com/)
 -   [Plinko](https://phet.colorado.edu/sims/html/plinko-probability/latest/plinko-probability_en.html)
 -   Flip based class room teaching
-
+:::
 ##  {background-color="`r clrs_lt[3]`"}
 
-[Teaching methods for inspiring students of the future](https://www.youtube.com/watch?v=UCFg9bcW7Bk){.centered background-color="#314f4f"}
+[Teaching methods for inspiring students of the future](https://www.youtube.com/watch?v=UCFg9bcW7Bk){.centered background-color="#314f4f"} 
+
+:::{.incremental} 
 
 -   "**The mind is not a vessel that needs filling, but wood that needs igniting.**" Plutarch AD46-AD120
 
 -   "**Education is not the learning of facts, but the training of the mind to think.**" Abert Einstein 1879-1955
+
+::: 
 
 ##  {background-color="`r clrs_lt[3]`"}
 
@@ -333,7 +365,8 @@ Peter Senge: The Fifth Discipline
 
 -   **Creativity** and [**greatest of all these is**]{.yellow}
 
--   [**LOVE**]{.red}
+-   [**LOVE**]{.red style="font-size: 2em;"}
+
 :::
 
 # [Stay Hungry, Stay Foolish]{.r-fit-text} {background-color="`r clrs[5]`"}
@@ -353,10 +386,29 @@ Peter Senge: The Fifth Discipline
 -   [Relay feedback]{.r-fit-text}
 -   [Evaluate themselves]{.r-fit-text}
 
-> **"[I have learned that people will forget what you]{.pink}[said]{.red}**, \[people will forget what you\] [**did**]{.red}, [but people will never forget how you made them]{.pink} [**feel**]{.red}." -Maya Angelou
+> **"[I have learned that people will forget what you]{.pink}[said]{.red}**, people will forget what you [**did**]{.red}, [but people will never forget how you made them]{.pink} [**feel**]{.red}." -Maya Angelou
+
 
 ##  {.center .middle background-color="`r clrs[5]`"}
 
+###    لوئے لوئے پرہ لے  کڑ یے پانڈا جے پانڈا تدھ پر ہنا  
+###    شام پئی بن شام محمد تو کرہ جاندی نے ڈرنا
+
+
+##  {.center .middle background-color="`r clrs[5]`"}
 ### کںڈے سخت گلاباں والےدوروں ویکھ نہ ڈریے
 
 ### چوبھاں جھلیےرت چوایےتد ھ پھل چولی بھریے
+
+
+
+##  {.center .middle background-color="`r clrs[2]`"}
+
+
+###                   اساں سویر دی ہن نیت لئی اے
+###                   سورج نو ں ہن چڑھنا پئے گا    
+###                   متھا ٹیکیاں ٹھڈے پیندے 
+###                  سر موہنڈے تے دھرنا  پئے گا 
+###                  جے سقراط دی پیڑھی بہنا 
+###                  سر دی ہانڈی کڑھنا  پئے گا 
+

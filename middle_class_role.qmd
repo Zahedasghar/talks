@@ -1,0 +1,124 @@
+---
+title: "Role of middle class in Pakistan's politics <br> and economy: Is it <br> playing an effective role"
+subtitle: "PAS"
+logo: "images/soe_logo.jpg"
+author: "...."
+date: today
+format:
+  pptx: 
+    slide-number: true
+    chalkboard: true
+    #   buttons: false 
+    theme: [simple, custom2.scss]
+    title-slide-attributes:
+      data-background-color: "#cf3a36"
+resources:
+  - slides.pdf
+---
+
+```{r include=FALSE}
+library(tidyverse)
+library(httr)
+clrs <- MetBrewer::met.brewer(name = "Java")
+clrs_lt <- colorspace::lighten(clrs, 0.9)
+knitr::opts_chunk$set(fig.retina = 3, collapse = TRUE)
+options(digits = 3, width = 75)
+```
+
+## What makes middle class important {background-color="`r clrs_lt[5]`"}
+
+Middle class: - Is a precondition of stability in the social structures - Is a measure of mitigating inequality in a society - Is a key factor in forcing politicians and bureaucracy to make accountable
+
+> Easterly(2001): Nations with a large middle class tend to grow faster.
+
+-   This is universal phenomenon.
+-   English middle class of 18th and 19th century
+-   China and India middle class is a phenomenon of today
+
+##  {background-color="`r clrs_lt[5]`"}
+
+-   Collier (1999) : Middle class forms alliance with lower classes in order to demand an inclusive political system
+-   Acemoglu (2003): Decisive voters in democracy are from middle class
+-   Bannerjee (2007): middle class is a source of new entrenpreneurs and this class stresses on accumulation of human capital and savings
+
+**Warning:** 
+> Basur(2003) : If venues for channeling middle class human capital and savings not provided, then tendency towards consumption expenditure puts sustainability of growth in danger
+
+## How big is middle class in Pakistan? {.center .middle background-color="`r clrs[3]`"}
+
+
+```{r}
+#| echo: false
+#| warning: false
+library(readxl)
+library(gt)
+mid_class<-read_excel("middle_class.xlsx",sheet = "Sheet2")
+mid_class %>% gt() %>% 
+  tab_header(title="Method 1 : Expenditure from PPP $2 to $20 per person per day")
+```
+
+## How big is middle class in Pakistan? {.center .middle background-color="`r clrs[3]`"}
+
+```{r}
+#| echo: false
+#| warning: false
+library(readxl)
+library(gt)
+mid_class1<-read_excel("middle_class.xlsx",sheet = "Sheet1")
+mid_class1 %>% gt() %>% 
+  tab_header(title="Method 2 : Estimation of Middle Class through a Weighted Composite Index")
+```
+
+
+# The middle class is an urban phenomenon – lives and works in cities {background-color="`r clrs[6]`"}
+
+## What does this middle class want? {background-color="`r clrs_lt[6]`"}
+
+They want:
+-   Education
+-   Jobs
+
+Nayab(2011):
+>	When compared to its neighbours Pakistan has a bigger middle class
+
+>	The middle class in Pakistan has actually grown with time
+
+- Declining growth, Rising UE
+- GDP (% growth rate) not sufficient to absorb burgeoning youth
+
+- No significant increase in average years of schooling (age 15-19) and its about 8 years since decades
+- Currently no space for middle class (intellectual and social life)
+
+# Accommodating middle class {background-color="`r clrs[5]`"}
+
+## {background-color="`r clrs_lt[5]`"}
+
+
+-   Urban Growth and Management
+
+-   Births and migration will drive growth
+
+**Labour market shortages:**
+-	Design
+-	Engineering
+-	Middle management
+
+
+-   Localized savings instruments
+-   Opportunity for niche cities
+-   Backward linkages with farm activity
+-   Diversification towards higher value addition
+
+
+# Inclusive Governance for Middle Class {background-color="`r clrs[5]`"}
+-   Infrastructure
+-   governance reform of PSEs
+-   Social sector governance 
+-   18th Amendment
+-   Legal and judicial reforms for inclusive markets
+-   Efficiency of public expenditure 
+-   results based management
+
+
+
+

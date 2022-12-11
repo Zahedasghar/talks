@@ -1,0 +1,189 @@
+---
+title: "The Work of the Future"
+subtitle: "Building  Better Jobs in An Age of Intelligent Machines"
+author: "zahid asghar"
+date: today
+format:
+  html: 
+    theme: [simple, custom.scss]
+editor: visual
+---
+
+```{r include=FALSE}
+library(tidyverse)
+library(httr)
+clrs <- MetBrewer::met.brewer(name = "Java")
+clrs_lt <- colorspace::lighten(clrs, 0.9)
+knitr::opts_chunk$set(fig.retina = 3, collapse = TRUE)
+options(digits = 3, width = 75)
+```
+
+## Preface {background-color="`r clrs_lt[5]`"}
+
+Robert Solow (Nobel Laureate)
+
+> Economy is providing lot of low wage and high wage jobs but missing middle wage jobs
+
+-   Its not jobs are declining but low jobs as compared to improvement in productivity
+
+-   Education and Training major factors for a skilled and adaptable labour force to increase productivity
+
+-   Easy access to education is an equalising factor
+
+-   Higher education/better training does not necessarily mean more jobs
+
+-   English middle class of 18th and 19th century
+
+-   China and India middle class is a phenomenon of today
+
+1970 or 20th century 3/4 of national income in wage and salaries. Its now trendless.
+
+## Introduction {.scrollable}
+
+-   No evidence that Robotics/AI/ML ushering workers of factory floors
+
+    **Issues**
+
+-   low-paid, insecure jobs held by unskilled/less educated
+
+-   weak upward mobility across generations
+
+-   Technology penetration not reduction in jobs
+
+    > Innovation will threaten livelihood is main fear of the future.
+
+-   political and regional disputes, mistrust of innovation itself and distrust of institutions
+
+-   Sino-US trade war culminated into technological war: China govt led while Europe/US business mkt led
+
+##  {.scrollable}
+
+    **Main Question**
+
+-   How can we make sure that technological advances, whenever, they come, yield prosperity that is widely shared?
+
+-   How can a nation and its workers continue to play a leading role in investing and shaping the techonologies and reaping the benefits.
+
+    **Answer**
+
+    **Two parts : First part has two components : evolution of work and status of key technologies. Part is how to shape policy for technology and labour institutions toward shared prosperity.**
+
+    **Observations**
+
+-   No evidence that technology is driving us toward a jobless future
+
+    -   More jobs than workers in industrialized countries
+
+    -   Tech will change economic incentives, policy choinces, set of jobs available and the skills they demand.
+
+## 
+
+-   Invest new ways of accomplishing existing work, new business models, and entirely new industries driving to increase
+
+    -   productivity
+
+    -   new jobs
+
+    -   new occupations
+
+    -   demand for new form of expertise
+
+-   Legal and judicial reforms for inclusive markets
+
+-   Efficiency of public expenditure
+
+-   results based management
+
+## 
+
+Momentous impact of technology unfold gradually
+
+-   How workers are trained to make their way in a fast-changing way?
+
+-   Enabling workers to remain productive in a continuously evolving workplace requires empowering them with excellent skills program at all stages of life
+
+-   invest in primary and secondary education, in vocational and college programs and in ongoing adult training programs
+
+-   Must invest in existing educational and training institutions and innovate to create new training models to make ongoing skills development accessible, engaging and cost-effective.
+
+-   Increase labour productivity has not translated into broad increases in incomes
+
+-   US min wage \< other countries like Denmaark...
+
+### US Stellar Record of supporting innovations
+
+Good jobs are undersupplied by market: \> Work is crucial human good not only a source of income.
+
+## Labor markets and Growth
+
+Automation increase jobs creatioin not jobs destruction \> Does automation reduce jobs? Answer is **NO**. Does it reshape jobs: Answer is **YES**
+
+### PARADOX : Technology saves labour why not reduce jobs
+
+Automation--\> increases productivity--\> increases income --\>increases consumption on additional goods (Larger houses, safer travel, education)--\> Labout Deman
+
+High technology jobs : Innovative industries : computing, renewable energy and health care
+
+## Central Theme
+
+> Whether rising productivity generates broadly increasing living standards or instead enriches a relatively a small subs3t of population depends on the societal institutions that channel productivity into incomes.
+
+Wage growth: Not encouraging
+
+**3 Factors** 1. Digitalization has made educatioed workers more productive and less educated workers easier to replace with machinery. 2. Rapid outsourcing to China after WTO 3. Erosion of file and rank workers bargaining power
+
+Digi lowest impact on - low paid workers due to physical dexterity, F2F communication, visual recognition and situational adaptation - Max erosion: middle class
+
+Low upward mobility
+
+> Share of labour has decreased while naitonal income has increased
+
+## Technologies and Innovations
+
+Integration and adaptation Change takes time Wright Brothers 1903 , first flight 1930 Internet: 1906s, final 1990s
+
+> Future is already here, it is not evenly distributed.
+
+Human dominance: social skills, interaction, unpredictable physical , communication skills and general intelligence
+
+AI and General AI (to think like human brain): difficult because it works on data
+
+Its Deep research area
+
+**All innovations have been US government supported**
+
+## Education and Training Pathways to Better Jobs
+
+Innovation in technology alone will not generate broadly shared gains absent compelementary of reforms. - Equally important to train and educate the workforce - Role of community colleges - Private sector investment in training
+
+## New Pedagogies: Online Education
+
+New ideas for pedagogy are proliferating - Oracle, Microsoft, Boot camps, online courses, blended online learning machine supervised learning, Augmented and Virtual reality learning environment
+
+100 millions people registered in MOOCs **COVID-19 Crisis** Challenges of online education Low cost windown shopping low completion rate work related skills
+
+Participatory learning, outcome fixed
+
+## Jobs Quality
+
+## Institutions for innovations
+
+Role of federal government in US technology leadership
+
+National Defense Research Committee (NDRC)
+
+NSF
+
+Office of Scientific Research and Development (OSRD)
+
+1950-70 microelectronics (Govt funded)
+
+Google, iphone, Human Genome project....
+
+## Future Policy Directions
+
+Invest and innovate in skills and training
+
+Improve jobs quality
+
+Expand and shape innovations

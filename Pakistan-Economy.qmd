@@ -1,0 +1,833 @@
+---
+title: "Economy of Pakistan at Crossroads And <br> A Way Forward"
+author: "Zahid Asghar <br> Professor, School of Economics <br> QAU, Islamabad"
+date: today
+format: 
+  revealjs:
+    self-contained: false
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: "https://www.rstudio.com/wp-content/uploads/2018/10/RStudio-Logo-Flat.png"
+    footer: "[zahid asghar](https://zahidasghar.com/)"
+    theme: ["simple", "styles.scss"]
+    echo: true
+    multiplex: true
+    code-link: true
+    chalkboard: false
+    title-slide-attributes:
+      data-background-color: "#447099"
+editor: source
+---
+
+```{r include=FALSE}
+library(tidyverse)
+library(httr)
+clrs <- MetBrewer::met.brewer(name = "Java")
+clrs_lt <- colorspace::lighten(clrs, 0.9)
+knitr::opts_chunk$set(fig.retina = 3, collapse = TRUE)
+options(digits = 3, width = 75)
+```
+
+##  {background-color="`r clrs_lt[5]`"}
+
+### [Large trade deficit after having current account surplus of \$424 million in July last year. Pakistan has gone through this boom and bust cycles many times before: an import-driven boom, balance of payments crisis, International Monetary Fund (IMF) bailout, stabilisation, a period of growth and then back to a crisis. This time is no different.]{.centered}
+
+## Economic Challenges {background-color="`r clrs_lt[5]`"}
+
+#### Decades long struggle with macroeconomic stabilization arising from unsustainable fiscal policies
+
+#### Low Economic Growth, Compounding
+
+#### Heightened expectations of the population for a better life from democratic government
+
+#### Legacy of economic distortions
+
+#### Low and declining economic productivity
+
+#### Large loss-making public sector that impedes market development
+
+## Macroeconomic Challenges
+
+#### Unemployment
+
+#### Inflation
+
+#### Growth dilema
+
+#### Stagnant Export
+
+#### NFC
+
+::: notes
+#### Devolution is good with responsibility but NFC More resources to provinces but w/o liability of raising revenue
+:::
+
+## Economic History
+
+### China, India, Pakistan, Bangladesh, Indonesia, Malaysia
+
+### 1960 : Pakistan Better than others (23-24% rich in terms of GDP/capita)
+
+### Lags Behind in
+
+### - 1970s: 18%
+
+### - 1980s : 7%
+
+### - 1990s: 34 %
+
+### - 2000s: 20%
+
+## 
+
+![](State-of-Economy/productivity_stagnation.png)
+
+## What is wrong
+
+### Pakistan economy crashes every once in a while: feature by design
+
+#### Very low investment rate
+
+#### Fiscal problem: For every USD govt raises in revenue, it has to spend 2.7 USD
+
+#### Income 1000 USD, spending 2700 USD
+
+#### Sins: Income and pensions
+
+#### If no borrowing, country to shut down
+
+#### Balance of Payment: X=1000, M=2750 USD
+
+#### Liquidity Problem: Short maturity term on average 1 to 2 years
+
+#### Loss of sovereignty due to economic situation international and financial
+
+## Flawed Economic Discourse
+
+### Pipedreams: SEZs, Roads, Corridors, Gas pipelines
+
+### Stuck: hardcore paradigm of development
+
+### Reality: Software is primary requirement
+
+## [CAD: A cause for concern](https://www.brecorder.com/news/40128736)
+
+### Major components of current account deficit
+
+### Trade
+
+### Remittances and
+
+### financial accounts
+
+#### Unsustainable CAD has been the main reason for Pakistan's 23rd entry into the IMF program.
+
+### fuel and edible oil cost 1/3rd of total import bill
+
+::: notes
+WB reports that South Asia will grow at 3.4 % over the three year period. India will grow at 8.4 % while Pakistan at 3.4 %. Pakistan is lagging behind and clubbed together with Afghanistan where 30-35% people are not ready for vaccination.
+:::
+
+## Two immediate recommendations:
+
+-   Reduction in current account deficit
+
+-   expansion in exports
+
+Bangladesh achieved a lot by boosting its export and even Bhutan did well by attracting tourism. We had long fiscal challenges and even cant afford now to put more burden on people by increasing energy prices.
+
+> Economic theory dictates that if a CAD is being financed by borrowing, with associated costs, it will become unsustainable and today the rise in domestic and foreign debt has crossed all previous records. In addition, loss of currency from Rs.152 to Rs.187 rupees to the dollar would raise the risk of capital flight as there will be loss of faith in the value of currency by both foreign and residents
+
+## What's wrong?
+
+As growth `r emo::ji("arrow_up")` , this `r emo::ji("arrow_right")`CAD `r emo::ji("arrow_up")`
+
+18-20 billion USD: Large amount for Pakistan Economy size CAD increase implies pressure on ER which causes import cost to increase CAD leads to interest rate increase which leads to domestic economy to contract to address CAD - 4/5 year ago: same situation , CAD=20 billion USD - Economy has to contract , its recurrence - This chronic issue of BOP causing Pakistan not to grow
+
+## Why repeated problem of BOP
+
+Pak import is X=2M, remittances \$25b M dd but nothing to generate to sell -low productivity - Elite Capture: Everywhere but engaged in productive activities: China, Japan (in the past) and export oriented
+
+Twin problem: Elite capture and also of bad quality
+
+::: notes
+Atif Mian Pakistan has fundamentally unsustainable model Business to make money= Real Estate money increase due to appreciation of land but unproductive side for GDP -Land: Rent seeking When lot of value is generated through a non productive sector, it generates demand which leads to increase in goods and services impying to more import\[oil, cars, other Goods and Services\] - Are these individuals producing something to be sold in international market? IT, car manufacturing.... Value generation: unproductive -Sugar industry value generation leads to demand but not for the rest of the world
+:::
+
+## Why Export Matters
+
+-   global competitiveness
+
+-   Capacity to innovate and compete with the rest of the world
+
+-   1992: Indian export increased 13 times while Pak only doubles
+
+-   Vietnam : 15 B USD in 2001 and 220 B USD in 2018
+
+-   Export per capital India increased by 6.8 times while BD by 6.2 as compared to Pakistan
+
+    -   Uncompetitiveness as compared to neighboring countries
+
+-   Export : dynamism, technology absorption and adaptation, building reputation, brand names
+
+-   Sports, textile, surgical: no branding
+
+-   No MNCs developed
+
+-   Reasons: Mangerial skills, organizational skills
+
+## Sustained Flawed Policies
+
+-   
+
+    #### Zardari : Costly energy deals beneficials to sellers
+
+-   
+
+    #### Nawaz Sharif: Power generation plants on same TORs as Zardari
+
+-   
+
+    #### Imran Khan : Failure to import RLNG on time
+
+-   
+
+    #### Unsustainable circular debt: Rs. 1.2 trillion in 2018 before PTI government & now 2.4 trillion Rs
+
+-   
+
+    #### Little room to play : Debt, Defence, Pension, Government Expenditure, with ex-PM focus for more resources to Kamyab Jawan and Ehsas program.
+
+-   
+
+    #### Succesive governments fulfilled their commitment of shifting the burden to consumers but never fulfills its commitment of deep structural reforms
+
+    ::: notes
+    The sustained flawed policies over decades of postponing the hour of reckoning have not only made the donors reluctant to accept pledges for meaningful non-reversible reforms, a situation exacerbated by lack of US support on their boards, but also due to the presentation of half-truths to the executive which prevents meaningful reforms.
+    :::
+
+## IMF and Pakistan
+
+-   22 programs -23rd Shaukat Tarin : different from his 2008 expectations due to low engagement of Pakistan with US
+-   
+    a)  Implementation of harsh conditions
+-   
+    b)  Focus on raising revenue
+-   
+    c)  28.5 billion dollar funding is a condition of 39 month ongoing program or in other words roll-over of loans by `friendly` countries mainly China and Saudi Arabia till Sep-2022.
+
+::: notes
+a)  
+
+    -   In almost all 22 IMF programs, govts never made any progress in any challenging reform(s) and all govts shifted the onus of achieving full cost of recovery on to the consumers by raising tariff.
+
+-   Circular debt 1.2 trillion in 2018 to 2.2 trillion rupees today (Nov.2021)
+
+b)  
+
+    -   Given current scenario, only indirect taxes leading to more burden on poor than rich. Instead of slashing expenditure, Tarin increased current expenditure significantly.
+:::
+
+## World Bank Report on Reviving Pakistan Exports
+
+Senior economist WB rightly points out:
+
+#### \> The long term decline in exports as a share of GDP has implications for thecountry's -foreign exchange-, -jobs- and -productivity growth-. Therefore, confronting core challenges that are necessary for Pakistan to compete in the global market is an imperative for sustainable growth.
+
+The recommendations includes:
+
+#### 1. gradually reduce the real effective rates of protection through a long-term tariff rationalisation strategy to encourage exports.
+
+#### 2. reallocate export financing away from working capital and into capacity exapnsion through the Long-Term Financing Facility.
+
+#### 3. Consolidate market intelligence services by supporting new exporters and evaluating the impact of current inteventions to increase their effectiveness; and
+
+#### 4. Design and implement a long-term strategy to upgrade productivity of firms that fosters competition, innovation and maximises export potential.
+
+## The elite illusions and delusions
+
+### The conclusions from the foregoing data and argument are as follows:
+
+#### 1. Pakistan has to learn to live within its means;
+
+#### 2. the country's obsession with imported cars (and other foreign consumer goods) is unaffordable as well as unsustainable;
+
+#### 3. elitist policymakers would do well to study the development path and policies of successful peer countries; and,
+
+#### 4. the country's free-riding elites have to be made to carry their share of responsibility.
+
+::: notes
+Hafiz Pasha talk at SDPI
+:::
+
+## Leakages {background-color="`r clrs_lt[2]`"}
+
+::: columns
+::: {.column width="24%"}
+**Agriculture Income : Rs.1800 to Rs.2000 billion while tax is Rs.2 billion**
+:::
+
+::: {.column width="24%"}
+**Rental income from large houses :1000 sq.yard plus: Rs.460 billion, tax collection is Rs.6 billion**
+:::
+
+::: {.column width="24%"}
+**Top 10 banks profits: Rs. 1400 billion (3% of GDP, 25% of tax revenue, 11% more than defense expenditure**
+:::
+
+::: {.column width="24%"}
+**Petroleum subsidy benefiting middle, upper middle and rich class**
+:::
+:::
+
+## [How to solve the debt crisis (Arshad Zaman)](https://www.brecorder.com/news/40168756/how-to-solve-the-debt-crisis)
+
+### What can government do to solve debt problem?
+
+**Either** new another *Last* IMF - burden of energy prices/taxation on people **Or** find ways to dsitrbute this burden more fairly between people and their creditors.
+
+#### How?
+
+#### Liquidity issue OR Sustainabitiy issue
+
+#### Why IMF agree for debt relief
+
+-   IMF Report 2002: Restructuing if debt unsustainable
+
+    #### Restructuring Concept
+
+-   principal ammount
+
+-   interest payment
+
+-   time to repay Either or combination
+
+### Domestic Debt solvency (SDD)
+
+### Risks from SDD
+
+-   domestic banks
+
+-   pension funds
+
+-   pensioners
+
+    ## 6 Steps for SDD
+
+1.  Disaggregate debt stock and flows more minutely and re-classify them by currency, governing laws and citzenship and residence of holders.
+2.  Indentify exactly domestic debt to be restructured and debt relief targets (DRT)
+3.  Deduct associated fiscal costs
+4.  Assess wider economic costs associated with restructuring
+5.  SBP payment systems works normally
+6.  minimize overall costs but DRT works
+
+### SDD resistance from banks
+
+Rs.1400 billion interest income by top 10 banks which is - 60% of total domestic debt - 11% more than defence expenditure - 26% of total tax revenue - 3% of GDP **FAIR** *Banks refund some of their excess profits from the debt crisis*
+
+#### How much SDD works
+
+Cyprus: 2013=15 haircuts of 36% more achieved Greence : 2012 SDD and SFD 65-78%
+
+::: notes
+If former, go for more loan If not sustainable, then restructing/rescheduling Pakistan debt is so large that servicing it is reducing investment and adversely affecting incentives to invest, reducing economic growth and ultimately future debt serving capacity. Govt should go domestic debt solvency only (SDD), why? limited impact on external reputation, and access to external debt market
+:::
+
+## Challenges for Shahbaz Sharif/New Government
+
+-   
+
+    #### PPPP 2008 : 6 months to mature with IMF
+
+-   
+
+    #### PMLN 2013 : 8 months to mature with IMF
+
+-   
+
+    #### PTI 2018 : Bit late but loan from some frinds
+
+-   
+
+    #### PPPP : Power contracts favorable to suppliers
+
+-   
+
+    #### PMLN : CPEC contracts favorable to suppliers
+
+-   
+
+    #### PTI : circular debt 1.2 trillion to 2.4 trillion reflecting poor performance
+
+-   
+
+    ### PMLN left external financing needs of 9.6% of GDP in 2017-18
+
+-   
+
+    ### PTI left external financing needs of 9.5% of GDP in 2021-22
+
+## SOE
+
+> #### SOE asquired large budgetary injections despite all 3 previous regimes pledged to the IMF for restructure and privatization.
+
+### Tax base:
+
+#### indirect taxes whose incidence on poor is greater than the rich with little progress in viodening tax base.
+
+#### Persistent challenge which explains the reasons for Pakistan being a prenial IMF -#### borrowers for recurrent CAD blamed on
+
+#### Pro-growth policies which lead to increase in import and hence widening trade deficit
+
+#### Traditional export : sensitive to international market
+
+#### Trade deficit swallow all remittances
+
+#### unsustainable CAD
+
+`r emo::ji ("arrow_up")` M `r emo::ji ("arrow_right")` revenue`r emo::ji ("arrow_up")` and `r emo::ji ("arrow_down")` M `r emo::ji ("arrow_right")` revenue`r emo::ji ("arrow_down")` **CATCH 22 Situation**
+
+::: notes
+a problematic situation for which the only solution is denied by a circumstance inherent in the problem or by a rule the show-business catch-22---no work unless you have an agent, no agent unless you've worked--- Mary Murphy also : the circumstance or rule that denies a solution.
+:::
+
+## How to come out of vicious cycle?
+
+> WB Oct,2021 Review: "Pakistan Development Update: Reviving exports 1. reduce effective protection (gradually) through a long term tariff rationalization: ex-PM IK does exactly the opposite: gave more incentives to investors barring few subsectors. 2. Reallocate export financing away from working capital into capacity expansion through long term financing facility. 3. New exporters and evaluate impact of current interventions to increase their effectiveness. Admn after admn, standard normal instruments without doing any empirical study on their effectiveness which way partyly be due to same faces heading ministers from one admn to another Result: most influential industries survives in export/industrial sector 4. Design and implement a long term strategy to upgrade productivity of firms that foster expectation, innovation and maximizes export potential
+
+Moreover, slash the need to borrow for budgetary support for which reduce expenditure
+
+10+ party coalition IMF : 7th review 3 billion dollars, other bilateral will also help
+
+New government has increased energy prices and have made commitment to IMF for increase in fuel prices which is a step in *Good housekeeping*
+
+PSDP has already been cut by Rs.200 to Rs.600/ Contractionary monetary policy implies reduction in growth rate, low tax revenue Renegotiate with IMF: Little mild conditions will help for other bilateral agencies
+
+Solution Go to IMF GDP growth not an only indicator but also include - Debt to GDP ration - Revenue to GDP - Budget deficit - Inflation All these indicators need to be focused.
+
+## Solution
+
+Macro policy , macroprudential regulations ER (flexible), Future stance, Reserves Capital account judicious use Narrow definition of sectors, not speculative investment, Capital flight Manage capital account carefully - Remittance : 10% of the GDP, higher than India, BD, because domestic market not able to generate jobs -Spare a fraction of remittance son annual basis
+
+-BOP: Energy crisis, local solar plant -Taxation of land: capital gain tax and spend it in urban infrastructure and developmenti in cities
+
+## Investment in agriculture
+
+-R&D - local in nature - satellite , Big Data
+
+## Effective Implementation
+
+## Leadership positions
+
+-highly talented people - Human capital - remain unfulfilled for long time - Higher education rate but one of the lowest LF participation rate - S&T pushes a society and helps in growing - Open society, allow to question
+
+Supply side to be more productive before opening up Scientific thinking mode rather preaching or political thinking mode - Post covid-IT sector -Value chain missing -Start ups but are other countries prefer to come to Pakistan to invest No such signs, scaling is important
+
+-   Energies are spent in negative wat into building narrative
+-   Growth leads to TRADE
+
+Why BOP crisis despite ER depreciation - One time is ok But if not consistent, long run investment will not come - ER as instrument not sufficient , government investment and secure property rights are must for investment
+
+BD textile much better than Pakistan, Why Becuase Pakistani upper class has alternative to make money, so why invest in technology India : value chain within country, Pakistan : focus on metros, roads and approach is lets buy from somewhere - less of willingness for domestic product -CPEC: not much positive impact, they will build and go away
+
+## Pakistan 13th IMF programs
+
+-   IMF conditions
+
+1.  Revnue generation Porducing power in a wrong way, high taxes on utlities are regressive taxes Its upper, middle income who put pressure on oil, cars.
+
+## Fiscal Deficit target
+
+-capital expenditure is included which its not included in other countries. - Need investment instruments rather restricting it by the IMF -History of development in the world - which subsidies Removal of subsidies itself will not solve economic problems automatically. Investment in state capacity: Education, Health independent BOGs for securing investments
+
+Balance: Government in public investment in certain sectors and come out of non-productive sectors Inflation is consequence of BOP, fiscal deficit Stronger Progressive Taxation Political uncertainty : itself a result of
+
+## [Growth in imports](https://www.brecorder.com/news/40169472/growth-in-imports)
+
+-   March 22, 2022 PBS data : import growth rate of 49% Sep-Mar,22
+-   Exports growth : 25% , widening trade deficit by 70%
+-   As a result: \$13 billion trade deficit in 9 months
+
+### Number of Questions for this rise
+
+### Reasons
+
+::: notes
+1.  What is relative contribution of the rise in volumes and prices?
+
+2.  What has been the impact of various fiscal and montertary measures undertaken to contain imports?
+
+3.  What the is likelevel of imports in the last quarter of 2021-22?
+
+4.  rise in price of crude oil from \$45 to \$109
+
+5.  jump in consumption of petroleum products after covid-19 (14%)
+
+6.  347% increase in import bill of medicines due to Covid - will phase out now
+:::
+
+## What to do ?
+
+-   Pakistan's economic and export problems are deep and structural
+
+-   Focusing on fixing twin deficit (CAD & FD) is misplaced. Addressing symptoms will not cure the disease
+
+-   Build up domestic capacity to innovate, to organize and to manage - An Economist Job: not to tell what to do and what not
+
+-   But tell cost of doing business as usual vs develop your software and progress
+
+-   Talent will not stay
+
+-   Production over Commerce
+
+-   Our full focus on meeting dollar demand is misplaced
+
+-   Social contract goods
+
+-   Cities have key role in provision of social contract goods
+
+## 
+
+-   Most of economic thinking: "How can living-standards be improved for most of humanity"
+
+-   Answers vary while Question remain same
+
+-   Eternal struggle for mankind Preachers, utopians philosophers and many others: Everyone defends one's utopia that people lot can be improved if follow their description
+
+-   Dev. Community: prey to descriptive approach
+
+-   Experts: pretend to have solutions
+
+-   We are all told : Implement, Implement ...
+
+-   Monitoring mechanisms: MDGs, SDGs
+
+-   70 years of experts dev.policy, aid funding and many consultant, plan...
+
+-   Development has eluded a large number of countries : Why is that?
+
+## 
+
+-   Donors and Experts : Easy answers
+-   Prescriptions are not implemented
+-   Lack of political will : If success, they celebrate otherwise blame
+-   Best practices
+-   How can same policies for all countries
+-   Practices well known ,govt implementing agency
+-   Approach : Top-down (All solutions from foreign experts) Land-cruisers, consultants ... results are the same
+
+## What is wrong with this model/approach
+
+-   Ideological models and experts assume: Society and development: Eng phenomenon
+
+-   Plan properly and then everyone will live according to the plan and good things will happen
+
+-   Eng: Inert materials
+
+-   Social problems: self-willed, individualistic human beings
+
+-   People: ambitions, plans &desires individually and collectively People don't change because consultant want
+
+-   Most serious economists moved away from this approach
+
+## 
+
+-   Economy: set of ind and groups decisions
+
+-   Bottom-up
+
+    -   Economy: Productivity, products, activity, trade and exchange, transaction among many others
+    -   Even well motivated plans to send children to schools failed
+    -   Parents decisions more complex than donors assume
+    -   Development not uniform across the countries
+
+-   Local issues, cultures & community, social and human capital plays a critical role
+
+-   Planners try their best even out these difficult often at huge cost with very little success
+
+## Revenue Targets missed
+
+More taxes 64 WHT
+
+-   Is starving PSEs and Universities of working capital something to cheer?
+
+-   Complexities of the 21st Century
+
+-   Energy: Lack of professional regularity capacity
+
+-   Rent seeking commitments to IPPs
+
+-   Losses due to structural and poor governance problems
+
+-   Circular debt chokes up the system
+
+## Getting the basics right
+
+-   Economy is not rocket science
+-   Qs" What are the basics?
+-   Basics: high revenue, high export, high growth, low dollar rupee ER etc with low inflation
+-   WOW: Simple and easy : Economy is not rocket science
+-   Wishing all good things is economics and economist is supposed to help governments to do all these good things with magic stick
+-   5-Year plans for all Basics
+
+## 
+
+-   Securing property rights
+-   Strengthening contracting
+-   Reducing transaction costs
+-   Reducing and reforming markets for efficiency
+-   Removing incentives for rent seeking and putting incentives for entrepreneurship
+    -   For Example : W/o good governance: no wish list will happen as plan after plan failed due to poor governance
+
+> > "All of us have to come out of our comfort zone and encourage discussion and debate"
+
+## Hayek, Change and Complexity
+
+> > It is, perhaps, worth stressing that economic problems arsie always and only in consequences of change. The Use of Knowledge in Society
+
+## Get the growth model
+
+-   Export led policies help China, SK and others
+-   Special Economic Zones
+-   Digitization (Inequality)
+-   Reverse Myopia Build the capacity to play long game where decisions 20 years from now -\> Long game: who we are as a nation? -\> Where we want to go?
+
+## Boosting Domestic Productivity
+
+-\> Boosting domestic productivity which means raising the capacities and capabilities of your people -\> Our focus : Ask US to do this, ask China for Gawadar/CPEC -\> Not focusing on building domestic institutions, improving domestic capacity -\> Why don't governments focus - One needs hard work, local thinking, building teams, build institutions - Hire right competent people - no to nepotism -\> Easy not to do any of that
+
+> Learning how to catch a fish...
+
+-\> Broad conceptual parameters - Education, Health investment for better inputs - Boosting domestic productivity - Agriculture
+
+## Public Sector Enterprises
+
+## Technological Development and Future Jobs
+
+## Deficits
+
+## Inflation
+
+## Software Growth
+
+## Sources: Growth Strategy, Looking Back, Webinars..., Governing the ungovernable
+
+## SOFTWARE
+
+-   Rule of Law (Contracts are honored)
+
+-   Property Rights (China's economic growth after PR Changed)
+
+-   Allocation of Talent (Meritocracy)
+
+-   Organisational and managerial capacity
+
+-   Knowledge acquisition
+
+-   All this : Cant be bought, domestic capacity and domestic reforms One has to built all this as it can not be imported
+
+-   Keynes: A madman who knows the world is a slave of defunct economist
+
+-   Stuck in MH paradigm
+
+## Why economic growth matters
+
+-   Hayek
+
+    -   Freedom
+    -   Individual rights
+    -   Knowledge acquisition
+    -   How people can collaborate (Networking)
+    -   Transactions
+    -   Idea sharing
+    -   Knowledge generation
+
+-   Lucas (1988) Once you start thinking of growth of nations, everything else loses interest,this is the most important questions
+
+-   Amrtya Sen :Dev as Freedom , Capabilities
+
+    -   Freedom to think , choices, more productive
+
+-   All this needs creative cities
+
+## 
+
+-   How can start this journey: Hard choice, long term phenomenon
+
+-   Economic Corridor : F-16 Protocol (China, Saudia ...)
+
+-   Government needs similar commitment to software, freedom, tolerance, diversity...
+
+-   Intolerance, hate, lack of property rights, social justice, inequality\
+    (Social Goods)
+
+## 
+
+-   Subsidies
+-   SROs
+-   Protection Cement, Textile, Fertilizers, Cars.... (all domestic consumption, no export)
+-   Profits of rent-seekers are secured
+-   No need for innovation, and growth is happening only due to increase in population
+
+## Short-termism: MYOPIC APPROACH
+
+-   Successive governments suffering from myopia
+-   Occasional consumption booms from borrowing and remittances (2002-05), 2016-18
+-   Increased informal economy weakening state control and governace besides erosion of tax-base
+-   Pakistan remained married to begging bowl
+-   Sought FDI without terms
+-   Pipenomics : Someone build for us
+-   Poor aid governance led to poor aid practices \> This distracts one not to think hard
+
+## Extractive economic institutions
+
+-   Lack of law and order
+-   Insecure property rights
+-   Entry barriers and regulation that prevented functioning of markets and created a un-leveled playing field
+-   System designed by and for the benefit of the elite
+
+## Inclusive economic institutions
+
+-   Secure property rights
+-   Law and order
+-   Markets and state support (public services and regulations) for markets
+-   Free entry of new businesses
+-   Contract enforcement
+-   Access to education and opportunity for the great majority of citizens
+
+> Why Nations Fail: Daren Acemoglu and James A. Robinson
+
+## What to do ?
+
+-   Pakistan's economic and export problems are deep and structural
+
+-   Focusing on fixing twin deficit (CAD & FD) is misplaced. Addressing symptoms will not cure the disease
+
+-   Build up domestic capacity to innovate, to organize and to manage - An Economist Job: not to tell what to do and what not
+
+-   But tell cost of doing business as usual vs develop your software and progress
+
+-   Talent will not stay
+
+-   Production over Commerce
+
+-   Our full focus on meeting dollar demand is misplaced
+
+-   Social contract goods
+
+-   Cities have key role in provision of social contract goods
+
+## 
+
+-   Most of economic thinking: "How can living-standards be improved for most of humanity"
+
+-   Answers vary while Question remain same
+
+-   Eternal struggle for mankind Preachers, utopians philosophers and many others: Everyone defends one's utopia that people lot can be improved if follow their description
+
+-   Dev. Community: prey to descriptive approach
+
+-   Experts: pretend to have solutions
+
+-   We are all told : Implement, Implement ...
+
+-   Monitoring mechanisms: MDGs, SDGs - 70 years of experts dev.policy, aid funding and many consultant, plan...
+
+-   Development has eluded a large number of countries : Why is that?
+
+## 
+
+-   Donors and Experts : Easy answers
+-   Prescriptions are not implemented
+-   Lack of political will : If success, they celebrate otherwise blame
+-   Best practices
+-   How can same policies for all countries
+-   Practices well known ,govt implementing agency
+-   Approach : Top-down (All solutions from foreign experts) Land-cruisers, consultants ... results are the same
+
+## What is wrong with this model/approach
+
+-   Ideological models and experts assume: Society and development: Eng phenomenon
+
+-   Plan properly and then everyone will live according to the plan and good things will happen
+
+-   Eng: Inert materials
+
+-   Social problems: self-willed, individualistic human beings
+
+-   People: ambitions, plans &desires individually and collectively People don't change because consultant want
+
+-   Most serious economists moved away from this approach
+
+## 
+
+-   Economy: set of ind and groups decisions
+
+-   Bottom-up
+
+    -   Economy: Productivity, products, activity, trade and exchange, transaction among many others
+    -   Even well motivated plans to send children to schools failed
+    -   Parents decisions more complex than donors assume
+    -   Development not uniform across the countries
+
+-   Local issues, cultures & community, social and human capital plays a critical role
+
+-   Planners try their best even out these difficult often at huge cost with very little success
+
+## 
+
+Revenue Targets missed: More taxes 64 WHT
+
+-   Is starving PSEs and Universities of working capital something to cheer?
+
+-   Complexities of the 21st Century
+
+-   Energy: Lack of professional regularity capacity
+
+-   Rent seeking commitments to IPPs
+
+-   Losses due to structural and poor governance problems
+
+-   Circular debt chokes up the system
+
+## Getting the basics right
+
+-   Economy is not rocket science
+-   Qs" What are the basics?
+-   Basics: high revenue, high export, high growth, low dollar rupee ER etc with low inflation
+-   WOW: Simple and easy : Economy is not rocket science
+-   Wishing all good things is economics and economist is supposed to help governments to do all these good things with magic stick
+-   5-Year plans for all Basics
+
+## 
+
+-   Securing property rights
+-   Strengthening contracting
+-   Reducing transaction costs
+-   Reducing and reforming markets for efficiency
+-   Removing incentives for rent seeking and putting incentives for entrepreneurship
+    -   For Example : W/o good governance: no wish list will happen as plan after plan failed due to poor governance
+
+> > "All of us have to come out of our comfort zone and encourage discussion and debate"
+
+## Hayek, Change and Complexity
+
+> > It is, perhaps, worth stressing that economic problems arsie always and only in consequences of change. The Use of Knowledge in Society
+
+## Get the growth model
+
+-   Export led policies help China, SK and others
+-   Special Economic Zones
+-   Digitization (Inequality)
+-   Reverse Myopia Build the capacity to play long game where decisions 20 years from now -\> Long game: who we are as a nation? -\> Where we want to go?
+
+## Boosting Domestic Productivity
+
+Boosting domestic productivity which means raising the capacities and capabilities of your people -\> Our focus : Ask US to do this, ask China for Gawadar/CPEC -\> Not focusing on building domestic institutions, improving domestic capacity -\> Why don't governments focus - One needs hard work, local thinking, building teams, build institutions - Hire right competent people - no to nepotism -\> Easy not to do any of that
+
+> Learning how to catch a fish... Broad conceptual parameters - Education, Health investment for better inputs - Boosting domestic productivity - Agriculture
+
+## CATCH-22 Situation
+
+**`r emo::ji ("arrow_up")` Import `r emo::ji ("right_arrow")` Revenue`r emo::ji ("arrow_up")` and `r emo::ji ("arrow_down")` Import `r emo::ji ("arrow_right")` Revenue`r emo::ji ("arrow_down")`**

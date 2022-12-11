@@ -1,0 +1,21 @@
+---
+title: "[Untold story of QAU land]{.blue}"
+author: "[Zahid Asghar]{.blue}"
+format: 
+  revealjs:
+    footer: "[Quaid-i-Azam University](https://qau.edu.pk)&nbsp;&nbsp;&nbsp;"
+    logo: "logo_soe.jpg"
+    theme: [default, custom2.scss]
+    slide-number: c/t
+    incremental: true
+    title-slide-attributes:
+      data-background-image: qau.jpg
+      data-background-size: cover 
+editor: visual
+---
+
+## Professor Dr. Zahid Asghar
+
+Dr. Asghar is currently serving as Professor at School of Economics, Quaid-i-Azam University, Islamabad. He has also served at National Institute of Banking and Finance, State Bank of Pakistam, for two years as a senior faculty. He has also served Quaid-i-Azam University as Registrar from 2020 to 2021 , Director School of Economics from 2019-2022, Chairman Department of Statistics from 2017-2018 at Quaid-i-Azam University, Islamabad.
+
+Professor Asghar is an applied econometrician and statistician with special interests in development economics, making sense of data through Data visualization and have conducted a large number of trainings on data analytics using Excel, STATA, R and EVIEWS. He has expertise in using R , STATA and Excel , and comfortable in using Datawrapper, Tableau, SPSS and EVIEWS for data anlysis. He has conducted more than 40 training workshops ranging from few hours to 10 days as a single resource person. He is actively engaged in playing with data particularly PovCalnetR, PDHS, PSLM, WDI using R among many other survey data sets. He has published in gender, food security and other socio-economic issues both in national and international peer reviewed journals. I am keen in having better awareness of development indicators in the society and to contribute to an evidence based decision making in socio-economic policy. Professor Asghar is member of Research Advisory Committee for Research for Social Transformation and Action (RASTA), PIDE, Islamabad.
