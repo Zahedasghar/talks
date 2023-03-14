@@ -1,5 +1,5 @@
 ---
-title: "[How to be a great teacher]{.blue}"
+title: "[Strategies to Become an Effective Teacher]{.blue}"
 author: "[CTTI, goAJK]{.red}<br>[March 15, 2023]{.yellow}"
 format: 
   revealjs:
@@ -293,16 +293,6 @@ So why not have summary notes polleverywhere.com for class activity If you notic
 ::: Aside
 Peter Senge: The Fifth Discipline
 :::
-
-## Slide Title
-
-Slide content
-
-::: aside
-Some additional commentary of more peripheral interest.
-:::
-
-##  {background-color="`r clrs_lt[3]`"}
 
 ::: columns
 ::: {.column width="30%"}
