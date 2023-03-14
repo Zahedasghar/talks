@@ -31,7 +31,7 @@ options(digits = 3, width = 75)
 
 ::: columns
 ::: {.column width="30%"}
-![](images/zahid.jpg){width="600"}
+![](https://zahedasghar.netlify.app/profile.jpg){width="600"}
 :::
 
 ::: {.column width="70%"}
@@ -293,6 +293,7 @@ So why not have summary notes polleverywhere.com for class activity If you notic
 Peter Senge: The Fifth Discipline
 :::
 
+## 
 ::: columns
 ::: {.column width="30%"}
 ![](images/gr8_teacher.webp)[What makes a great teacher? A brief summary](https://owlcation.com/academia/Characteristics-Of-A-Good-Teacher)
