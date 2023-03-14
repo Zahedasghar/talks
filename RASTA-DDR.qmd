@@ -1,0 +1,209 @@
+---
+title: "Cities Regeneration"
+subtitle: "DDR"
+author: "zahid asghar"
+date: today
+format:
+  html: 
+    theme: [simple, custom.scss]
+editor: visual
+---
+
+```{r include=FALSE}
+library(tidyverse)
+library(httr)
+clrs <- MetBrewer::met.brewer(name = "Java")
+clrs_lt <- colorspace::lighten(clrs, 0.9)
+knitr::opts_chunk$set(fig.retina = 3, collapse = TRUE)
+options(digits = 3, width = 75)
+```
+
+## DDR.CR-002 {background-color="`r clrs_lt[5]`"}
+
+What do we mean by public spaces here? For whom we are talking about public spaces? Is it youth aged, working population, women, students Civic outlook Place to relax to enjoy? What is concret in the proposal? NY and New Zealand : What single or two public spaces one is talking?
+
+Its too broad in scope and how will all this be achieved in one proposal.
+
+What do we mean by street economy? Karachi company, Jinnah Super F-7, Liberty Lahore...
+
+Objectives : How will these be achieved?
+
+![](images/image-495541826.png)
+
+![](images/image-70163738.png)
+
+Too many things are discussed
+
+Transport,
+
+Informal economy
+
+Walkability
+
+Making roads as economic hubs
+
+Safe roads
+
+Design:
+
+Little on how to achieve all this
+
+How will this represent whole of Lahore
+
+## DDR.CR-003
+
+### Punjab Mass Tranist Authority
+
+![](images/image-212146985.png)
+
+Hong Kong Mass Transit System is different due to its density and maybe due to its mixed-use
+
+Methodology
+
+Research Idea and Objectives : How all these relate
+
+Subsidy on mass transit is mainly on poor segments of the society.
+
+## DDR.CR-004 Wajiha Haq
+
+Very general without any concrete research ideas
+
+![](images/image-1137463958.png)
+
+![](images/image-1405756984.png)
+
+## DDR.CR-005
+
+All based on generic and highlighting co-PPGIS nothing concrete regarding regeneration of Pakistani cities.
+
+## DDR.CR-006
+
+Kashmore Jacobaad Railway
+
+## DDR.CR-007
+
+Melody and Aabpara:
+
+Not central locations
+
+Choice of location is not good from footfall point of view
+
+Immediate jump to affectees
+
+What kind of regeneration
+
+I fear upper portions will remain vacant unless its something for elite or investment
+
+What are the benefits to people
+
+Cities are for people,
+
+What income group you have in mind?
+
+**Legal FW should be main concern**
+
+Make it attractive to live, make it people friendly
+
+Reimagine the whole space
+
+Who will implement?
+
+Its not a research
+
+One side by office buildings, other is green belt-stadium and other side is
+
+## DDR.CR-008
+
+How Ichra will be developed
+
+TOD planning
+
+Radius of 500 to 800 m
+
+Lahore is highly dense
+
+## DDR.CR-009
+
+Balochistan
+
+It is not relevant to the scope
+
+Urbanization in general not how urbanization regeneration
+
+Very generic, no specific
+
+What is precise research question?
+
+## DDR.CR-10
+
+Drivers of urbanization
+
+Merits of urbanization
+
+Low carrying capacity
+
+Understanding mountaineous specifications for urbanization
+
+Climate change
+
+Tourism
+
+What type of activities will lead to commercial tourism in Gilgit may generate jobs
+
+How Gilgit city can generate jobs for migrants?
+
+Perception vs reality
+
+Does it mean that a poor guy should die in rural area because Gilgit city has
+
+less opportunities?
+
+## DDR.CR-011
+
+Sustainable Development Through Urban Regeneration
+
+Health care facilities are very important
+
+So Is question is how our hospitals enable paradmedics and doctors to deal with patients in pandemics.
+
+Lot of talk on diseases
+
+How will help urban regeneration
+
+### Objectives
+
+Reimagining health care facilities
+
+Redesigning of Railway Hospital : Health care tourism site
+
+How?
+
+Public private partnership is there?
+
+Is this railway hospital not already in public private partnership program? Probably Riphah University has contract with Railway. So please correct me (either PI or Co-PI)
+
+Too wide
+
+Health care documentation
+
+Environment design interventions
+
+More on rhetoric than concrete objective and methodology
+
+Hospitals : Business plan
+
+## DDR.CR-012
+
+Islamabad Katchi Abadis
+
+Ocular survey
+
+Data collection and analysis will help for planing
+
+How planning can be made through having some better information
+
+## DDR.CR-014
+
+Regeneration of Faisalabad
+
+## DDR.CR-015

@@ -1,0 +1,142 @@
+---
+title: Add emojis and icons via the `emoji` package.
+---
+
+```{r}
+library(tidyverse)
+library(gt)
+vegetables <- tibble(
+  Vegetable = c('eggplant', 'cucumber', 'broccoli', 'garlic', 'onion')
+) |> 
+  mutate(
+    Emoji = map_chr(Vegetable, emoji::emoji),
+    Vegetable = str_to_title(Vegetable)
+  ) 
+
+vegetables |> 
+  gt() |> 
+  # This part makes emojis larger and adds titles and footnote
+  tab_style(
+    style = list(cell_text(size = px(40))),
+    locations = cells_body(columns = 'Emoji')
+  ) |> 
+  tab_header(
+    title = 'VegeTABLE',
+    subtitle = 'It\'s surprisingly simple to include emojis in {gt} tables'
+  ) |> 
+  tab_footnote(
+    footnote = 'Emojis are taken from the {emoji} package'
+  )
+```
+
+Do the same with but with icons from the `fontawesome` package.
+Notice that you need to wrap the output from `fontawesome::fa()` into `html()`.
+
+```{r}
+brands <- tibble(
+  Brand = c('twitter', 'facebook', 'linkedin', 'github'),
+  color = c('#1DA1F2', '#4267B2', '#0077B5', '#333' )
+) |> 
+  mutate(
+    # Use html() function here so that {gt} knows what's going on
+    Emoji = map2(Brand, color, ~html(fontawesome::fa(.x, fill = .y))),
+    Brand = str_to_title(Brand)
+  ) |> 
+  select(-color)
+
+brands |> 
+  gt()  |> 
+   # This part makes emojis larger and adds titles and footnote
+  tab_style(
+    style = list(cell_text(size = px(40))),
+    locations = cells_body(columns = 'Emoji')
+  ) |> 
+  tab_header(
+    title = 'Brand table',
+    subtitle = 'It\'s surprisingly simple to include fontawesome icons in {gt} tables'
+  ) 
+```
+
+Add images to your table with `gtExtras::gt_img_rows()` or `gtExtras::gt_img_circle()`.
+
+
+```{r}
+# Find images of prime ministers on Wikipedia and copy URLs into a tibble
+pm_data <- tribble(
+  ~Name, ~Image,
+  'Liz Truss', 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Liz_Truss_official_portrait_%28cropped%292.jpg/292px-Liz_Truss_official_portrait_%28cropped%292.jpg',
+  'Boris Johnson', 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Boris_Johnson_official_portrait_%28cropped%29.jpg/288px-Boris_Johnson_official_portrait_%28cropped%29.jpg',
+  'Theresa May', 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Theresa_May_cropped.png/291px-Theresa_May_cropped.png'
+) 
+
+pm_data |> 
+  gt() |> 
+  gtExtras::gt_img_rows(columns = 'Image', height = 125)
+
+
+# For circular images, maybe using Twitter profile pics are a good idea.
+pm_data_round <- tribble(
+  ~Name, ~Image,
+  'Liz Truss', 'https://pbs.twimg.com/profile_images/1514636699946602499/hUoOgAOz_400x400.jpg',
+  'Boris Johnson', 'https://pbs.twimg.com/profile_images/1500170386520129536/Rr2G6A-N_400x400.jpg',
+  'Theresa May', 'https://pbs.twimg.com/profile_images/936639677121081344/_e5l_DEG_400x400.jpg'
+) 
+
+pm_data_round |> 
+  gt() |> 
+  gtExtras::gt_img_circle(column = 'Image', height = 100, border_weight = 1) |> 
+  cols_width(Image ~ px(100)) # Make sure that col width is same as image height
+
+```
+
+Add arbitrary ggplots to your table
+
+```{r}
+filtered_penguins <- palmerpenguins::penguins |> 
+    filter(!is.na(sex))
+
+penguin_weights <- palmerpenguins::penguins |> 
+  filter(!is.na(sex)) |> 
+  group_by(species) |> 
+  summarise(
+    Min = min(body_mass_g),
+    Mean = mean(body_mass_g) |> round(digits = 2),
+    Max = max(body_mass_g)
+  ) |> 
+  mutate(species = as.character(species), Distribution = species) |> 
+  rename(Species = species)
+
+
+plot_density_species <- function(species, variable) {
+  full_range <- filtered_penguins |> 
+    pull({{variable}}) |> 
+    range()
+  
+  filtered_penguins |> 
+    filter(species == !!species) |> 
+    ggplot(aes(x = {{variable}}, y = species)) +
+    geom_violin(fill = 'dodgerblue4') +
+    theme_minimal() +
+    scale_y_discrete(breaks = NULL) +
+    scale_x_continuous(breaks = NULL) +
+    labs(x = element_blank(), y = element_blank()) +
+    coord_cartesian(xlim = full_range)
+}
+
+penguin_weights |> 
+  gt() |> 
+  tab_spanner(
+    label = 'Penguin\'s Weight',
+    columns = -Species
+  ) |> 
+  text_transform(
+    locations = cells_body(columns = 'Distribution'),
+    # Create a function that takes the a column as input
+    # and gives a list of ggplots as output
+    fn = function(column) {
+      map(column, ~plot_density_species(., body_mass_g)) |> 
+        ggplot_image(height = px(50), aspect_ratio = 3)
+    }
+  )
+
+```

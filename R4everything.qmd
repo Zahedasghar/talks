@@ -1,0 +1,231 @@
+---
+title: "Learn R and Quarto"
+subtitle: "Focus on contents, not on formating "
+footer: "[Zahid Asghar, QAU]{.yellow}"
+logo: "images/soe_logo.jpg"
+author: "By Zahid Asghar "
+date: "`r format(Sys.time(), '%d %B %Y')`"
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: true
+    #   buttons: false
+    preview-links: auto
+    theme: [simple, custom.scss]
+    title-slide-attributes:
+      data-background-color: "#cf3a36"
+resources:
+  - slides.pdf
+---
+```{r include=FALSE}
+library(tidyverse)
+library(httr)
+clrs <- MetBrewer::met.brewer(name = "Java")
+clrs_lt <- colorspace::lighten(clrs, 0.9)
+knitr::opts_chunk$set(fig.retina = 3, collapse = TRUE)
+options(digits = 3, width = 75)
+```
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+```
+
+
+## Introduction to Data Using R-tidyverse
+
+### Quantitative Reasoning for Economics, Social Sciences and Humanities
+
+
+# [R Language is more than a Statistics Application, endless opportunities and has great presence in research community]{.yellow}
+
+# World Economic Forum
+```{r echo=FALSE, out.width="50%"}
+#knitr::include_graphics("futurejobs.png")
+```
+
+
+# How To Prepare Students For The Jobs Of 2030 
+
+### [Forbes Magzine](https://www.forbes.com/sites/forbestechcouncil/2021/10/27/how-to-prepare-students-for-the-jobs-of-2030/?fbclid=IwAR2JWkxiQlPFnjLPv6Z567RbQvpLp2ZQzP1m6xHvyfJdxCfzjyW7LU1WcdY&sh=7ee4b4714ad3) 
+ 
+ > Develop comprehensive computer curricula and technical materials that cover popular __computer programming like Python or R__ as well as common digital tools like Bloomberg Terminal or ArcGIS. This will help students become digitally fluent in mastering computers across different platforms to advance their coursework and research.
+ 
+> In today's digital age, __simply knowing how to use MS Word, Excel, Powerpoint, emails, internet search or social media no longer qualifies as digital fluency__. Students with comprehensive computer skills who know how to use various tech tools will thrive and succeed in their future workplaces.
+
+
+## Why choose R 
+
+### Use One Tool from Start to Finish 
+
+. . .
+
+### Focus on Content, Not Formatting
+
+. . .
+
+### Your problems are rarely unique
+
+. . .
+
+### Easier to share and review
+
+. . .
+
+### Embrace Reproducibility to Save Yourself Time 
+
+> Maybe I get a few more consent forms for students so now I can add a few more people into my data. Maybe another school gets their data to me in at a later date. Before, that would mean re-running everything manually. Now, I just update my data file, maybe adjust my filter code a little bit at the beginning, and then re-run everything. 
+
+> – Dana Wanzer
+> 
+
+::: {.notes}
+No longer do you do your data wrangling and analysis in SPSS, your data visualization work in Excel, and your reporting writing in Word — now you do it all in RMarkdown. 
+:::
+
+
+## Why choose R 
+#### Its not R vs others but 
+### [R for jobs ](https://www.indeed.com/q-Field-Economist-R-Program-jobs.html?vjk=adc248ffcc74c281)
+
+. . . 
+
+### R for analytics and statistical computing, econometric modeling and data science
+
+. . . 
+
+### R for Reproducible research
+
+. . . 
+
+### R for writing Reports, Books, Thesis, CVs, Official letters in __PDF, Word, html__, awesome presentations in __beamer/PPT/slidy...__ documents 
+
+. . .
+
+### R for webpage/webapp/blog and much more
+
+. . . 
+
+### R for exams 
+
+> ###.right[ Learning R enables to develop comprehensive computer skills] 
+
+
+### [bookdown](https://bookdown.org/yihui/bookdown/) , [blogdown](https://bookdown.org/yihui/blogdown/)
+
+. . . 
+
+###  github.io 
+
+. . . 
+
+### [LFS Survey](https://zahidasghar.github.io/LFS/)
+
+. . . 
+
+### [rpubs by RStudio](https://rpubs.com/)
+
+. . .
+
+### CV, Letter Writing and many other docu can use the display style with double dollar signs:
+
+
+$$\bar{X}=\frac{1}{n}\sum_{i=1}^nX_i$$
+
+## What I have gained
+
+#### Speed
+#### Simplicity
+#### Focus on core instead of focusing on formating and editing
+#### Reproducibility and replicability without any copy and paste
+
+
+### And hey, there's a &#x1F37A; over &#x1F449;
+
+
+::: columns
+
+:::{.column-width="50%"}
+
+
+```{r tidy=FALSE}
+if (TRUE) {
+{{ message("Very important!") }}
+}
+```
+::: 
+
+::: {.column-width="50%"}
+```{r tidy=FALSE}
+#| code-line-numbers: 4:5
+library(ggplot2)
+ggplot(mtcars) +
+  aes(mpg, disp) +
+  geom_point() +   #<<
+  geom_smooth()    #<<
+```
+:::
+
+
+# [This whole sentence is purple.]{.purple}
+
+## [RStudio]{.blue} is cool!
+
+!{[](nadeemulhaque.jpg)
+
+
+### Pakistan’s energy crisis is a crisis of governance and politics. Nothing else. Neither bureaucracy nor politicians want to give up control to set up a system of checks and balances. They want control and do projects. Not their jobs..tr[— Nadeem ul Haque]
+
+##  
+
+![](sdg.gif)
+
+## 
+
+
+```{r eval=FALSE, include=FALSE}
+library(readxl)
+CPI <- read_excel("C:/Users/92300/OneDrive - Higher Education Commission/R files/CPI.xlsx")
+
+library(ggthemes)
+library(gganimate)
+p<-ggplot(CPI,aes(x=Year, y=YoY))+geom_line()+theme_economist()+ggtitle("Cosumer Price Index  2012-2019 (YoY) ")
+ #p+transition_reveal(Year) 
+
+```
+
+
+# Drawbacks
+
+### Learning Curve is steep
+### Commenting is limited
+
+# Thanks!
+
+
+# PIDE-R
+
+## Reports and Documents Reproducibility
+## Survey Data Analytics
+## Visualization 
+## Capacity Building 
+
+# Impact Evaluation Tools
+
+
+## Dashboarding  in R 
+
+# Computer+Your Brain+ Your Skills+Your traits= Job Success
+
+
+
+
+## Zahid AsghaR

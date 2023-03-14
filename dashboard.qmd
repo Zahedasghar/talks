@@ -1,0 +1,64 @@
+---
+title: "Example dashboard with static data from Google"
+output:
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    theme: yeti
+---
+
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(googlesheets4)
+library(flexdashboard)
+library(plotly)
+
+# Make googlesheets4 not try to authenticate, since we're using a public sheet
+gs4_deauth()
+```
+
+```{r get-data, message=FALSE, include=FALSE}
+# The 1RKNn84xVLUanhGyX8DPvDSd8zt4GX_eBmK2ZX2nf0BI comes from the shared link
+# URL from Google Sheets. You can also refer to sheets by name if you're
+# authenticated into your account. See the googlesheets4 documentation for more
+# details
+remote_data <- read_sheet("1RKNn84xVLUanhGyX8DPvDSd8zt4GX_eBmK2ZX2nf0BI")
+```
+
+## Row
+
+### Categories {.value-box}
+
+```{r}
+# Find the number of unique categories
+n_categories <- remote_data %>% distinct(Category) %>% nrow()
+
+# Show the number in a special valueBox (note the {.value-box} CSS class
+# above—that applies the CSS class to the HTML output and makes it render
+# correctly)
+valueBox(value = n_categories, icon = "fas fa-users")
+```
+
+### Total {.value-box}
+
+```{r}
+# Get a total of all the counts
+total <- sum(remote_data$Count)
+
+# Show the number in a valueBox
+valueBox(value = total, icon = "fas fa-cubes")
+```
+
+## Row
+
+###
+
+```{r}
+# Make a basic column plot
+my_plot <- ggplot(remote_data, aes(x = Category, y = Count)) +
+  geom_col(aes(text = Count)) +
+  theme_minimal()
+
+# Show the plot with plotly
+ggplotly(my_plot, tooltip = "text")
+```

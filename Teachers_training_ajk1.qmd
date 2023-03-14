@@ -1,19 +1,22 @@
 ---
-title: "Preparing and presenting an effective  lecture"
-subtitle: "CTTI, goAJK"
-logo: "images/soe_logo.jpg"
-author: "Zahid Asghar"
-date: "September 22, 2022"
-format:
-  revealjs: 
-    slide-number: true
+title: "[How to be a great teacher]{.blue}"
+author: "[CTTI, goAJK]{.red}<br>[Sep 22, 2022]{.yellow}"
+format: 
+  revealjs:
+    footer: "[Zahid Asghar](https://zahidasghar.com)&nbsp;&nbsp;&nbsp;"
+    logo: "logo_soe.jpg"
+    theme: [default, custom2.scss]
+    slide-number: c/t
+    incremental: true
     chalkboard: true
-    #   buttons: false 
-    theme: [simple, custom2.scss]
     title-slide-attributes:
-      data-background-color: "#447099"
-resources:
-  - slides.pdf
+      data-background-image: images/hbr.jpg
+      data-background-size: cover
+execute:
+  echo: false
+  warning: false
+  freeze: auto
+editor: visual
 ---
 
 ```{r include=FALSE}
@@ -25,7 +28,7 @@ knitr::opts_chunk$set(fig.retina = 3, collapse = TRUE)
 options(digits = 3, width = 75)
 ```
 
-## About Me {background-color="`r clrs[5]`"}
+## About Me {background-color="aquamarine"}
 
 ::: columns
 ::: {.column width="30%"}
@@ -46,23 +49,15 @@ options(digits = 3, width = 75)
 :::
 :::
 
-# "If we want to move from [a future we dont want]{.red} to [a future we want]{.yellow}, we have to consciously [practice bold thinking]{.yellow} to achieve the [desired future.]{.yellow}" { background-color="`r clrs[1]`"}
+# "If we want to move from [a future we dont want]{.red} to [a future we want]{.yellow}, we have to consciously [practice bold thinking]{.yellow} to achieve the [desired future.]{.yellow}" {background-color="aquamarine"}
 
-
-## ![](images/mandela.jpg){fig-align="center" width="1300" height="750"} {.centered .center .middle background-color="`r clrs_lt[6]`"}
+## ![](images/mandela.jpg){fig-align="center" width="1300" height="750"} {.centered .center .middle background-color="aquamarine"}
 
 ::: notes
-Where is this weapon in our society
-Why dont we have this weapons?
-Can we have this weapon by degress?
-If so then AJK is one of the most literate region than most regions of Pakistan?
-How many of you want independent Kashmir?
-How many of you have written blogs on it (how many sleepless nights you have to achieve this objective)?
-If none, then we dont want to move to a new future
+Where is this weapon in our society Why dont we have this weapons? Can we have this weapon by degrees? If so then AJK is one of the most literate region than most regions of Pakistan? How many of you want independent Kashmir? How many of you have written blogs on it (how many sleepless nights you have to achieve this objective)? If none, then we dont want to move to a new future
 :::
 
-
-# [[How to Give a Killer Presentation HBR](https://hbr.org/2013/06/how-to-give-a-killer-presentation)]{background-color="`r clrs[5]`"}
+# [[How to Give a Killer Presentation HBR](https://hbr.org/2013/06/how-to-give-a-killer-presentation)]{background-color="aquamarine"}
 
 ##  {background-color="black" background-image="images/math.gif" background-size="300px" background-repeat="repeat"}
 
@@ -72,7 +67,7 @@ Have you ever enjoyed teaching your subject as a fun?
 
 ##  {background-color="black" background-image="images/chem.gif" background-size="400px" background-repeat="repeat"}
 
-## Why do we teach? {background-color="`r clrs_lt[5]`"}
+## Why do we teach? {background-color="aquamarine"}
 
 ::: {.incremental style="font-size: 1.8em;"}
 -   **What is your mission of teaching?**
@@ -83,9 +78,7 @@ Have you ever enjoyed teaching your subject as a fun?
 :::
 
 ::: notes
-The opportunity to profoundly impact the lives of children. ·we think we have an impact to shape better future
-Mission: My mission is transform students to think deeply, critically and challenge themselvers and put them on a learning path
-
+The opportunity to profoundly impact the lives of children. ·we think we have an impact to shape better future Mission: My mission is transform students to think deeply, critically and challenge themselvers and put them on a learning path
 :::
 
 ## Contents: {background-color="`r clrs_lt[5]`"}
@@ -124,22 +117,18 @@ Mission: My mission is transform students to think deeply, critically and challe
 
 ## Good Teacher {.center .middle background-color="`r clrs_lt[5]`"}
 
-::: panel-tabset
-## good teacher
-
 ![](images/good_teacher.png){fig-align="center" width="701"}
 
 ## How to become a good teacher?
 
 ![](images/good_teacher1.jpg){fig-align="center" width="676"}
-:::
 
 ## Modes of communication {background-color="`r clrs_lt[5]`"}
 
 ::: {.incremental style="font-size: 1.4em;"}
 -   [**Verbal**]{.yellow} **-- speaking words. Voice tone/pitch/volume.**
 
--   [**Intonation]{.yellow} : sarcastic, sad Word choice : lecture , friends , scientific meeting,**
+-   [**Intonation**]{.yellow} **: sarcastic, sad Word choice : lecture , friends , scientific meeting,**
 
 -   [**Nonverbal**]{.yellow} **: Knowledge ,skill & eye contact ,. body language, facial expression , gestures.**
 
@@ -286,10 +275,7 @@ Lecturer job:lessen student fears and encourage students to pursue deeper unders
 -   **Clarify areas of confusion**
 
 ::: notes
-So why not have summary notes polleverywhere.com
-for class activity
-If you notice I have one light Green color theme for all slides
-
+So why not have summary notes polleverywhere.com for class activity If you notice I have one light Green color theme for all slides
 :::
 
 # [[How to beat death by powerpoint](https://youtu.be/8qIqwqgtz9o)]{background-color="`r clrs[3]`"}
@@ -302,11 +288,21 @@ If you notice I have one light Green color theme for all slides
 
 ![](images/presentation_sim.png){.r-stretch}
 
-# The ability to learn faster than your competitors may be the only sustainable competitive advantage {.white background-color="`r clrs[6]`"}
+# The ability to learn faster than your competitors may be the only sustainable competitive advantage {.white background-color="`r clrs[3]`"}
 
+::: Aside
 Peter Senge: The Fifth Discipline
+:::
 
-##  {background-color="`r clrs_lt[6]`"}
+## Slide Title
+
+Slide content
+
+::: aside
+Some additional commentary of more peripheral interest.
+:::
+
+##  {background-color="`r clrs_lt[3]`"}
 
 ::: columns
 ::: {.column width="30%"}
@@ -330,7 +326,7 @@ Peter Senge: The Fifth Discipline
 
 ## Digital era education: challenges and oppotunities {background-color="`r clrs_lt[3]`"}
 
-:::{.incremental}
+::: incremental
 -   [Immense learning sources](khanacademy.com)
 -   [youtube](youtube.com) and
 -   much more
@@ -338,17 +334,16 @@ Peter Senge: The Fifth Discipline
 -   [Plinko](https://phet.colorado.edu/sims/html/plinko-probability/latest/plinko-probability_en.html)
 -   Flip based class room teaching
 :::
+
 ##  {background-color="`r clrs_lt[3]`"}
 
-[Teaching methods for inspiring students of the future](https://www.youtube.com/watch?v=UCFg9bcW7Bk){.centered background-color="#314f4f"} 
+[Teaching methods for inspiring students of the future](https://www.youtube.com/watch?v=UCFg9bcW7Bk){.centered background-color="#314f4f"}
 
-:::{.incremental} 
-
+::: incremental
 -   "**The mind is not a vessel that needs filling, but wood that needs igniting.**" Plutarch AD46-AD120
 
 -   "**Education is not the learning of facts, but the training of the mind to think.**" Abert Einstein 1879-1955
-
-::: 
+:::
 
 ##  {background-color="`r clrs_lt[3]`"}
 
@@ -366,8 +361,11 @@ Peter Senge: The Fifth Discipline
 -   **Creativity** and [**greatest of all these is**]{.yellow}
 
 -   [**LOVE**]{.red style="font-size: 2em;"}
-
 :::
+
+# [ChatGPT](https://chat.openai.com/chat/66cabaf0-a865-4b18-82e6-bee97f6f427c) {.middle .center background-color="`r clrs[3]`"}
+
+# [Role of a teacher in ChatGPT Era](https://chat.openai.com/chat)
 
 # [Stay Hungry, Stay Foolish]{.r-fit-text} {background-color="`r clrs[5]`"}
 
@@ -388,27 +386,40 @@ Peter Senge: The Fifth Discipline
 
 > **"[I have learned that people will forget what you]{.pink}[said]{.red}**, people will forget what you [**did**]{.red}, [but people will never forget how you made them]{.pink} [**feel**]{.red}." -Maya Angelou
 
+##  {.center .middle background-color="`r clrs[5]`"}
+
+### لوئے لوئے پرہ لے کڑ یے پانڈا جے پانڈا تدھ پر ہنا
+
+### شام پئی بن شام محمد تو کرہ جاندی نے ڈرنا
 
 ##  {.center .middle background-color="`r clrs[5]`"}
 
-###    لوئے لوئے پرہ لے  کڑ یے پانڈا جے پانڈا تدھ پر ہنا  
-###    شام پئی بن شام محمد تو کرہ جاندی نے ڈرنا
-
-
-##  {.center .middle background-color="`r clrs[5]`"}
 ### کںڈے سخت گلاباں والےدوروں ویکھ نہ ڈریے
 
 ### چوبھاں جھلیےرت چوایےتد ھ پھل چولی بھریے
 
-
-
 ##  {.center .middle background-color="`r clrs[2]`"}
 
+### اساں سویر دی ہن نیت لئی اے
 
-###                   اساں سویر دی ہن نیت لئی اے
-###                   سورج نو ں ہن چڑھنا پئے گا    
-###                   متھا ٹیکیاں ٹھڈے پیندے 
-###                  سر موہنڈے تے دھرنا  پئے گا 
-###                  جے سقراط دی پیڑھی بہنا 
-###                  سر دی ہانڈی کڑھنا  پئے گا 
+### سورج نو ں ہن چڑھنا پئے گا
 
+### متھا ٹیکیاں ٹھڈے پیندے
+
+### سر موہنڈے تے دھرنا پئے گا
+
+### جے سقراط دی پیڑھی بہنا
+
+### سر دی ہانڈی کڑھنا پئے گا
+
+##  {auto-animate="true"}
+
+::: {style="margin-top: 100px;"}
+Animating content
+:::
+
+##  {auto-animate="true"}
+
+::: {style="margin-top: 200px; font-size: 3em; color: red;"}
+Animating content
+:::

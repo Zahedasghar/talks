@@ -1,0 +1,214 @@
+---
+date: "March 11-12, 2023"
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    logo: ""
+    footer: "[Econfest](https://pide.org.pk/)"
+    height: 900
+    width: 1600
+    chalkboard: true
+    title-slide-attributes: 
+      data-background-color: "#447099"
+overview: true
+execute:
+  echo: false
+  warning: false
+  freeze: auto
+resources:
+  - slides.pdf
+editor: visual
+---
+
+```{r include=FALSE}
+library(tidyverse)
+library(httr)
+clrs <- MetBrewer::met.brewer(name = "Java")
+clrs_lt <- colorspace::lighten(clrs, 0.9)
+knitr::opts_chunk$set(fig.retina = 3, collapse = TRUE)
+options(digits = 3, width = 75)
+```
+
+##  {background-color="black" background-image="https://media1.giphy.com/media/UuMk5E6Rny0ZQEY7CL/giphy.gif?cid=ecf05e470djp716so3ao10xsvxqi1ats6q7g9apf1bcncb9w&rid=giphy.gif&ct=g" background-size="300px" background-repeat="repeat"}
+
+## Data Reasoning in Digital World
+
+Refuting nonsense based on data and techniques is more difficult to
+refute than common media falsification
+
+Our statistical tool based courses are mainly concerned on focuing
+tecnique and very little focus on quantitative reason and logic,
+therefore, even educated masses fail to spot bullshit and call it
+bullshit.
+
+Instead of following fake news and then finding ways out to deal with
+it, its important that our institutions teach basic skills to savvy
+media consumers, such as how to fact-check news articles to how pictures
+can lie (New York Time Op-ed, Mark Geleotti).
+
+Each of us talk bullshit and it has nothing to do with religious/less
+religious.
+
+Basic skills when one is talking bullshit vs Art of Critical Skill
+
+## 
+
+Bullshit : Not a new phenomenon but since millions of years even among
+animals
+
+Easy access to information has overloaded access
+
+Paltering
+
+# Falsehood flies and the truth comes limping after
+
+## 
+
+-   Ex-PM conspiracy by a powerful country
+-   Damage done and truth emerged
+
+Alberto Barndonlini in 2014, it states: *"The amount of energy need to
+refule bullshit is an order of magnitufe bigger than \[that needed\] to
+produce it."*
+
+Satirist Jonathan Swift wrote in 1710 that *"that falsehood flies, and
+truth comes limping after it."*
+
+FD Roosevelts' secretary of state, Cordell Hull: *"A lies will gallop
+halfway round the world before the truth has come to pull its breeches
+on."*
+
+Bullshit (Brandolini, Franelli and Swifts taken together)is i. bullshit
+takes less work to create that to clean up. ii. takes less intelligence
+to create than to clean up, and iii. spreads fafter than efforts to
+clean it up.
+
+## From Chopal/Baithak and Face the Nation to Facebook
+
+Truth tellers have another advantage. Social media provides a fertilizer
+for the rapid proliferation of distractions, misinformation, bullshit,
+and fake news.
+
+## No time but smartphone to spread bullshit
+
+-   Positive: easy to fact check but why bullshit goes unchecked
+-   Brother of printing press
+-   Anything can be produced if one has personal computer and internet
+
+**The inadequacy of the unvarnished truth"** - Mindless lists , quizes,
+memes, and celebrity gossip that proliferate media might crowd out
+careful analyses of the sort one sees in responsible media
+
+-   Prior to internet, large publisers cared about content and quality
+
+## Headlines for retention not for information
+
+Algorithms make things even worse. They are not designed to keep you
+informed but to keep you engaged.
+
+Being careful is admirable but it does not sell ads. Social media is
+fertile ground for disinformation.
+
+Tech entrepreneur Jeff Hammerbacher (Allen Ginsberg) complained in 2011
+that "The best minds of my generation are thinking about how to make
+people click ads. That sucks." Sophisticated ways to diverge our
+attention from real issues.
+
+## Misinformation and Disinformation
+
+December 2016, a website called AWD News published a frightening
+headline:
+
+    “Israeli Defense Minister: If Pakistan Send Ground Troops to Syria on Any Pretext, We Will Destroy the Country With Nuclear Attack.” 
+
+Story made a big headline and it named the wrong person as the Israeli
+Defense Minister.
+
+        Khawaja M Asif, then Pak Def Min via twitter responded “Israeli def min threatens nuclear retaliation presuming pak role in Syria against Daesh…Israel forgets Pakistan is a Nuclear state too.” 
+        
+
+## Think more share less
+
+Social media: firehouse strategy, our trust in friends and institutions
+erode. Gary Kasprov summarized this approach in a post on Twitter: "The
+point of modern propaganda isn't only to misinform or push an agenda, It
+is to exhaust your critical thinking, to annihilate truth."
+
+## Basic Approaches for Protecting ourselves against misinformation
+
+1.  Technology: AI technology to detect fake news
+2.  Government regulations
+3.  Most powerful approach is education. If we do a good job of
+    educating people in mdeia literacy and critical thinking, the
+    problem of misinformation and disinformation can be solved from the
+    bottom up.
+
+Due to internet bullshit spreads more easily in a massively networked,
+click-driven social media world than in any previous social environment.
+(Friends, Uncle, Small advertisement gatherings on roadside)
+
+## The Nature of Bullshit
+
+### Persuasive vs evasive
+
+### Bullshit and Black Boxes
+
+Cat people earn more than dog people ANCOVA, p-value
+
+Biases, data representation, relevant to the problem
+
+### Criminals and Machine Learning
+
+# Extraordinary claims require extraordinary evidence
+
+# CAUSALITY
+
+## 
+
+Red Sky at Night , Sailor's delight
+
+"Forget about a baby boom - rising home prices appear to be causing many
+would-be parents to think twice before expanding their family." Even the
+headline suggests causality: "Another Adverse Effect of High Home
+Prices: Fewer Babies."
+
+Beer and Pitcher
+
+"Where minimum wage is higher, poverty is lower." is not the same claim
+as "If minimum wage were to increase, poverty would decrease." The first
+reports a trend across cities: Those with higher minimum wage have lower
+poverty rates. The second suggests how one might go about reducing
+poverty in a particular city.
+
+## Delayed Gratification and Common Causes
+
+## Numbers and Nonsense
+
+Math $2+2=4$ Eng $2+2\approx4$ Accountatn: "Before I put anything in
+writing,"he says in a lower whisper, "what you want it to be?"
+
+Data can never lie is dangerous perspective, planets story 8, then 9 and
+now again 8
+
+Summary statistics condense information but if inappropriate, it can be
+misleading
+
+Percentage not appropriate if negative numbers
+
+# Selection Bia
+
+# Friendship Paradox
+
+# Berkson's Paradox
+
+## 
+
+        People who are in good health are more likely to participate in wellness program. Its not wellness program cause good health.
+        
+
+## The Hidden Cause of Murphy's Law
+
+In portugal: 60% of families with children have only one child, but 60%
+of children have siblings.
+
+![](images/image-346941666.png)
