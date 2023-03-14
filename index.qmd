@@ -376,19 +376,19 @@ Peter Senge: The Fifth Discipline
 
 > **"[I have learned that people will forget what you]{.pink}[said]{.red}**, people will forget what you [**did**]{.red}, [but people will never forget how you made them]{.pink} [**feel**]{.red}." -Maya Angelou
 
-##  {.center .middle background-color="`r clrs[5]`"}
+##  {.center .middle background-color="`r clrs[3]`"}
 
 ### لوئے لوئے پرہ لے کڑ یے پانڈا جے پانڈا تدھ پر ہنا
 
 ### شام پئی بن شام محمد تو کرہ جاندی نے ڈرنا
 
-##  {.center .middle background-color="`r clrs[5]`"}
+##  {.center .middle background-color="`r clrs[3]`"}
 
 ### کںڈے سخت گلاباں والےدوروں ویکھ نہ ڈریے
 
 ### چوبھاں جھلیےرت چوایےتد ھ پھل چولی بھریے
 
-##  {.center .middle background-color="`r clrs[2]`"}
+##  {.center .middle background-color="`r clrs[3]`"}
 
 ### اساں سویر دی ہن نیت لئی اے
 
@@ -402,14 +402,3 @@ Peter Senge: The Fifth Discipline
 
 ### سر دی ہانڈی کڑھنا پئے گا
 
-##  {auto-animate="true"}
-
-::: {style="margin-top: 100px;"}
-Animating content
-:::
-
-##  {auto-animate="true"}
-
-::: {style="margin-top: 200px; font-size: 3em; color: red;"}
-Animating content
-:::
