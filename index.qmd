@@ -3,7 +3,6 @@ title: "[Strategies to Become an Effective Teacher]{.blue}"
 author: "[CTTI, goAJK]{.red}<br>[March 15, 2023]{.yellow}"
 format: 
   revealjs:
-    footer: "[Zahid Asghar](https://zahidasghar.com)&nbsp;&nbsp;&nbsp;"
     logo: "logo_soe.jpg"
     theme: [default, custom2.scss]
     slide-number: c/t
