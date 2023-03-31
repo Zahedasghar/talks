@@ -48,7 +48,7 @@ options(digits = 3, width = 75)
 :::
 :::
 
-# "If we want to move from [a future we dont want]{.red} to [a future we want]{.yellow}, we have to consciously [practice bold thinking]{.yellow} to achieve the [desired future.]{.yellow}" {background-color="aquamarine"}
+## "If we want to move from [a future we dont want]{.red} to [a future we want]{.yellow}, we have to consciously [practice bold thinking]{.yellow} to achieve the [desired future.]{.yellow}" {background-color="aquamarine"}
 
 ## ![](images/mandela.jpg){fig-align="center" width="1300" height="750"} {.centered .center .middle background-color="aquamarine"}
 
@@ -294,6 +294,7 @@ Peter Senge: The Fifth Discipline
 :::
 
 ## 
+
 ::: columns
 ::: {.column width="30%"}
 ![](images/gr8_teacher.webp)[What makes a great teacher? A brief summary](https://owlcation.com/academia/Characteristics-Of-A-Good-Teacher)
@@ -401,4 +402,3 @@ Peter Senge: The Fifth Discipline
 ### جے سقراط دی پیڑھی بہنا
 
 ### سر دی ہانڈی کڑھنا پئے گا
-

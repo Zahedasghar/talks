@@ -1,0 +1,125 @@
+---
+title: "**Political stability and youth bulge**"
+subtitle: "**[Zahid Asghar](https://zahedasghar.netlify.app)**"
+toc: true
+format:
+  html:
+    theme: [default]
+    code-fold: true
+    code-link: true
+overview: true
+execute:
+  echo: true
+  warning: false
+  freeze: auto
+editor: visual
+---
+
+## Young population: boon or bane
+
+Whether a young population is a boon or a bane for a society depends on a number of factors, including the level of economic development, the quality of governance, and the degree of social and political inclusion. On the one hand, a young population can be a boon for a society in many ways as young and educated population can contribute to economic growth, innovation, social change, and cultural vibrancy.
+
+On the other hand, a young population can also pose challenges and risks for a society, particularly if young people are excluded from economic and social opportunities, or if they feel disconnected from the political process. For example, high levels of youth unemployment, combined with limited access to education and training, can lead to social unrest and political instability. This can be especially true for a country like **Pakistan** where there is a large gap between the aspirations of young people and the opportunities available to them. As a result this young population becomes a risk factor for issues such as crime, drug abuse, and other social problems, especially if young people lack positive role models and support systems.
+
+If one takes into account **Pakistan** socio-economic cum political circumstances over the last couple of decades, one will reach at a result that it has failed to make young population as a boon.
+
+## Analysis
+
+The theory "youth bulge" describes an excess in the young population of a country, is the real (and main) hidden force behind political instability. The term was first used by Gary Fuller in 1995, then adopted by the renowned political scientist Samuel Huntington, and later extended and popularized by German sociologist and economist [Gunnar Heinsohn](https://en.wikipedia.org/wiki/Gunnar_Heinsohn) in his book "Söhne und Weltmacht" (2003, new ed. 2019).
+
+I will use data aged 0-14 years population for the year 2019 for all the countries directly from `World Development Indicators` (WDI) data. Political stability data for the said year will also be directly obtained from the WDI package. These data sets are obtained as follows:
+
+```{r}
+#| warning: false
+#| message: false
+library(tidyverse)
+library(WDI)
+# age0_14 <- WDI(indicator = "SP.POP.0014.TO.ZS", start = 2019, end = 2019) # proportion of 0-14 year olds 
+# 
+# pol_stab <- WDI(indicator = "PV.EST", start = 2019, end = 2019) # political stability indicator
+# 
+# youth <- merge(age0_14, pol_stab) |> na.omit()
+# 
+# youth <- youth |> select(country, SP.POP.0014.TO.ZS, PV.EST)
+# 
+# colnames(youth) <- c("country", "age0_14", "pol_stab")
+
+```
+
+To save data for offline use, one can save it as `rds` and I am also getting summary of the this data using `gtsummary` package.
+
+```{r}
+#youth_data<- saveRDS(youth, file="youth.rds")
+
+youth_data <- readRDS("youth.rds")
+
+youth_data |> head() ## First six row
+
+```
+
+```{r}
+library(gt)
+
+library(gtsummary)
+
+library(gtExtras)
+
+youth_data |> select (pol_stab,age0_14) |> gt_plt_summary()
+```
+
+## Pakistan ranking 2019 (bottom 10 in political statibility)
+
+To assess where does Pakistan lie in political stability and youth population, unfortunately Pakistan also falls in those 10 countries in `political stability` and among top 10 in `youth` population share.
+
+```{r}
+library(kableExtra)
+youth_data <-
+  youth_data |> mutate(pol_stab = round(pol_stab, 2),
+                  age0_14 = round(age0_14, 2))
+
+
+youth_data |> arrange(pol_stab) |> top_n(-10) |>  kable() |>   kable_paper(bootstrap_options = "striped", full_width = F) |> 
+  row_spec(8, bold = T, color = "white", background = "#D7261E")
+
+
+```
+
+## Top 10 countries by political stability
+
+```{r}
+youth_data |> arrange(pol_stab) |> top_n(10) |> kable() |>  kable_paper(bootstrap_options = "striped", full_width = F)
+```
+
+## Relationship between political stability and youth
+
+```{r}
+#| warning: false
+#| message: false
+ggplot(data=youth_data)+aes(x=age0_14,y=pol_stab)+geom_point()+geom_smooth(method = "lm",se=FALSE)+
+  geom_point(aes(x =35.05438 , y = -2.265187,colour="red",size=2))+
+  labs(x="Proportion of young people (in %)",y="Political stability",title = "Youth bulge and political stability", 
+       subtitle = "There is close association between youth bulge and political stability where  
+       Pakistan has huge youth and low political stability", caption="By Zahid Asghar,data:WDI")+
+  geom_text( x =35.05438 , y = -2.265187, label = "Pakistan")
+
+```
+
+```{r}
+cor.test(youth_data$age0_14,youth_data$pol_stab)
+```
+
+From visual inspection and correlation test, it is obvious that both youth and political stability are highly negatively correlated. Correlation does not imply causation but one can see high negative relationship between the two which may have many candidate causes A young population can be a boon for a society in many ways. Here are a few potential benefits:
+
+  A young population can bring many potential benefits to a society, including *economic growth, innovation, social change, and cultural vibrancy*. However, realizing these benefits requires effective policies and investments in areas such as education, healthcare, and job creation, to ensure that young people have the opportunities and resources they need to succeed.
+
+There are several factors for having strong association between youth population and political stability. One factor is the role that young people play in the political process. In many societies, young people are often at the forefront of political movements and social change, and their engagement in the political process can be a catalyst for political stability. However, if young people are excluded from political participation or their voices are not heard, this can lead to political instability.
+
+Another factor is the economic conditions facing young people. High levels of youth unemployment or underemployment can lead to social unrest and political instability. On the other hand, when young people have access to education, employment opportunities, and other resources, they are more likely to be invested in the stability of their society.
+
+Additionally, the quality of governance can play a role in the relationship between youth population and political stability. When governments are responsive to the needs and concerns of young people, this can help to build trust and support for the political system. Conversely, when governments are seen as corrupt or unresponsive, this can lead to disillusionment and political unrest.
+
+Social media has created large gap between the aspirations of young people and opportunities to avail them. Pakistan has high levels of youth unemployment and underemployment combined with limited opportunities for social upward mobility which is leading to exploitation of youth by political, religious and other organizations. This may lead to social unrest and more political instability in the years to come in the absence of effective governance and social safety nets. 
+
+Overall, the relationship between youth population and political stability is complex and influenced by many different factors. While young people can be a source of political instability, they can also be a driving force for positive change and political reform.
+
+This blog post has also some material included from ChatGPT.

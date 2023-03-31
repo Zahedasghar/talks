@@ -1,0 +1,283 @@
+---
+title: "**Understanding and minimizing nonsense in digital world**"
+subtitle: "**[Zahid Asghar]{.pink}**"
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    logo: ""
+    height: 900
+    width: 1600
+    chalkboard: true
+    title-slide-attributes:
+      data-background-image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHAMfnThtxOgHlkLlRVU7RXmh-8eqpb3HMeVKiS_xF__P1Iy8KsikcQ2X_r6ccHAnXqoE&usqp=CAU
+      data-background-color: "#447099"
+overview: true
+execute:
+  echo: false
+  warning: false
+  freeze: auto
+resources:
+  - slides.pdf
+editor: visual
+---
+
+```{r include=FALSE}
+library(tidyverse)
+library(httr)
+clrs <- MetBrewer::met.brewer(name = "Java")
+clrs_lt <- colorspace::lighten(clrs, 0.9)
+knitr::opts_chunk$set(fig.retina = 3, collapse = TRUE)
+options(digits = 3, width = 75)
+```
+
+##  {background-color="black" background-image="https://media0.giphy.com/media/rvrUqtEdlw7yum4Mev/200w.webp?cid=ecf05e479ljjacyg3gljg41g2ty9i36w5rueowntchx8aakd&rid=200w.webp&ct=g" background-size="300px" background-repeat="repeat"}
+
+## [Data Reasoning in Digital World]{.yellow}
+
+::: incremental
+-   **How to refute nonsense/bullshit/false claims**
+
+-   [**Why our quant courses not very helpful**]{.yellow}
+
+-   **Each of us create lot of nonsense (irrespective of idealogy, belongings, profession)**
+
+-   [**Skills for talking bullshit vs Art of Critical Skill**]{.yellow}
+
+-   **Way forward**
+
+    ::: notes
+    Refuting nonsense based on data and techniques is more difficult to refute than common media falsification
+
+    Our statistical tool based courses are mainly concerned on focusing technique and very little focus on quantitative reason and logic, therefore, even educated masses fail to spot bullshit and call it bullshit.
+
+    Instead of following fake news and then finding ways out to deal with it, its important that our institutions teach basic skills to savvy media consumers, such as how to fact-check news articles to how pictures can lie (New York Time Op-ed, Mark Geleotti).
+
+    Each of us talk bullshit and it has nothing to do with religious/less religious.
+
+    Basic skills when one is talking bullshit vs Art of Critical Skill
+    :::
+:::
+
+## Bullshit is not a new phenomenon
+
+-   Millions of years even among animals
+
+-   Easy access to information has overloaded access
+
+-   Paltering
+
+# [Falsehood flies and the truth comes limping after it]{.yellow}
+
+## 
+
+-   Ex-PM conspiracy theory by a powerful country
+
+-   Damage done when truth emerged
+
+-   [Alberto Barndonlini in 2014, it states:]{.yellow} *"The amount of energy need to refule bullshit is an order of magnitufe bigger than \[that needed \] {.yellow} to produce it."*
+
+-   [Satirist Jonathan Swift wrote in 1710 that]{.yellow} *"that falsehood flies, and truth comes limping after it."*
+
+-   [FD Roosevelts' secretary of state, Cordell Hull:]{.yellow} *"A lies will gallop halfway round the world before the truth has come to pull its breeches on."*
+
+## Why lot of bullshit
+
+Bullshit (Brandolini, Franelli and Swifts taken together)is
+
+::: incremental
+1.  bullshit takes less work to create that to clean up.
+
+2.  takes less intelligence to create than to clean up, and
+
+3.  spreads faster than efforts to clean it up.
+:::
+
+## [Chopal/Baithak *Gupshup* and Face the Nation to Facebook]{.yellow}
+
+Truth tellers have another advantage. Social media provides a fertilizer for the rapid proliferation of distractions, misinformation, bullshit, and fake news.
+
+## [No time but smartphone to spread bullshit]{.yellow}
+
+-   Positive: easy to fact check but why bullshit goes unchecked
+-   Brothel of printing press
+-   Anything can be produced if one has personal computer and internet
+
+**The inadequacy of the unvarnished truth"** - Mindless lists , quizzes, memes, and celebrity gossip that proliferate media might crowd out careful analyses of the sort one sees in responsible media
+
+-   Prior to internet, large publisers cared about content and quality
+
+## [Headlines for retention not for information]{.yellow}
+
+Algorithms make things even worse. They are not designed to keep you informed but to keep you engaged.
+
+Being careful is admirable but it does not sell ads. Social media is fertile ground for disinformation.
+
+Tech entrepreneur Jeff Hammerbacher (Allen Ginsberg) complained in 2011 that "The best minds of my generation are thinking about how to make people click ads. That sucks." Sophisticated ways to diverge our attention from real issues.
+
+## [Misinformation and Disinformation]{.yellow}
+
+December 2016, a website called AWD News published a frightening headline:
+
+```         
+#### [“Israeli Defense Minister: If Pakistan Send Ground Troops to Syria on Any Pretext, We Will Destroy the Country With Nuclear Attack.”]{.yellow} 
+```
+
+Story made a big headline and it named the wrong person as the Israeli Defense Minister.
+
+```         
+ #### Khawaja M Asif, then Pak Def Min via twitter responded [“Israeli def min threatens nuclear retaliation presuming pak role in Syria against Daesh…Israel forgets Pakistan is a Nuclear state too.”]{.yellow} 
+    
+```
+
+## [Think more share less]{.yellow}
+
+#### Social media: firehouse strategy, our trust in friends and institutions erode.
+
+### [Gary Kasprov summarized this approach in a post on Twitter: "The point of modern propaganda isn't only to misinform or push an agenda, It is to exhaust your critical thinking, to annihilate truth."]{.yellow}
+
+## [Basic Approaches for Protecting ourselves against misinformation]{.yellow}
+
+1.  Technology: AI technology to detect fake news
+2.  Government regulations
+3.  Most powerful approach is education. If we do a good job of educating people in media literacy and critical thinking, the problem of misinformation and disinformation can be solved from the bottom up.
+
+Due to internet bullshit spreads more easily in a massively networked, click-driven social media world than in any previous social environment. (Friends, Uncle, Small advertisement gatherings on roadside)
+
+## The Nature of Bullshit
+
+### Persuasive vs evasive
+
+### Bullshit and Black Boxes
+
+### Cat people earn more than dog people, ANCOVA, p-value
+
+### Biases, data representation, relevant to the problem
+
+### Criminals and Machine Learning
+
+# Extraordinary claims require extraordinary evidence
+
+# CAUSALITY
+
+## 
+
+Red Sky at Night , Sailor's delight
+
+"Forget about a baby boom - rising home prices appear to be causing many would-be parents to think twice before expanding their family." Even the headline suggests causality: "Another Adverse Effect of High Home Prices: Fewer Babies."
+
+Beer and Pitcher
+
+```         
+    [**"Where minimum wage is higher, poverty is lower." is not the same claim as "If minimum wage were to increase, poverty would decrease."]{.yellow} The first reports a trend across cities: Those with higher minimum wage have lower poverty rates. The second suggests how one might go about reducing poverty in a particular city.**
+```
+
+## Delayed Gratification and Common Causes
+
+## Numbers and Nonsense
+
+Math $2+2=4$ Eng $2+2\approx4$
+
+Accountant: "Before I put anything in writing,"he says in a lower whisper, "what you want it to be?"
+
+Data can never lie is dangerous perspective, planets story 8, then 9 and now again 8
+
+Summary statistics condense information but if inappropriate, it can be misleading
+
+Percentage not appropriate if negative numbers
+
+# Selection Bias
+
+# Friendship Paradox
+
+# Berkson's Paradox
+
+## 
+
+### [**People who are in good health are more likely to participate in wellness program. Its not wellness program cause good health.**]{.yellow}
+
+## The Hidden Cause of Murphy's Law
+
+In Portugal: 60% of families with children have only one child, but 60% of children have siblings.
+
+![](images/image-1028213529.png)
+
+## Visualization
+
+\*\*Edward Tufte : While aesthetics are important, data graphics should be about the data, not about eye-catching. Graphs that violate this principle are called "ducks".
+
+Axis of evil
+
+## Ch 9 The Susceptibility of Science
+
+Science is humanirty's great invention, 13.7 billion years ago big bag Not ultimate reality Science is haphazard collection of institutions, norms, customs, and traditions that have developed by trial and error over the past several centuries. Academic science on twitter and social media while industrial sceince is concerned with output. Rewarding prestige instead of direct output is a wonderul trick for allowing a broad community of researchers to work together efficiently with minimal disruption of effort.
+
+Replication crisis begain in 21 century often fraud or incompentency
+
+\|5/53 cancer studies reproducible\| \|39/100 in social pyschology\| \|11/18 in experimental economics\|
+
+## 
+
+**The Prosecutor's Falla"cy** **"There is absolutely no chance of getting a fingerprint match this good simply by accident."** Is it different than **"No, we want to know what chance there is that my client is innocent given that we've got a match."**
+
+P(Match/innocent) is not the same as P(innocent/match)
+
+P-value used by scientists is often like an innocent person match the fingerprint from the crime.
+
+A p-value describes the probability of getting data at least as extreme as those observed, if the null hypothesis were true.
+
+## P-Kaching and Publication Bias
+
+Significant results over-reported than non-significant results
+
+"These two groups dont differ", "This treatment does'nt change the outcome", "Knowing x does not help us predict y." Reading all this implies like we are right back where we started.
+
+Often nudge their p-value across that critical p=0.05
+
+**How to avoid pitfall** : **Specify your hypothesis before analyze data, otherwise tortuing data enough will submit to nature (Coase)**
+
+1000 researchers 1000 hypothesis about relationship between political victories and analgesic use, all of which are fale. 50 lucky winners will rite up their results.
+
+## 
+
+-   **Bias Sample**
+
+-   **File Drawer effect**
+
+-   **Why most published research findings are false.**
+
+-   **Base rate fallacy**
+
+-   **Clickbait Science**
+
+-   **General public often skeptical**
+
+## The market for Bullshit Science
+
+In a typical market for consumer goods, money flows in one direction; goods flow in the other. Market for scholarly journals is different. A scholar pours her heart and soul into writing a scholarly paper. She provides her work to an academic publisher, which collects a number of such articles and bundles together as journal issue. The publisher charges libraries to subscribe, but does'nt pass any of the revenue on to the authors. Nothing inherently wrong with the idea of charging authors to publish their work. Open access publishing facilitates an increased readership which is good thing. This is story of half-glass full. There is an empty half glass as well.\
+Open access publishing creates a niche for low-quality journals that do not impose adequate standards. Many care for reputation and publish high quality journals but most will publish so long their check is cleared. Here is Goodhart's law again: What a measure becomes a target, it ceased to be a good measure. Parasites on the scientific publishing system, sucking tens of million of dollars from the academic system and polluting the literature with millions of unreliable articles. Web design and fraud Spam email: We congratulate you on this excellent work. If you have an additional research in this area, we would urge you to consider our journal for next publication...."
+
+**Image from google docs notes**
+
+## Spotting Bullshit
+
+-   Bullshit spotting requires care (walking at night) \### 1 .Question the source of information
+-   who is telling me this?
+-   How does he or she know it?
+-   What is this person trying to sell me?
+
+### 2. Beware of Unfair Comparisons
+
+### 3. It it seems too good or too bad to me to be true
+
+### 4. Think in orders of magnitude
+
+## Lies are designed to lead away from the truth; bullshit is produced with a gross indifference to truth.
+
+### NBC Nightly News story titled "Survey Finds Foreign Students Aren't Applying to American Colleges."
+
+## Refuting Bullshit
+
+Spotting Bullshit vs Calling Bullshit
+
+Calling Bullshit\
+Calling Bullshit is a performative utterance in which one repudiates something objectionable. The scope of targets is broader than bullshit alone. You can call bullshit on bullshit, but you can also call bullshit on lies, treachery, trickery, or injustice.
