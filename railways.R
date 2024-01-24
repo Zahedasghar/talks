@@ -1,4 +1,4 @@
-IS.RRS.PASG.KM
+#IS.RRS.PASG.KM
 library(ggthemes)
 library(tidyverse)
 library(gganimate)
@@ -16,13 +16,11 @@ NE.EXP.GNFS.CD
 
 df.railway=WDI(country="all", indicator=c("IS.RRS.PASG.KM"), start=2001, end=2022)
 
-library(ggplot2)
 #Alfred used a boxplot to provide an overview of the range of life expectanices across 
 #countries over a period of year. The outliers during the 1990s really jumped out:
-g=ggplot()+geom_boxplot(data=df.exp,aes(x=year,y=IS.RRS.PASG.KM, group=year))
+g=ggplot()+geom_boxplot(data=df.railway,aes(x=year,y=IS.RRS.PASG.KM, group=year))
 g=g+theme(axis.text.x = element_text(angle = 45, hjust = 1))
 g
-library(tidyverse)
 
 #Let's filter the data to tunnel down and look to see which country or countries the outliers correspond to:
 
@@ -31,10 +29,10 @@ library(tidyverse)
 #Rwanda is notable, so let's overlay the numbers for Export of Goods and Services in Rwanda on the chart:
 df1.railway<-df.railway %>% filter(country=='Pakistan'|country=='India'|country=="China"|country=="Japan")
 ggplot(df1.railway,aes(x=year,y=IS.RRS.PASG.KM,color=country))+geom_line()+labs(
-  title="Export of goods and service in current USD",x="year",
-  y="current USD", caption = "Source:WDI")+theme_minimal()
+  title="Number of passengers carried",x="year",
+  y="", caption = "Source:WDI")+theme_minimal()
 ## Animated one
-an<-ggplot(df1.exp,aes(x=year,y=NE.EXP.GNFS.CD,color=country))+geom_line()+labs(
+an<-ggplot(df1.railway,aes(x=year,y=IS.RRS.PASG.KM,color=country))+geom_line()+labs(
   title="Export of goods \n and service in \n current USD",x="year",
   y="current USD", caption = "Source:WDI")
 

@@ -1,0 +1,105 @@
+---
+title: "Transforming the Classroom: How AI is Revolutionizing Teaching and Learning"
+author: "Zahid Asghar"
+date: "2024-01-25"
+format:
+  revealjs:
+    theme: [default, custom2.scss]
+    title-slide-attributes:
+      data-background-image: images/ai-education.jpeg
+      data-background-size: cover
+execute:
+  echo: false
+  warning: false
+  freeze: auto
+
+---
+
+Double check answers
+
+What are games: dictator games
+What is average discount rate
+What is the average amount of money given in the dictator game
+
+You may ask chatGPT to rewrite sentence, soften the language, or make it more formal. You can also ask it to write a sentence in a specific style, such as academic or journalistic.
+
+Ask for quiz questions
+
+
+![](images/ai_education.webp)
+
+**Image:** A teacher using a digital tablet to interact with students in a futuristic classroom with robots and holographic displays.
+
+## Slide 2: Introduction
+
+* AI is rapidly changing the landscape of education, offering exciting possibilities for personalized learning, enhanced engagement, and improved outcomes.
+* This presentation explores the various ways AI is being used in the classroom today, from intelligent tutoring systems to automated grading and adaptive learning platforms.
+
+**Image:** A collage of different AI icons representing tools like chatbots, adaptive learning platforms, and virtual reality headsets.
+
+## Slide 3: Personalized Learning with AI
+
+* AI-powered systems can analyze student data to create personalized learning pathways, tailoring content and pace to individual needs and strengths.
+* This can help students learn more effectively, overcome challenges, and reach their full potential.
+
+![](images/ai_education8.webp)
+
+## Slide 4: AI-powered Teaching Assistants
+
+* Virtual assistants and chatbots can provide students with immediate support and answer their questions 24/7.
+* This frees up teachers to focus on higher-level tasks like providing individual guidance and facilitating discussions.
+
+![](images/ai_education12.webp)
+
+## Slide 5: Automated Grading and Feedback
+
+* AI can automate the grading of repetitive tasks like quizzes and essays, saving teachers valuable time and providing students with faster feedback.
+* AI-powered feedback systems can offer personalized insights and suggestions for improvement, helping students learn from their mistakes.
+
+
+## Slide 6: Adaptive Learning Platforms
+
+* These platforms use AI to adjust the learning content and difficulty based on each student's progress and understanding.
+* This ensures that students are challenged appropriately and not bored or frustrated by material that is too easy or too hard.
+
+## Slide 7: Immersive Learning with AI
+
+* AI-powered virtual reality and augmented reality experiences can transport students to different places and times, bringing history, science, and other subjects to life.
+* This can make learning more engaging and memorable, fostering deeper understanding and critical thinking skills.
+
+![](images/ai_education10.webp)
+## Slide 8: The Future of AI in Education
+
+* As AI technology continues to evolve, its potential to transform education is limitless.
+* We can expect to see even more personalized, engaging, and effective learning experiences powered by AI in the years to come.
+
+**Image:** A futuristic classroom with students using different AI-powered tools and technologies while a teacher interacts with them in a personalized way.
+
+## Slide 9: Conclusion
+
+* AI is not a replacement for teachers, but a powerful tool that can empower them to personalize learning, provide better support, and create engaging experiences for all students.
+* By embracing AI, we can ensure that every student has the opportunity to reach their full potential and thrive in the 21st century.
+
+![](images/blog-ai-in-education.webp)
+##
+
+![](images/ai_education11.webp)
+
+
+## 
+
+![](images/ai_education12.webp)
+
+
+## 
+
+![](images/ai_education13.webp) 
+## 
+
+![](images/ai_education14.webp) 
+
+
+
+##
+
+

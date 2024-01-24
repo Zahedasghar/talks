@@ -4,18 +4,19 @@ author: "[CTTI, goAJK]{.red}<br>[Sep 22, 2022]{.yellow}"
 format: 
   revealjs:
     footer: "[Zahid Asghar](https://zahidasghar.com)&nbsp;&nbsp;&nbsp;"
-    logo: "logo_soe.jpg"
+    #logo: "logo_soe.jpg"
     theme: [default, custom2.scss]
     slide-number: c/t
     incremental: true
     chalkboard: true
-    title-slide-attributes:
-      data-background-image: images/hbr.jpg
-      data-background-size: cover
+    #title-slide-attributes:
+      #data-background-image: images/hbr.jpg
+      #data-background-size: cover
 execute:
   echo: false
   warning: false
   freeze: auto
+css: title.css
 editor: visual
 ---
 

@@ -1,0 +1,29 @@
+---
+fromname: Zahid Asghar
+fromqualifications: Economics, PhD
+fromtitle: Professor
+fromWWW: zahidasghar.com
+fromemail: zasghar@qau.edu.pk
+fromphone: +51 9064 3037
+fromsignature: sigfile.jpg
+toname: Vice Chancellor
+toaddress:
+  - Quaid-i-Azam University
+  - Islamabad
+opening: "Dear Sir"
+closing: "Best wishes"
+spacing: 1.4
+ps: |
+  PS: Direct/Registrar.
+format: letter-pdf
+---
+      **Subject**: *Apporval of Micro-credentials center*
+In the fourth industrial revolution or digital era, people need to continually update their knowledge, skills and competences to fill the gap between their education and training and the demands of a rapidly changing labour market. Pakistan like rest of the world degree-based university education system is finding it very challenging to equip graduates with skills which are either becoming obsolete or yet not known. The future of traditional higher education and routine (after automatable) jobs is uncertain, and many potential futures exist. To move from a future, we don't want to move to a future we want, we have to think and practice boldly for benefiting from technologies of the time. How to benefit from virtual learning (one of the forum unavailable two decades back) opportunity to bridge this skill gap and prepare our labour force for the Gig economy?  
+
+Micro-credentials are helping to bridge skill gap emerging due to fast penetration of technological and digital technologies in the labour market. Main purposes of micro-credentials are employability, upskilling and reskilling, lifelong learning, adult education and inclusiveness.
+The Worthy Vice Chancellor has realized the need for this and has taken a step towards the establishment of QAU Micro-credentials centre and appointment of Director. This is an initiative towards reskilling and upskilling of labour force credentials irrespective of gender, age, income and geographic location. Centre will provide opportunity for learning as per requirements of the 3rd decade of the 21st century which is very affordable and accessible to all. 
+
+>  So far, there is no national approach which demands higher education institutions for developing micro-credentials programs which ensure quality, relevance, and some minimum standards so that these micro-credentials are acceptable in other parts of the world as well. This centre will hopefully work in partnership with higher education commission and other institutions on the subject matter.  
+
+
+Therefore, it is requested that formal approval of the centre may be given so that work on this national cause is started without any further delay. 

@@ -64,7 +64,7 @@ library(gtsummary)
 
 library(gtExtras)
 
-youth_data |> select (pol_stab,age0_14) |> gt_plt_summary()
+youth_data |> select (pol_stab,age0_14) |> gt_plt_summary() 
 ```
 
 ## Pakistan ranking 2019 (bottom 10 in political statibility)

@@ -1,0 +1,50 @@
+---
+title: "EC423: Economy of Pakistan"
+#author: ' Zahid Asghar, Anwar Shah'
+#date: "`r Sys.Date()`"
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+  pdf_document:
+    highlight: pygments
+subtitle: Fina exam
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**Note** : Attempt all the questions 
+
+#### Q#1 (15 points)
+
+How do you take that development is a coevolutionary process, the first step is *using what you have*? Or stating differently the first step of development for Pakistan is "using what you have," i.e., repurposing indigenous resources and knowledge to kick-start change, even if it means defying first-world norms. Be precise and you can disagree with it and may suggest solutions as proposed by first-world norms. 
+
+#### Q#2 (15 points)
+It is assumed that distortion of resources has bared Pakistan from achieving high and sustainable growth. How do you analyze this statement in terms of distortions in tariffs (subsidies on exports,high import taxes ), misallocation fo talent in terms of having underutilization of women potential in the labour market.
+1. Pakistan is committed to achieve Goal----------------- pertaining to the quality of education, which stipulates equitable education, removal of discrimination, provision, and up-gradation of infrastructure, skill development for sustainable progress, universal literacy, numeracy and enhancement of the professional capacity of teachers.
+a. Goal 1 of SDG  	   b. Goal 2 of SDG 	 c.  Goal 3 of SDG      d. Goal 4 of SDG
+2. Adult (15 years and above) literacy rate in Pakistan is
+a. 70% 		b. 40%		c. 50%		d. None of the above
+3. Expenditure on Education as percent of GDP in 2021-22(p) is
+a. 2		b. 2.9		c. 2.5	 	d.1.7
+4.Under PSDP 2022-23, the government allocated -----------to HEC for implementation of 154 development projects (138 ongoing and 16 newly approved projects) of public sector Universities/HEIs/HEC. 
+a. Rs 40.719 billion		Rs 41.719 billion	c. Rs 42.719 billion	d. Rs 44.719 billion
+5. Per Economic survey 2022-23, there are ------------Universities in the country with 57,204 thousand teachers in both public and private sectors functional in 2020-21. The overall enrolment of students in HEIs is 2.60 million in 2022-23
+a. 240		b.243		c. 245		d. 247
+
+6. Per Economic survey 2022-23, Total public sector health expenditure by federal and provincial governments in 2022-23 (p) as a percentage of GDP is
+a.2 		b. 3		c. 1.7		d. 1.4
+7. The 2022 floods damaged ------------of the health facilities resulting into disruption of health service delivery from the community level to primary healthcare (Rural Health Centres and Basic Health Units) through the secondary level (District Headquarters, Tehsil Headquarters, and Civil Hospitals). More than one-fifth of the facilities were completely damaged.
+a. less than 10 percent			b.10 percent		c. 12 percent		d. 13 percent
+8. life expectancy at birth in Pakistan in 2021 is
+a. 40.1		b.50.1		c.60.1		d.66.1
+9. Stunting Prevalence Among Children (Under Age 5)  is 
+a. less than 10 %		b. about 20 %		c. about 30 %		d. 37.6%
+10. Infant mortality rate per 1000 live birth in 2021 is
+a. 40.8		b.45.8		c.50.8		d.52.8
+
+
+---
+Good luck

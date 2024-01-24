@@ -1,0 +1,85 @@
+---
+title: "Inferential Statistics"
+author: ' Zahid Asghar'
+date: "`r Sys.Date()`"
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+  pdf_document:
+    highlight: pygments
+subtitle: Fina exam
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**Note** : Attempt all the questions 
+
+#### Q#1 (15 points)
+
+a. Write down four conditions to be satisfied for an experiment to be Binomial. 
+
+b. . For each of the following situations, state whether the parameter of
+interest is a mean or a proportion. It may be helpful to examine whether individual responses are numerical
+or categorical.
+(i) In a survey, one hundred college students are asked how many hours per week they spend on the Internet.
+(ii) In a survey, one hundred college students are asked: “What percentage of the time you spend on the
+Internet is part of your course work?”
+(iii) In a survey, one hundred college students are asked whether or not they cited information from Wikipedia
+in their papers.
+(iv) In a survey, one hundred college students are asked what percentage of their total weekly spending is
+on alcoholic beverages.
+(V) In a sample of one hundred recent college graduates, it is found that 85 percent expect to get a job
+within one year of their graduation date.
+
+
+#### Q#2 (12 points)
+A food safety inspector is called upon to investigate a restaurant with a few
+customer reports of poor sanitation practices. The food safety inspector uses a hypothesis testing framework
+to evaluate whether regulations are not being met. If he decides the restaurant is in gross violation, its license
+to serve food will be revoked.
+(a) Write the hypotheses in words.
+(b) What is a Type 1 Error in this context?
+(c) What is a Type 2 Error in this context?
+(d) Which error is more problematic for the restaurant owner? Why?
+(e) Which error is more problematic for the diners? Why?
+(f) As a diner, would you prefer that the food safety inspector requires strong evidence or very strong
+evidence of health concerns before revoking a restaurant’s license? Explain your reasoning. 
+
+#### Q#3 (8 points)
+ Let $Z \sim Bin(n = 10, p = .9)$. Find the following properties of $Z$.
+a. What are the different values that $Z$ can take?
+b. $E(Z)$
+c. $Var(Z)$
+d. $P(Z = 10)$ 
+
+#### Q#4  (10 points)
+ a.   A May 2023 Gallup poll suggests that 13% of Pakistani think
+home schooling provides an excellent education for children. Would
+a random sample of 1,000 Pakistani where only 100 share this
+opinion be considered unusual? 
+b.    
+
+#### Q#5 
+Define any three of the following terms:   
+
+a)    Central Limit Theorem
+b)    Sampling Distribution of the sample proportion
+c)    Type I error
+d)    Type II error
+e)    Power of a test
+
+#### Q# 6 
+ 
+Explain the following concepts (briefly) 
+
+
+a)    Point estimate and interval estimate
+b)    Type I and Type II Error
+c)    Null and Alternative Hypothesis
+d)    Central Limit Theorem and Law of Large Numbers
+
+---
+Good luck

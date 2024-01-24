@@ -1,11 +1,11 @@
 ---
-title: "[How to be a great teacher]{.blue}"
-author: "[CTTI, goAJK]{.red}<br>[Sep 22, 2022]{.yellow}"
+title: "[Preparing and Delving an Effective Lecture]{.blue}"
+author: "[CTTI, goAJK]{.red}<br>[Jan 25, 2024]{.yellow}"
 format: 
   revealjs:
     footer: "[Zahid Asghar](https://zahidasghar.com)&nbsp;&nbsp;&nbsp;"
-    logo: "logo_soe.jpg"
-    theme: [default, custom2.scss]
+    logo: "images/ajk_gov.jpg"
+    theme: [default, custom.scss]
     slide-number: c/t
     incremental: true
     chalkboard: true
@@ -28,14 +28,14 @@ knitr::opts_chunk$set(fig.retina = 3, collapse = TRUE)
 options(digits = 3, width = 75)
 ```
 
-## About Me {background-color="aquamarine"}
+## About Me {.scrollable}
 
 ::: columns
-::: {.column width="30%"}
-![](images/zahid.jpg){width="600"}
+::: {.column width="40%"}
+![](images/profile-pic.png){width="600"}
 :::
 
-::: {.column width="70%"}
+::: {.column width="60%"}
 ::: nonincremental
 -   Ph.D (Economics) --- Pakistan Institute of Development Economics, 2007
 -   Director, School of Economics (2019-Jan-22)
@@ -43,21 +43,45 @@ options(digits = 3, width = 75)
 -   Specializations:
     -   Applied Econometrics
     -   Data Analyst
-    -   Development Economics
+    -   Trainer
 -   Research interests : data for policy, data and analytical skill development ,data for policy
 :::
 :::
 :::
 
-# "If we want to move from [a future we dont want]{.red} to [a future we want]{.yellow}, we have to consciously [practice bold thinking]{.yellow} to achieve the [desired future.]{.yellow}" {background-color="aquamarine"}
+## {auto-animate=true}
 
-## ![](images/mandela.jpg){fig-align="center" width="1300" height="750"} {.centered .center .middle background-color="aquamarine"}
+::: {style="margin-top: 100px;"}
+Animating content
+:::
+
+## {auto-animate=true}
+
+::: {style="margin-top: 200px; font-size: 3em; color: red;"}
+Animating content
+:::
+
+## {auto-animate=true} 
+
+::: {style="margin-top: 60px;"}
+[*"If we want to move from* ]{.r-stretch}[*a future we dont want*]{.red} *to [a future we want]{.yellow}, we have to consciously [practice bold thinking]{.yellow} to achieve the [desired future.]{.yellow}"*
+:::
+
+
+## {auto-animate=true}
+
+
+::: {.incremental style="font-size: 2.2em;"}
+
+[*"If we want to move from* ]{.r-stretch}[*a future we dont want*]{.red} *to [a future we want]{.yellow}, we have to consciously [practice bold thinking]{.yellow} to achieve the [desired future.]{.yellow}"*
+
+:::
+
+## ![](images/mandela.jpg){fig-align="center" width="1300" height="750"} {.centered .center .middle}
 
 ::: notes
 Where is this weapon in our society Why dont we have this weapons? Can we have this weapon by degrees? If so then AJK is one of the most literate region than most regions of Pakistan? How many of you want independent Kashmir? How many of you have written blogs on it (how many sleepless nights you have to achieve this objective)? If none, then we dont want to move to a new future
 :::
-
-# [[How to Give a Killer Presentation HBR](https://hbr.org/2013/06/how-to-give-a-killer-presentation)]{background-color="aquamarine"}
 
 ##  {background-color="black" background-image="images/math.gif" background-size="300px" background-repeat="repeat"}
 
@@ -67,7 +91,7 @@ Have you ever enjoyed teaching your subject as a fun?
 
 ##  {background-color="black" background-image="images/chem.gif" background-size="400px" background-repeat="repeat"}
 
-## Why do we teach? {background-color="aquamarine"}
+## Why do we teach?
 
 ::: {.incremental style="font-size: 1.8em;"}
 -   **What is your mission of teaching?**
@@ -78,10 +102,10 @@ Have you ever enjoyed teaching your subject as a fun?
 :::
 
 ::: notes
-The opportunity to profoundly impact the lives of children. ·we think we have an impact to shape better future Mission: My mission is transform students to think deeply, critically and challenge themselvers and put them on a learning path
+The opportunity to profoundly impact the lives of children. We think we have an impact to shape better future Mission: My mission is transform students to think deeply, critically and challenge themselves and put them on a learning path
 :::
 
-## Contents: {background-color="`r clrs_lt[5]`"}
+## Contents
 
 ::: {.incremental style="font-size: 1.3em;"}
 1.  **Requirements of a good teacher**
@@ -115,7 +139,7 @@ The opportunity to profoundly impact the lives of children. ·we think we have a
 
 ------------------------------------------------------------------------
 
-## Good Teacher {.center .middle background-color="`r clrs_lt[5]`"}
+## Good Teacher {.center .middle background-color="`r clrs[3]`"}
 
 ![](images/good_teacher.png){fig-align="center" width="701"}
 
@@ -123,9 +147,9 @@ The opportunity to profoundly impact the lives of children. ·we think we have a
 
 ![](images/good_teacher1.jpg){fig-align="center" width="676"}
 
-## Modes of communication {background-color="`r clrs_lt[5]`"}
+## Modes of communication
 
-::: {.incremental style="font-size: 1.4em;"}
+::: {.incremental style="font-size: 1.2em;"}
 -   [**Verbal**]{.yellow} **-- speaking words. Voice tone/pitch/volume.**
 
 -   [**Intonation**]{.yellow} **: sarcastic, sad Word choice : lecture , friends , scientific meeting,**
@@ -135,7 +159,7 @@ The opportunity to profoundly impact the lives of children. ·we think we have a
 -   [**Written Communication ; Explain ?**]{.yellow}
 :::
 
-## Types of Teachers {background-color="`r clrs_lt[5]`"}
+## Types of Teachers
 
 ::: {.incremental style="font-size: 1.4em;"}
 -   **A mediocre Teacher : Tells**
@@ -146,7 +170,7 @@ The opportunity to profoundly impact the lives of children. ·we think we have a
 -   [**(**]{.yellow}**E[ffective]{.yellow} C[lassroom]{.yellow} M[anagement]{.yellow} T[echniques]{.yellow})**
 :::
 
-## [polleverywhere](pollev.com){background-color="`r clrs_lt[5]`"}
+## [polleverywhere](pollev.com){background-color="`r clrs[1]`"}
 
 ::: {style="font-size: 2.0em;"}
 [An ideal teacher](https://pollev-embeds.com/free_text_polls/lMfTtIjDiyJAdppRzvQbb){preview-link="true"}
@@ -164,22 +188,22 @@ average life
 commitment, conviction, consistency, clarity
 :::
 
-## Lecturing {.middle .left background-color="`r clrs_lt[5]`"}
+## Lecturing
 
 ### is a process by which knowledge is transferred from the teacher [(expert)]{.yellow} to young learners[(students)]{.yellow}. Unfortunately, there is [no single magical formula]{.pink} for that but still quite possible by following a series of steps and procedures which I hope will be made part of this training.
 
-##  {background-color="`r clrs_lt[5]`"}
+## Lecturer Job {.scrollable}
 
 ::: {.incremental style="font-size: 1.1em;"}
-Lecturer job:lessen student fears and encourage students to pursue deeper understanding
+Lessen student fears and encourage students to pursue deeper understanding
 
 -   [Through several teaching and curriculum approaches]{.yellow}
 
--   [integration during the class;]{.yellow}
+-   integration during the class;
 
 -   [expanded opportunities for two-way communication;]{.yellow}
 
--   [developing co-ownership of the course along with the students;]{.yellow}
+-   developing co-ownership of the course along with the students;
 
 -   [alternating lecture with small-group work to aid in learning difficult topics.]{.yellow}
 :::
@@ -194,7 +218,7 @@ Lecturer job:lessen student fears and encourage students to pursue deeper unders
 
 -   b- [**Promote links with other departments and/or disciplines where possible.**]{.darkblue}
 
-## Favorable classroom atmosphere {background-color="`r clrs_lt[5]`"}
+## Favorable classroom atmosphere
 
 ::: {.incremental style="font-size: 1.4em;"}
 -   **Some students seem naturally enthusiastic about learning, but many need-or expect-their instructors to [inspire, challenge, and stimulate]{.yellow} them:**
@@ -202,29 +226,29 @@ Lecturer job:lessen student fears and encourage students to pursue deeper unders
 -   [**"Effective learning in the classroom depends on the teacher's ability ... ??**]{.pink}
 :::
 
-## Teaching Modules {background-color="`r clrs_lt[5]`"}
+## Teaching Modules
 
 ::: {.incremental style="font-size: 1.2em;"}
 -   a-**Improving teaching provision within the department by identifying models of best practice and promoting new teaching initiatives and curriculum development.**
 
--   b- **Promote links with other departments and/or disciplines where possible.**
+-   [b- **Promote links with other departments and/or disciplines where possible.**]{.yellow}
 
--   [**Trans-disciplinary and multidisciplinary**]{.red}
+-   **Trans-disciplinary and multidisciplinary**
 :::
 
-## **Interactive Learning** {background-color="`r clrs_lt[5]`"}
+## **Interactive Learning**
 
 ::: {.incremental style="font-size: 1.5em;"}
 -   **Course assessment**
 
--   **Students assessment**
+-   [**Students assessment**]{.yellow}
 
--   [**Teaching Methods**]{.yellow}
+-   **Teaching Methods**
 
 -   [**A thousand teachers, a thousand methods.**]{.yellow}(Chinese proverb)
 :::
 
-## Oral Presentation: Methods and Materials {background-color="`r clrs_lt[5]`"}
+## Oral Presentation: Methods and Materials
 
 ::: {.increment style="font-size: 1.8em"}
 -   [YOUR VOICE]{.pink}
@@ -242,21 +266,21 @@ Lecturer job:lessen student fears and encourage students to pursue deeper unders
 3.  Speed
 :::
 
-## Closure {background-color="`r clrs_lt[5]`"}
+## Closure
 
 ::: {.incremental style="font-size: 1.1em"}
 1.  **No single teaching method covers everything**
 
-2.  **Optimal approach features a mixture of instructional methods and learning activities**
+2.  [**Optimal approach features a mixture of instructional methods and learning activities**]{.yellow}
 
 3.  **Optimal mixture changes over time with change in students?**
 
-4.  **Students involvement in the learning process**
+4.  [**Students involvement in the learning process**]{.yellow}
 
 5.  **Favorable classroom environment**
 :::
 
-## Summary {background-color="`r clrs_lt[5]`"}
+## Summary {.scrollable}
 
 -   [**What one thing did you learn today?**]{.yellow}
 
@@ -288,21 +312,15 @@ So why not have summary notes polleverywhere.com for class activity If you notic
 
 ![](images/presentation_sim.png){.r-stretch}
 
+# [[How to Give a Killer Presentation HBR](https://hbr.org/2013/06/how-to-give-a-killer-presentation)]{background-color="aquamarine"}
+
 # The ability to learn faster than your competitors may be the only sustainable competitive advantage {.white background-color="`r clrs[3]`"}
 
 ::: Aside
 Peter Senge: The Fifth Discipline
 :::
 
-## Slide Title
-
-Slide content
-
-::: aside
-Some additional commentary of more peripheral interest.
-:::
-
-##  {background-color="`r clrs_lt[3]`"}
+##  {.scrollable}
 
 ::: columns
 ::: {.column width="30%"}
@@ -324,7 +342,7 @@ Some additional commentary of more peripheral interest.
 :::
 :::
 
-## Digital era education: challenges and oppotunities {background-color="`r clrs_lt[3]`"}
+## Digital era education: challenges and oppotunities
 
 ::: incremental
 -   [Immense learning sources](khanacademy.com)
@@ -335,7 +353,7 @@ Some additional commentary of more peripheral interest.
 -   Flip based class room teaching
 :::
 
-##  {background-color="`r clrs_lt[3]`"}
+## 
 
 [Teaching methods for inspiring students of the future](https://www.youtube.com/watch?v=UCFg9bcW7Bk){.centered background-color="#314f4f"}
 
@@ -345,7 +363,7 @@ Some additional commentary of more peripheral interest.
 -   "**Education is not the learning of facts, but the training of the mind to think.**" Abert Einstein 1879-1955
 :::
 
-##  {background-color="`r clrs_lt[3]`"}
+## 
 
 **Allow students to engage in:**
 
@@ -369,22 +387,72 @@ Some additional commentary of more peripheral interest.
 
 # [Stay Hungry, Stay Foolish]{.r-fit-text} {background-color="`r clrs[5]`"}
 
-##  {background-color="`r clrs_lt[5]`"}
+##  {.scrollable}
 
 ::: incremental
 -   [I *am a great* TEACHER]{.r-fit-text}
 
 -   [BECAUSE...]{.r-fit-text}
-:::
-
-## Great teacher {background-color="`r clrs_lt[5]`"}
 
 -   [Celebrate mistakes]{.r-fit-text}
 -   [Appreciate differences]{.r-fit-text}
 -   [Relay feedback]{.r-fit-text}
 -   [Evaluate themselves]{.r-fit-text}
 
+##
+
 > **"[I have learned that people will forget what you]{.pink}[said]{.red}**, people will forget what you [**did**]{.red}, [but people will never forget how you made them]{.pink} [**feel**]{.red}." -Maya Angelou
+
+
+# Lets learn little bit about Economics
+
+##    
+
+![Demand Increase](images/ds1.gif){.r-stretch}
+## 
+
+![Supply increase](images/ds2.gif){.r-stretch}
+##
+
+![Demand and Supply increase](images/ds3.gif){.r-stretch} 
+
+
+##
+
+![Demand and Supply increase](images/ds4.gif){.r-stretch}
+
+
+
+
+
+## Lets' learn taxes and welfare
+
+
+![](images/ewelfare-1.gif){.r-stretch}
+## Higher the taxes, lower the welfare
+
+![](images/2tax.gif){.r-stretch}
+
+
+## Laffer curve on RHS
+Combine the two ideas of taxes and welfare
+
+![](images/2taxwelfare.gif){.r-stretch}
+
+##  Welfare loss is not shared equally
+
+![](images/ewelfare-1.gif){.r-stretch}
+
+
+##
+
+
+
+
+![](images/2subsidywelfare.gif){.r-stretch}
+## 
+
+![](images/taxdet.gif){.r-stretch}
 
 ##  {.center .middle background-color="`r clrs[5]`"}
 
@@ -423,3 +491,5 @@ Animating content
 ::: {style="margin-top: 200px; font-size: 3em; color: red;"}
 Animating content
 :::
+
+
