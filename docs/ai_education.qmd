@@ -1,10 +1,12 @@
 ---
-title: "Transforming the Classroom: How AI is Revolutionizing Teaching and Learning"
-author: "Zahid Asghar"
-date: "2024-01-25"
-format:
+title: "[Transforming the Classroom: How AI is Revolutionizing Teaching and Learning]{.darkblue}"
+author: "[CTTI, goAJK]{.red}<br>[Jan 25, 2024]{.yellow}"
+format: 
   revealjs:
+    footer: "[Zahid Asghar](https://zahidasghar.com)&nbsp;&nbsp;&nbsp;"
+    logo: "images/ajk_gov.jpg"
     theme: [default, custom.scss]
+    slide-number: c/t
     title-slide-attributes:
       data-background-image: images/ai-education.jpeg
       data-background-size: cover
@@ -20,47 +22,48 @@ execute:
 
 ## Introduction
 
--   AI is rapidly changing the landscape of education, offering exciting possibilities for personalized learning, enhanced engagement, and improved outcomes.
--   This presentation explores the various ways AI is being used in the classroom today, from intelligent tutoring systems to automated grading and adaptive learning platforms.
+-   AI is rapidly changing the landscape of education, offering exciting possibilities for [personalized learning]{.yellow}, enhanced engagement, and [improved outcomes.]{.yellow}
+-   This presentation introduces how AI is being used in the classroom today, from [intelligent tutoring systems]{.yellow} to automated grading and [adaptive learning platforms]{.yellow}.
 
 ## Personalized Learning with AI {.scrollable}
 
 -   AI-powered systems can analyze student data to create personalized learning pathways, tailoring content and pace to individual needs and strengths.
--   This can help students learn more effectively, overcome challenges, and reach their full potential.
-
-. . .
-
-![](images/ai_education8.webp)
-
-
-## AI-powered Teaching Assistants
-
--   Virtual assistants and chatbots can provide students with immediate support and answer their questions 24/7.
--   This frees up teachers to focus on higher-level tasks like providing individual guidance and facilitating discussions.
-
-
+-   This can help students [learn more effectively]{.yellow}, overcome challenges, and [reach their full potential]{.yellow}.
 
 ## 
 
-![](images/ai_education10.webp){.r-stretch} 
+![](images/ai_education8.webp)
 
+## AI-powered Teaching Assistants
 
-## Automated Grading and Feedback
+-   Virtual assistants and chatbots can provide students with [immediate support and answer their questions 24/7.]{.yellow}
 
--   AI can automate the grading of repetitive tasks like quizzes and essays, saving teachers valuable time and providing students with faster feedback.
--   AI-powered feedback systems can offer personalized insights and suggestions for improvement, helping students learn from their mistakes.
+-   This frees up teachers to focus on higher-level tasks like providing individual guidance and facilitating discussions.
+
+## 
+
+![](images/ai_education10.webp){.r-stretch}
+
+## [Automated Grading and Feedback]{.yellow}
+
+::: incremental
+-   AI can automate the [grading of repetitive tasks like quizzes and essays]{.yellow}, saving teachers valuable time and providing students with faster feedback.
+
+-   AI-powered feedback systems can offer [personalized insights and suggestions]{.yellow} for improvement, helping students learn from their mistakes.
+:::
 
 ## Adaptive Learning Platforms
 
+::: incremental
 -   These platforms use AI to adjust the learning content and difficulty based on each student's progress and understanding.
 -   This ensures that students are challenged appropriately and not bored or frustrated by material that is too easy or too hard.
+:::
 
 ## Immersive Learning with AI
 
--   AI-powered virtual reality and augmented reality experiences can transport students to different places and times, bringing history, science, and other subjects to life.
--   This can make learning more engaging and memorable, fostering deeper understanding and critical thinking skills.
+-   AI-powered [virtual reality]{.yellow} and [augmented reality]{.yellow} experiences can transport students to different places and times, bringing history, science, and other subjects to life. 
 
-
+-   This can make [learning more engaging and memorable]{.yellow}, fostering deeper understanding and critical thinking skills.
 
 ## The Future of AI in Education
 
@@ -69,8 +72,8 @@ execute:
 
 ## Conclusion
 
--   AI is not a replacement for teachers, but a powerful tool that can empower them to personalize learning, provide better support, and create engaging experiences for all students.
--   By embracing AI, we can ensure that every student has the opportunity to reach their full potential and thrive in the 21st century.
+-   [AI is not a replacement for teachers]{.yellow}, but a powerful tool that can empower them to personalize learning, provide better support, and create engaging experiences for all students.
+-   By embracing AI, we can ensure that [every student has the opportunity to reach their full potential and thrive in the 21st century.]{.yellow}
 
 ## 
 
@@ -86,26 +89,25 @@ execute:
 
 ## 
 
-![](images/ai_education13.webp) 
+![](images/ai_education13.webp)
 
-##
+## 
 
 ![](images/ai_education14.webp)
 
 ## Classroom activities
 
-::: {.callout-caution}
-
+::: callout-caution
 [**Double check answers, dont rely on AI tools blindly**]{.yellow}
-
 :::
 
--   What are games: dictator games 
--   What is average discount rate 
--   What is the average amount of money given in the dictator game 
--   What is the average amount of money given in the ultimatum game 
+-   What are games: dictator games
+-   What is average discount rate
+-   What is the average amount of money given in the dictator game
+-   What is the average amount of money given in the ultimatum game
 
 You may ask chatGPT to rewrite sentence, soften the language, or make it more formal. You can also ask it to write a sentence in a specific style, such as academic or journalistic.
 
 ## 
+
 Ask for quiz questions
