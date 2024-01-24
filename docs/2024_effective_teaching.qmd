@@ -428,7 +428,7 @@ Peter Senge: The Fifth Discipline
 
 ## 
 
-![CS & PS increase](images/welfaredat.gif){.r-stretch} 
+![CS & PS increase](images/welfareda.gif){.r-stretch} 
 
 ::: notes
 First, see the below gif. It shows us that both consumer surplus (blue area) and producer surplus (red area) always rise if there is a demand increase (assuming the law of supply and law of demand).
@@ -451,10 +451,6 @@ Now, see the below gif. It shows us that both consumer surplus (blue area) and p
 Combine the two ideas of taxes and welfare
 
 ![Laffer curve on RHS](images/2taxwelfare.gif){.r-stretch}
-
-## 
-
-![](images/ewelfare-1.gif){.r-stretch}
 
 
 
@@ -484,27 +480,7 @@ Combine the two ideas of taxes and welfare
 
 ### شام پئی بن شام محمد تو کرہ جاندی نے ڈرنا
 
-##  {.center .middle background-color="`r clrs[5]`"}
 
-### کںڈے سخت گلاباں والےدوروں ویکھ نہ ڈریے
-
-### چوبھاں جھلیےرت چوایےتد ھ پھل چولی بھریے
-
-##  {.center .middle background-color="`r clrs[2]`"}
-
-### اساں سویر دی ہن نیت لئی اے
-
-### سورج نو ں ہن چڑھنا پئے گا
-
-### متھا ٹیکیاں ٹھڈے پیندے
-
-### سر موہنڈے تے دھرنا پئے گا
-
-### جے سقراط دی پیڑھی بہنا
-
-### سر دی ہانڈی کڑھنا پئے گا
-
-
-# [Stay Hungry, Stay Foolish]{.r-fit-text} {background-color="`r clrs[5]`"}
+# [[Stay Hungry, Stay Foolish]{.yellow}]{.r-fit-text} 
 
 
