@@ -1,6 +1,6 @@
 ---
 title: "[Transforming the Classroom: How AI is Revolutionizing Teaching and Learning]{.darkblue}"
-author: "[CTTI, goAJK]{.red}<br>[Jan 25, 2024]{.yellow}"
+author: "[CTTI, goAJK]{.red}<br>[May 7, 2024]{.yellow}"
 format: 
   revealjs:
     footer: "[Zahid Asghar](https://zahidasghar.com)&nbsp;&nbsp;&nbsp;"

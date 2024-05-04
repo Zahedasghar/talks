@@ -1,0 +1,329 @@
+---
+title: "R Survey Report"
+format: 
+  html:
+    theme: [default, custom.scss]
+    toc: true
+    toc_depth: 2
+    toc_float: true
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      include = TRUE,
+                      warning = FALSE,
+                      message = FALSE)
+```
+
+```{r}
+# Load packages
+
+library(tidyverse)
+library(googlesheets4)
+library(janitor)
+library(lubridate)
+library(tigris)
+library(hrbrthemes)
+library(gendercoder)
+library(tidygeocoder)
+library(leaflet)
+library(scales)
+
+gs4_auth("g.zahid@gmail.com")
+```
+
+
+```{css}
+body {
+  font-size: 18px;
+}
+```
+
+
+```{r}
+# Set plotting default theme
+
+theme_set(theme_ipsum(base_family = "Inter",
+                      axis_title_family = "Inter"))
+```
+
+
+
+
+```{r}
+# Import our data
+survey_responses_today <- read_sheet("https://docs.google.com/spreadsheets/d/1T_UANDV5hPe9eH9EWl59ozoJ23hYx3fHhXTj3LaDczQ/edit?resourcekey#gid=1718910030") %>% 
+  # Make the variable names easy to work with
+  clean_names() %>% 
+  # Convert the timestamp into a date
+  mutate(timestamp = as.Date(timestamp)) %>% 
+  # Filter to only keep responses from today
+  filter(timestamp == as_date(now()))
+```
+
+# About our Respondents
+
+```{r}
+number_of_responses <- nrow(survey_responses_today)
+
+today_month <- month(now(),
+                     label = TRUE,
+                     abbr = FALSE) %>% 
+  as.character()
+
+today_day <- day(now()) %>% 
+  as.character()
+
+today_year <- year(now()) %>% 
+  as.character()
+
+today_pretty <- str_glue("{today_month} {today_day}, {today_year}")
+```
+
+We did a **survey** on `r today_pretty`. We received responses from `r number_of_responses` people. 
+
+
+
+
+## Age
+
+```{r}
+# This is a comment
+
+mean_age <- survey_responses_today %>% 
+  summarize(mean_age = mean(how_old_are_you, na.rm = TRUE)) %>% 
+  mutate(mean_age = round_half_up(mean_age, 1)) %>% 
+  pull(mean_age)
+
+max_age <- survey_responses_today %>% 
+  summarize(age = max(how_old_are_you, na.rm = TRUE)) %>% 
+  pull(age)
+
+min_age <- survey_responses_today %>% 
+  summarize(age = min(how_old_are_you, na.rm = TRUE)) %>% 
+  pull(age)
+```
+
+Respondents listed their age. The youngest respondent was `r min_age` years old and the oldest respondent was `r max_age`. The mean age was `r mean_age`.
+
+The graphs below shows the age of respondents broken into three groups.
+
+```{r}
+age_categorized <- survey_responses_today %>% 
+  mutate(age_category = case_when(
+    how_old_are_you < 30 ~ "Less than 30",
+    how_old_are_you < 50 ~ "Between 30 and 50",
+    how_old_are_you > 50 ~ "50 or older",
+  )) %>% 
+  select(how_old_are_you, age_category) %>% 
+  count(age_category) %>% 
+  mutate(age_category = factor(age_category, levels = c("Less than 30",
+                                                        "Between 30 and 50",
+                                                        "50 or older"))) %>% 
+  mutate(age_category = fct_rev(age_category)) %>% 
+  drop_na(age_category)
+
+ggplot(age_categorized, aes(age_category, n)) +
+  geom_col(fill = "#6CABDD") +
+  geom_text(aes(label = n),
+            hjust = 2,
+            color = "white") +
+  coord_flip() +
+  scale_y_continuous(breaks = pretty_breaks()) +
+  labs(title = "Age of Respondents",
+       x = NULL,
+       y = NULL) +
+  theme(panel.grid.major.x = element_blank(),
+        panel.grid.major.y = element_blank(),
+        panel.grid.minor.y = element_blank(),
+        panel.grid.minor.x = element_blank(),
+        axis.text.x = element_blank())
+```
+
+
+
+
+
+## Education
+
+The education levels of respondents are below.
+
+```{r fig.height=4}
+survey_responses_today %>% 
+  count(what_is_the_highest_level_of_education_you_have_completed) %>% 
+  mutate(what_is_the_highest_level_of_education_you_have_completed = factor(what_is_the_highest_level_of_education_you_have_completed, levels = c("Bachelor's degree", "Master's degree", "Doctoral degree", "Other"))) %>% 
+  mutate(what_is_the_highest_level_of_education_you_have_completed = fct_rev(what_is_the_highest_level_of_education_you_have_completed)) %>% 
+  drop_na(what_is_the_highest_level_of_education_you_have_completed) %>% 
+  ggplot(aes(what_is_the_highest_level_of_education_you_have_completed, n)) +
+  geom_col(fill = "#6CABDD") +
+  geom_text(aes(label = n),
+            hjust = 2,
+            color = "white") +
+  coord_flip() +
+  labs(title = "Education Levels of Respondents",
+       x = NULL,
+       y = NULL) +
+  scale_y_continuous(breaks = pretty_breaks()) +
+  theme(panel.grid.major.x = element_blank(),
+        panel.grid.major.y = element_blank(),
+        panel.grid.minor.y = element_blank(),
+        panel.grid.minor.x = element_blank(),
+        axis.text.x = element_blank())
+```
+
+
+## Locations
+
+Respondents listed the location of their primary residence. The map below shows their locations. 
+
+```{r fig.height=6}
+
+respondent_locations <- survey_responses_today %>% 
+  drop_na(what_is_the_city_of_your_residence) %>% 
+  geocode(address = what_is_the_city_of_your_residence,
+          method = "osm") %>% 
+  select(what_is_the_city_of_your_residence, long, lat)
+
+leaflet(respondent_locations) %>% 
+  addProviderTiles(providers$CartoDB.Positron) %>% 
+  addCircleMarkers(~long, ~lat,
+                   color = "#FF7400",
+                   stroke = FALSE, 
+                   fillOpacity = 0.7,
+                   popup = ~what_is_the_city_of_your_residence,
+                   clusterOptions = markerClusterOptions(showCoverageOnHover = FALSE))
+
+```
+
+## Gender
+
+Respondents were asked to list their gender, in whatever form they choose to identify it. 
+
+The original responses are below.
+
+
+```{r}
+survey_responses_today %>% 
+  drop_na(what_is_your_gender) %>% 
+  select(what_is_your_gender) %>% 
+  set_names("Gender (Original Response)") 
+```
+
+
+We then used the [gendercoder package](https://github.com/ropenscilabs/gendercoder) to recode responses. The table below shows the original responses and the recoded responses.
+
+```{r}
+survey_responses_today %>% 
+  drop_na(what_is_your_gender) %>% 
+  select(what_is_your_gender) %>% 
+  mutate(gender_recoded = recode_gender(what_is_your_gender)) %>% 
+  mutate(gender_recoded = str_to_title(gender_recoded)) %>% 
+  replace_na(list(gender_recoded = "Unable to recode")) %>% 
+  set_names("Original Responses", "Recoded Gender") 
+```
+
+We can then summarize the recoded responses, which we do in the following table.
+
+
+```{r}
+survey_responses_today %>% 
+  drop_na(what_is_your_gender) %>% 
+  select(what_is_your_gender) %>% 
+  mutate(gender_recoded = recode_gender(what_is_your_gender)) %>% 
+  mutate(gender_recoded = str_to_title(gender_recoded)) %>% 
+  replace_na(list(gender_recoded = "Unable to recode")) %>% 
+  count(gender_recoded) %>% 
+  set_names("Recoded Gender", "Number of Responses") 
+```
+
+
+# Familiarity with R
+
+```{r}
+mean_familiarity <- survey_responses_today %>% 
+  summarize(mean_familiarity = mean(how_familiar_are_you_with_data_reasoning, na.rm = TRUE)) %>% 
+  mutate(mean_familiarity = round_half_up(mean_familiarity, 1)) %>% 
+  pull(mean_familiarity)
+```
+
+On a 5-point scale, respondents listed their level of familiarity with R as `r number(mean_familiarity, .1)`. The figure below shows familiarity broken down by education level.
+
+```{r fig.height = 4}
+survey_responses_today %>% 
+  drop_na(what_is_the_highest_level_of_education_you_have_completed) %>% 
+  group_by(what_is_the_highest_level_of_education_you_have_completed) %>% 
+  summarize(mean_familiarity = mean(how_familiar_are_you_with_data_reasoning, na.rm = TRUE)) %>% 
+  mutate(mean_familiarity = round_half_up(mean_familiarity, 1)) %>% 
+  # mutate(what_is_the_highest_level_of_education_you_have_completed = fct_relevel(what_is_the_highest_level_of_education_you_have_completed, levels = c("Bachelor's degree", "Master's degree", "Doctoral degree", "Other"))) %>% 
+  # mutate(what_is_the_highest_level_of_education_you_have_completed = fct_rev(what_is_the_highest_level_of_education_you_have_completed)) %>% 
+  ggplot(aes(what_is_the_highest_level_of_education_you_have_completed, mean_familiarity)) +
+  geom_col(fill = "#6CABDD") +
+  geom_text(aes(label = number(mean_familiarity, .1)),
+            hjust = 1.5,
+            color = "white") +
+  coord_flip() +
+  scale_y_continuous(limits = c(0, 5),
+                     breaks = seq(0, 5, by = 1)) +
+  labs(title = "Familiarity with data reasoning by Education Level",
+       x = NULL,
+       y = NULL) +
+  theme(panel.grid.minor.y = element_blank(),
+        panel.grid.minor.x = element_blank())
+```
+
+
+
+# Interest in Learning R
+
+```{r}
+mean_interest <- survey_responses_today %>% 
+  summarize(mean_interest = mean(how_interested_are_you_in_learning_data_analysis, na.rm = TRUE)) %>% 
+  mutate(mean_interest = round_half_up(mean_interest, 1)) %>% 
+  pull(mean_interest)
+```
+
+On a 5-point scale, respondents listed their level of interest in learning R as `r number(mean_interest, .1)`.
+
+We can do a similar breakdown, but adding age. With one line of code, we can make small multiples. 
+
+```{r fig.height = 8}
+r_interest_by_ed_and_age <- survey_responses_today %>% 
+  mutate(age_category = case_when(
+    how_old_are_you < 30 ~ "Less than 30",
+    how_old_are_you < 50 ~ "Between 30 and 50",
+    how_old_are_you > 50 ~ "50 or older",
+  )) %>% 
+  group_by(what_is_the_highest_level_of_education_you_have_completed, age_category) %>% 
+  summarize(mean_interest = mean(how_interested_are_you_in_learning_data_analysis, na.rm = TRUE)) %>% 
+  ungroup() %>% 
+  mutate(mean_interest = round_half_up(mean_interest, 1)) %>% 
+  mutate(what_is_the_highest_level_of_education_you_have_completed = factor(what_is_the_highest_level_of_education_you_have_completed, levels = c("Bachelor's degree", "Master's degree", "Doctoral degree", "Other"))) #%>% 
+  # mutate(age_category = fct_relevel(age_category, 
+  #                                   levels = c("Less than 30",
+  #                                              "Between 30 and 50",
+  #                                              "50 or older"))) %>% 
+  # mutate(age_category = fct_rev(age_category)) %>% 
+  # drop_na(age_category, what_is_the_highest_level_of_education_you_have_completed)
+
+
+ggplot(r_interest_by_ed_and_age, 
+       aes(age_category, mean_interest,
+           fill = what_is_the_highest_level_of_education_you_have_completed)) +
+  geom_col() +
+  geom_text(aes(label = number(mean_interest, .1)),
+            hjust = 1.5,
+            color = "white") +
+  coord_flip() +
+  scale_y_continuous(limits = c(0, 5),
+                     breaks = seq(0, 5, by = 1)) +
+  scale_fill_manual(values = c("#6CABDD", "#FF7400", "#FFC659", "red")) +
+  labs(title = "Interest in Learning R by\nEducation Level and Age",
+       x = NULL,
+       y = NULL) +
+  facet_wrap(~what_is_the_highest_level_of_education_you_have_completed,
+             ncol = 1) +
+  theme(legend.position = "none", 
+        panel.grid.minor.y = element_blank(),
+        panel.grid.minor.x = element_blank())
+```
+

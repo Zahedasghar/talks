@@ -10,63 +10,122 @@ format:
 
 ![](images/ai_education.webp)
 
-**Image:** A teacher using a digital tablet to interact with students in a futuristic classroom with robots and holographic displays.
 
 ## Slide 2: Introduction
 
 * AI is rapidly changing the landscape of education, offering exciting possibilities for personalized learning, enhanced engagement, and improved outcomes.
 * This presentation explores the various ways AI is being used in the classroom today, from intelligent tutoring systems to automated grading and adaptive learning platforms.
 
-**Image:** A collage of different AI icons representing tools like chatbots, adaptive learning platforms, and virtual reality headsets.
 
 ## Slide 3: Personalized Learning with AI
 
 * AI-powered systems can analyze student data to create personalized learning pathways, tailoring content and pace to individual needs and strengths.
 * This can help students learn more effectively, overcome challenges, and reach their full potential.
 
-**Image:** A student using a tablet with an AI tutor that adjusts the difficulty of the learning material based on the student's performance.
 
 ## Slide 4: AI-powered Teaching Assistants
 
 * Virtual assistants and chatbots can provide students with immediate support and answer their questions 24/7.
 * This frees up teachers to focus on higher-level tasks like providing individual guidance and facilitating discussions.
 
-**Image:** A student interacting with a friendly chatbot on a computer screen, asking questions about a science experiment.
 
 ## Slide 5: Automated Grading and Feedback
 
 * AI can automate the grading of repetitive tasks like quizzes and essays, saving teachers valuable time and providing students with faster feedback.
 * AI-powered feedback systems can offer personalized insights and suggestions for improvement, helping students learn from their mistakes.
 
-**Image:** A teacher using an AI grading tool that automatically analyzes student essays and provides detailed feedback on grammar, content, and style.
+
 
 ## Slide 6: Adaptive Learning Platforms
 
 * These platforms use AI to adjust the learning content and difficulty based on each student's progress and understanding.
 * This ensures that students are challenged appropriately and not bored or frustrated by material that is too easy or too hard.
 
-**Image:** A student using an adaptive learning platform that changes the learning modules based on their answers to previous questions, keeping them engaged and challenged.
+
 
 ## Slide 7: Immersive Learning with AI
 
 * AI-powered virtual reality and augmented reality experiences can transport students to different places and times, bringing history, science, and other subjects to life.
 * This can make learning more engaging and memorable, fostering deeper understanding and critical thinking skills.
 
-**Image:** A student wearing a VR headset, exploring the pyramids of ancient Egypt in a virtual reality simulation.
 
 ## Slide 8: The Future of AI in Education
 
 * As AI technology continues to evolve, its potential to transform education is limitless.
 * We can expect to see even more personalized, engaging, and effective learning experiences powered by AI in the years to come.
 
-**Image:** A futuristic classroom with students using different AI-powered tools and technologies while a teacher interacts with them in a personalized way.
+
 
 ## Slide 9: Conclusion
 
 * AI is not a replacement for teachers, but a powerful tool that can empower them to personalize learning, provide better support, and create engaging experiences for all students.
 * By embracing AI, we can ensure that every student has the opportunity to reach their full potential and thrive in the 21st century.
 
-**Image:** A group of diverse students smiling and working together in a classroom filled with AI-powered learning tools, symbolizing the potential of AI to create a more inclusive and effective learning environment.
 
-I hope these slides provide a good overview of the use of AI in teaching. Please let me know if you have any questions.
 
+
+
+
+## {.fragment .fade-up}
+
+--- 
+
+## [The Future of Education with AI](https://youtu.be/hJP5GqnTrNo?si=wQH4KNmL5c1pR24n) 
+
+- Subtitle: Harnessing AI for Positive 
+    - "The Cheating Crisis: AI Threatens Education"
+    - "AI in Education: Undermining Learning?"
+    - "The Positive Potential of AI in Education"
+    - "AI as a Catalyst for Educational Transformation"
+    - "Empowering Teachers and Students with AI"
+
+---
+
+    - "Mitigating AI Cheating Concerns"
+    - "Leveraging AI for Positive Educational Transformation"
+    - "The Role of AI in Reshaping Education"
+    - "AI as a personal tutor"
+    - "AI as a teaching assistant"
+
+
+## Two Sigma Problem
+- "Benjamin Bloom's 2 Sigma Study"
+    - "1-to-1 Tutoring: Two Standard Deviation Improvement"
+    - "Unlocking Potential: From Average to Exceptional Students" 
+    - "AI Tutoring: A Scalable Solution to the 2 Sigma Problem"
+
+## AI Tutoring
+    - "Introducing Khanmigo: Your Personal AI Tutor"
+    - "Enhanced Learning Experience: Socratic Conversations"
+    - "AI Assistance in Math, Programming, and Literature"
+
+## Conmigo: Personalized Coaching
+    - "Empowering Students with Personal Coaching"
+    - "Guidance, Academic Support, and Career Counseling"
+    - "AI-Powered Coaching for Every Student"
+
+## AI Writing Coach
+    - "Collaborative Writing with AI Assistance"
+    - "Enhancing Writing Skills: AI-Student Collaboration"
+    - "Feedback, Guidance, and Improvement in Writing"
+
+## Reading Comprehension
+- Slide Text:
+    - "Interactive Reading Comprehension with AI"
+    - "Analyzing Texts, Answering Questions, and Providing Insights"
+    - "Enhancing Critical Thinking and Analysis Skills"
+
+## American History Example 
+    - "AI in the Classroom: American History Lesson"
+    - "AI-Powered Teaching Assistant for Teachers"
+    - "Lesson Planning, Explanation, and Progress Monitoring"
+
+## Making AI Magical 
+    - "Transformative Potential of AI in Education"
+    - "Enhancing AI Capabilities for a Magical Learning Experience"
+    - "Combining Human Intelligence with AI for Educational Advancement"
+
+---
+    - "Shaping the Future of Education with AI"
+    - "Balancing Caution and Innovation in AI Integration"
+    - "Harnessing AI for Human Potential and Purpose"

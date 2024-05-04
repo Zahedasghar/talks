@@ -1,0 +1,20 @@
+---
+format: html
+engine: jupyter
+jupyter: python3
+---
+
+```{python}
+#| echo: false
+from ipyleaflet import Map, Marker, basemaps, basemap_to_tiles
+m = Map(
+  basemap=basemap_to_tiles(
+    basemaps.NASAGIBS.ModisTerraTrueColorCR, "2017-04-08"
+  ),
+  center=(28.972036, 62.432438),
+  zoom=4
+)
+m.add_layer(Marker(location=(28.972036, 62.432438)))
+m
+```
+

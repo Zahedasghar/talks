@@ -1,0 +1,176 @@
+---
+title: "Regression with interaction variables"
+#title-block-banner: true
+#title-block-banner: images/R-user.webp
+author: "Zahid Asghar"
+number-sections: true
+highlight-style: pygments
+format:
+  html:
+    toc: true 
+    code-fold: true
+    code-tools: true
+    code-link: true
+    highlight-style: dracula
+    #theme: solarized
+
+editor: visual
+execute:
+  echo: false
+  warning: false
+  freeze: auto
+bibliography: references.bib
+---
+
+In this post I am going to discuss why do we need interaction of variables in regression variables in a simple way. I restrict myself to only a `case` where only independent variables are binary at the first stage. Let's start with loading packages we need to run and do analysis.
+
+```{r}
+#| label: load-pkgs
+#| code-summary: "Packages"
+#| message: false 
+
+library(tidyverse) ## A set of packages required to run analysis
+library(gt)   ## for nice table
+library(broom)  ## for nice regression output
+library(car)   ## Salaries data
+library(modelsummary)## For nice regression output
+
+```
+
+We present the results of exploratory data analysis (EDA) in @sec-eda and the regression analysis in @sec-regression. Objective is to explain interaction of variables in regression variables. I restrict myself to only a `case` where only independent variables are binary at the first stage. @muniyoor2024 is of the view that @shah2023 views are completely wrong.
+
+`Salaries` data contains information about faculty members in a college. It has information about `salary`, `sex`, `rank`, `discipline`, `years` and `phd`. There are `r nrow(Salaries)` observations and `r ncol(Salaries)` variables in the data.
+
+## Simple Tabular Analysis {#sec-eda}
+
+I am going to calculate `mean` salary of `Male` and `Female` faculty as follows:
+
+```{r}
+#| label: tbl-stats
+#| tbl-cap: "Summary statistics of Salaries data" 
+
+Salaries |> #<1>
+  group_by(sex) |> #<2>
+  summarise(avg_salary=mean(salary)) |> #<3>
+  gt() #<4>
+
+```
+
+1.  Read Salaries data then use `pipe` operator
+2.  group data by gender , use `pipe` opertor ( I read as pipe operator as `THEN`)
+3.  summarise data , THEN
+4.  use it as a nice table as `gt()`
+
+@tbl-stats results indicate that `Male` faculty members have salary $\$14088$ higher than `Female` faculty if other variables are not included (or in technical jargon are not controlled for).[@muniyoor2024]
+
+Now I am going to use `relevel` function to change the base line of `sex` variable from `Male` to `Female` and then calculate mean salary of `Male` and `Female` faculty. These results are showin in @tbl-stats2.
+
+```{r}
+#| label: tbl-stats2
+#| tbl-cap: "Summary statistics of Salaries data"
+
+Salaries |> 
+mutate(sex = relevel(sex, ref = "Male")) |> 
+  group_by(sex) |> 
+  summarise(avg_salary=mean(salary)) |> 
+  gt()
+```
+
+### Table with sex and discipline
+
+Now I add another variable which is `discipline` and see how `Male` and `Female` faculty earnings change by discipline.
+
+```{r}
+
+Salaries |> group_by(sex, discipline) |> 
+  summarise(avg_salary=mean(salary)) |> 
+  gt()
+
+```
+
+## Regression Analysis {#sec-regression}
+
+We can run a simple linear regression model of the form shown in @eq-regression.
+
+$$
+salary_i=\beta_0+\beta_1sex_i+\epsilon_i
+$$ {#eq-regression}
+
+where $i=1,2,3,\ldots,n$ and $\epsilon_i$ is error term.
+
+```{r}
+#| label: tbl-lm
+#| tbl-cap: "Regression results of Salaries data"
+
+SLR <- lm(salary ~ sex, data=Salaries)
+msummary(SLR)
+```
+
+@tbl-lm shows the results of regression analysis. The coefficient of `sexMale` is $\beta_1$ and it is equal to $\$14088$ which is same as difference between `Male` and `Female` faculty members.
+
+### Regression with relevel
+
+Now I am going to use `relevel` function to change the base line of `sex` variable from `Male` to `Female` and then run the regression model. These results are shown in @tbl-lm2.
+
+```{r}
+#| label: tbl-lm2
+#| tbl-cap: "Regression results of Salaries data"
+
+Sal <- Salaries |> mutate(sex = relevel(sex, ref = "Male")) 
+ 
+lm(salary ~ sex, data=Sal) |> msummary()
+```
+
+@tbl-lm2 shows the results of regression analysis. The coefficient of `sexFemale` is $\beta_1$ and it is equal to $\$-14088$ which is same as difference between `Male` and `Female` faculty members.
+
+### Regression with `sex` and `discipline`
+
+```{r}
+#| label: tbl-lm3
+#| tbl-cap: "Regression results of Salaries data"
+
+MLR <- lm(salary ~ sex + discipline, data = Salaries)
+
+msummary(MLR)
+
+
+```
+
+@tbl-lm3 `coefficients` on `sexMale` indicate `Male` earnings vs `Female` but not answering question what if `Male` is from `disciplineA` or `disciplineB` as was obvious from the table where both sex and discipline results are obvious. This will be answered in the following regression equation.
+
+## Interaction variable regression
+
+```{r}
+#| label: tbl-lm4
+#| tbl-cap: "Regression results with interaction term of Salaries data"
+ options(scipen = 999)
+
+ILR <- lm(salary ~ sex + discipline + sex* discipline, data=Salaries)
+
+msummary(ILR,fmt = fmt_decimal(digits = 2, pdigits = 3))
+
+
+```
+
+@tbl-lm4 results answer our questions: A `Female` from `disciplineA` earns $\$ 89064.94$ per year while `Female` from `DisciplineB` earns $\$ 89064.94$+ $\$22169.58$ equal to `r 89064.94+ 22169.58`, as second and fourth coefficient will be zero. `Male` with `disciplineA` earns $\$ 89064.94$ + $\$21635.04$ while `Male` with `DisciplineB` earns equal to sum of all these coefficients as it means `Male` and `DisciplineB` are equal to $1$ , therefore their interaction will also be $1$. So now compare these results with tabular results, both will be exactly same.
+
+@tbl-lm4 results also show that coefficient for `sexMale` is `r coef(ILR)[2]`.
+
+## Why regression when table is so easy
+
+Question is why one needs to do regression analysis if table results are so simple and easy. If one has one or two variables, then of course, table is simple and specially if they are binary or categorical. But as either number of variables increase and are continuous, then doing analysis with tables is quite messy. For example if we have to add some more variables in our regression table which include may include `rank` of a faculty, `years since phd` and`years in service`, doing tabular analysis will be very messy and interpreting results will no more be an easy taks.
+
+```{r}
+long_model <- lm(salary ~ sex + discipline + sex*discipline +
+                   rank + yrs.since.phd + yrs.service, data = Salaries)
+
+tidy(long_model)
+
+```
+
+## All regression
+
+```{r}
+modelsummary(list(SLR, MLR, ILR, long_model))
+
+```

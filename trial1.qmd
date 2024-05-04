@@ -1,0 +1,165 @@
+---
+title: "[R-Karachi User Group]{.darkblue}"
+title-block-banner: true
+#title-block-banner: docs/images/R-user.webp
+format: 
+  html:
+    toc: true
+    toc-float: true
+    code-fold: true
+    code-tools: true
+    code-link: true
+    highlight-style: dracula
+    #theme: docs/custom.scss
+editor: visual
+---
+
+## [Quarto]{.yellow}
+
+Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+
+## [Bullets]{.yellow}
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+## [Code]{.yellow} 
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+## [Plot]{.yellow}
+
+You can also embed plots, for example:
+
+```{r}
+plot(cars)
+```
+
+## [Inline Code]{.yellow}
+
+You can embed inline R code like this: `r 2 + 2`.
+
+## Tables
+
+You can also embed tables, for example:
+
+```{r}
+library("knitr")
+kable(head(iris))
+```
+
+## Slide with Bullets
+
+-   Bullet 1
+-   Bullet 2
+-   Bullet 3
+
+## Slide with R Output
+
+```{r}
+summary(cars)
+
+```
+
+## Slide with Plot
+
+
+
+```{r}
+plot(pressure)
+
+
+```
+
+## Slide with Plot and Summary
+
+```{r}
+summary(cars)
+plot(pressure)
+
+```
+
+
+## tabset
+
+::: {.panel-tabset}
+
+## Plot
+
+```{r}
+plot(pressure)
+
+```
+
+## Data
+
+```{r}
+summary(cars)
+
+
+```
+
+:::
+
+## Columns
+
+::: {.columns}
+
+:::: {.column width="50%"}
+
+### Column 1
+
+```{r}
+plot(pressure)
+
+
+```
+
+::::
+
+:::: {.column width="50%"}
+
+### Column 2
+
+```{r}
+summary(cars)
+
+```
+
+::::
+
+:::
+
+## Code
+
+```{r}
+library(tidyverse)
+
+# Create a data frame
+
+df <- data.frame(
+  x = c(1, 2, 3, 4, 5),
+  y = c(1, 4, 9, 16, 25)
+)
+```
+
+
+## Plot the data frame
+
+```{r}
+ggplot(df, aes(x, y)) +
+  geom_point() +
+  geom_line() +
+  labs(
+    title = "A line graph",
+    subtitle = "With a subtitle",
+    caption = "Source: my imagination"
+  ) +
+  theme_minimal()
+```

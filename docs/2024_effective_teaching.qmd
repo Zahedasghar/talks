@@ -1,5 +1,5 @@
 ---
-title: "[Preparing and Delving an Effective Lecture]{.blue}"
+title: "[Preparing  Lecture]{.darkblue}"
 author: "[CTTI, goAJK]{.red}<br>[Jan 25, 2024]{.yellow}"
 format: 
   revealjs:
@@ -53,8 +53,9 @@ options(digits = 3, width = 75)
 
 ## {auto-animate=true} 
 
-::: {style="margin-top: 60px;"}
-[*"If we want to move from* ]{.r-stretch}[*a future we dont want*]{.red} *to [a future we want]{.yellow}, we have to consciously [practice bold thinking]{.yellow} to achieve the [desired future.]{.yellow}"*
+::: {style="margin-top: 60px;"} 
+
+*"If we want to move from a future we dont want [to a future we want]{.yellow}, we have to consciously [practice bold thinking]{.yellow} to achieve the [desired future.]{.yellow}"*
 :::
 
 
@@ -63,23 +64,31 @@ options(digits = 3, width = 75)
 
 ::: {.incremental style="font-size: 2.2em;"}
 
-[*"If we want to move from* ]{.r-stretch}[*a future we dont want*]{.red} *to [a future we want]{.yellow}, we have to consciously [practice bold thinking]{.yellow} to achieve the [desired future.]{.yellow}"*
+*"If we want to move from a future we dont want [to a future we want]{.yellow}, we have to consciously [practice bold thinking]{.yellow} to achieve the [desired future.]{.yellow}"*
 
 :::
+
+## {.scrollable} 
+
+-   ### Your goal as a teacher 
+-   ### [My goal for today (gup-shup)]{.yellow}
+-   ### Your dream, big dream 
+-   ### [Excellent teacher (e.g) goal, what you are doing for it]{.yellow} 
+-   ### Are you a joker
+-   ### [Books]{.yellow} vs [Food]{.yellow} 
+-   ### Are you waiting for favorable season?
+-   ### [What do you do on weekends]{.yellow}
+-   ### What you have browsed during last one month 
+-   ### [What you are discussing with each other]{.yellow}
+
+:::
+
 
 ## ![](images/mandela.jpg){fig-align="center" width="1300" height="750"} {.centered .center .middle}
 
 ::: notes
 Where is this weapon in our society Why dont we have this weapons? Can we have this weapon by degrees? If so then AJK is one of the most literate region than most regions of Pakistan? How many of you want independent Kashmir? How many of you have written blogs on it (how many sleepless nights you have to achieve this objective)? If none, then we dont want to move to a new future
 :::
-
-##  {background-color="black" background-image="images/math.gif" background-size="300px" background-repeat="repeat"}
-
-::: notes
-Have you ever enjoyed teaching your subject as a fun?
-:::
-
-##  {background-color="black" background-image="images/chem.gif" background-size="400px" background-repeat="repeat"}
 
 ## Why do we teach?
 
