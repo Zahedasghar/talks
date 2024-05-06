@@ -81,11 +81,11 @@ format:
 
 ---
 
-    - "Mitigating AI Cheating Concerns"
-    - "Leveraging AI for Positive Educational Transformation"
-    - "The Role of AI in Reshaping Education"
-    - "AI as a personal tutor"
-    - "AI as a teaching assistant"
+- "Mitigating AI Cheating Concerns"
+- "Leveraging AI for Positive Educational Transformation"
+- "The Role of AI in Reshaping Education"
+- "AI as a personal tutor"
+- "AI as a teaching assistant"
 
 
 ## Two Sigma Problem
@@ -95,37 +95,36 @@ format:
     - "AI Tutoring: A Scalable Solution to the 2 Sigma Problem"
 
 ## AI Tutoring
-    - "Introducing Khanmigo: Your Personal AI Tutor"
-    - "Enhanced Learning Experience: Socratic Conversations"
-    - "AI Assistance in Math, Programming, and Literature"
+- "Introducing Khanmigo: Your Personal AI Tutor"
+- "Enhanced Learning Experience: Socratic Conversations"
+- "AI Assistance in Math, Programming, and Literature"
 
 ## Conmigo: Personalized Coaching
-    - "Empowering Students with Personal Coaching"
-    - "Guidance, Academic Support, and Career Counseling"
-    - "AI-Powered Coaching for Every Student"
+- "Empowering Students with Personal Coaching"
+- "Guidance, Academic Support, and Career Counseling"
+- "AI-Powered Coaching for Every Student"
 
 ## AI Writing Coach
-    - "Collaborative Writing with AI Assistance"
-    - "Enhancing Writing Skills: AI-Student Collaboration"
-    - "Feedback, Guidance, and Improvement in Writing"
+- "Collaborative Writing with AI Assistance"
+- "Enhancing Writing Skills: AI-Student Collaboration"
+- "Feedback, Guidance, and Improvement in Writing"
 
 ## Reading Comprehension
-- Slide Text:
-    - "Interactive Reading Comprehension with AI"
-    - "Analyzing Texts, Answering Questions, and Providing Insights"
-    - "Enhancing Critical Thinking and Analysis Skills"
+- "Interactive Reading Comprehension with AI"
+- "Analyzing Texts, Answering Questions, and Providing Insights"
+- "Enhancing Critical Thinking and Analysis Skills"
 
 ## American History Example 
-    - "AI in the Classroom: American History Lesson"
-    - "AI-Powered Teaching Assistant for Teachers"
-    - "Lesson Planning, Explanation, and Progress Monitoring"
+- "AI in the Classroom: Indo-Pak History Lesson"
+- "AI-Powered Teaching Assistant for Teachers"
+- "Lesson Planning, Explanation, and Progress Monitoring"
 
 ## Making AI Magical 
-    - "Transformative Potential of AI in Education"
-    - "Enhancing AI Capabilities for a Magical Learning Experience"
-    - "Combining Human Intelligence with AI for Educational Advancement"
+- "Transformative Potential of AI in Education"
+- "Enhancing AI Capabilities for a Magical Learning Experience"
+- "Combining Human Intelligence with AI for Educational Advancement"
 
 ---
-    - "Shaping the Future of Education with AI"
-    - "Balancing Caution and Innovation in AI Integration"
-    - "Harnessing AI for Human Potential and Purpose"
+- "Shaping the Future of Education with AI"
+- "Balancing Caution and Innovation in AI Integration"
+- "Harnessing AI for Human Potential and Purpose"

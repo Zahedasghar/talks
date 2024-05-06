@@ -49,40 +49,61 @@ options(digits = 3, width = 75)
 :::
 :::
 
+##  {auto-animate="true"}
 
-
-## {auto-animate=true} 
-
-::: {style="margin-top: 60px;"} 
-
+::: {style="margin-top: 60px;"}
 *"If we want to move from a future we dont want [to a future we want]{.yellow}, we have to consciously [practice bold thinking]{.yellow} to achieve the [desired future.]{.yellow}"*
 :::
 
-
-## {auto-animate=true}
-
+##  {auto-animate="true"}
 
 ::: {.incremental style="font-size: 2.2em;"}
-
 *"If we want to move from a future we dont want [to a future we want]{.yellow}, we have to consciously [practice bold thinking]{.yellow} to achieve the [desired future.]{.yellow}"*
-
 :::
 
-## {.scrollable} 
+##  {.scrollable}
 
--   ### Your goal as a teacher 
--   ### [My goal for today (gup-shup)]{.yellow}
--   ### Your dream, big dream 
--   ### [Excellent teacher (e.g) goal, what you are doing for it]{.yellow} 
--   ### Are you a joker
--   ### [Books]{.yellow} vs [Food]{.yellow} 
--   ### Are you waiting for favorable season?
--   ### [What do you do on weekends]{.yellow}
--   ### What you have browsed during last one month 
--   ### [What you are discussing with each other]{.yellow}
+-   
+
+    ### Your goal as a teacher
+
+-   
+
+    ### [My goal for today (promise)]{.yellow}
+
+-   
+
+    ### Your dream, big dream
+
+-   
+
+    ### [Excellent teacher (e.g) goal, what you are doing for it]{.yellow}
+
+-   
+
+    ### Are you a joker
+
+-   
+
+    ### [Books]{.yellow} vs [Food]{.yellow}
+
+-   
+
+    ### Are you waiting for favorable season?
+
+-   
+
+    ### [What do you do on weekends]{.yellow}
+
+-   
+
+    ### What you have browsed during last one month
+
+-   
+
+    ### [What you are discussing with each other]{.yellow}
 
 :::
-
 
 ## ![](images/mandela.jpg){fig-align="center" width="1300" height="750"} {.centered .center .middle}
 
@@ -109,18 +130,18 @@ The opportunity to profoundly impact the lives of children. We think we have an 
 ::: {.incremental style="font-size: 1.3em;"}
 1.  **Requirements of a good teacher**
 
-2.  **[Types of Teacher]{.yellow}**
+2.  [**Types of Teacher**]{.yellow}
 
 3.  **Lecturing**
 
-4.  **[Requirements of Successful Lecturing]{.yellow}**
+4.  [**Requirements of Successful Lecturing**]{.yellow}
 
 5.  **Oral presentation Material and Methods**
 
-6.  **[Requirements of Ideal effective lecturing]{.yellow}**
+6.  [**Requirements of Ideal effective lecturing**]{.yellow}
 :::
 
-- - -
+------------------------------------------------------------------------
 
 ::: {.incremental style="font-size: 1.5em;"}
 7.  **Characteristics of Good Instructions.**
@@ -137,8 +158,6 @@ The opportunity to profoundly impact the lives of children. We think we have an 
 :::
 
 ------------------------------------------------------------------------
-
-
 
 ## How to become a good teacher?
 
@@ -357,7 +376,7 @@ Peter Senge: The Fifth Discipline
 ::: incremental
 -   "**The mind is not a vessel that needs filling, but wood that needs igniting.**" Plutarch AD46-AD120
 
--   "**Education is not the learning of facts, but the training of the mind to think.**" Abert Einstein 1879-1955
+-   "**Education is not the learning of facts, but the training of the mind to think.**" Albert Einstein 1879-1955
 :::
 
 ## 
@@ -378,8 +397,6 @@ Peter Senge: The Fifth Discipline
 -   [**LOVE**]{.red style="font-size: 2em;"}
 :::
 
-
-
 ##  {.scrollable}
 
 ::: incremental
@@ -388,89 +405,142 @@ Peter Senge: The Fifth Discipline
 -   [BECAUSE...]{.r-fit-text}
 
 -   [Celebrate mistakes]{.r-fit-text}
--   [Appreciate differences]{.r-fit-text}
--   [Relay feedback]{.r-fit-text}
--   [Evaluate themselves]{.r-fit-text}
-::: 
 
-## {auto-animate=true}
+-   [Appreciate differences]{.r-fit-text}
+
+-   [Relay feedback]{.r-fit-text}
+
+-   [Evaluate themselves]{.r-fit-text}
+:::
+
+##  {auto-animate="true"}
 
 ::: {style="margin-top: 40px;"}
-
-**"[I have learned that people will forget what you]{.pink} [said]{.red}**, people will forget what you [**did**]{.red}, [but people will never forget how you made them]{.pink} [**feel**]{.red}." -Maya Angelou
-
+**"[I have learned that people will forget what you]{.pink}[said]{.red}**, people will forget what you [**did**]{.red}, [but people will never forget how you made them]{.pink} [**feel**]{.red}." -Maya Angelou
 :::
 
-## {auto-animate=true}
+##  {auto-animate="true"}
 
 ::: {style="margin-top: 200px; font-size: 1.8em; color: red;"}
-**"[I have learned that people will forget what you]{.pink} [said]{.red}**, people will forget what you [**did**]{.red}, [but people will never forget how you made them]{.pink} [**feel**]{.red}." -Maya Angelou
-
+**"[I have learned that people will forget what you]{.pink}[said]{.red}**, people will forget what you [**did**]{.red}, [but people will never forget how you made them]{.pink} [**feel**]{.red}." -Maya Angelou
 :::
 
+------------------------------------------------------------------------
+
+## What makes a good teacher great?
+
+![](images/gr8_teacher1.png){.r-stretch}
+
+----
+
+![](images/gr8_teacher2.png){.r-stretch}
+
+-   Symbolism: Apple represents a positive relationship between teacher and student.
+
+## 
+
+![](images/gr8_teacher3.png){.r-stretch} 
+
+-  Teachers should remain calm and approachable.
+**Listening to Students** 
+- Understanding students' responses beyond words. - Importance of active listening and empathy.
+
+
+
+## 
+
+![](images/gr8_teacher4.png){.r-stretch} 
+
+**Teaching Beyond the Classroom** 
+"A great teacher isn't a teacher."  
+
+
+## 
+
+![](images/gr8_teacher5.png){.r-stretch} 
+
+Importance of experiential learning and practical application.
+
+## 
+
+![](images/gr8_teacher6.png){.r-stretch}
+
+## 
+
+![](images/gr8_teacher7.png){.r-stretch}
+
+
+**Recognizing Student Struggles** 
+-  Understanding students' challenges outside the classroom. 
+- Importance of empathy and support.
+
+**Taking Risks and Being Humble** 
+- Student Perspective: "A great teacher sings. 
+Encouraging teachers to take risks, be humble, and connect with students.
+
+**Transforming Education** - Proposal: Focus on understanding students rather than content expertise. - Importance of listening instruction in schools.
+
+## 
+
+![](images/gr8_teacher8.png)
+
+-   Importance of listening to students' perspectives.
+-   Potential for transforming education by truly listening to students. 
+
+## 
+
+**Learning and Teaching** - Student Expectation: "A great teacher loves to teach and loves to learn." . . .
+
+-   Need for teachers to demonstrate continuous learning and curiosity.
 
 
 # [Lets learn little bit about Economics](https://economistwritingeveryday.com/2024/01/19/teaching-taxes-w-gifs/)
 
-##    
+## 
 
-![Demand Increase](images/ds1.gif) 
+![Demand Increase](images/ds1.gif)
 
 ## 
 
-![Supply increase](images/ds2.gif){.r-stretch}
-##
+![Supply increase](images/ds2.gif){.r-stretch} \##
 
-![Demand and Supply increase](images/ds3.gif){.r-stretch} 
+![Demand and Supply increase](images/ds3.gif){.r-stretch}
 
-
-##
+## 
 
 ![Demand and Supply increase](images/ds4.gif){.r-stretch}
 
-
-
-
-
 # Lets' learn taxes and welfare
-
 
 ## 
 
-![CS & PS increase](images/welfareda.gif){.r-stretch} 
+![CS & PS increase](images/welfareda.gif){.r-stretch}
 
 ::: notes
 First, see the below gif. It shows us that both consumer surplus (blue area) and producer surplus (red area) always rise if there is a demand increase (assuming the law of supply and law of demand).
-
 :::
 
 ## 
 
-![Higher the taxes, lower the welfare](images/2tax.gif){.r-stretch} 
+![Higher the taxes, lower the welfare](images/2tax.gif){.r-stretch}
 
 ::: notes
 Now, see the below gif. It shows us that both consumer surplus (blue area) and producer surplus (red area) always fall if there is a tax increase (assuming the law of supply and law of demand).
 :::
 
-
-
-
-##  
+## 
 
 Combine the two ideas of taxes and welfare
 
 ![Laffer curve on RHS](images/2taxwelfare.gif){.r-stretch}
 
-
-
-##  
+## 
 
 ![Welfare loss is not shared equally](images/ewelfare-1.gif){.r-stretch}
 
-
 ## 
 
-![](images/2subsidywelfare.gif){.r-stretch} 
+![](images/2subsidywelfare.gif){.r-stretch}
 
 ## 
 
@@ -480,16 +550,10 @@ Combine the two ideas of taxes and welfare
 
 # [Role of a teacher in ChatGPT Era](https://chat.openai.com/chat)
 
-
-
-
 ##  {.center .middle background-color="`r clrs[5]`"}
 
 ### لوئے لوئے پرہ لے کڑ یے پانڈا جے پانڈا تدھ پر ہنا
 
 ### شام پئی بن شام محمد تو کرہ جاندی نے ڈرنا
 
-
-# [[Stay Hungry, Stay Foolish]{.yellow}]{.r-fit-text} 
-
-
+# [Stay Hungry, Stay Foolish]{.yellow}
