@@ -1,0 +1,86 @@
+---
+title: "Transforming the Classroom: How AI is Revolutionizing Teaching and Learning"
+format: 
+  revealjs:
+    footer: "[Zahid Asghar](https://zahidasghar.com)&nbsp;&nbsp;&nbsp;"
+    logo: "images/ajk_gov.jpg"
+    theme: [default, custom.scss]
+    slide-number: c/t
+    title-slide-attributes:
+      data-background-image: images/ai-education.jpeg
+      data-background-size: cover
+execute:
+  echo: false
+  warning: false
+  freeze: auto
+---
+
+## [The Future of Education with AI](https://youtu.be/hJP5GqnTrNo?si=wQH4KNmL5c1pR24n)
+
+-   Subtitle: Harnessing AI for Positive
+    -   "The Cheating Crisis: AI Threatens Education"
+    -   "AI in Education: Undermining Learning?"
+    -   "The Positive Potential of AI in Education"
+    -   "AI as a Catalyst for Educational Transformation"
+    -   "Empowering Teachers and Students with AI"
+
+------------------------------------------------------------------------
+
+-   "Mitigating AI Cheating Concerns"
+-   "Leveraging AI for Positive Educational Transformation"
+-   "The Role of AI in Reshaping Education"
+-   "AI as a personal tutor"
+-   "AI as a teaching assistant"
+
+## Two Sigma Problem
+
+![](images/2_sigma.png){.r-stretch}
+---
+
+
+-   "Benjamin Bloom's 2 Sigma Study"
+    -   "1-to-1 Tutoring: Two Standard Deviation Improvement"
+    -   "Unlocking Potential: From Average to Exceptional Students"
+    -   "AI Tutoring: A Scalable Solution to the 2 Sigma Problem"
+
+## AI Tutoring
+
+-   "Introducing Khanmigo: Your Personal AI Tutor"
+-   "Enhanced Learning Experience: Socratic Conversations"
+-   "AI Assistance in Math, Programming, and Literature"
+
+## Conmigo: Personalized Coaching
+
+-   "Empowering Students with Personal Coaching"
+-   "Guidance, Academic Support, and Career Counseling"
+-   "AI-Powered Coaching for Every Student"
+
+## AI Writing Coach
+
+-   "Collaborative Writing with AI Assistance"
+-   "Enhancing Writing Skills: AI-Student Collaboration"
+-   "Feedback, Guidance, and Improvement in Writing"
+
+## Reading Comprehension
+
+-   "Interactive Reading Comprehension with AI"
+-   "Analyzing Texts, Answering Questions, and Providing Insights"
+-   "Enhancing Critical Thinking and Analysis Skills"
+
+## History Example
+
+-   "AI in the Classroom: Indo-Pak History Lesson"
+-   "AI-Powered Teaching Assistant for Teachers"
+-   "Lesson Planning, Explanation, and Progress Monitoring"
+
+## Making AI Magical
+
+-   "Transformative Potential of AI in Education"
+-   "Enhancing AI Capabilities for a Magical Learning Experience"
+-   "Combining Human Intelligence with AI for Educational Advancement"
+
+------------------------------------------------------------------------
+
+-   "Shaping the Future of Education with AI"
+-   "Balancing Caution and Innovation in AI Integration"
+-   "Harnessing AI for Human Potential and Purpose"
