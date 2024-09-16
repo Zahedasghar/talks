@@ -3,9 +3,9 @@ title: "Generative AI in Economic Policy Analysis: Tools and Techniques for Capa
 title-block-banner: true
 susbtitle: " Economic Adviser Wing"
 author: "Zahid Asghar"
-date: "24-09-2024"
+date: "2024-09-24"
 format: 
-  typst:
+  html:
     logo: "images/qau1.jpg"
     theme: [default, custom.scss]
     css: style.scss
