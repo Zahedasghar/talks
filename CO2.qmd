@@ -1,0 +1,254 @@
+---
+title: "CO2 Concentration Analysis"
+author: "Your Name"
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    fig-width: 8
+    fig-height: 6
+    theme: cosmo
+    highlight-style: tango
+---
+
+
+```{r setup, include=FALSE}
+# Load packages
+library(tidyverse)
+library(readxl)
+library(janitor)
+```
+
+## Introduction
+
+This document presents an analysis of CO2 concentrations over time, including data cleaning, visualization, trend analysis, and future forecasts. The analysis is based on the CO2 data provided in an Excel file.
+
+## Load and Clean the Data
+
+```{r}
+# Load and clean data
+co2 <- read_excel("co2.xlsx")
+co2 <- janitor::clean_names(co2)
+
+# Replace -99.99 with NA in the monthly_average column
+co2_cleaned <- co2 %>%
+  mutate(monthly_average = ifelse(monthly_average == -99.99, NA, monthly_average))
+```
+
+## Data Inspection
+
+Let's start by inspecting the structure of the dataset.
+
+```{r}
+# Inspect data
+dim(co2)
+head(co2)
+tail(co2)
+glimpse(co2)
+```
+
+## Highest CO2 Concentration
+
+Identify the highest recorded CO2 concentration.
+
+```{r}
+# Find the highest CO2 concentration
+highest_co2 <- co2_cleaned %>%
+  arrange(desc(monthly_average)) %>%
+  head(1)
+
+highest_co2
+```
+
+## Yearly Average CO2 Concentration
+
+Calculate the yearly average CO2 concentration.
+
+```{r}
+# Calculate yearly average CO2 concentration
+yearly_avg_co2 <- co2_cleaned %>%
+  group_by(year) %>%
+  summarise(mean_co2 = mean(monthly_average, na.rm = TRUE))
+
+yearly_avg_co2
+```
+
+## Visuals for Presentation
+
+Here are several key visuals that illustrate the trends in CO2 concentration over time.
+
+### Monthly Average CO2 Concentration Over Time
+
+```{r}
+# Plot monthly average CO2 concentration over time
+co2_cleaned %>%
+  ggplot(aes(x = year, y = monthly_average)) +
+  geom_line(color = "blue") +
+  labs(title = "Monthly Average CO2 Concentration Over Time",
+       x = "Year",
+       y = "CO2 Concentration (ppm)") +
+  theme_minimal()
+```
+
+### Yearly Average CO2 Concentration
+
+```{r}
+# Plot yearly average CO2 concentration
+yearly_avg_co2 %>%
+  ggplot(aes(x = year, y = mean_co2)) +
+  geom_line(color = "green") +
+  labs(title = "Yearly Average CO2 Concentration",
+       x = "Year",
+       y = "CO2 Concentration (ppm)") +
+  theme_minimal()
+```
+
+### CO2 Concentration Over Time with Trend Line
+
+```{r}
+# Scatter plot with trend line
+co2_cleaned %>%
+  ggplot(aes(x = year, y = monthly_average)) +
+  geom_point(color = "red") +
+  geom_smooth(method = "lm", color = "blue") +
+  labs(title = "CO2 Concentration Over Time with Trend Line",
+       x = "Year",
+       y = "CO2 Concentration (ppm)") +
+  theme_minimal()
+```
+
+### CO2 Concentration Distribution (Boxplot)
+
+```{r}
+# Boxplot of CO2 concentration over time
+co2_cleaned %>%
+  ggplot(aes(x = factor(year), y = monthly_average)) +
+  geom_boxplot() +
+  labs(title = "CO2 Concentration Distribution Over Time",
+       x = "Year",
+       y = "CO2 Concentration (ppm)") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90))
+```
+
+### CO2 Concentration Area Plot
+
+```{r}
+# Area plot of CO2 concentration over time
+co2_cleaned %>%
+  ggplot(aes(x = year, y = monthly_average)) +
+  geom_area(fill = "lightblue", color = "darkblue") +
+  labs(title = "CO2 Concentration Area Plot",
+       x = "Year",
+       y = "CO2 Concentration (ppm)") +
+  theme_minimal()
+```
+
+## CO2 Increase Rate
+
+Let's calculate the rate of increase in CO2 concentration.
+
+```{r}
+# Calculate CO2 increase rate
+increase_rate <- co2_cleaned %>%
+  summarise(increase_rate = (max(monthly_average, na.rm = TRUE) - min(monthly_average, na.rm = TRUE)) / 
+                          (max(year) - min(year)))
+
+increase_rate
+```
+
+## Forecasting Future CO2 Levels
+
+We will use a linear model to forecast future CO2 levels, specifically predicting for the year 2050.
+
+```{r}
+# Forecast CO2 levels for 2050
+co2_model <- lm(monthly_average ~ year, data = co2_cleaned)
+future_co2 <- predict(co2_model, newdata = data.frame(year = 2050))
+
+future_co2
+```
+
+## Visualize the CO2 Forecast
+
+Visualize the forecasted CO2 concentration in 2050 along with historical data.
+
+```{r}
+# Plot historical data with forecast
+co2_cleaned %>%
+  ggplot(aes(x = year, y = monthly_average)) +
+  geom_line(color = "blue") +
+  geom_point(aes(x = 2050, y = future_co2), color = "red", size = 3) +
+  labs(title = "CO2 Concentration with 2050 Forecast",
+       x = "Year",
+       y = "CO2 Concentration (ppm)") +
+  theme_minimal()
+```
+
+## Average monthly plot 
+
+```{r}
+# Calculate the average CO2 concentration for each month across all years
+monthly_avg <- co2_cleaned %>%
+  group_by(month) %>%
+  summarise(mean_co2 = mean(monthly_average, na.rm = TRUE))
+
+# Plot the monthly average CO2 concentrations
+ggplot(monthly_avg, aes(x = month, y = mean_co2)) +
+  geom_line(color = "blue", size = 1) +
+  geom_point(color = "red", size = 3) +
+  scale_x_continuous(breaks = 1:12, labels = month.abb) +
+  labs(title = "Average Monthly CO2 Concentration",
+       x = "Month",
+       y = "CO2 Concentration (ppm)") +
+  theme_minimal()
+```
+
+
+
+## Expected Impact by 2050
+
+Based on the forecast, the expected CO2 concentration by 2050 is:
+
+```{r}
+# Expected impact by 2050
+expected_impact <- paste("The CO2 concentration is expected to increase to", round(future_co2, 2), "ppm by 2050.")
+expected_impact
+```
+
+## Mitigation Strategies
+
+Mitigation strategies to reduce CO2 levels include:
+
+- Transitioning to renewable energy sources
+- Improving energy efficiency
+- Carbon capture and storage
+- Afforestation and reforestation
+- Sustainable agriculture practices
+- Carbon pricing mechanisms
+- International cooperation and agreements
+
+## Mitigation Impact
+
+Implementing these mitigation strategies could help stabilize and reduce CO2 concentrations, mitigating the impacts of climate change. Moreover, these strategies can contribute to sustainable development and a cleaner environment.
+
+## Adaptation Strategies
+
+Adaptation strategies to cope with the impacts of rising CO2 levels include:
+
+- Climate-resilient infrastructure
+- Early warning systems for extreme weather events
+- Ecosystem-based adaptation
+- Sustainable water management
+- Disaster risk reduction
+- Health and social protection measures
+- Community-based adaptation initiatives
+
+
+
+
+
+## Conclusion
+
+This analysis provides insights into the trends and future forecasts of CO2 concentrations, highlighting the importance of addressing rising CO2 levels to mitigate the impacts on climate.

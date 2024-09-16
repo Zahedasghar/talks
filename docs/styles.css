@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.step-box {
+    border: 2px solid #333;
+    padding: 5px;
+    margin: 10px; /* Adds margin to all sides */
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 45%; /* Adjusted for two columns */
+    text-align: center;
+    box-sizing: border-box; /* Includes padding and border in the width */
+}

@@ -1,0 +1,96 @@
+---
+title: "Simple Linear Regression Model"
+format: html
+---
+
+## Introduction
+
+Consider observations $(x_1, y_1), \dots, (x_n, y_n)$ where $n$ pairs $(X_1, Y_1), \dots, (X_n, Y_n)$ of real random variables are available.
+
+The theorem of total variance states: 
+$$
+\text{E}[\text{Var}(Y_i|X_i)] \leq \text{Var}(Y_i)
+$$
+Interpretation: The random phenomenon represented by the $X_i$ can be used to explain, or more accurately, describe the phenomenon represented by the $Y_i$, and eventually to predict it.
+
+Thus, we seek a function $f$ such that for each $i$, $f(X_i)$ "best approximates" $Y_i$.
+
+**Questions:**
+- What does "best approximation" mean?
+- What form of function $f$ should we choose?
+
+**Answers:**
+- Given a loss function $l$, such as the absolute loss $l(y, y') = |y - y'|$ or the quadratic loss $l(y, y') = (y - y')^2$, we aim to find $f$ minimizing $\text{E}\left[\sum_{i=1}^n l(Y_i, f(X_i))\right]$.
+- While many forms for $f$ are possible, the simplest and most natural (valid in many practical situations) is the affine (or linear, in a broad sense) form.
+
+## Simple Linear Regression Model
+
+### Analytical Formulation
+
+Given that the $Y_i$ and $X_i$ are not exactly affine-related in most cases, we assume they are "on average," meaning:
+$$
+\text{E}[Y_i] = \beta_0 + \beta_1 \text{E}[X_i] \quad \text{for all } i = 1, \dots, n.
+$$
+
+We introduce the following statistical model:
+$$
+Y_i = \beta_0 + \beta_1 X_i + \epsilon_i, \quad \text{for } i = 1, \dots, n,
+$$
+where:
+- $X_i$ is an observed random variable, called the regressor or explanatory variable,
+- $Y_i$ is an observed random variable, called the dependent variable,
+- $\beta_0$ and $\beta_1$ are unknown real parameters, called regression coefficients,
+- $\epsilon_i$ are independent random variables of $X_i$, unobserved, called errors or noise, which satisfy certain additional conditions.
+
+The standard conditions imposed on $\epsilon_i$ are:
+- (C1): $\text{E}[\epsilon_i] = 0$ for all $i = 1, \dots, n$ (centering),
+- (C2): $\text{cov}(\epsilon_i, \epsilon_j) = 0$ for all $i \neq j$ (non-correlation),
+- (C3): $\text{Var}(\epsilon_i) = \sigma^2$ (unknown) for all $i = 1, \dots, n$ (homoscedasticity).
+
+This model is called the simple linear regression model.
+
+### Estimation of Regression Coefficients
+
+The coefficients $\beta_0$ and $\beta_1$ can be estimated by minimizing the sum of squared errors:
+$$
+\hat{\beta}_0 = \bar{Y} - \hat{\beta}_1 \bar{X}
+$$
+$$
+\hat{\beta}_1 = \frac{\sum_{i=1}^n (X_i - \bar{X})(Y_i - \bar{Y})}{\sum_{i=1}^n (X_i - \bar{X})^2}
+$$
+
+where $\bar{X}$ and $\bar{Y}$ are the means of $X_i$ and $Y_i$ respectively.
+
+### Variance Estimation, Fitted Values, and Residuals
+
+Residuals $\hat{\epsilon}_i$ are given by:
+$$
+\hat{\epsilon}_i = Y_i - \hat{Y}_i
+$$
+where $\hat{Y}_i = \hat{\beta}_0 + \hat{\beta}_1 X_i$ are the fitted values.
+
+The variance $\sigma^2$ is estimated as:
+$$
+\hat{\sigma}^2 = \frac{1}{n-2} \sum_{i=1}^n \hat{\epsilon}_i^2
+$$
+
+### Coefficient of Determination $R^2$
+
+The coefficient of determination $R^2$ is defined as the fraction of the total variability explained by the regression:
+$$
+R^2 = \frac{\text{SCE}}{\text{SCT}} = \left(\text{corr}(Y_i, \hat{Y}_i)\right)^2
+$$
+
+where $\text{SCE}$ is the explained sum of squares and $\text{SCT}$ is the total sum of squares.
+
+### Prediction
+
+For a new explanatory value $X_{n+1}$, the prediction $\hat{Y}_{n+1}$ is given by:
+$$
+\hat{Y}_{n+1} = \hat{\beta}_0 + \hat{\beta}_1 X_{n+1}
+$$
+
+The variance of the prediction error is:
+$$
+\text{Var}(\hat{\epsilon}^p_{n+1}) = \sigma^2 \left(1 + \frac{1}{n} + \frac{(X_{n+1} - \bar{X})^2}{\sum_{i=1}^n (X_i - \bar{X})^2}\right)
+$$

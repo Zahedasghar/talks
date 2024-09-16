@@ -1,0 +1,127 @@
+---
+title: "[Leveraging Economics and Public Policy Specific AI Tools]{.yellow}"
+author: "Zahid Asghar"
+date: "today"
+format: 
+  html:
+    theme: [default, custom.scss]
+    toc: true
+    toc-float: true
+---
+
+
+## [Workshop Overview]{.yellow}
+This training program is designed to equip government officials with a comprehensive understanding of AI tools, focusing on their application in economic policy making. While the course will cover a broad range of general AI tools to enhance overall decision-making and analysis capabilities, the primary emphasis will be on specialized tools like [Economics Expert]{.yellow}, [Fiscal Policy Advisor]{.blue}, and [Policy Advisor]{.yellow}. Additionally, the workshop will explore the transformative potential of Generative AI in the public service sector. Whether participants already have access to Generative AI tools or wish to explore the possibilities of using these technologies in their day-to-day roles, the workshop will provide an introduction to Generative AI and delve into its practical applications within public service. Attendees will engage in hands-on activities to address the critical question: "How might we use Generative AI in the Public Service?" Through this training, participants will gain the skills necessary to effectively integrate both traditional AI and Generative AI into their operations, optimizing their ability to formulate and implement sound economic policies. 
+
+This condensed yet intensive workshop is designed to empower employees from key economic ministries with the knowledge and skills needed to integrate Artificial Intelligence (AI) into economic planning and policy development. Participants will engage in hands-on training with AI tools and explore how these technologies can be utilized to enhance fiscal policy, economic analysis, and overall decision-making processes.
+
+## Key Learning Objectives
+
+1. **Understanding AI Applications in Economic Planning**  
+   Gain a foundational understanding of AI technologies and their application in economic planning, policy analysis, and fiscal management.
+
+2. **Developing AI Advocacy and Implementation Strategies**  
+   Learn how to advocate for and implement AI-driven solutions within economic ministries, with a focus on strategic planning and execution.
+
+3. **Enhancing Efficiency with AI Tools**  
+   Acquire practical skills in using AI tools such as Policy Advisor, Fiscal Policy Advisor, Economics Expert GPT, Excel, and advanced prompt writing to enhance decision-making and policy analysis.
+
+4. **Role-Based Learning and Practical Application**  
+   Tailor content and exercises to specific roles such as budget analysts, tax policy experts, and debt managers, ensuring relevance and practical impact.
+
+
+## Workshop Agenda
+
+### Session 1:  AM -  AM
+**Introduction and Understanding Basic Terminologies**
+
+- Machine Learning , Big Data , LLMs, Prompt writing 
+
+-   ChatGPT, Bard, Bing,... AI tools
+
+-   Builtin ChatGPT: Economics Expert, Fiscal Policy Advisor, Policy Advisor, Generative AI, AI in Economic Planning, AI Tools for Economic Analysis, Data Analysis, Policy Analysis ,...
+
+
+
+### Break: :00 AM -  AM
+
+### Session 2:  AM -  PM
+
+**Tailored Content to Specific Roles:**  
+   - Customize scenarios based on participant roles (e.g., budget analysts, tax policy experts, debt managers).
+   - **Role-Based Exercises:** Participants engage in exercises aligned with their daily responsibilities, such as simulating the impact of different fiscal policies.
+
+**Interactive Learning and Hands-On Training with AI Tools**
+
+- **Live Demonstrations:**  
+   Real-time examples showcasing the capabilities of AI tools like Policy Advisor, Fiscal Policy Advisor, and Economics Expert GPT.  
+   - Participants interact with the bot by asking questions relevant to their roles.
+
+- **Group Activities and Scenario-Based Learning:**  
+   - Divide participants into groups to tackle fiscal challenges using AI tools.
+   - **Scenario-Based Exercises:** Groups analyze different economic scenarios (e.g., inflation, fiscal deficits) and present findings.
+
+- **Deep Dives into Complex Issues:**  
+   - Utilize AI tools for advanced analysis, such as economic modeling and data visualization.
+   - **Advanced Analysis:** Forecast the impact of fiscal policy changes on long-term economic growth.
+
+### Prayer Break: :00 PM - :00 PM
+
+### Session 3: :00 PM -  PM
+
+
+**Integrating AI into Economic Planning Processes and Practical Application**
+
+- **Strategies for AI Integration:**  
+   - Discussion on integrating AI into the planning processes of the Ministry of Finance, Planning Commission, and Economic Affairs Division.
+   - Developing a roadmap for AI-driven policy formulation and fiscal management.
+
+- **Case Studies and Real-World Challenges:**  
+   - Analyze current fiscal challenges facing Pakistan using AI tools.
+   - **Policy Simulation:** Simulate the introduction of new fiscal policies and predict economic outcomes.
+
+- **Feedback and Continuous Learning:**  
+   - Provide instant feedback on exercises using AI tools.
+   - Encourage participants to document insights and findings for future reference.
+
+### Wrap-Up and Closing Remarks: 3:30 PM - 3:45 PM
+
+- **Summary and Reflection:**  
+   Recap of key learnings and how AI can be integrated into economic planning.
+   
+- **Post-Training Support and Resources:**  
+   - Share resources, including simulated data and analyses, for further exploration.
+   - Discuss opportunities for follow-up sessions to reinforce learning.
+   
+-   **Generating Parameterized Reports:**  
+   - Generate reports in minutes not in months/weeks/days/hours.
+   - Dealing with text data like monthly economic reports, budget analysis, and policy briefs.
+
+
+
+## Outcomes
+
+Participants will leave the workshop with a deep understanding of how AI can be strategically integrated into economic planning and policy-making. They will be equipped with practical skills to utilize AI tools effectively, ensuring their roles as government officials are enhanced by AI-driven insights.
+
+## Organizers' Note
+
+This workshop is designed to be both practical and impactful, providing government officials with the tools and strategies necessary to leverage AI in economic governance, thus fostering innovation and efficiency in their daily operations.
+
+
+##Resources
+
+This is a living list and some more resources will be added as we go along. 
+
+- [YouTube Playlist](https://www.youtube.com/playlist?list=PLwRdpYzPkkn302_rL5RrXvQE8j0jLP02j)
+
+- [AI for Economists: Prompts & Resources](https://sites.google.com/view/lastunen/ai-for-economists)
+- [Causal Inference Substack](https://causalinf.substack.com/)
+- [One Useful Thing](https://www.oneusefulthing.org/)
+- [Understanding AI](https://www.understandingai.org/)
+
+**Other AI sites:**
+
+- [ChatPDF](https://www.chatpdf.com/)
+- [Reeder AI](https://reeder.ai/)
+- [Unriddle AI](https://app.unriddle.ai/)
+- [Magic School AI](https://app.magicschool.ai/)

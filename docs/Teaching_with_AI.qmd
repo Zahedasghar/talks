@@ -1,0 +1,118 @@
+---
+title: ""
+format: 
+  revealjs:
+    footer: "[Zahid Asghar](https://zahidasghar.com)&nbsp;&nbsp;&nbsp;"
+    logo: "images/qau1.jpg"
+    theme: [default, custom1.scss]
+    css: style.scss
+    chalkboard: true
+    slide-number: c/t
+    title-slide-attributes:
+      data-background-image: https://blog.crisp.se/wp-content/uploads/2024/01/generative-AI-in-a-nutshell.png
+      data-background-size: cover
+execute:
+  echo: false
+  warning: false
+  freeze: auto
+---
+
+
+
+---
+
+Start using artificial intelligence within seconds
+Take back your personal time
+Create content and do tasks using artificial intelligence
+Enhance existing pedagogies
+Explore artificial intelligence tools and platforms
+Make learning accessible for all learners
+
+
+
+### The Impact of AI on Education 
+
+- AI is increasingly becoming a part of educational and professional landscapes. 
+
+-   [The core issue is not just preventing cheating but recognizing that AI can accomplish college-level tasks.]{.hi-purple} 
+
+-   Graduating students who can write only as well as AI seems like a recipe for unemployment. 
+
+-   [Even if you can prevent cheating, the real problem is that AI can do college-level work.]{.hi-purple}
+
+---
+
+### AI as a Partner in Learning 
+
+- AI can help accelerate achievements both in educational settings and beyond. 
+
+- [Educators need to guide students to be better thinkers, particularly in how they use AI.]{.hi-purple} 
+
+
+-   AI is becoming a new, powerful partner, in both the classroom and the real world, that can accelerate accomplishment and achievement.  
+
+-   [It is the job of educators to help students become better thinkers. Our new job is to help them become even better thinkers with AI.]{.hi-purple}
+
+--- 
+
+### The Role of AI in Idea Generation 
+- AI can assist in generating ideas, refining questions, and clarifying thought processes. 
+
+- Humans still need to iterate and prototype, but AI can generate a high volume of ideas, which humans often struggle with. 
+
+
+> #### The best way to have a good idea is to have lots of ideas. Humans will need to continue the process of prototyping, testing, and iterating, but humans consistently struggle to produce large quantities of different and new ideas.'
+
+--- 
+
+### AI's Role in Education: Practical Applications {background-color="#002746"}
+
+- AI can help with routine educational tasks such as grading, creating assignments, and managing student interactions. 
+
+- AI tools can also enhance course design by aligning assignments with learning outcomes. 
+
+
+> #### Answering emails? Summarizing documents? Grading papers? Creating new assignments, activities, or assessments? 
+
+[Your job is changing,& an AI collaborator could make it better & easier. Upload an existing syllabus and ask for improvements, or start with a new course description or learning outcomes.]{.hi-purple}
+
+--- 
+
+### Ethical Challenges and Considerations
+
+- While AI detection tools exist, they are not foolproof, and reliance on them alone could have unintended consequences. 
+
+- [The rise of AI demands a reevaluation of academic standards and integrity. ]{.hi-purple}
+
+
+> ##### Reducing cheating is good, but we also need to rethink our standards, what we are really hoping to teach, and what academic integrity will mean in this new era. More students will use AI if they have motive, means, and opportunity.
+
+--- 
+
+### AI in Grading and Assignments
+
+- AI can help make grading more efficient and consistent, but it also changes the nature of what grades represent. 
+
+- [The use of AI in education should aim to prepare students for real-world skills, not just academic performance.]{.hi-purple} 
+
+
+> ##### Can grading become a tool to prepare students with better real-world skills? The traditional days of grading responses to prompts are over. Since all of us will be thinking in dialogue with AI…
+
+--- 
+
+### Future Implications and the Role of AI
+
+- AI’s integration into education is inevitable and can be beneficial if used properly. 
+
+- [Students and educators need to learn how to collaborate with AI to enhance learning outcomes.]{.hi-purple}
+
+> ##### Banning AI from the classroom will backfire, just as Wi-Fi kill switches did. Graduates without the ability to think, write, and work with AI will be at a serious disadvantage for future jobs.
+
+## Conclusion: Embracing AI in Education
+
+- AI offers both challenges and opportunities; educators need to guide students in using AI effectively. 
+
+- The focus should be on enhancing critical thinking and leveraging AI as a tool for better learning outcomes. 
+
+
+> ### Building AI feedback into assignments can increase motivation, learning, and agency. The point to all of these is not predictive accuracy, but feedback to help us think.

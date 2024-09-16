@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.29">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Zahid Asghar">
+<meta name="dcterms.date" content="2024-08-12">
+
+<title>Leveraging Economics and Public Policy Specific AI Tools</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="AI_workshop_finance_files/libs/clipboard/clipboard.min.js"></script>
+<script src="AI_workshop_finance_files/libs/quarto-html/quarto.js"></script>
+<script src="AI_workshop_finance_files/libs/quarto-html/popper.min.js"></script>
+<script src="AI_workshop_finance_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="AI_workshop_finance_files/libs/quarto-html/anchor.min.js"></script>
+<link href="AI_workshop_finance_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="AI_workshop_finance_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="AI_workshop_finance_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="AI_workshop_finance_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="AI_workshop_finance_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#workshop-overview" id="toc-workshop-overview" class="nav-link active" data-scroll-target="#workshop-overview"><span class="yellow">Workshop Overview</span></a></li>
+  <li><a href="#key-learning-objectives" id="toc-key-learning-objectives" class="nav-link" data-scroll-target="#key-learning-objectives">Key Learning Objectives</a></li>
+  <li><a href="#workshop-agenda" id="toc-workshop-agenda" class="nav-link" data-scroll-target="#workshop-agenda">Workshop Agenda</a>
+  <ul class="collapse">
+  <li><a href="#session-1-am---am" id="toc-session-1-am---am" class="nav-link" data-scroll-target="#session-1-am---am">Session 1: AM - AM</a></li>
+  <li><a href="#break-00-am---am" id="toc-break-00-am---am" class="nav-link" data-scroll-target="#break-00-am---am">Break: :00 AM - AM</a></li>
+  <li><a href="#session-2-am---pm" id="toc-session-2-am---pm" class="nav-link" data-scroll-target="#session-2-am---pm">Session 2: AM - PM</a></li>
+  <li><a href="#prayer-break-00-pm---00-pm" id="toc-prayer-break-00-pm---00-pm" class="nav-link" data-scroll-target="#prayer-break-00-pm---00-pm">Prayer Break: :00 PM - :00 PM</a></li>
+  <li><a href="#session-3-00-pm---pm" id="toc-session-3-00-pm---pm" class="nav-link" data-scroll-target="#session-3-00-pm---pm">Session 3: :00 PM - PM</a></li>
+  <li><a href="#wrap-up-and-closing-remarks-330-pm---345-pm" id="toc-wrap-up-and-closing-remarks-330-pm---345-pm" class="nav-link" data-scroll-target="#wrap-up-and-closing-remarks-330-pm---345-pm">Wrap-Up and Closing Remarks: 3:30 PM - 3:45 PM</a></li>
+  </ul></li>
+  <li><a href="#outcomes" id="toc-outcomes" class="nav-link" data-scroll-target="#outcomes">Outcomes</a></li>
+  <li><a href="#organizers-note" id="toc-organizers-note" class="nav-link" data-scroll-target="#organizers-note">Organizers’ Note</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="yellow">Leveraging Economics and Public Policy Specific AI Tools</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Zahid Asghar </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 12, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="workshop-overview" class="level2">
+<h2 class="anchored" data-anchor-id="workshop-overview"><span class="yellow">Workshop Overview</span></h2>
+<p>This training program is designed to equip government officials with a comprehensive understanding of AI tools, focusing on their application in economic policy making. While the course will cover a broad range of general AI tools to enhance overall decision-making and analysis capabilities, the primary emphasis will be on specialized tools like <span class="yellow">Economics Expert</span>, <span class="blue">Fiscal Policy Advisor</span>, and <span class="yellow">Policy Advisor</span>. Additionally, the workshop will explore the transformative potential of Generative AI in the public service sector. Whether participants already have access to Generative AI tools or wish to explore the possibilities of using these technologies in their day-to-day roles, the workshop will provide an introduction to Generative AI and delve into its practical applications within public service. Attendees will engage in hands-on activities to address the critical question: “How might we use Generative AI in the Public Service?” Through this training, participants will gain the skills necessary to effectively integrate both traditional AI and Generative AI into their operations, optimizing their ability to formulate and implement sound economic policies.</p>
+<p>This condensed yet intensive workshop is designed to empower employees from key economic ministries with the knowledge and skills needed to integrate Artificial Intelligence (AI) into economic planning and policy development. Participants will engage in hands-on training with AI tools and explore how these technologies can be utilized to enhance fiscal policy, economic analysis, and overall decision-making processes.</p>
+</section>
+<section id="key-learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="key-learning-objectives">Key Learning Objectives</h2>
+<ol type="1">
+<li><p><strong>Understanding AI Applications in Economic Planning</strong><br>
+Gain a foundational understanding of AI technologies and their application in economic planning, policy analysis, and fiscal management.</p></li>
+<li><p><strong>Developing AI Advocacy and Implementation Strategies</strong><br>
+Learn how to advocate for and implement AI-driven solutions within economic ministries, with a focus on strategic planning and execution.</p></li>
+<li><p><strong>Enhancing Efficiency with AI Tools</strong><br>
+Acquire practical skills in using AI tools such as Policy Advisor, Fiscal Policy Advisor, Economics Expert GPT, Excel, and advanced prompt writing to enhance decision-making and policy analysis.</p></li>
+<li><p><strong>Role-Based Learning and Practical Application</strong><br>
+Tailor content and exercises to specific roles such as budget analysts, tax policy experts, and debt managers, ensuring relevance and practical impact.</p></li>
+</ol>
+</section>
+<section id="workshop-agenda" class="level2">
+<h2 class="anchored" data-anchor-id="workshop-agenda">Workshop Agenda</h2>
+<section id="session-1-am---am" class="level3">
+<h3 class="anchored" data-anchor-id="session-1-am---am">Session 1: AM - AM</h3>
+<p><strong>Introduction and Understanding Basic Terminologies</strong></p>
+<ul>
+<li><p>Machine Learning , Big Data , LLMs, Prompt writing</p></li>
+<li><p>ChatGPT, Bard, Bing,… AI tools</p></li>
+<li><p>Builtin ChatGPT: Economics Expert, Fiscal Policy Advisor, Policy Advisor, Generative AI, AI in Economic Planning, AI Tools for Economic Analysis, Data Analysis, Policy Analysis ,…</p></li>
+</ul>
+</section>
+<section id="break-00-am---am" class="level3">
+<h3 class="anchored" data-anchor-id="break-00-am---am">Break: :00 AM - AM</h3>
+</section>
+<section id="session-2-am---pm" class="level3">
+<h3 class="anchored" data-anchor-id="session-2-am---pm">Session 2: AM - PM</h3>
+<p><strong>Tailored Content to Specific Roles:</strong><br>
+- Customize scenarios based on participant roles (e.g., budget analysts, tax policy experts, debt managers). - <strong>Role-Based Exercises:</strong> Participants engage in exercises aligned with their daily responsibilities, such as simulating the impact of different fiscal policies.</p>
+<p><strong>Interactive Learning and Hands-On Training with AI Tools</strong></p>
+<ul>
+<li><strong>Live Demonstrations:</strong><br>
+Real-time examples showcasing the capabilities of AI tools like Policy Advisor, Fiscal Policy Advisor, and Economics Expert GPT.
+<ul>
+<li>Participants interact with the bot by asking questions relevant to their roles.</li>
+</ul></li>
+<li><strong>Group Activities and Scenario-Based Learning:</strong>
+<ul>
+<li>Divide participants into groups to tackle fiscal challenges using AI tools.</li>
+<li><strong>Scenario-Based Exercises:</strong> Groups analyze different economic scenarios (e.g., inflation, fiscal deficits) and present findings.</li>
+</ul></li>
+<li><strong>Deep Dives into Complex Issues:</strong>
+<ul>
+<li>Utilize AI tools for advanced analysis, such as economic modeling and data visualization.</li>
+<li><strong>Advanced Analysis:</strong> Forecast the impact of fiscal policy changes on long-term economic growth.</li>
+</ul></li>
+</ul>
+</section>
+<section id="prayer-break-00-pm---00-pm" class="level3">
+<h3 class="anchored" data-anchor-id="prayer-break-00-pm---00-pm">Prayer Break: :00 PM - :00 PM</h3>
+</section>
+<section id="session-3-00-pm---pm" class="level3">
+<h3 class="anchored" data-anchor-id="session-3-00-pm---pm">Session 3: :00 PM - PM</h3>
+<p><strong>Integrating AI into Economic Planning Processes and Practical Application</strong></p>
+<ul>
+<li><strong>Strategies for AI Integration:</strong>
+<ul>
+<li>Discussion on integrating AI into the planning processes of the Ministry of Finance, Planning Commission, and Economic Affairs Division.</li>
+<li>Developing a roadmap for AI-driven policy formulation and fiscal management.</li>
+</ul></li>
+<li><strong>Case Studies and Real-World Challenges:</strong>
+<ul>
+<li>Analyze current fiscal challenges facing Pakistan using AI tools.</li>
+<li><strong>Policy Simulation:</strong> Simulate the introduction of new fiscal policies and predict economic outcomes.</li>
+</ul></li>
+<li><strong>Feedback and Continuous Learning:</strong>
+<ul>
+<li>Provide instant feedback on exercises using AI tools.</li>
+<li>Encourage participants to document insights and findings for future reference.</li>
+</ul></li>
+</ul>
+</section>
+<section id="wrap-up-and-closing-remarks-330-pm---345-pm" class="level3">
+<h3 class="anchored" data-anchor-id="wrap-up-and-closing-remarks-330-pm---345-pm">Wrap-Up and Closing Remarks: 3:30 PM - 3:45 PM</h3>
+<ul>
+<li><p><strong>Summary and Reflection:</strong><br>
+Recap of key learnings and how AI can be integrated into economic planning.</p></li>
+<li><p><strong>Post-Training Support and Resources:</strong></p>
+<ul>
+<li>Share resources, including simulated data and analyses, for further exploration.</li>
+<li>Discuss opportunities for follow-up sessions to reinforce learning.</li>
+</ul></li>
+<li><p><strong>Generating Parameterized Reports:</strong><br>
+</p></li>
+<li><p>Generate reports in minutes not in months/weeks/days/hours.</p></li>
+<li><p>Dealing with text data like monthly economic reports, budget analysis, and policy briefs.</p></li>
+</ul>
+</section>
+</section>
+<section id="outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="outcomes">Outcomes</h2>
+<p>Participants will leave the workshop with a deep understanding of how AI can be strategically integrated into economic planning and policy-making. They will be equipped with practical skills to utilize AI tools effectively, ensuring their roles as government officials are enhanced by AI-driven insights.</p>
+</section>
+<section id="organizers-note" class="level2">
+<h2 class="anchored" data-anchor-id="organizers-note">Organizers’ Note</h2>
+<p>This workshop is designed to be both practical and impactful, providing government officials with the tools and strategies necessary to leverage AI in economic governance, thus fostering innovation and efficiency in their daily operations.</p>
+<p>##Resources</p>
+<p>This is a living list and some more resources will be added as we go along.</p>
+<ul>
+<li><p><a href="https://www.youtube.com/playlist?list=PLwRdpYzPkkn302_rL5RrXvQE8j0jLP02j">YouTube Playlist</a></p></li>
+<li><p><a href="https://sites.google.com/view/lastunen/ai-for-economists">AI for Economists: Prompts &amp; Resources</a></p></li>
+<li><p><a href="https://causalinf.substack.com/">Causal Inference Substack</a></p></li>
+<li><p><a href="https://www.oneusefulthing.org/">One Useful Thing</a></p></li>
+<li><p><a href="https://www.understandingai.org/">Understanding AI</a></p></li>
+</ul>
+<p><strong>Other AI sites:</strong></p>
+<ul>
+<li><a href="https://www.chatpdf.com/">ChatPDF</a></li>
+<li><a href="https://reeder.ai/">Reeder AI</a></li>
+<li><a href="https://app.unriddle.ai/">Unriddle AI</a></li>
+<li><a href="https://app.magicschool.ai/">Magic School AI</a></li>
+</ul>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

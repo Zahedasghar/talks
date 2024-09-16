@@ -5,7 +5,8 @@ format:
   revealjs:
     footer: "[Zahid Asghar](https://zahidasghar.com)&nbsp;&nbsp;&nbsp;"
     logo: "images/ajk_gov.jpg"
-    theme: [default, custom.scss]
+    theme: [default, custom1.scss]
+    css: style.scss
     slide-number: c/t
     title-slide-attributes:
       data-background-image: images/ai-education.jpeg
@@ -20,7 +21,7 @@ execute:
 
 ![](images/ai_education.webp){.r-stretch}
 
-## Introduction
+## Introduction {background-color="#002746"}
 
 -   AI is rapidly changing the landscape of education, offering exciting possibilities for [personalized learning]{.yellow}, enhanced engagement, and [improved outcomes.]{.yellow}
 -   This presentation introduces how AI is being used in the classroom today, from [intelligent tutoring systems]{.yellow} to automated grading and [adaptive learning platforms]{.yellow}.

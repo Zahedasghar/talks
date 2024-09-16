@@ -1,0 +1,176 @@
+---
+title: "Converting Data to Business/Policy Decisions"
+format: revealjs
+---
+
+## Data to Decisions Workflow
+
+### Step-by-Step Guide
+
+1. **Data Collection**
+2. **Exploratory Data Analysis (EDA)**
+3. **Data Cleaning**
+4. **Data Integration**
+5. **Feature Engineering**
+6. **Data Modeling**
+7. **Interpretation and Insight Extraction**
+8. **Policy/Decision Formulation**
+9. **Communication**
+10. **Implementation**
+11. **Monitoring and Evaluation**
+12. **Feedback Loop**
+
+---
+
+## 1. Data Collection
+
+- Collect relevant data from various sources:
+  - Administrative records
+  - Surveys and questionnaires
+  - Public procurement data
+  - Health and education statistics
+  - Public sector development projects
+  - Budget spending data
+  - Social media data
+  - Open data portals
+
+---
+
+## 2. Exploratory Data Analysis (EDA)
+
+- Perform EDA to understand data structure, patterns, and anomalies:
+  - Descriptive statistics (mean, median, mode)
+  - Visualizations (histograms, scatter plots, box plots)
+  - Identifying outliers and missing values
+  - Checking data distributions
+
+---
+
+## 3. Data Cleaning
+
+- Prepare the data for analysis by cleaning it:
+  - Handling missing values (imputation, deletion)
+  - Removing duplicates
+  - Correcting errors and inconsistencies
+  - Transforming variables (normalization, standardization)
+
+---
+
+## 4. Data Integration
+
+- Combine data from different sources to create a comprehensive dataset:
+  - Merging datasets
+  - Joining tables
+  - Ensuring data consistency across sources
+
+---
+
+## 5. Feature Engineering
+
+- Create new features to aid in analysis:
+  - Generating new variables based on existing data
+  - Encoding categorical variables
+  - Creating interaction terms
+
+---
+
+## 6. Data Modeling
+
+- Apply statistical and machine learning models:
+  - Selecting appropriate models (regression, classification, clustering)
+  - Training models on historical data
+  - Evaluating model performance (cross-validation, accuracy, precision, recall)
+
+---
+
+## 7. Interpretation and Insight Extraction
+
+- Interpret results from models and analyses:
+  - Understanding model outputs
+  - Identifying key variables and their impact
+  - Visualizing results for better understanding
+
+---
+
+## 8. Policy/Decision Formulation
+
+- Translate insights into actionable decisions:
+  - Developing recommendations based on data insights
+  - Prioritizing actions based on impact and feasibility
+  - Creating strategies and action plans
+
+---
+
+## 9. Communication
+
+- Effectively communicate findings and recommendations:
+  - Preparing reports and presentations
+  - Using data visualizations to convey insights clearly
+  - Tailoring the message to the audience (technical for data scientists, strategic for policymakers)
+
+---
+
+## 10. Implementation
+
+- Implement the decisions or policies formulated:
+  - Developing implementation plans
+  - Allocating resources and responsibilities
+  - Setting timelines and milestones
+
+---
+
+## 11. Monitoring and Evaluation
+
+- Continuously monitor and evaluate outcomes:
+  - Setting up key performance indicators (KPIs)
+  - Collecting new data to track progress
+  - Analyzing the impact of decisions or policies
+  - Making adjustments based on evaluation
+
+---
+
+## 12. Feedback Loop
+
+- Establish a feedback loop to refine the process:
+  - Gathering feedback from stakeholders
+  - Incorporating lessons learned into future projects
+  - Updating models and strategies based on new insights
+
+---
+
+## Example Workflow
+
+### Public Health Outcomes
+
+1. **Data Collection**
+  - Hospitals, clinics, health surveys, government records
+2. **EDA**
+  - Identify common health issues, demographic distributions
+3. **Data Cleaning**
+  - Handle missing values, correct data entry errors
+4. **Data Integration**
+  - Merge datasets from different health institutions
+5. **Feature Engineering**
+  - Create features such as age group, income level, pre-existing conditions
+6. **Data Modeling**
+  - Predict populations at risk of certain health issues
+7. **Interpretation**
+  - Determine key risk factors, predict health trends
+8. **Policy Formulation**
+  - Develop policies to address identified risk factors
+9. **Communication**
+  - Present findings to health department officials
+10. **Implementation**
+  - Roll out health programs targeting at-risk populations
+11. **Monitoring**
+  - Track effectiveness using health outcomes data
+12. **Feedback Loop**
+  - Collect feedback and adjust programs accordingly
+
+---
+
+## Conclusion
+
+- Follow these steps to convert data into actionable decisions
+- Ensure continuous improvement through monitoring and feedback
+- Leverage data analytics to enhance business and policy decisions

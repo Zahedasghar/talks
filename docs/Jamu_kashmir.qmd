@@ -1,0 +1,27 @@
+---
+title: "Data Science Workflow"
+format: 
+  revealjs:
+    incremental: true
+css: styles.css
+---
+
+
+## Data Science Workflow Steps
+
+::: {.columns}
+::: {.column width=50%}
+
+<div class="step-box" data-fragment>Step 1: Data Collection</div>
+<div class="step-box" data-fragment>Step 2: Data Exploration</div>
+<div class="step-box" data-fragment>Step 3: Data Cleaning</div>
+<div class="step-box" data-fragment>Step 4: Data Preprocessing</div>
+
+:::
+::: {.column width=50%}
+<div class="step-box" data-fragment>Step 5: Modeling</div>
+<div class="step-box" data-fragment>Step 6: Cross Validation</div>
+<div class="step-box" data-fragment>Step 7: Model Selection</div>
+<div class="step-box" data-fragment>Step 8: Web Application</div>
+:::
+:::

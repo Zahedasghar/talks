@@ -1,0 +1,1540 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="Privatisation_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Privatisation_files/libs/quarto-html/tabby.min.js"></script>
+<script src="Privatisation_files/libs/quarto-html/popper.min.js"></script>
+<script src="Privatisation_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="Privatisation_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Privatisation_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="Privatisation_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="Privatisation_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.5.29">
+
+  <meta name="dcterms.date" content="2024-09-07">
+  <title>Privatisation</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="Privatisation_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="Privatisation_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="Privatisation_files/libs/revealjs/dist/theme/quarto.css">
+  <link href="Privatisation_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="Privatisation_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="Privatisation_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="Privatisation_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+
+  .callout {
+    margin-top: 1em;
+    margin-bottom: 1em;  
+    border-radius: .25rem;
+  }
+
+  .callout.callout-style-simple { 
+    padding: 0em 0.5em;
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    display: flex;
+  }
+
+  .callout.callout-style-default {
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+  }
+
+  .callout .callout-body-container {
+    flex-grow: 1;
+  }
+
+  .callout.callout-style-simple .callout-body {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-style-default .callout-body {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-titled.callout-style-simple .callout-body {
+    margin-top: 0.2em;
+  }
+
+  .callout:not(.callout-titled) .callout-body {
+      display: flex;
+  }
+
+  .callout:not(.no-icon).callout-titled.callout-style-simple .callout-content {
+    padding-left: 1.6em;
+  }
+
+  .callout.callout-titled .callout-header {
+    padding-top: 0.2em;
+    margin-bottom: -0.2em;
+  }
+
+  .callout.callout-titled .callout-title  p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+    
+  .callout.callout-titled.callout-style-simple .callout-content  p {
+    margin-top: 0;
+  }
+
+  .callout.callout-titled.callout-style-default .callout-content  p {
+    margin-top: 0.7em;
+  }
+
+  .callout.callout-style-simple div.callout-title {
+    border-bottom: none;
+    font-size: .9rem;
+    font-weight: 600;
+    opacity: 75%;
+  }
+
+  .callout.callout-style-default  div.callout-title {
+    border-bottom: none;
+    font-weight: 600;
+    opacity: 85%;
+    font-size: 0.9rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-default div.callout-content {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-simple .callout-icon::before {
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+  }
+
+  .callout.callout-style-default .callout-icon::before {
+    height: 0.9rem;
+    width: 0.9rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+  }
+
+  .callout-title {
+    display: flex
+  }
+    
+  .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  .callout.no-icon::before {
+    display: none !important;
+  }
+
+  .callout.callout-titled .callout-body > .callout-content > :last-child {
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
+  }
+
+  .callout.callout-titled .callout-icon::before {
+    margin-top: .5rem;
+    padding-right: .5rem;
+  }
+
+  .callout:not(.callout-titled) .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  /* Callout Types */
+
+  div.callout-note {
+    border-left-color: #4582ec !important;
+  }
+
+  div.callout-note .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEU0lEQVRYCcVXTWhcVRQ+586kSUMMxkyaElstCto2SIhitS5Ek8xUKV2poatCcVHtUlFQk8mbaaziwpWgglJwVaquitBOfhQXFlqlzSJpFSpIYyXNjBNiTCck7x2/8/LeNDOZxDuEkgOXe++553zfefee+/OYLOXFk3+1LLrRdiO81yNqZ6K9cG0P3MeFaMIQjXssE8Z1JzLO9ls20MBZX7oG8w9GxB0goaPrW5aNMp1yOZIa7Wv6o2ykpLtmAPs/vrG14Z+6d4jpbSKuhdcSyq9wGMPXjonwmESXrriLzFGOdDBLB8Y6MNYBu0dRokSygMA/mrun8MGFN3behm6VVAwg4WR3i6FvYK1T7MHo9BK7ydH+1uurECoouk5MPRyVSBrBHMYwVobG2aOXM07sWrn5qgB60rc6mcwIDJtQrnrEr44kmy+UO9r0u9O5/YbkS9juQckLed3DyW2XV/qWBBB3ptvI8EUY3I9p/67OW+g967TNr3Sotn3IuVlfMLVnsBwH4fsnebJvyGm5GeIUA3jljERmrv49SizPYuq+z7c2H/jlGC+Ghhupn/hcapqmcudB9jwJ/3jvnvu6vu5lVzF1fXyZuZZ7U8nRmVzytvT+H3kilYvH09mLWrQdwFSsFEsxFVs5fK7A0g8gMZjbif4ACpKbjv7gNGaD8bUrlk8x+KRflttr22JEMRUbTUwwDQScyzPgedQHZT0xnx7ujw2jfVfExwYHwOsDTjLdJ2ebmeQIlJ7neo41s/DrsL3kl+W2lWvAga0tR3zueGr6GL78M3ifH0rGXrBC2aAR8uYcIA5gwV8zIE8onoh8u0Fca/ciF7j1uOzEnqcIm59sEXoGc0+z6+H45V1CvAvHcD7THztu669cnp+L0okAeIc6zjbM/24LgGM1gZk7jnRu1aQWoU9sfUOuhrmtaPIO3YY1KLLWZaEO5TKUbMY5zx8W9UJ6elpLwKXbsaZ4EFl7B4bMtDv0iRipKoDQT2sNQI9b1utXFdYisi+wzZ/ri/1m7QfDgEuvgUUEIJPq3DhX/5DWNqIXDOweC2wvIR90Oq3lDpdMIgD2r0dXvGdsEW5H6x6HLRJYU7C69VefO1x8Gde1ZFSJLfWS1jbCnhtOPxmpfv2LXOA2Xk2tvnwKKPFuZ/oRmwBwqRQDcKNeVQkYcOjtWVBuM/JuYw5b6isojIkYxyYAFn5K7ZBF10fea52y8QltAg6jnMqNHFBmGkQ1j+U43HMi2xMar1Nv0zGsf1s8nUsmUtPOOrbFIR8bHFDMB5zL13Gmr/kGlCkUzedTzzmzsaJXhYawnA3UmARpiYj5ooJZiUoxFRtK3X6pgNPv+IZVPcnwbOl6f+aBaO1CNvPW9n9LmCp01nuSaTRF2YxHqZ8DYQT6WsXT+RD6eUztwYLZ8rM+rcPxamv1VQzFUkzFXvkiVrySGQgJNvXHJAxiU3/NwiC03rSf05VBaPtu/Z7/B8Yn/w7eguloAAAAAElFTkSuQmCC');
+  }
+
+  div.callout-note.callout-style-default .callout-title {
+    background-color: #dae6fb
+  }
+
+  div.callout-important {
+    border-left-color: #d9534f !important;
+  }
+
+  div.callout-important .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEKklEQVRYCcVXTWhcVRS+575MJym48A+hSRFr00ySRQhURRfd2HYjk2SSTokuBCkU2o0LoSKKraKIBTcuFCoidGFD08nkBzdREbpQ1EDNIv8qSGMFUboImMSZd4/f9zJv8ibJMC8xJQfO3HPPPef7zrvvvnvviIkpC9nsw0UttFunbUhpFzFtarSd6WJkStVMw5xyVqYTvkwfzuf/5FgtkVoB0729j1rjXwThS7Vio+Mo6DNnvLfahoZ+i/o32lULuJ3NNiz7q6+pyAUkJaFF6JwaM2lUJlV0MlnQn5aTRbEu0SEqHUa0A4AdiGuB1kFXRfVyg5d87+Dg4DL6m2TLAub60ilj7A1Ec4odSAc8X95sHh7+ZRPCFo6Fnp7HfU/fBng/hi10CjCnWnJjsxvDNxWw0NfV6Rv5GgP3I3jGWXumdTD/3cbEOP2ZbOZp69yniG3FQ9z1jD7bnBu9Fc2tKGC2q+uAJOQHBDRiZX1x36o7fWBs7J9ownbtO+n0/qWkvW7UPIfc37WgT6ZGR++EOJyeQDSb9UB+DZ1G6DdLDzyS+b/kBCYGsYgJbSQHuThGKRcw5xdeQf8YdNHsc6ePXrlSYMBuSIAFTGAtQo+VuALo4BX83N190NWZWbynBjhOHsmNfFWLeL6v+ynsA58zDvvAC8j5PkbOcXCMg2PZFk3q8MjI7WAG/Dp9AwP7jdGBOOQkAvlFUB+irtm16I1Zw9YBcpGTGXYmk3kQIC/Cds55l+iMI3jqhjAuaoe+am2Jw5GT3Nbz3CkE12NavmzN5+erJW7046n/CH1RO/RVa8lBLozXk9uqykkGAyRXLWlLv5jyp4RFsG5vGVzpDLnIjTWgnRy2Rr+tDKvRc7Y8AyZq10jj8DqXdnIRNtFZb+t/ZRtXcDiVnzpqx8mPcDWxgARUqx0W1QB9MeUZiNrV4qP+Ehc+BpNgATsTX8ozYKL2NtFYAHc84fG7ndxUPr+AR/iQSns7uSUufAymwDOb2+NjK27lEFocm/EE2WpyIy/Hi66MWuMKJn8RvxIcj87IM5Vh9663ziW36kR0HNenXuxmfaD8JC7tfKbrhFr7LiZCrMjrzTeGx+PmkosrkNzW94ObzwocJ7A1HokLolY+AvkTiD/q1H0cN48c5EL8Crkttsa/AXQVDmutfyku0E7jShx49XqV3MFK8IryDhYVbj7Sj2P2eBxwcXoe8T8idsKKPRcnZw1b+slFTubwUwhktrfnAt7J++jwQtLZcm3sr9LQrjRzz6cfMv9aLvgmnAGvpoaGLxM4mAEaLV7iAzQ3oU0IvD5x9ix3yF2RAAuYAOO2f7PEFWCXZ4C9Pb2UsgDeVnFSpbFK7/IWu7TPTvBqzbGdCHOJQSxiEjt6IyZmxQyEJHv6xyQsYk//moVFsN2zP6fRImjfq7/n/wFDguUQFNEwugAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-important.callout-style-default .callout-title {
+    background-color: #f7dddc
+  }
+
+  div.callout-warning {
+    border-left-color: #f0ad4e !important;
+  }
+
+  div.callout-warning .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAETklEQVRYCeVWW2gcVRg+58yaTUnizqbipZeX4uWhBEniBaoUX1Ioze52t7sRq6APio9V9MEaoWlVsFasRq0gltaAPuxms8lu0gcviE/FFOstVbSIxgcv6SU7EZqmdc7v9+9mJtNks51NTUH84ed889/PP+cmxP+d5FIbMJmNbpREu4WUkiTtCicKny0l1pIKmBzovF2S+hIJHX8iEu3hZJ5lNZGqyRrGSIQpq15AzF28jgpeY6yk6GVdrfFqdrD6Iw+QlB8g0YS2g7dyQmXM/IDhBhT0UCiRf59lfqmmDvzRt6kByV/m4JjtzuaujMUM2c5Z2d6JdKrRb3K2q6mA+oYVz8JnDdKPmmNthzkAk/lN63sYPgevrguc72aZX/L9C6x09GYyxBgCX4NlvyGUHOKELlm5rXeR1kchuChJt4SSwyddZRXgvwMGvYo4QSlk3/zkHD8UHxwVJA6zjZZqP8v8kK8OWLnIZtLyCAJagYC4rTGW/9Pqj92N/c+LUaAj27movwbi19tk/whRCIE7Q9vyI6yvRpftAKVTdUjOW40X3h5OXsKCdmFcx0xlLJoSuQngnrJe7Kcjm4OMq9FlC7CMmScQANuNvjfP3PjGXDBaUQmbp296S5L4DrpbrHN1T87ZVEZVCzg1FF0Ft+dKrlLukI+/c9ENo+TvlTDbYFvuKPtQ9+l052rXrgKoWkDAFnvh0wTOmYn8R5f4k/jN/fZiCM1tQx9jQQ4ANhqG4hiL0qIFTGViG9DKB7GYzgubnpofgYRwO+DFjh0Zin2m4b/97EDkXkc+f6xYAPX0KK2I/7fUQuwzuwo/L3AkcjugPNixC8cHf0FyPjWlItmLxWw4Ou9YsQCr5fijMGoD/zpdRy95HRysyXA74MWOnscpO4j2y3HAVisw85hX5+AFBRSHt4ShfLFkIMXTqyKFc46xdzQM6XbAi702a7sy04J0+feReMFKp5q9esYLCqAZYw/k14E/xcLLsFElaornTuJB0svMuJINy8xkIYuL+xPAlWRceH6+HX7THJ0djLUom46zREu7tTkxwmf/FdOZ/sh6Q8qvEAiHpm4PJ4a/doJe0gH1t+aHRgCzOvBvJedEK5OFE5jpm4AGP2a8Dxe3gGJ/pAutug9Gp6he92CsSsWBaEcxGx0FHytmIpuqGkOpldqNYQK8cSoXvd+xLxXADw0kf6UkJNFtdo5MOgaLjiQOQHcn+A6h5NuL2s0qsC2LOM75PcF3yr5STuBSAcGG+meA14K/CI21HcS4LBT6tv0QAh8Dr5l93AhZzG5ZJ4VxAqdZUEl9z7WJ4aN+svMvwHHL21UKTd1mqvChH7/Za5xzXBBKrUcB0TQ+Ulgkfbi/H/YT5EptrGzsEK7tR1B7ln9BBwckYfMiuSqklSznIuoIIOM42MQO+QnduCoFCI0bpkzjCjddHPN/F+2Yu+sd9bKNpVwHhbS3LluK/0zgfwD0xYI5dXuzlQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-warning.callout-style-default .callout-title {
+    background-color: #fcefdc
+  }
+
+  div.callout-tip {
+    border-left-color: #02b875 !important;
+  }
+
+  div.callout-tip .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAADr0lEQVRYCe1XTWgTQRj9ZjZV8a9SPIkKgj8I1bMHsUWrqYLVg4Ue6v9BwZOxSYsIerFao7UiUryIqJcqgtpimhbBXoSCVxUFe9CTiogUrUp2Pt+3aUI2u5vdNh4dmMzOzHvvezuz8xNFM0mjnbXaNu1MvFWRXkXEyE6aYOYJpdW4IXuA4r0fo8qqSMDBU0v1HJUgVieAXxzCsdE/YJTdFcVIZQNMyhruOMJKXYFoLfIfIvVIMWdsrd+Rpd86ZmyzzjJmLStqRn0v8lzkb4rVIXvnpScOJuAn2ACC65FkPzEdEy4TPWRLJ2h7z4cArXzzaOdKlbOvKKX25Wl00jSnrwVxAg3o4dRxhO13RBSdNvH0xSARv3adTXbBdTf64IWO2vH0LT+cv4GR1DJt+DUItaQogeBX/chhbTBxEiZ6gftlDNXTrvT7co4ub5A6gp9HIcHvzTa46OS5fBeP87Qm0fQkr4FsYgVQ7Qg+ZayaDg9jhg1GkWj8RG6lkeSacrrHgDaxdoBiZPg+NXV/KifMuB6//JmYH4CntVEHy/keA6x4h4CU5oFy8GzrBS18cLJMXcljAKB6INjWsRcuZBWVaS3GDrqB7rdapVIeA+isQ57Eev9eCqzqOa81CY05VLd6SamW2wA2H3SiTbnbSxmzfp7WtKZkqy4mdyAlGx7ennghYf8voqp9cLSgKdqNfa6RdRsAAkPwRuJZNbpByn+RrJi1RXTwdi8RQF6ymDwGMAtZ6TVE+4uoKh+MYkcLsT0Hk8eAienbiGdjJHZTpmNjlbFJNKDVAp2fJlYju6IreQxQ08UJDNYdoLSl6AadO+fFuCQqVMB1NJwPm69T04Wv5WhfcWyfXQB+wXRs1pt+nCknRa0LVzSA/2B+a9+zQJadb7IyyV24YAxKp2Jqs3emZTuNnKxsah+uabKbMk7CbTgJx/zIgQYErIeTKRQ9yD9wxVof5YolPHqaWo7TD6tJlh7jQnK5z2n3+fGdggIOx2kaa2YI9QWarc5Ce1ipNWMKeSG4DysFF52KBmTNMmn5HqCFkwy34rDg05gDwgH3bBi+sgFhN/e8QvRn8kbamCOhgrZ9GJhFDgfcMHzFb6BAtjKpFhzTjwv1KCVuxHvCbsSiEz4CANnj84cwHdFXAbAOJ4LTSAawGWFn5tDhLMYz6nWeU2wJfIhmIJBefcd/A5FWQWGgrWzyORZ3Q6HuV+Jf0Bj+BTX69fm1zWgK7By1YTXchFDORywnfQ7GpzOo6S+qECrsx2ifVQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-tip.callout-style-default .callout-title {
+    background-color: #ccf1e3
+  }
+
+  div.callout-caution {
+    border-left-color: #fd7e14 !important;
+  }
+
+  div.callout-caution .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAACV0lEQVRYCdVWzWoUQRCuqp2ICBLJXgITZL1EfQDBW/bkzUMUD7klD+ATSHBEfAIfQO+iXsWDxJsHL96EHAwhgzlkg8nBg25XWb0zIb0zs9muYYWkoKeru+vn664fBqElyZNuyh167NXJ8Ut8McjbmEraKHkd7uAnAFku+VWdb3reSmRV8PKSLfZ0Gjn3a6Xlcq9YGb6tADjn+lUfTXtVmaZ1KwBIvFI11rRXlWlatwIAAv2asaa9mlB9wwygiDX26qaw1yYPzFXg2N1GgG0FMF8Oj+VIx7E/03lHx8UhvYyNZLN7BwSPgekXXLribw7w5/c8EF+DBK5idvDVYtEEwMeYefjjLAdEyQ3M9nfOkgnPTEkYU+sxMq0BxNR6jExrAI31H1rzvLEfRIdgcv1XEdj6QTQAS2wtstEALLG1yEZ3QhH6oDX7ExBSFEkFINXH98NTrme5IOaaA7kIfiu2L8A3qhH9zRbukdCqdsA98TdElyeMe5BI8Rs2xHRIsoTSSVFfCFCWGPn9XHb4cdobRIWABNf0add9jakDjQJpJ1bTXOJXnnRXHRf+dNL1ZV1MBRCXhMbaHqGI1JkKIL7+i8uffuP6wVQAzO7+qVEbF6NbS0LJureYcWXUUhH66nLR5rYmva+2tjRFtojkM2aD76HEGAD3tPtKM309FJg5j/K682ywcWJ3PASCcycH/22u+Bh7Aa0ehM2Fu4z0SAE81HF9RkB21c5bEn4Dzw+/qNOyXr3DCTQDMBOdhi4nAgiFDGCinIa2owCEChUwD8qzd03PG+qdW/4fDzjUMcE1ZpIAAAAASUVORK5CYII=');
+  }
+
+  div.callout-caution.callout-style-default .callout-title {
+    background-color: #ffe5d0
+  }
+
+  </style>
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Privatisation</h1>
+
+<div class="quarto-title-authors">
+</div>
+
+  <p class="date">2024-09-07</p>
+</section>
+<section class="slide level2">
+
+<blockquote>
+<p>The ultimate goal should be to stop the bleeding of public money.</p>
+</blockquote>
+<h3 id="th-industrial-revolution-todayphysical-systems-networks-ai-iot-blockchain">4TH INDUSTRIAL REVOLUTION (Today)Physical Systems &amp; Networks (AI, IoT, Blockchain)</h3>
+<h3 id="rd-industrial-revolution-1969-electronics-it-systems">3RD INDUSTRIAL REVOLUTION (1969), Electronics &amp; IT Systems</h3>
+<h3 id="nd-industrial-revolution-1870production-electricity">2ND INDUSTRIAL REVOLUTION (1870)Production &amp; Electricity</h3>
+<h3 id="st-industrial-revolution-1784-steam-power">1ST INDUSTRIAL REVOLUTION (1784)&amp; Steam Power</h3>
+</section>
+<section id="three-dogmas-of-neoliberal-economics" class="slide level2">
+<h2>THREE DOGMAS OF NEOLIBERAL ECONOMICS</h2>
+<h3 id="the-state-has-no-role-in-the-economy-nor-in-economic-enterprise.">1. THE STATE HAS NO ROLE IN THE ECONOMY, NOR IN ECONOMIC ENTERPRISE.</h3>
+<h3 id="disinvest-privatise-and-deregulate-all-state-enterprises.">2. DISINVEST, PRIVATISE AND DEREGULATE ALL STATE ENTERPRISES.</h3>
+<h3 id="the-market-can-provide-everything-let-the-private-sector-do-business-easily-with-no-oversight.">3. THE ‘MARKET’ CAN PROVIDE EVERYTHING, LET THE PRIVATE SECTOR DO BUSINESS ‘EASILY’ (WITH NO OVERSIGHT).”</h3>
+<p>25 entities for sale in the first phase of privatisation.</p>
+<ul>
+<li class="fragment">207 total entities: 11 contribute 80% of losses.</li>
+<li class="fragment">3 are from transport sector, 8 from power sector.</li>
+</ul>
+</section>
+<section id="losses" class="slide level2">
+<h2>Losses</h2>
+
+<img data-src="Privatisation_files/figure-revealjs/unnamed-chunk-1-1.png" width="960" class="r-stretch"><div class="cell">
+<div class="cell-output-display">
+<table>
+<colgroup>
+<col style="width: 2%">
+<col style="width: 79%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">SOE</th>
+<th style="text-align: left;">Losses (Rs Billion)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">National Highway Authority (NHA)</td>
+<td style="text-align: left;">413.454</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">Power Sector</td>
+<td style="text-align: left;">285.000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">Quetta Electric Supply Company Limited (QESCO)</td>
+<td style="text-align: left;">88.487</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">Peshawar Electric Supply Company Limited (PESCO)</td>
+<td style="text-align: left;">80.595</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11</td>
+<td style="text-align: left;">Pakistan International Airlines Corporation (PIA)</td>
+<td style="text-align: left;">75.755</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">12</td>
+<td style="text-align: left;">Pakistan Railways</td>
+<td style="text-align: left;">48.534</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">Lahore Electric Supply Company Limited (LESCO)</td>
+<td style="text-align: left;">30.839</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">Sukkur Electric Power Company Limited (SEPCO)</td>
+<td style="text-align: left;">30.667</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">13</td>
+<td style="text-align: left;">Pakistan Steel Mills Corporation (Private) Limited</td>
+<td style="text-align: left;">25.455</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">Multan Electric Power Company Limited (MEPCO)</td>
+<td style="text-align: left;">23.372</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">14</td>
+<td style="text-align: left;">Sui Southern Gas Company Limited (SSGC)</td>
+<td style="text-align: left;">17.350</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">Hyderabad Electric Supply Company Limited (HESCO)</td>
+<td style="text-align: left;">15.640</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">15</td>
+<td style="text-align: left;">Pakistan Telecommunication Company Limited (PTCL)</td>
+<td style="text-align: left;">15.544</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">Faisalabad Electric Supply Company Limited (FESCO)</td>
+<td style="text-align: left;">14.983</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">16</td>
+<td style="text-align: left;">GENCO-II Central Power Generation Company Limited, Thermal Power Station Guddu</td>
+<td style="text-align: left;">14.170</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">17</td>
+<td style="text-align: left;">GENCO-III Northern Power Generation Company Limited, Thermal Power Station Muzaffargarh</td>
+<td style="text-align: left;">3.240</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">18</td>
+<td style="text-align: left;">Pakistan Post Office</td>
+<td style="text-align: left;">3.234</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">19</td>
+<td style="text-align: left;">Pakistan Broadcasting Corporation (PBC)</td>
+<td style="text-align: left;">1.617</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">20</td>
+<td style="text-align: left;">GENCO-I Jamshoro Power Company Limited</td>
+<td style="text-align: left;">0.910</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">Islamabad Electric Supply Company Limited (IESCO)</td>
+<td style="text-align: left;">0.666</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">21</td>
+<td style="text-align: left;">GENCO-IV Lakhra Power Generation Company Limited</td>
+<td style="text-align: left;">0.480</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">22</td>
+<td style="text-align: left;">Pakistan Expo Centres (Pvt) Ltd</td>
+<td style="text-align: left;">0.181</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">23</td>
+<td style="text-align: left;">Pakistan Revenue Automation (Private) Limited</td>
+<td style="text-align: left;">0.165</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">24</td>
+<td style="text-align: left;">State Engineering Corporation (Private) Limited</td>
+<td style="text-align: left;">0.032</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>                                                                                       SOE
+1                                                         National Highway Authority (NHA)
+2                                                                             Power Sector
+3                                           Quetta Electric Supply Company Limited (QESCO)
+4                                         Peshawar Electric Supply Company Limited (PESCO)
+11                                       Pakistan International Airlines Corporation (PIA)
+12                                                                       Pakistan Railways
+5                                           Lahore Electric Supply Company Limited (LESCO)
+6                                            Sukkur Electric Power Company Limited (SEPCO)
+13                                      Pakistan Steel Mills Corporation (Private) Limited
+7                                            Multan Electric Power Company Limited (MEPCO)
+14                                                 Sui Southern Gas Company Limited (SSGC)
+8                                        Hyderabad Electric Supply Company Limited (HESCO)
+15                                       Pakistan Telecommunication Company Limited (PTCL)
+9                                       Faisalabad Electric Supply Company Limited (FESCO)
+16          GENCO-II Central Power Generation Company Limited, Thermal Power Station Guddu
+17 GENCO-III Northern Power Generation Company Limited, Thermal Power Station Muzaffargarh
+18                                                                    Pakistan Post Office
+19                                                 Pakistan Broadcasting Corporation (PBC)
+20                                                  GENCO-I Jamshoro Power Company Limited
+10                                       Islamabad Electric Supply Company Limited (IESCO)
+21                                        GENCO-IV Lakhra Power Generation Company Limited
+22                                                         Pakistan Expo Centres (Pvt) Ltd
+23                                           Pakistan Revenue Automation (Private) Limited
+24                                         State Engineering Corporation (Private) Limited
+   Losses_Rs_Billion
+1            413.454
+2            285.000
+3             88.487
+4             80.595
+11            75.755
+12            48.534
+5             30.839
+6             30.667
+13            25.455
+7             23.372
+14            17.350
+8             15.640
+15            15.544
+9             14.983
+16            14.170
+17             3.240
+18             3.234
+19             1.617
+20             0.910
+10             0.666
+21             0.480
+22             0.181
+23             0.165
+24             0.032</code></pre>
+</div>
+</div>
+</section>
+<section id="arguments-for-privatisation" class="slide level2">
+<h2>Arguments for Privatisation</h2>
+<ul>
+<li class="fragment"><p>Privatisation can reduce the <strong>fiscal burden</strong> on the government.</p></li>
+<li class="fragment"><p>Privatisation can <strong>improve efficiency</strong> and <strong>reduce losses</strong> in SOEs.</p></li>
+<li class="fragment"><p>Privatisation can <strong>increase competition</strong> and <strong>improve service quality</strong>.</p></li>
+<li class="fragment"><p>Privatisation can <strong>attract foreign investment</strong> and <strong>improve economic growth</strong>.</p></li>
+<li class="fragment"><p>Privatisation can <strong>reduce corruption</strong> and <strong>improve transparency</strong>.</p></li>
+<li class="fragment"><p>Reduce burden on taxpayers</p></li>
+</ul>
+</section>
+<section id="arguments-against-privatisation" class="slide level2">
+<h2>Arguments Against Privatisation</h2>
+<ul>
+<li class="fragment"><p>Privatisation can lead to <strong>job losses</strong> and <strong>wage cuts</strong>.</p></li>
+<li class="fragment"><p>Privatisation can lead to <strong>monopolies</strong> and <strong>higher prices</strong>.</p></li>
+<li class="fragment"><p>Privatisation can lead to <strong>loss of control</strong> over strategic sectors.</p></li>
+<li class="fragment"><p>Privatisation can lead to <strong>foreign ownership</strong> and <strong>capital flight</strong>.</p></li>
+<li class="fragment"><p>Privatisation can lead to <strong>inequality</strong> and <strong>social unrest</strong>.</p></li>
+</ul>
+</section>
+<section id="key-principles-of-privatisation" class="slide level2">
+<h2>Key Principles of Privatisation</h2>
+<ul>
+<li class="fragment"><p>Efficiency &amp; Profitability: The divestment should improve the operational efficiency of the enterprises.</p></li>
+<li class="fragment"><p>Transparency &amp; Fair Pricing: The process must be open and transparent, ensuring price discovery, without transferring wealth unfairly to buyers.</p></li>
+<li class="fragment"><p>Market Competitiveness: Privatisation should foster greater market competitiveness.</p></li>
+<li class="fragment"><p>Social Impact: The social impact of privatisation should be carefully considered.</p></li>
+<li class="fragment"><p>Prudent Use of Funds: The proceeds from privatisation should not be used for current fiscal needs, avoiding harmful long-term effects.</p></li>
+<li class="fragment"><p><strong>Transparency</strong>: The process should be transparent and open to public scrutiny.</p></li>
+<li class="fragment"><p><strong>Competition</strong>: The market should be competitive and open to new entrants.</p></li>
+<li class="fragment"><p><strong>Regulation</strong>: The sector should be regulated to prevent abuse of market power.</p></li>
+<li class="fragment"><p><strong>Social Impact</strong>: The social impact of privatisation should be carefully considered.</p></li>
+<li class="fragment"><p><strong>Economic Impact</strong>: The economic impact of privatisation should be carefully considered.</p></li>
+<li class="fragment"><p><strong>Political Impact</strong>: The political impact of privatisation should be carefully considered.</p></li>
+<li class="fragment"><p><strong>Legal Framework</strong>: The legal framework for privatisation should be clear and well-defined.</p></li>
+<li class="fragment"><p><strong>Public Support</strong>: There should be public support for privatisation.</p></li>
+</ul>
+</section>
+<section id="no-one-size-fits-all-approach" class="slide level2">
+<h2>No one size fits all approach</h2>
+<ul>
+<li class="fragment"><p>Privatisation should be tailored to the specific circumstances of each SOE.</p></li>
+<li class="fragment"><p>Different SOEs may require different approaches to privatisation.</p></li>
+<li class="fragment"><p>The goal of privatisation should be to improve the performance of SOEs, not just to raise revenue or reduce the fiscal deficit.</p></li>
+<li class="fragment"><p>Privatisation should be part of a broader strategy to reform the public sector and improve governance.</p></li>
+<li class="fragment"><p>Privatisation should be accompanied by measures to protect workers and consumers.</p></li>
+</ul>
+</section>
+<section id="privatisation-of-transport-sector" class="slide level2">
+<h2>Privatisation of Transport Sector</h2>
+<ul>
+<li class="fragment"><p>Airports, airlines, roads and railways are key components of the transport sector.</p></li>
+<li class="fragment"><p><strong>PIA</strong> : Rs. 70 to 80 billion losses annually on accounting books. Economic loses are much higher.</p></li>
+</ul>
+</section>
+<section id="privatisation-of-power-sector" class="slide level2">
+<h2>Privatisation of Power Sector</h2>
+<ul>
+<li class="fragment"><p>Power generation, transmission and distribution are key components of the power sector.</p></li>
+<li class="fragment"><p><strong>Circular debt</strong> is a major issue in the power sector.</p></li>
+<li class="fragment"><p>DISCOs are <strong>inefficient</strong> and <strong>loss-making</strong>.</p></li>
+<li class="fragment"><p>Each DISCO has its own set of problems and challenges.</p></li>
+</ul>
+</section>
+<section id="success-stories-of-privatisation" class="slide level2">
+<h2>Success stories of privatisation</h2>
+<ul>
+<li class="fragment"><p><strong>Karachi Electric</strong>: Privatisation of K-Electric has improved efficiency and service quality.</p></li>
+<li class="fragment"><p><strong>PTCL</strong>: Privatisation of PTCL has attracted foreign investment and improved service quality.</p></li>
+<li class="fragment"><p><strong>HBL</strong>: Privatisation of HBL has attracted foreign investment and improved service quality.</p></li>
+<li class="fragment"><p><strong>UBL</strong>: Privatisation of UBL has attracted foreign investment and improved service quality.</p></li>
+</ul>
+<p>Youth got chance to be anchors, ceos and managers in open tv and telcos.</p>
+</section>
+<section id="introduction" class="slide level2">
+<h2>Introduction</h2>
+<ul>
+<li class="fragment">SOEs in Pakistan are underperforming.</li>
+<li class="fragment">Debate on SOEs: privatization vs government shareholding.</li>
+<li class="fragment">Financial crisis demands a reassessment of SOEs.</li>
+</ul>
+</section>
+<section id="advancements-in-governance" class="slide level2">
+<h2>Advancements in Governance</h2>
+<ul>
+<li class="fragment"><strong>Technology, globalization, and management</strong> have evolved.</li>
+<li class="fragment">Traditional governance models of SOEs are outdated.</li>
+<li class="fragment">Pakistan has around <strong>200 SOEs</strong> linked to the federal government, but only about <strong>50 are of significance</strong>.</li>
+</ul>
+</section>
+<section id="sector-focus-energy-communication-manufacturing" class="slide level2">
+<h2>Sector Focus: Energy, Communication, Manufacturing</h2>
+<ul>
+<li class="fragment">SOEs in these sectors need substantial reforms.</li>
+<li class="fragment">Many SOEs should be closed or liquidated.</li>
+</ul>
+</section>
+<section id="tailored-approach-needed" class="slide level2">
+<h2>Tailored Approach Needed</h2>
+<ul>
+<li class="fragment"><strong>No one-size-fits-all</strong> approach for privatization.</li>
+<li class="fragment">Specialized treatment required for each SOE based on local and global circumstances.</li>
+</ul>
+</section>
+<section id="example-pakistan-international-airlines-pakistan-steel-mills" class="slide level2">
+<h2>Example: Pakistan International Airlines &amp; Pakistan Steel Mills</h2>
+<ul>
+<li class="fragment">These SOEs are incurring huge losses.</li>
+<li class="fragment">Local and international competitors are more efficient.</li>
+<li class="fragment">Divestment or privatization should be prioritized.</li>
+</ul>
+</section>
+<section id="case-of-pakistan-railways" class="slide level2">
+<h2>Case of Pakistan Railways</h2>
+<ul>
+<li class="fragment">Vital for both <strong>passenger traffic and freight services</strong>.</li>
+<li class="fragment"><strong>Underinvestment</strong> in Pakistan Railways.</li>
+<li class="fragment">Need for a model similar to the <strong>aviation sector</strong>:
+<ul>
+<li class="fragment">Government manages non-moving infrastructure.</li>
+<li class="fragment">Private sector manages moving infrastructure.</li>
+</ul></li>
+</ul>
+</section>
+<section id="petroleum-and-power-sectors" class="slide level2">
+<h2>Petroleum and Power Sectors</h2>
+<ul>
+<li class="fragment">Monopoly status of SOEs in these sectors.</li>
+<li class="fragment">Profitability without benchmarking.</li>
+<li class="fragment"><strong>Rs 3 trillion circular debt</strong> in the power sector due to inefficient governance.</li>
+<li class="fragment">Need for market reforms before privatization in power distribution.</li>
+</ul>
+</section>
+<section id="lessons-from-karachi-electric" class="slide level2">
+<h2>Lessons from Karachi Electric</h2>
+<ul>
+<li class="fragment">Privatization alone does not solve all issues.</li>
+<li class="fragment"><strong>Sectoral reforms</strong> needed for private sector efficiency gains.</li>
+</ul>
+</section>
+<section id="need-for-transparency" class="slide level2">
+<h2>Need for Transparency</h2>
+<ul>
+<li class="fragment">Listing SOEs on the <strong>stock exchange</strong> can improve governance and transparency.</li>
+<li class="fragment">Federal government’s <strong>P3A Act</strong> for public-private partnerships.</li>
+</ul>
+</section>
+<section id="revisiting-the-privatization-commission" class="slide level2">
+<h2>Revisiting the Privatization Commission</h2>
+<ul>
+<li class="fragment">Legal structure for privatization needs to be updated.</li>
+<li class="fragment">Need for <strong>innovative divestment options</strong> beyond traditional asset sales.</li>
+</ul>
+</section>
+<section id="conclusion-broadening-the-debate" class="slide level2">
+<h2>Conclusion: Broadening the Debate</h2>
+<ul>
+<li class="fragment">Privatization debate should include:
+<ul>
+<li class="fragment">What and how to privatize.</li>
+<li class="fragment">Efficient and transparent governance of SOEs.</li>
+<li class="fragment">Specialized treatment for each SOE.</li>
+</ul></li>
+</ul>
+<p><a href="https://www.dawn.com/news/1824841">The Chaotic Pursuit of Privatisation of SOEs</a></p>
+</section>
+<section id="introduction-1" class="slide level2">
+<h2>Introduction</h2>
+<ul>
+<li class="fragment">Privatisation progress reported for <strong>Pakistan International Airlines (PIA)</strong> and outsourcing of three airports.</li>
+<li class="fragment"><strong>Privatisation Commission</strong> working on a three-phase strategy to privatise SOEs.</li>
+<li class="fragment">Focus on <strong>loss-making SOEs</strong> and reducing public sector involvement.</li>
+</ul>
+</section>
+<section id="financial-burden-of-soes" class="slide level2">
+<h2>Financial Burden of SOEs</h2>
+<ul>
+<li>SOEs incur annual losses of <strong>Rs500 billion</strong>.</li>
+<li><strong>Total accumulated losses</strong> exceed Rs2.5 trillion (approx. <strong>$9 billion</strong>).</li>
+<li>These losses pose a <strong>systemic risk</strong> to the financial sector.</li>
+</ul>
+</section>
+<section id="soe-profitability-trends" class="slide level2">
+<h2>SOE Profitability Trends</h2>
+<ul>
+<li class="fragment"><strong>World Bank report</strong>: Declining profitability of SOEs for over a decade.</li>
+<li class="fragment">Profitability dropped from <strong>0.8% of GDP in 2014</strong> to <strong>losses of 0.4% of GDP in 2020</strong>.</li>
+<li class="fragment">SOEs in Pakistan now have the lowest profitability in the South Asian region.</li>
+</ul>
+</section>
+<section id="imf-and-privatisation" class="slide level2">
+<h2>IMF and Privatisation</h2>
+<ul>
+<li class="fragment"><strong>IMF bailout conditions</strong> emphasize privatisation of PIA, Pakistan Steel Mills, RLNG power plants, and electricity distribution companies.</li>
+<li class="fragment">Privatisation is part of the <strong>structural reforms</strong> under the IMF’s rescue loan package.</li>
+</ul>
+</section>
+<section id="investment-expectations" class="slide level2">
+<h2>Investment Expectations</h2>
+<ul>
+<li class="fragment">Special Investment Facilitation Council (SIFC) expects over <strong>$50 billion</strong> investment from UAE and Saudi Arabia in five years.</li>
+<li class="fragment">So far, only a <strong>fraction</strong> of this investment has materialized in projects like Karachi Port.</li>
+</ul>
+</section>
+<section id="historic-context-of-privatisation" class="slide level2">
+<h2>Historic Context of Privatisation</h2>
+<ul>
+<li class="fragment">Pakistan began privatising SOEs under the <strong>IMF’s Structural Adjustment Programme</strong> in the 1980s.</li>
+<li class="fragment">Over the last three decades, privatisation has returned <strong>Rs650 billion ($2.36 billion)</strong> to the government.</li>
+</ul>
+</section>
+<section id="success-stories-of-privatisation-1" class="slide level2">
+<h2>Success Stories of Privatisation</h2>
+<ul>
+<li class="fragment"><strong>Banks, telecom industry, and electronic media</strong> are often highlighted as successful examples of privatisation.</li>
+<li class="fragment">Privatisation has saved recurring losses and improved efficiency in certain sectors.</li>
+</ul>
+</section>
+<section id="cautions-against-hasty-privatisation" class="slide level2">
+<h2>Cautions Against Hasty Privatisation</h2>
+<ul>
+<li class="fragment">Experts like <strong>Haroon Sharif</strong> caution against rushing into privatisation without a clear rationale.</li>
+<li class="fragment"><strong>World Bank</strong> raises concerns about economic volatility, judicial activism, and trade union resistance as factors hindering successful privatisation.</li>
+</ul>
+</section>
+<section id="need-for-regulatory-reforms" class="slide level2">
+<h2>Need for Regulatory Reforms</h2>
+<ul>
+<li class="fragment"><strong>Regulators need to be independent</strong> and staffed with professionals to ensure competition and transparency.</li>
+<li class="fragment"><strong>Transaction structure</strong> should promote long-term economic prosperity, avoiding monopolies.</li>
+</ul>
+</section>
+<section id="risks-of-monopolies" class="slide level2">
+<h2>Risks of Monopolies</h2>
+<ul>
+<li class="fragment">Privatization may shift <strong>monopolies from public to private sector</strong>.</li>
+<li class="fragment">Strong regulations are essential to prevent private sector monopolies from emerging after privatisation.</li>
+</ul>
+</section>
+<section id="conclusion" class="slide level2">
+<h2>Conclusion</h2>
+<ul>
+<li class="fragment">Privatisation requires extensive <strong>reforms and transparency</strong> to be successful.</li>
+<li class="fragment">Without these, the progress will remain chaotic and may cause more harm than good.</li>
+</ul>
+</section>
+<section id="real-estate" class="title-slide slide level1 center">
+<h1>Real Estate</h1>
+<table>
+<thead>
+<tr class="header">
+<th>S#</th>
+<th>Name of PSEs</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Services International Hotel, Lahore</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Jinnah Convention Centre, Islamabad</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>PIA-IL (Roosevelt Hotel NY)</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Sale of Federal Government properties</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section id="aviation-sector" class="title-slide slide level1 center">
+<h1>Aviation Sector</h1>
+<table>
+<thead>
+<tr class="header">
+<th>S#</th>
+<th>Name of PSEs</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>5</td>
+<td>Pakistan International Airlines Co.&nbsp;Ltd.</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section id="financial-sector" class="title-slide slide level1 center">
+<h1>Financial Sector</h1>
+<table>
+<thead>
+<tr class="header">
+<th>S#</th>
+<th>Name of PSEs</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>6</td>
+<td>Pakistan Re-Insurance Co.&nbsp;Ltd.&nbsp;(PakRe)</td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td>State Life Insurance Co.&nbsp;Ltd.</td>
+</tr>
+<tr class="odd">
+<td>8</td>
+<td>House Building Finance Corporation (HBFC)</td>
+</tr>
+<tr class="even">
+<td>9</td>
+<td>First Women Bank Limited</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section id="industrial-sector" class="title-slide slide level1 center">
+<h1>Industrial Sector</h1>
+<table>
+<thead>
+<tr class="header">
+<th>S#</th>
+<th>Name of PSEs</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>10</td>
+<td>Sindh Engineering Limited (SEL)</td>
+</tr>
+<tr class="even">
+<td>11</td>
+<td>Pakistan Engineering Company (PECO)</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section id="energy-sector" class="title-slide slide level1 center">
+<h1>Energy Sector</h1>
+<table>
+<thead>
+<tr class="header">
+<th>S#</th>
+<th>Name of PSEs</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>12</td>
+<td>1223 MW Balloki Power Plant</td>
+</tr>
+<tr class="even">
+<td>13</td>
+<td>1230 MW Haveli Bahadur Power Plant</td>
+</tr>
+<tr class="odd">
+<td>14</td>
+<td>Guddu Power Plant (747 MW)</td>
+</tr>
+<tr class="even">
+<td>15</td>
+<td>Nandipur Power Plant (425 MW)</td>
+</tr>
+<tr class="odd">
+<td>16</td>
+<td>Faisalabad Electric Supply Company (FESCO)</td>
+</tr>
+<tr class="even">
+<td>17</td>
+<td>Islamabad Electric Supply Company (IESCO)</td>
+</tr>
+<tr class="odd">
+<td>18</td>
+<td>Lahore Electric Supply Company (LESCO)</td>
+</tr>
+<tr class="even">
+<td>19</td>
+<td>Gujranwala Electric Power Company (GEPCO)</td>
+</tr>
+<tr class="odd">
+<td>20</td>
+<td>Multan Electric Power Company (MEPCO)</td>
+</tr>
+<tr class="even">
+<td>21</td>
+<td>Peshawar Electric Supply Company (PESCO)</td>
+</tr>
+<tr class="odd">
+<td>22</td>
+<td>Hyderabad Electric Supply Company (HESCO)</td>
+</tr>
+<tr class="even">
+<td>23</td>
+<td>Quetta Electric Supply Company (QESCO)</td>
+</tr>
+<tr class="odd">
+<td>24</td>
+<td>Sukkur Electric Power Company (SEPCO)</td>
+</tr>
+<tr class="even">
+<td>25</td>
+<td>Tribal Electric Supply Company (TESCO)</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section>
+<section id="issue-with-discos-privatisation" class="title-slide slide level1 center">
+<h1>Issue with DISCOS privatisation</h1>
+<p><a href="https://profit.pakistantoday.com.pk/2024/06/19/discos-is-there-a-way-out-of-the-existential-quagmire/">DISCOS</a></p>
+</section>
+<section id="overview" class="slide level2">
+<h2>Overview</h2>
+<ul>
+<li class="fragment">Distribution companies (DISCOs) face persistent financial losses.</li>
+<li class="fragment">Current efforts focus on selling DISCOS to private investors.</li>
+<li class="fragment">The central question: Will privatization alone solve the core issues?</li>
+</ul>
+</section>
+<section id="key-challenges" class="slide level2">
+<h2>Key Challenges</h2>
+<ul>
+<li class="fragment"><strong>Electricity theft</strong> and <strong>low recovery rates</strong> are major challenges.</li>
+<li class="fragment">Losses concentrated in remote areas and urban slums.</li>
+<li class="fragment">Privatization may not directly address the root causes.</li>
+</ul>
+</section>
+<section id="role-of-privatization" class="slide level2">
+<h2>Role of Privatization</h2>
+<ul>
+<li class="fragment">K Electric as a case study shows mixed results.</li>
+<li class="fragment">A need to determine if Transmission &amp; Distribution (T&amp;D) can sustain private investment alone.</li>
+</ul>
+</section>
+<section id="proposed-solutions" class="slide level2">
+<h2>Proposed Solutions</h2>
+<ul>
+<li class="fragment">Distributed generation (solar) for remote areas.</li>
+<li class="fragment">Increased electricity sales to reduce underutilized capacity.</li>
+<li class="fragment">Governance and accountability should be devolved to local levels.</li>
+</ul>
+</section>
+<section id="conclusion-1" class="slide level2">
+<h2>Conclusion</h2>
+<ul>
+<li class="fragment">Strong <strong>policy reforms</strong> and <strong>strategic privatization</strong> are necessary.</li>
+<li class="fragment">Privatization must focus on <strong>separating high loss/low recovery areas</strong> and creating a <strong>competitive electricity market</strong>.</li>
+</ul>
+</section></section>
+<section>
+<section id="soe-privatisation" class="title-slide slide level1 center">
+<h1><a href="https://www.brecorder.com/news/40253974/soes-privatisation-the-only-solution">SOE Privatisation</a></h1>
+
+</section>
+<section id="introduction-2" class="slide level2">
+<h2>Introduction</h2>
+<p>Driven by the current ‘four-point must list of IMF,’ Pakistan’s government is focusing on the settlement of loss-making state-owned enterprises (SOEs). These SOEs have long been a concern for the IMF and a drain on Pakistan’s meager resources.</p>
+</section>
+<section id="current-state-of-soes" class="slide level2">
+<h2>Current State of SOEs</h2>
+<ul>
+<li class="fragment"><strong>Circular debt</strong>: Rs 2.7 trillion, despite repeated increases in electricity tariffs.</li>
+<li class="fragment"><strong>Loans and guarantees</strong>: Nearly Rs 6 trillion to sustain loss-making SOEs.</li>
+</ul>
+<p>Prime Minister Shehbaz Sharif has prioritized the reform of these institutions. There is a need for a modern system and expert leadership on the boards of these institutions to enhance their performance.</p>
+</section>
+<section id="new-soe-policy" class="slide level2">
+<h2>New SOE Policy</h2>
+<p>The Ministry of Finance (MoF) has prepared a draft SOE policy to manage the fiscal risks. Key highlights of the policy: - <strong>SOEs in Pakistan</strong>: Around 200, engaged in various activities. - <strong>Economic significance</strong>: SOEs manage a significant share of Pakistan’s infrastructure, communication, and utilities sectors. - <strong>Factors for optimal performance</strong>: - Consistent overarching law for SOEs. - Clear SOE ownership and reform policy. - Commercial mandate and capable governance. - Centralized SOE ownership monitoring. - Strategic analysis and financial monitoring. - Accountability and transparency.</p>
+</section>
+<section id="strategic-soes" class="slide level2">
+<h2>Strategic SOEs</h2>
+<p>The draft policy identifies <strong>strategic SOEs</strong> that cannot be privatized due to their: - Strategic, security, or social importance. - Monopoly status without effective regulatory oversight.</p>
+</section>
+<section id="challenges-and-reforms" class="slide level2">
+<h2>Challenges and Reforms</h2>
+<p>Successive governments have attempted SOE reforms, but with limited success. The key issues include: - <strong>SOEs beyond restructuring</strong>: SOEs like PIA and Pakistan Steel Mills need massive investments in technology and human resources. - <strong>Political consequences</strong>: Reforms often stall due to political considerations, despite the financial burden.</p>
+</section>
+<section id="privatization-as-the-solution" class="slide level2">
+<h2>Privatization as the Solution</h2>
+<p>A sustainable solution is the <strong>outright privatization</strong> of ailing SOEs. Benefits include: - <strong>Revenue generation</strong>: Privatization will generate revenue for the government. - <strong>Arresting public money drain</strong>: It will stop the ongoing financial loss from inefficient SOEs.</p>
+</section>
+<section id="past-privatization-efforts" class="slide level2">
+<h2>Past Privatization Efforts</h2>
+<p>The Pakistan Muslim League-Nawaz (PML-N) government made progress in SOE privatization between 2013-2018, especially with power distribution companies. However, the process was halted due to political reasons.</p>
+</section>
+<section id="international-example-india" class="slide level2">
+<h2>International Example: India</h2>
+<p>India privatized its SOEs in the late 1990s. Key successes include: - <strong>Defense sector</strong>: Majority of defense production is now in the private sector. - <strong>National carrier</strong>: Air India was privatized and is being restructured by the Tata Group to compete globally.</p>
+</section>
+<section id="conclusion-2" class="slide level2">
+<h2>Conclusion</h2>
+<p>Pakistan stands at a crossroads. Outright privatization is the only viable solution to address the financial burden of loss-making SOEs and ensure sustainable economic growth.</p>
+<div class="quarto-auto-generated-content">
+<div class="footer footer-default">
+
+</div>
+</div>
+</section></section>
+    </div>
+  </div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="Privatisation_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="Privatisation_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="Privatisation_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="Privatisation_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="Privatisation_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="Privatisation_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="Privatisation_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="Privatisation_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="Privatisation_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="Privatisation_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    
+
+    <script>
+
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+
+      // slide changes (different for each slide format).
+
+      (function () {
+
+        // dispatch for htmlwidgets
+
+        function fireSlideEnter() {
+
+          const event = window.document.createEvent("Event");
+
+          event.initEvent("slideenter", true, true);
+
+          window.document.dispatchEvent(event);
+
+        }
+
+    
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+
+          fireSlideEnter();
+
+    
+
+          // dispatch for shiny
+
+          if (window.jQuery) {
+
+            if (previousSlide) {
+
+              window.jQuery(previousSlide).trigger("hidden");
+
+            }
+
+            if (currentSlide) {
+
+              window.jQuery(currentSlide).trigger("shown");
+
+            }
+
+          }
+
+        }
+
+    
+
+        // hookup for slidy
+
+        if (window.w3c_slidy) {
+
+          window.w3c_slidy.add_observer(function (slide_num) {
+
+            // slide_num starts at position 1
+
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+
+          });
+
+        }
+
+    
+
+      })();
+
+    </script>
+
+    
+
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
+      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+      tabsets.forEach(function(tabset) {
+        const tabby = new Tabby('#' + tabset.id);
+      });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const onCopySuccess = function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
+      });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+        const config = {
+          allowHTML: true,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.closest('section.slide') || el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start',
+        };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
+          config['offset'] = [0,0];
+          config['maxWidth'] = 700;
+        window.tippy(el, config); 
+      }
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
+        });
+      }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
+          });
+        }
+      }
+    });
+    </script>
+    
+
+</body></html>

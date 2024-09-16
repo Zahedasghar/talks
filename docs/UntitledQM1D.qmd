@@ -1,0 +1,22 @@
+---
+title: ""
+format: 
+  revealjs:
+    footer: "[Zahid Asghar](https://zahidasghar.com)&nbsp;&nbsp;&nbsp;"
+    logo: "images/qau1.jpg"
+    theme: [default, custom1.scss]
+    css: style.scss
+    chalkboard: true
+    slide-number: c/t
+    title-slide-attributes:
+      data-background-image: https://blog.crisp.se/wp-content/uploads/2024/01/generative-AI-in-a-nutshell.png
+      data-background-size: cover
+execute:
+  echo: false
+  warning: false
+  freeze: auto
+---
+
+## You have all the tools and skills necessary to succeed, but your success ultimately depends on you. [The moment you start blaming others for your problems, you give up control of your life.]{.yellow} Own your mistakes, and you'll own your future. {background-color="#002746"}
+
+

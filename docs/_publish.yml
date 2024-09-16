@@ -1,0 +1,8 @@
+- source: AI_workshop_finance.qmd
+  quarto-pub:
+    - id: a753c332-16b9-433c-81b8-d267e4811e26
+      url: 'https://zahid.quarto.pub/leveraging-economics-and-public-policy-specific-ai-toolsyellow-6cda'
+- source: 20082024_seminar.qmd
+  quarto-pub:
+    - id: 15b218a6-03b0-4cff-87b3-a27188f63c49
+      url: 'https://zahid.quarto.pub/20082024_seminar'

@@ -1,0 +1,107 @@
+---
+title: "Teaching with AI: Synergising Productivity and Pedagogy"
+author: "Zahid Asghar, School of Economics, Quaid-i-Azam University, Islamabad"
+format: 
+  revealjs:
+    footer: "[Zahid Asghar](https://zahidasghar.com)&nbsp;&nbsp;&nbsp;"
+    logo: "images/qau1.jpg"
+    theme: [default, custom1.scss]
+    css: style.scss
+    chalkboard: true
+    slide-number: c/t
+    title-slide-attributes:
+      data-background-image: https://blog.crisp.se/wp-content/uploads/2024/01/generative-AI-in-a-nutshell.png
+      data-background-size: cover
+execute:
+  echo: false
+  warning: false
+  freeze: auto
+---
+
+## Teaching with AI: Synergising Productivity and Pedagogy
+
+### Zahid Asghar, School of Economics, Quaid-i-Azam University, Islamabad
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJuhmfTBrBuH8BgOleVOOvBcbK1esNMHUzng&s){.stretch fig-align="center" width="728"}
+
+---
+
+## Generative AI in a Nutshell
+
+![](https://blog.crisp.se/wp-content/uploads/2024/01/generative-AI-in-a-nutshell.png)
+
+---
+
+## What are you?
+
+::: incremental
+
+- **Explain in one sentence to a 10 year old.**
+- **[Explain in two sentences to a university student.]{.hi-purple}**
+- **Explain to a university teacher.**
+- **[Explain to an economics research scholar.]{.hi-purple}**
+
+:::
+
+---
+
+## Role of Generative AI in Education
+
+### Questions to Ponder
+
+- **What role could and should generative AI play in supporting effective, engaging, and active learning for university students?**
+- **What challenges does AI pose to the traditional role of the teacher?**
+- **How does AI impact academic integrity and student evaluation?**
+
+---
+
+## The Dilemma of AI in Education
+
+### Challenges vs. Opportunities
+
+- **Manipulating DNA and the implications for individuals and ecosystems.**
+- **[Choice: Unparalleled possibilities vs. unimaginable perils]{.hi-purple}**
+- **The exponential speed of technological change, such as LLMs.**
+
+---
+
+## AI’s Role in Learning and Idea Generation
+
+### Practical Applications
+
+- **AI can assist in generating ideas, refining questions, and clarifying thought processes.**
+- **[Educators must guide students to be better thinkers, especially with AI.]{.hi-purple}**
+
+---
+
+## Conclusion
+
+**Education needs to evolve alongside technology. Together, we can help build the education system of the future, one that is personalized, flexible, and suited to the challenges of the 21st century.** [**Join the journey towards educational transformation!**]{.yellow}
+
+
+
+## Regress to the Previous Slide
+
+$Y = \beta_0 + \beta_1X_1 + \beta_2X_2 + \ldots + \beta_nX_n + \epsilon$
+
+
+VAR model
+
+$Y_t = \alpha + \beta_1Y_{t-1} + \beta_2Y_{t-2} + \ldots + \beta_pY_{t-p} + \epsilon_t$
+
+Issues in Pakistan Economy
+
+- **Inflation**
+- **Unemployment**
+- **Poverty**
+- **Debt Crisis**
+- **Energy Crisis**
+- **Corruption**
+
+
+
+---
+
+## Thank You!
+
+**Questions?**

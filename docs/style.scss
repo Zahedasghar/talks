@@ -1,0 +1,62 @@
+/* Styles for other headings */
+
+.reveal h1 {
+  background-color: #4B0082; /* Green */
+  color: white;
+  padding: 10px;
+}
+
+
+.reveal h2 {
+  background-color: #002746; /* Dark purple */
+  color: white;
+  padding: 10px;
+}
+
+.reveal h3 {
+  background-color: #f44336; /* Example color, change as needed */
+  color: white;
+  padding: 10px;
+}
+
+.reveal h4, .reveal h5, .reveal h6 {
+  background-color: #ff9800; /* Example color, change as needed */
+  color: white;
+  padding: 10px;
+}
+
+<style>
+.custom-box-yellow {
+  border: 3px solid #D4A017;  /* Yellow border */
+  padding: 15px;
+  margin: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #D4A017;  /* Text color */
+  text-align: center;
+  border-radius: 10px;
+}
+
+.custom-box-blue {
+  border: 3px solid #1E5DAB;  /* Blue border */
+  padding: 15px;
+  margin: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1E5DAB;  /* Text color */
+  text-align: center;
+  border-radius: 10px;
+}
+
+.custom-box-green {
+  border: 3px solid #4CAF50;  /* Green border */
+  padding: 15px;
+  margin: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #4CAF50;  /* Text color */
+  text-align: center;
+  border-radius: 10px;
+}
+</style>
+

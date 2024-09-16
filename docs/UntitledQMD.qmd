@@ -1,0 +1,44 @@
+Write linear equations in math:
+  
+ $$
+  \begin{align*}
+    2x + 3y &= 8 \\
+    3x - 2y &= 1
+  \end{align*}
+  $$
+  
+  
+Write 2 by 2 matrix 
+
+$$ 
+
+\begin{bmatrix}
+2 & 3 \\
+3 & -2
+\end{bmatrix}
+$$
+
+
+What are issue in Pakistan Economy 
+
+1. Inflation    
+2. Unemployment
+3. Poverty
+4. Education
+5. Health
+6. Corruption
+7. Political Instability
+8. Energy Crisis
+9. Water Crisis
+10. Agriculture
+11. Industrialization
+12. Taxation
+13. Foreign Debt
+14. Trade Deficit
+15. Budget Deficit
+16. Infrastructure
+17. Law and Order
+18. Governance
+19. Human Rights
+20. Media
+21. Foreign Policy

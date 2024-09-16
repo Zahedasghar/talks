@@ -346,13 +346,13 @@ Peter Senge: The Fifth Discipline
 ::: {.column width="70%"}
 ::: incremental
 -   Expert communication skills
--   Superior listening skills
+-   [Superior listening skills]{.yellow}
 -   Deep knowledge and passion for their subject matter
--   The ability to build caring relationships with students
+-   [The ability to build caring relationships with students]{.yellow}
 -   Friendliness and approachability
--   Excellent preparation and organization skills
+-   [Excellent preparation and organization skills]{.yellow}
 -   Strong work ethic
--   Community-building skills
+-   [Community-building skills]{.yellow}
 -   High expectations for all
 :::
 :::
@@ -425,13 +425,11 @@ Peter Senge: The Fifth Discipline
 **"[I have learned that people will forget what you]{.pink}[said]{.red}**, people will forget what you [**did**]{.red}, [but people will never forget how you made them]{.pink} [**feel**]{.red}." -Maya Angelou
 :::
 
-------------------------------------------------------------------------
-
 ## What makes a good teacher great?
 
 ![](images/gr8_teacher1.png){.r-stretch}
 
-----
+------------------------------------------------------------------------
 
 ![](images/gr8_teacher2.png){.r-stretch}
 
@@ -439,25 +437,20 @@ Peter Senge: The Fifth Discipline
 
 ## 
 
-![](images/gr8_teacher3.png){.r-stretch} 
+![](images/gr8_teacher3.png){.r-stretch}
 
--  Teachers should remain calm and approachable.
-**Listening to Students** 
-- Understanding students' responses beyond words. - Importance of active listening and empathy.
-
-
+-   Teachers should remain calm and approachable. **Listening to Students**
+-   Understanding students' responses beyond words. - Importance of active listening and empathy.
 
 ## 
 
-![](images/gr8_teacher4.png){.r-stretch} 
+![](images/gr8_teacher4.png){.r-stretch}
 
-**Teaching Beyond the Classroom** 
-"A great teacher isn't a teacher."  
-
+**Teaching Beyond the Classroom** "A great teacher isn't a teacher."
 
 ## 
 
-![](images/gr8_teacher5.png){.r-stretch} 
+![](images/gr8_teacher5.png){.r-stretch}
 
 Importance of experiential learning and practical application.
 
@@ -469,14 +462,11 @@ Importance of experiential learning and practical application.
 
 ![](images/gr8_teacher7.png){.r-stretch}
 
+**Recognizing Student Struggles** - Understanding students' challenges outside the classroom. - Importance of empathy and support.
 
-**Recognizing Student Struggles** 
--  Understanding students' challenges outside the classroom. 
-- Importance of empathy and support.
+------------------------------------------------------------------------
 
-**Taking Risks and Being Humble** 
-- Student Perspective: "A great teacher sings. 
-Encouraging teachers to take risks, be humble, and connect with students.
+**Taking Risks and Being Humble** - Student Perspective: "A great teacher sings. Encouraging teachers to take risks, be humble, and connect with students.
 
 **Transforming Education** - Proposal: Focus on understanding students rather than content expertise. - Importance of listening instruction in schools.
 
@@ -485,14 +475,14 @@ Encouraging teachers to take risks, be humble, and connect with students.
 ![](images/gr8_teacher8.png)
 
 -   Importance of listening to students' perspectives.
--   Potential for transforming education by truly listening to students. 
+-   Potential for transforming education by truly listening to students.
 
 ## 
 
-**Learning and Teaching** - Student Expectation: "A great teacher loves to teach and loves to learn." . . .
+**Learning and Teaching** - Student Expectation: "A great teacher loves to teach and loves to learn."\
+. . .
 
--   Need for teachers to demonstrate continuous learning and curiosity.
-
+-   Need for teachers to demonstrate [continuous learning and curiosity]{.yellow}.
 
 # [Lets learn little bit about Economics](https://economistwritingeveryday.com/2024/01/19/teaching-taxes-w-gifs/)
 
@@ -557,3 +547,35 @@ Combine the two ideas of taxes and welfare
 ### شام پئی بن شام محمد تو کرہ جاندی نے ڈرنا
 
 # [Stay Hungry, Stay Foolish]{.yellow}
+
+
+
+
+
+
+
+
+
+## Write regression equation
+
+$$ Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \beta_3 X_3 + \epsilon $$
+
+## Write it in matrix form
+
+$$ Y = X \beta + \epsilon $$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

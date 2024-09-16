@@ -1,13 +1,15 @@
 ---
-title: "Transforming the Classroom: How AI is Revolutionizing Teaching and Learning"
+title: ""
 format: 
   revealjs:
     footer: "[Zahid Asghar](https://zahidasghar.com)&nbsp;&nbsp;&nbsp;"
-    logo: "images/ajk_gov.jpg"
-    theme: [default, custom.scss]
+    logo: "images/qau1.jpg"
+    theme: [default, custom1.scss]
+    css: style.scss
+    chalkboard: true
     slide-number: c/t
     title-slide-attributes:
-      data-background-image: images/ai-education.jpeg
+      data-background-image: https://blog.crisp.se/wp-content/uploads/2024/01/generative-AI-in-a-nutshell.png
       data-background-size: cover
 execute:
   echo: false
@@ -15,72 +17,516 @@ execute:
   freeze: auto
 ---
 
-## [The Future of Education with AI](https://youtu.be/hJP5GqnTrNo?si=wQH4KNmL5c1pR24n)
+## AI: A Digital Species
 
--   Subtitle: Harnessing AI for Positive
-    -   "The Cheating Crisis: AI Threatens Education"
-    -   "AI in Education: Undermining Learning?"
-    -   "The Positive Potential of AI in Education"
-    -   "AI as a Catalyst for Educational Transformation"
-    -   "Empowering Teachers and Students with AI"
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJuhmfTBrBuH8BgOleVOOvBcbK1esNMHUzng&s){.stretch}
+
+##  {background-color="#002746"}
+
+![](https://i0.wp.com/teltales.port.ac.uk/wp-content/uploads/2023/03/32.png?resize=768%2C512&ssl=1){width="1099" height="656"}
 
 ------------------------------------------------------------------------
 
--   "Mitigating AI Cheating Concerns"
--   "Leveraging AI for Positive Educational Transformation"
--   "The Role of AI in Reshaping Education"
+### What are you?
+
+#### What are you? Explain in one sentence to a 10 year old.
+
+#### What are you? Explain in two sentences to a university student.
+
+#### What are you? Explain to a university teacher.
+
+#### What are you? Explain to an economics research scholar.
+
+--- 
+
+#### What role could and should generative AI play both in and on the classroom in supporting effective, engaging and active learning for university students?
+
+### What challenges AI poses to the traditional role of the teacher in the classroom?
+
+### What challenges AI poses to academic integrity and evaluation of students? 
+
+## What will Iqbal say to youth about use of Social Media{background-color="#002746"}
+
+::: {.scrollable style="max-height: 500px; overflow-y: auto;"} 
+
+Allama Iqbal, known for his deep reflections on spirituality, selfhood (*Khudi*), and societal progress, would likely have a nuanced view of social media's impact on youth. Here's what he might say:
+
+**1. Distraction from Purpose:**  
+Iqbal would likely be concerned about social media's ability to distract youth from their true purpose. He often emphasized the need for deep self-reflection and personal growth, and he might view the constant scrolling and superficial interactions on social media as hindrances to achieving *Khudi*. He might say, [*"The pursuit of likes and followers should not replace the pursuit of self-realization and greater goals."*]{.yellow}
+
+**2. Lost Sense of Identity:**  
+Iqbal believed in the importance of individual and cultural identity. He might see social media as contributing to a loss of self, where youth are too often influenced by external validation and trends rather than their inner values and cultural heritage. He could warn that *"In a world of filters and illusions, do not lose your true self. Your identity is not what others see online, but what you discover within."*
+
+**3. Potential for Positive Change:**  
+Despite his concerns, Iqbal would recognize the potential of social media as a powerful tool for positive change. He might encourage the youth to use these platforms to raise awareness about important issues, foster meaningful connections, and promote justice and knowledge. He could say, *"Use your voice on these platforms as a means to awaken and uplift, not just to entertain."*
+
+**4. Spiritual and Intellectual Balance:**  
+Iqbal would likely urge the youth to balance their time on social media with activities that promote intellectual growth and spiritual reflection. He might remind them that while social media can be a tool for learning and connection, it should not replace the deeper, more personal journey of seeking knowledge and spiritual fulfillment. He might caution, *"Do not let fleeting moments of entertainment steal the time meant for the pursuit of wisdom and self-enlightenment."*
+
+**5. The Power of Influence:**  
+Iqbal would be keenly aware of social media's power to influence minds. He would advise youth to be discerning in their consumption of content, warning them not to fall prey to misinformation or hollow trends. He might say, *"Just as a gardener tends to what he plants, so too must you guard your mind from the weeds of falsehood and idle talk."*
+
+In summary, Iqbal would likely see both the dangers and the opportunities in social media. He would call on the youth to use these platforms wisely, ensuring they foster self-growth, preserve cultural identity, and contribute meaningfully to society, rather than getting lost in the distractions of the digital world.
+
+:::
+
+---
+
+
+
+### The Coming Wave of Technology
+
+-   What does the wave of technology mean for humanity?
+
+-   Historical discoveries: Fire, the wheel, harnessing electricity
+
+-   Transformation of human civilization through technological advancements
+
+#### The New Wave
+
+-   Advanced AI and biotechnology
+
+-   Benefits: Unlock secrets of the universe , Cure diseases, Create a healthier, sustainable world
+
+--- 
+
+### The Dangers
+
+-   Manipulating DNA: implications for individuals and ecosystems
+-   [Choice: Unparalleled possibilities vs. unimaginable perils]{.hi-purple}
+-   Exponential speed of change in technology (e.g., LLMs)
+
+### The Rise of AI
+
+-   [Four years ago, no one believed in LLMs, now everyone talks about them]{.hi-purple}
+
+-   Future: Superintelligence in the next decade?
+
+-   [Question: How do we respond?]{.hi-purple}
+
+------------------------------------------------------------------------
+
+### Homo Technologicus {.scrollable}
+
+-   Humanity's relentless drive to improve and evolve through technology
+-   From pick axes to planes: evolution driven by technological advancement
+-   Ecosystem of inventions expands exponentially
+
+#### The Core Technologies: AI and Synthetic Biology
+
+-   AI: Replicating human intelligence
+    -   Facial recognition, autonomous driving, text/image generation
+    -   Massive economic and quality of life improvements
+-   Synthetic Biology: Editing life itself
+    -   Gene editing, disease eradication, potential threats
+
+------------------------------------------------------------------------
+
+### The Dilemma
+
+-   Replicating our unique intelligence
+
+-   The Luddite reaction: fears, bans, moratoriums
+
+-   Challenge: balancing immense benefits and potential perils
+
+#### The Containment Problem
+
+-   Technology spreads exponentially, nearly impossible to stop
+
+-   Examples: Industrial Revolution, AI, Synthetic biology
+
+-   Inventions cannot be uninvented; knowledge proliferates
+
+------------------------------------------------------------------------
+
+
+
+## Generative AI in a Nutshell
+
+![](images/AI/genAI1.png)
+
+## Generative AI in a Nutshell
+
+![](images/AI/genAI2.png)
+
+## Generative AI in a Nutshell
+
+![](images/AI/genAI3.png)
+
+## 
+
+::: columns
+::: {.column width="50%"}
+![](images/AI/genAI.png)
+:::
+
+::: {.column width="50%"}
+![](images/AI/genAI1.png)
+:::
+:::
+
+::: columns
+::: {.column width="50%"}
+![](images/AI/genAI2.png)
+:::
+
+::: {.column width="50%"}
+![](images/AI/genAI3.png)
+:::
+:::
+
+## Generative AI in a Nutshell
+
+![](https://blog.crisp.se/wp-content/uploads/2024/01/generative-AI-in-a-nutshell.png){width="1273" height="700"}
+
+------------------------------------------------------------------------
+
+![](images/AI/race_tech_edu.png){width="1005"}
+
+---
+
+### The Impact of AI on Education 
+
+- AI is increasingly becoming a part of educational and professional landscapes. 
+
+-   [The core issue is not just preventing cheating but recognizing that AI can accomplish college-level tasks.]{.hi-purple} 
+
+-   Graduating students who can write only as well as AI seems like a recipe for unemployment. 
+
+-   [Even if you can prevent cheating, the real problem is that AI can do college-level work.]{.hi-purple}
+
+---
+
+### AI as a Partner in Learning 
+
+- AI can help accelerate achievements both in educational settings and beyond. 
+
+- [Educators need to guide students to be better thinkers, particularly in how they use AI.]{.hi-purple} 
+
+
+-   AI is becoming a new, powerful partner, in both the classroom and the real world, that can accelerate accomplishment and achievement.  
+
+-   [It is the job of educators to help students become better thinkers. Our new job is to help them become even better thinkers with AI.]{.hi-purple}
+
+--- 
+
+### The Role of AI in Idea Generation 
+- AI can assist in generating ideas, refining questions, and clarifying thought processes. 
+
+- Humans still need to iterate and prototype, but AI can generate a high volume of ideas, which humans often struggle with. 
+
+
+> #### The best way to have a good idea is to have lots of ideas. Humans will need to continue the process of prototyping, testing, and iterating, but humans consistently struggle to produce large quantities of different and new ideas.'
+
+--- 
+
+### AI's Role in Education: Practical Applications 
+
+- [AI can help with routine educational tasks such as grading, creating assignments, learning outcomes of a lecture and managing student interactions.]{.hi-purple}
+
+
+-   Answering emails? Summarizing documents? Grading papers? Creating new assignments, activities, or assessments? 
+
+[Your job is changing,& an AI collaborator could make it better & easier. Upload an existing syllabus and ask for improvements, or start with a new course description or learning outcomes.]{.hi-purple}
+
+--- 
+
+### Ethical Challenges and Considerations
+
+- While AI detection tools exist, they are not foolproof, and reliance on them alone could have unintended consequences. 
+
+- [The rise of AI demands a reevaluation of academic standards and integrity. ]{.hi-purple}
+
+
+> ##### Reducing cheating is good, but we also need to rethink our standards, what we are really hoping to teach, and what academic integrity will mean in this new era. More students will use AI if they have motive, means, and opportunity.
+
+--- 
+
+### AI in Grading and Assignments
+
+- AI can help make grading more efficient and consistent, but it also changes the nature of what grades represent. 
+
+- [The use of AI in education should aim to prepare students for real-world skills, not just academic performance.]{.hi-purple} 
+
+
+> ##### Can grading become a tool to prepare students with better real-world skills? The traditional days of grading responses to prompts are over. Since all of us will be thinking in dialogue with AI…
+
+--- 
+
+### Future Implications and the Role of AI
+
+- AI’s integration into education is inevitable and can be beneficial if used properly. 
+
+- [Students and educators need to learn how to collaborate with AI to enhance learning outcomes.]{.hi-purple}
+
+> ##### Banning AI from the classroom will backfire, just as Wi-Fi kill switches did. Graduates without the ability to think, write, and work with AI will be at a serious disadvantage for future jobs.
+
+## Conclusion: Embracing AI in Education
+
+- AI offers both challenges and opportunities; educators need to guide students in using AI effectively. 
+
+- The focus should be on enhancing critical thinking and leveraging AI as a tool for better learning outcomes. 
+
+
+> ### Building AI feedback into assignments can increase motivation, learning, and agency. The point to all of these is not predictive accuracy, but feedback to help us think.
+
+--- 
+
+### Comming Wave & Jobs
+
+::: incremental
+-   
+
+    ### "AI offers vast tools for augmenting workers and enhancing work. We must master these tools and make them work for us." David Autor
+
+-   
+
+    ###### As per David Autor, the problem is that older models assumed technology " might raise some boats more than others, but would'nt lower any boats. However, as digital technology transformed the globaly economy there was "lots of evidence people were made worse off."
+:::
+
+::: notes
+Let me give you a quick historical example. In the 15th century, technology raced ahead as a great piece of technology was invented: the printing press, which allowed books to be printed much cheaper than ever before. Unfortunately, only a small fraction of the population knew how to read, leading to massive social conflicts and inequality. Ultimately, the whole educational system had to revolutionize to keep up. This led to the birth of the first universities and schools.
+:::
+
+## The Future of Education with AI
+
+[The Future of Education with AI](https://youtu.be/hJP5GqnTrNo?si=wQH4KNmL5c1pR24n)
+
+::: incremental
+-   "AI in Education: A New Era of Learning"
+-   "The Positive Potential of AI in Education"
+-   "AI as a Catalyst for Educational Transformation"
+-   "Empowering Teachers and Students with AI"
+-   "The Cheating Crisis: AI Threatens Education"
+-   "AI in Education: Undermining Learning?"
 -   "AI as a personal tutor"
 -   "AI as a teaching assistant"
+:::
+
+--- 
 
 ## Two Sigma Problem
 
-![](images/2_sigma.png){.r-stretch}
----
+![](images/AI/2_sigma.png){.r-stretch}
 
+------------------------------------------------------------------------ 
+
+
+### AI Tutoring : Khanmigo , Conmigo
 
 -   "Benjamin Bloom's 2 Sigma Study"
     -   "1-to-1 Tutoring: Two Standard Deviation Improvement"
     -   "Unlocking Potential: From Average to Exceptional Students"
     -   "AI Tutoring: A Scalable Solution to the 2 Sigma Problem"
 
-## AI Tutoring
 
 -   "Introducing Khanmigo: Your Personal AI Tutor"
 -   "Enhanced Learning Experience: Socratic Conversations"
 -   "AI Assistance in Math, Programming, and Literature"
 
-## Conmigo: Personalized Coaching
-
 -   "Empowering Students with Personal Coaching"
 -   "Guidance, Academic Support, and Career Counseling"
 -   "AI-Powered Coaching for Every Student"
 
-## AI Writing Coach
+--- 
+
+### AI Writing Coach
 
 -   "Collaborative Writing with AI Assistance"
 -   "Enhancing Writing Skills: AI-Student Collaboration"
 -   "Feedback, Guidance, and Improvement in Writing"
 
-## Reading Comprehension
+### Reading Comprehension
 
 -   "Interactive Reading Comprehension with AI"
 -   "Analyzing Texts, Answering Questions, and Providing Insights"
 -   "Enhancing Critical Thinking and Analysis Skills"
 
-## History Example
+--- 
 
 -   "AI in the Classroom: Indo-Pak History Lesson"
 -   "AI-Powered Teaching Assistant for Teachers"
 -   "Lesson Planning, Explanation, and Progress Monitoring"
 
-## Making AI Magical
-
 -   "Transformative Potential of AI in Education"
 -   "Enhancing AI Capabilities for a Magical Learning Experience"
 -   "Combining Human Intelligence with AI for Educational Advancement"
 
+
+## AI a great Assistant
+
+#### Give a learning outcomes on consumer theory lecture in 3 points with 15 words for each point 
+
+#### Differentiate between Marshalian and Hicksian demand function, restrict response to 50 words 
+
+#### Explain it in little detail, restrict response to 100 words
+
+#### Give some mathematics 
+
+
+#### Provide a real life example 
+
+#### Give slides on Marshallian and Hicksian demand function with learning outcomes 
+
+#### Provide a quiz on Marshallian and Hicksian demand function 
+
+
+
+
+
+---
+
+### Race between Education and Technology
+
+![](images/AI/race_tech_edu.png){.r-stretch}
+
+::: notes
+Many a times technology races ahead of education. This leads to social pain and inequality. The whole educational system has to revolutionize to keep up. Well, our world has always been in a race between technology and education. Usually, these two go hand in hand, but there are some points in history where technology races so far ahead that education can barely keep pace.
+:::
+
+--- 
+
+### The 3 Principles of a Learning Accelerator {.scrollable}
+
+::: column-page
+#### ![](https://cdn.jsdelivr.net/gh/twbs/icons@1.9.1/icons/display.svg){width="50px"} Blended Learning
+
+A mix of digital and face-to-face teaching methods to create a flexible learning experience.
+
 ------------------------------------------------------------------------
 
--   "Shaping the Future of Education with AI"
--   "Balancing Caution and Innovation in AI Integration"
--   "Harnessing AI for Human Potential and Purpose"
+#### ![](https://cdn.jsdelivr.net/gh/twbs/icons@1.9.1/icons/people-fill.svg){width="50px"} Personalization
+
+Personalization focuses on customizing the learning experience to the unique needs and goals of individual learners.
+
+------------------------------------------------------------------------
+
+#### ![](https://cdn.jsdelivr.net/gh/twbs/icons@1.9.1/icons/share-fill.svg){width="50px"} Community
+
+Community builds a network of support and collaboration among learners to enhance the overall learning experience.
+:::
+
+--- 
+
+### Text to image
+
+#### Prompt : Create an image for QAU students sitting as a community learners in a classroom.
+
+::: columns
+::: {.column width="50%"}
+![](images/AI/interactive_learning.webp)
+:::
+
+::: {.column width="50%"}
+![](images/AI/interactive_learning1.webp)
+:::
+:::
+
+---
+
+### Recurring Pattern
+
+This pattern has repeated itself throughout history. Whenever technology races ahead, it first leads to social pain and inequality, until at some point the whole educational system gets turned upside down to catch up.
+
+--- 
+
+### The Digitalization Race
+
+Now, let's jump forward to 2019. Digitalization has become the new race between technology and education. We've invented new powerful technologies like smartphones, the internet, and artificial intelligence, which are transforming our jobs and personal lives.
+
+A recent study by McKinsey predicts that in the next 10 years, up to one-third of all work activities could be completely replaced due to automation.
+
+--- 
+
+### Automation Concerns
+
+Today, algorithms designed by a few tech experts in Silicon Valley dictate how we communicate, shop, and even influence political outcomes, as we've seen in the US. But most people do not understand how this technology works.
+
+## The Education Gap
+
+Just like in the historical examples, there is now an increasing gap between those who design the changes and those who are left behind due to a lack of skills or means to adapt. Once again, technology races ahead, and education struggles to keep up.
+
+## The State of Education
+
+Our educational institutions are now facing dramatically changed conditions. We've moved from a world where great learning content was rare to one where much knowledge is a commodity, often available for free on platforms like YouTube.
+
+At the same time, we’ve transitioned from stable career paths to a world where much of what we learn in higher education is irrelevant just 10 years later.
+
+## The Old Model
+
+Yet, our educational institutions have not evolved much. We still put hundreds of people in huge lecture halls for one-size-fits-all teaching, and many companies only offer a couple of days of training per year. This model is outdated.
+
+## A New Model of Education
+
+Two years ago, my friend and I started from scratch to build an education experience from the ground up. We developed the idea of a "learning accelerator" focused on digital education.
+
+Our idea is based on three key principles:
+
+1.  **Blending Online and Offline Learning**: Every student gets access to online resources while offline meetings focus on interaction, hackathons, and social events.
+2.  **Personalization**: Like how Amazon personalizes shopping, we believe education should be personalized, providing each learner with a unique path based on their prior knowledge.
+3.  **Community Learning**: Learning in a community helps to keep motivation high and allows for deep interactions with peers.
+
+## Building Tech Labs
+
+We founded Tech Labs, a nonprofit organization that teaches coding skills in web development, data science, and artificial intelligence through a free, 16-week program that anyone can join. Tech Labs has grown rapidly, with locations in multiple cities and hundreds of students benefiting from personalized learning paths.
+
+## Conclusion
+
+Education needs to catch up with technology. There are many ways for us to contribute, whether as teachers, parents, students, or colleagues. Together, we can help build the education system of the future, one that is personalized, flexible, and better suited to the challenges of the 21st century.
+
+Thank you for your attention.
+
+
+
+## Not going to discuss {.scrollable}
+
+### Coding, Mathematics, Data Analysis ... 
+
+### Technology’s Impact on Humanity
+
+### The Autonomous Wave
+### Political Implications
+### Containment: Can We Do It?
+
+### Navigating the Coming Wave
+
+### AI and Wars 
+
+### How Ukraine countered largest every military deployment of Russia 
+
+### AI and the Future of Work 
+
+---
+
+#### You are hiring for the role of “waiter” The typical daily wage rate is PKR 800. You have 2 candidates. Person 1: Has 1 year(s) of experience in this role. Requests PKR 1300. Person 2: Has 0 year(s) of experience in this role. Requests PKR 900. Who would you hire? You have to pick one.
+
+#### Simulate the Solow growth model and plot the results in a four chart. 
+
+## Resources
+
+-   [Re-inventing Education for the Digital Age \| David Middelbeck \| TEDxMünster](https://www.youtube.com/watch?v=ArI6albrkuY) 
+
+-   [AI for Economists: Prompt & Resources](https://sites.google.com/view/lastunen/ai-for-economists) 
+
+-   [Teaching Naked Teaching with AI](https://teachingnaked.com/prompts/) 
+
+-   [What is Prompt Enginering](https://www.economist.com/the-economist-explains/2024/01/25/what-is-prompt-engineering-for-artificial-intelligence)
+-   Policy Advisor
+-   Fiscal policy advisor
+-   Economics expert
+-   Duolingo
+-   R for economics and Econometrics
+-   Stata ai
+-   curipid.com Lessons in seconds
+-   murf.ai Text to speech
+-   Myheritage
+-   Snythesia video maker
+
+--- 
+
+
+### 1 Day-Workshop on Generative AI for Economics Research, LLM- better, faster, cheaper
+![](images/AI/islamabad.jpg)
+
+## ![](images/AI/ai_4economists.png){background-color="#002746"} AI for Economic Research, Ideation, Advanced Data Analytics, Literature Review Workshop 

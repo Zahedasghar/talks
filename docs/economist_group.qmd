@@ -1,0 +1,96 @@
+---
+title: "Generative AI in Economic Policy Analysis: Tools and Techniques for Capacity Building" 
+title-block-banner: true
+susbtitle: " Economic Adviser Wing"
+author: "Zahid Asghar"
+date: "24-09-2024"
+format: 
+  typst:
+    logo: "images/qau1.jpg"
+    theme: [default, custom.scss]
+    css: style.scss
+
+execute:
+  echo: false
+  message: false
+  warning: false
+---
+
+This training is for government officials, specially designed for economists, to learn about AI tools for economic policy making. Main focus will be on important tools like [Interactive Economic Policy Simulator]{.yellow}, [Fiscal Policy Advisor]{.yellow},  [Advanced Data Analysis]{.yellow} and [other AI tools]{.yellow}, with an overview of general AI tools to improve decision-making.
+
+The workshop will also explain how Generative AI can help in public service. Whether participants already use Generative AI or want to learn, they will explore how it can be applied to their jobs. Through practical sessions, they will learn how to benefit from Generative AI to [boost productivity]{.yellow}, using it as a [trustable assistant]{.yellow}, [improve economic planning]{.yellow} and [policy-making]{.yellow}.
+
+## Key Learning Objectives
+
+1.  **Understanding AI , ML, NLP and Generative AI**
+
+3.  **Enhancing Efficiency with AI Tools**
+    
+4.  **Role-Based Learning and Practical Application**
+    
+## Schedule Overview
+
+```{r}
+library(knitr)
+agenda <- data.frame(
+  Item = 1:7,
+  Duration = c(
+    "9:30 - 9:45 ", "9:45 - 11:00 ", 
+    "11:00 - 11:10 ","11:10 - 11:30", "11:30 - 13:00 ", 
+    "13:00 - 14:00 (60 min)", "14:00 - 15:30 (90 min)"
+  ),
+  Activity = c(
+    "Welcome", "Introduction to Generative AI", 
+    "Q&A Session", "Break", "Prompt Engineering, Basics of Prompts, Effective Prompt Writing", 
+    "Lunch Break", "AI special tools for Economic Policy Making (e.g Fiscal Policy Advisor), Data Analysis using AI (Excel, Python,...)"
+  ),
+  Facilitator_Actions = c(
+    "Introduction, set expectations, energize", 
+    "Explain Gen AI, its evolution, use cases in public sector, engage participants with examples", 
+    "Facilitate interactive Q&A session with clarifications", 
+    "N/A", 
+    "Present AI's use in economic analysis, hands-on prompt creation exercises", 
+    "N/A", 
+    "Demonstrate fiscal policy analysis with AI tools, hands-on data analysis"
+  ),
+  Output = c(
+    "Participants feel engaged and comfortable", 
+    "Clear foundational understanding of Gen AI and its applications", 
+    "Clarified doubts, participants' insights into Gen AI applications", 
+    "N/A", 
+    "Practical understanding of AI-prompting in economic scenarios", 
+    "N/A", 
+    "Hands-on experience with AI-driven data analysis and fiscal policy tools"
+  )
+)
+
+
+# Display the table
+kable(agenda, caption = "Workshop Schedule")
+```
+
+
+## Conclusion and Next Steps
+
+This workshop will guide participants from foundational knowledge of Generative AI to practical applications in economics policy making, ensuring interactive and hands-on learning. 😊
+
+## Resources
+
+This is a living list and some more resources will be added as we go along.
+
+-   [YouTube Playlist](https://www.youtube.com/playlist?list=PLwRdpYzPkkn302_rL5RrXvQE8j0jLP02j)
+
+-   [AI for Economists: Prompts & Resources](https://sites.google.com/view/lastunen/ai-for-economists)
+
+-   [Causal Inference Substack](https://causalinf.substack.com/)
+
+-   [One Useful Thing](https://www.oneusefulthing.org/)
+
+-   [Understanding AI](https://www.understandingai.org/)
+
+**Other AI sites:**
+
+-   [ChatPDF](https://www.chatpdf.com/)
+-   [Reeder AI](https://reeder.ai/)
+-   [Unriddle AI](https://app.unriddle.ai/)
+-   [Magic School AI](https://app.magicschool.ai/)

@@ -1,0 +1,134 @@
+---
+title: "One-Day Workshop on Generative AI for Economic Adviser Wing Staff"
+author: "Economic Advisory Unit"
+date: "2024-09-09"
+format:
+  pdf: default
+  html: default
+  docx: default
+---
+
+# Objective
+
+To equip the Economic Adviser Wing staff with a foundational understanding of Generative AI, its potential applications in economic forecasting, data analysis, and policy recommendations. By the end of the workshop, participants will be able to understand and apply Generative AI tools in economic analysis and decision-making.
+
+---
+
+# Workshop Agenda
+
+## **09:00 AM – 09:30 AM | Registration & Welcome Coffee**
+
+---
+
+## **09:30 AM – 10:00 AM | Session 1: Introduction to Generative AI and Its Role in Economics**
+
+### Topics Covered:
+- What is Generative AI?
+- Differences between Generative AI and other forms of AI (e.g., Predictive AI).
+- Overview of applications of Generative AI in various fields, with a focus on economics.
+- Key AI models (e.g., GPT, GANs) and their economic use cases.
+- Use of Generative AI in policy analysis, fiscal forecasts, and trend predictions.
+
+### Learning Outcome:
+Participants will understand the basics of Generative AI and its relevance in economic analysis.
+
+---
+
+## **10:00 AM – 10:45 AM | Session 2: Economic Data Augmentation and Analysis using Generative AI**
+
+### Topics Covered:
+- How Generative AI can enhance economic data by generating synthetic data to fill gaps.
+- Case studies on economic scenario modeling using AI.
+- AI-powered tools for data extraction, cleaning, and analysis.
+- Real-world applications in forecasting GDP, inflation, employment, and fiscal trends.
+
+### Hands-on Demo:
+- Using AI tools (GPT-4, etc.) for generating and analyzing economic datasets.
+
+### Learning Outcome:
+Participants will learn how to use Generative AI to augment economic data and perform in-depth analysis.
+
+---
+
+## **10:45 AM – 11:00 AM | Coffee Break**
+
+---
+
+## **11:00 AM – 12:00 PM | Session 3: AI in Policy Recommendations and Economic Scenario Generation**
+
+### Topics Covered:
+- Using Generative AI to create and compare economic policy scenarios.
+- AI-generated fiscal impact reports and their implications.
+- Optimizing resource allocation and budget planning using AI.
+
+### Case Studies:
+- AI-generated economic forecasts for policy shifts.
+- How different policy interventions can be modeled using AI-based simulations.
+
+### Learning Outcome:
+Participants will understand how to leverage AI-generated economic scenarios to inform policy decisions.
+
+---
+
+## **12:00 PM – 01:00 PM | Session 4: Ethical Considerations and Limitations of Generative AI in Economics**
+
+### Topics Covered:
+- The ethical implications of AI-generated data and decisions in economic analysis.
+- Understanding biases in AI models and ensuring transparency.
+- Limitations of AI in generating reliable economic forecasts.
+
+### Learning Outcome:
+Participants will be aware of the ethical issues and limitations of using AI for economic forecasting and policy recommendations.
+
+---
+
+## **01:00 PM – 02:00 PM | Lunch Break**
+
+---
+
+## **02:00 PM – 03:30 PM | Session 5: Workshop on Building AI-Powered Economic Models**
+
+### Topics Covered:
+- Building simple AI models for economic forecasting using available tools (Python, GPT-based tools).
+- How to interpret AI-generated outputs in an economic context.
+- Forecasting economic indicators (e.g., inflation, unemployment) using AI models.
+
+### Hands-on Activity:
+- Participants will use an AI tool to forecast an economic indicator based on historical data and current trends.
+
+### Learning Outcome:
+Participants will gain hands-on experience in building AI-driven economic models.
+
+---
+
+## **03:30 PM – 04:00 PM | Coffee Break**
+
+---
+
+## **04:00 PM – 05:00 PM | Session 6: Panel Discussion and Q&A: Future of Generative AI in Economic Policy**
+
+### Topics Covered:
+- How AI will continue to evolve in the context of economic analysis and fiscal policy.
+- Panel of experts discussing future trends, risks, and opportunities in AI-driven economic forecasting.
+
+### Q&A Session:
+- Open forum for participants to ask questions about implementing Generative AI in their work.
+
+### Learning Outcome:
+Participants will engage with experts to envision the future applications of AI in economic analysis.
+
+---
+
+## **05:00 PM – 05:30 PM | Closing Remarks & Certificate Distribution**
+
+---
+
+# Materials Provided:
+- Slide decks for each session.
+- Reading materials on AI in economic forecasting.
+- Access to AI-based economic analysis tools and datasets.
+- Instructions for hands-on activities and additional resources for further learning.
+
+---
+
+This workshop will provide the Economic Adviser Wing staff with a practical understanding of Generative AI's potential in economic forecasting, analysis, and policy recommendations, enabling them to incorporate AI-driven insights into their strategic decisions.
