@@ -1,0 +1,88 @@
+---
+title: "NLP in macroeconomics: Prompts"
+title-block-banner: true
+author: "Zahid Asghar"
+date: "today"
+format: 
+  html:
+    theme: [default, custom1.scss]
+    css: style.scss
+    toc: true
+    toc-float: true
+---
+
+### 1. **Sentiment Analysis of Economic Reports**
+   - **Prompt:** "Analyze the sentiment of the central bank's monetary policy statement to gauge the tone (hawkish or dovish) and its potential impact on interest rates."
+   - **Application:** Use sentiment analysis to extract whether a central bank is leaning towards raising or lowering interest rates based on the language used in their statements.
+   - **NLP Task:** Sentiment analysis.
+   - **Example Tool:** `transformers` for sentiment analysis.
+
+### 2. **Entity Recognition in Financial Documents**
+   - **Prompt:** "Identify key economic entities (e.g., countries, companies, sectors) mentioned in the IMF's World Economic Outlook and their associated actions or trends."
+   - **Application:** Automatically extract mentions of entities like "United States", "China", or "Eurozone" from large economic documents and connect them with economic metrics like GDP growth, inflation, or trade policies.
+   - **NLP Task:** Named Entity Recognition (NER).
+   - **Example Tool:** `spaCy`.
+
+### 3. **Topic Modeling of Economic News**
+   - **Prompt:** "Discover the main topics discussed in a large corpus of macroeconomic news articles published during a financial crisis."
+   - **Application:** Topic modeling helps in identifying the primary concerns (e.g., inflation, unemployment, fiscal policy) during specific macroeconomic events such as recessions or policy shifts.
+   - **NLP Task:** Topic Modeling (LDA, NMF).
+   - **Example Tool:** `Gensim` for topic modeling.
+
+### 4. **Text Summarization of Economic Reports**
+   - **Prompt:** "Summarize the key points of the Federal Reserve’s latest FOMC meeting minutes."
+   - **Application:** Automatically generate concise summaries of long economic documents to save time for economists, policy makers, and analysts.
+   - **NLP Task:** Text Summarization.
+   - **Example Tool:** `transformers` with a summarization model like `BART` or `T5`.
+
+### 5. **Economic Sentiment Index from News**
+   - **Prompt:** "Create an Economic Sentiment Index by analyzing the tone of financial news articles published in the last 6 months."
+   - **Application:** Develop a sentiment index based on the overall tone of economic and financial news to predict market trends or economic cycles.
+   - **NLP Task:** Sentiment Analysis combined with aggregation.
+   - **Example Tool:** `VADER` for financial sentiment analysis.
+
+### 6. **Speech Analysis of Central Bank Governors**
+   - **Prompt:** "Analyze the speeches of central bank governors to identify any shifts in policy direction over the past year."
+   - **Application:** By analyzing the speeches, we can track any linguistic patterns or changes in word choice that indicate a shift towards more aggressive or accommodative monetary policy.
+   - **NLP Task:** Speech-to-text followed by text analysis.
+   - **Example Tool:** `transformers`, `spaCy`, or `Google Speech-to-Text`.
+
+### 7. **Macro Event Detection from News Streams**
+   - **Prompt:** "Detect macroeconomic events such as policy changes, crises, or market shocks from a continuous stream of financial news."
+   - **Application:** Automatically detect and classify major macroeconomic events in real-time from news data, which can be fed into models for trading or economic forecasting.
+   - **NLP Task:** Event Detection.
+   - **Example Tool:** `spaCy`, `nltk` for event detection.
+
+### 8. **Central Bank Communication Analysis**
+   - **Prompt:** "Track how often inflation and employment-related terms appear in the Federal Reserve's FOMC meeting minutes and identify trends over time."
+   - **Application:** Identify patterns in the frequency of specific economic terms (like "inflation", "unemployment", "interest rates") to understand central bank focus areas.
+   - **NLP Task:** Frequency Analysis, Text Mining.
+   - **Example Tool:** `nltk` or `spaCy` for word frequency analysis.
+
+### 9. **Sentiment-driven Stock Market Analysis**
+   - **Prompt:** "Examine the relationship between sentiment in economic news and stock market performance for major indices."
+   - **Application:** Use NLP-driven sentiment analysis to correlate the mood of economic news with stock market fluctuations, helping to predict short-term market trends.
+   - **NLP Task:** Sentiment Analysis, Correlation Analysis.
+   - **Example Tool:** `transformers`, `pandas` for data handling.
+
+### 10. **Correlation of Macro Terms with Economic Indicators**
+   - **Prompt:** "Identify the correlation between the occurrence of key macroeconomic terms (e.g., 'inflation', 'recession') in news and actual economic indicators."
+   - **Application:** Track how frequently certain terms are mentioned in the media and correlate them with actual macroeconomic data (e.g., inflation rates or GDP growth) to identify lagging or leading indicators.
+   - **NLP Task:** Text mining, Correlation Analysis.
+   - **Example Tool:** `pandas`, `scikit-learn`.
+
+### 11. **Extracting Forecast Data from Text**
+   - **Prompt:** "Extract GDP, inflation, and unemployment rate forecasts from economic outlook reports issued by financial institutions."
+   - **Application:** Automatically pull key forecast figures from lengthy reports to aggregate predictions and compare them across institutions.
+   - **NLP Task:** Information Extraction.
+   - **Example Tool:** `spaCy`, `nltk`.
+
+### 12. **Scenario Analysis from Policy Documents**
+   - **Prompt:** "Identify different economic scenarios (best case, worst case) discussed in fiscal policy reports and compare them."
+   - **Application:** Extract scenario-based economic forecasts or projections from policy reports to help in decision-making or policy formation.
+   - **NLP Task:** Text Classification, Information Extraction.
+   - **Example Tool:** `transformers` for text classification.
+
+### Conclusion
+
+NLP has immense potential in macroeconomics, especially when dealing with large amounts of unstructured data such as financial reports, news articles, and policy documents. By using various NLP techniques, you can extract actionable insights, detect patterns, and even forecast economic variables more effectively.

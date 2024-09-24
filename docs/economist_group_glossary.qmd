@@ -1,0 +1,121 @@
+---
+title: "Generative AI in Economic Policy Analysis: Glossary"
+author: "Zahid Asghar, School of Economics, QAU, Islamabad"
+date: "2024-09-24"
+format: 
+  html:
+    theme: [default, custom1.scss]
+    css: style.scss
+    
+execute:
+  freeze: auto
+  echo: false
+  message: false
+  warning: false
+---
+
+The article provides a framework for experimentation when integrating AI into government work, emphasising the balance between innovation and ethical considerations. Key takeaways (as summarised by ChatGPT) include:
+
+AI as an assistant: AI should be seen as a decision-making assistant rather than a decision-maker, emphasising the importance of human oversight and ethical responsibility in its use.
+Balancing efficiency and compliance: While it’s important to follow guidelines, caution shouldn’t prevent experimentation with AI.
+Creative potential: AI can act as an “extra brain” or “extra hands,” helping with tasks like summarising documents and providing diverse perspectives, offering a creative avenue for public servants.
+Ethical considerations: Public servants should prioritise ethics, avoid using sensitive information, and ensure AI use aligns with public service principles.
+Informed experimentation: Staying informed without being overwhelmed and experimenting in safe environments can enhance creativity and learning.
+Transparency: Transparency is crucial; always disclose when AI is being used.
+Quick wins with AI: AI can boost productivity in areas like drafting documents, summarising information, and analysing data, but rules and regulations must still be adhered to. 
+
+| **Term**                          | **Definition**                                                                                                                 |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| Data augmentation                  | A technique used in machine learning and deep learning to increase the diversity and amount of training data.                   |
+| Deep learning                      | A subset of machine learning that focuses on training computers to perform tasks by learning from data, using neural networks.   |
+| Diffusion model                    | A generative model used for generating high-quality samples and tasks, such as image synthesis.                                 |
+| Discriminative AI                  | Artificial intelligence that distinguishes between different classes of data.                                                   |
+| Discriminative AI models           | Models that identify and classify patterns in data, commonly used for prediction and classification tasks.                     |
+| Foundation models                  | Broad AI models that can be adapted to create more specialized models or tools for specific use cases.                          |
+| Generative adversarial network (GAN) | A type of generative model with two neural networks (generator and discriminator) where the generator creates samples and the discriminator evaluates them. |
+| Generative AI                      | AI that can create new content such as text, images, audio, and video.                                                         |
+| Generative AI models               | Models that generate new content by understanding the context of the input. Used for automated content creation and communication.|
+| Generative pre-trained transformer (GPT) | A type of large language model developed by OpenAI that uses transformers to understand and generate text.                     |
+| Large language models (LLMs)       | Deep learning models trained on massive text datasets to learn language patterns and structures.                                |
+| Machine learning                   | AI focused on creating algorithms and models that enable computers to learn and make predictions or decisions from data.        |
+| Natural language processing (NLP)  | AI that enables computers to understand, manipulate, and generate human language.                                               |
+| Neural networks                    | Computational models inspired by the human brain, essential in deep learning and AI.                                             |
+| Prompt                             | Instructions or questions given to a generative AI model to generate new content.                                               |
+| Training data                      | Data used to teach a machine learning model, often containing labeled examples.                                                 |
+| Transformers                       | A deep learning architecture that uses encoders and decoders to generate contextually relevant text.                            |
+| Variational autoencoder (VAE)      | A generative model that encodes input data into a smaller space and then decodes it back to its original form.                 |
+
+
+
+## Prompt Overview
+
+- A prompt is any input or series of instructions used to produce a desired output.
+- These instructions help in directing the creativity of a generative model.
+- Building blocks of a well-structured prompt include instruction, context, input data, and output indicators.
+- These elements help the model comprehend our necessities and generate relevant responses.
+
+
+## What is Prompt Engineering?
+
+- **Define Prompt Engineering**:
+  - The practice of designing and refining prompts to guide generative models in producing desired outputs.
+
+---
+
+## Importance of Prompt Engineering
+
+- **Relevance and Importance**:
+  - Prompt engineering is crucial for improving the accuracy, creativity, and relevance of AI-generated responses.
+  - It helps AI systems understand the user's intention and produce better, more aligned results.
+
+---
+
+## How to Write Effective Prompts
+
+- **Writing Effective Prompts**:
+  - Effective prompts are clear, context-rich, and structured to help AI understand what is expected.
+  - The process involves defining the instruction, providing necessary context, and outlining the desired output.
+
+
+## 
+
+Prompt engineering is a blend of critical analysis,
+creativity, and technical acumen.
+It is not limited to asking the right question.
+It includes framing the question in
+the right context with the right information
+and your expectation of
+desired outcomes to elicit the most appropriate response.
+
+## Best Practices for Writing Effective Prompts
+
+Key Dimensions:
+
+- **Clarity**:
+  - Use simple and concise language. 
+  - Avoid ambiguity and vagueness. 
+- **Context**: 
+  - Provide background and necessary details. 
+  - Help the model understand the situation.
+- **Precision**:
+  - Be specific and give examples. 
+  - Clearly define the scope and expectations.
+- **Role-play**:
+  - Assume a persona to enhance the response. 
+  - Offer relevant context for better understanding.
+
+## Prompt Engineering Techniques
+
+At this point, you have learned the techniques for skillfully crafting prompts that effectively steer generative AI models. You now know the various prompt engineering approaches that optimize the response of generative AI models.
+
+You explored the techniques, including zero-shot and few-shot prompting, using which text prompts can improve the reliability of large language models (LLMs) and yield greater benefits from their responses. You learned how using different approaches such as interview patterns, Chain-of-Thought, and Tree-of-Thought to write prompts helps generative AI models produce more specific, contextual, and customized responses to the user's needs. You even had the opportunity to experience the application of each of these approaches through hands-on lab experiences. You were privy to what experts from the field had to say about the role of prompt engineering in AI.
+
+Specifically, you learned that:
+
+The various techniques using which text prompts can improve the reliability and quality of the output generated from LLMs are task specification, contextual guidance, domain expertise, bias mitigation, framing, and the user feedback loop. 
+The zero-shot prompting technique refers to the capability of LLMs to generate meaningful responses to prompts without needing prior training.
+The few-shot prompting technique used with LLMs relies on in-context learning, wherein demonstrations are provided in the prompt to steer the model toward better performance.
+The several benefits of using text prompts with LLMs effectively are increasing the explain ability of LLMs, addressing ethical considerations, and building user trust.
+The interview pattern approach is superior to the conventional prompting approach as it allows a more dynamic and iterative conversation when interacting with generative AI models.
+The Chain-of-Thought approach strengthens the cognitive abilities of generative AI models and solicits a step-by-step thinking process.
+The Tree-of-Thought approach is an innovative technique that builds upon the Chain-of-Thought approach and involves structuring prompts hierarchically, akin to a tree, to guide the model's reasoning and output generation.

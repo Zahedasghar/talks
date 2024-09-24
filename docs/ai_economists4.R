@@ -1,0 +1,128 @@
+---
+title: "Macroeconomic Data Analysis for Policy Insights"
+format: 
+  revealjs:
+  theme: simple
+  slide-number: true
+  transition: slide
+toc: true
+---
+  
+## Overview of Macroeconomic Data
+  
+  **Key Indicators:**
+  
+  - GDP (constant and nominal)
+- GDP growth
+- Inflation (CPI)
+- Exchange rates
+- Fiscal balance
+- Government expenditure
+
+**Prompt:** What are the key macroeconomic indicators in this dataset that are crucial for policy analysis?
+  
+  ---
+  
+  # Slide 2: GDP Growth and Trends
+  
+  **Prompt:** How has GDP growth fluctuated over time, and what are the underlying factors behind these changes?
+  
+  - Use time-series analysis to observe growth.
+- Key visualization: line plot of GDP growth over time.
+
+```{r}
+# GDP growth time series analysis (example code)
+library(ggplot2)
+
+ggplot(data, aes(x=Year, y=GDP_Growth)) +
+  geom_line() +
+  labs(title="GDP Growth Over Time", x="Year", y="GDP Growth (%)")
+```
+
+---
+  
+  # Slide 3: Inflation and Exchange Rates
+  
+  **Prompt:** What is the relationship between inflation (CPI) and exchange rate movements over the years?
+  
+  - Analyze correlation between inflation and exchange rates.
+- Key visualization: scatter plot or line chart of both variables over time.
+
+```{r}
+# Inflation vs. Exchange Rate analysis (example code)
+ggplot(data, aes(x=Year)) +
+  geom_line(aes(y=Inflation), color="blue") +
+  geom_line(aes(y=Exchange_Rate), color="red") +
+  labs(title="Inflation vs Exchange Rates", y="Value", x="Year")
+```
+
+---
+  
+  # Slide 4: Fiscal Policy Insights
+  
+  **Prompt:** How does fiscal deficit influence economic stability? How has the fiscal balance changed over time?
+  
+  - Discuss fiscal balance as % of GDP.
+- Key visual: bar chart showing fiscal balance over time.
+
+---
+  
+  # Slide 5: Government Expenditure and Growth
+  
+  **Prompt:** What role does government spending play in economic growth?
+  
+  - Compare government expenditure with GDP growth.
+- Key visualization: line plots showing expenditure and growth side by side.
+
+---
+  
+  # Slide 6: Private Investment Trends
+  
+  **Prompt:** How have private sector investments evolved, and what economic factors influence these trends?
+  
+  - Focus on GFCF data and analyze private investments.
+- Key visualization: bar chart of investment trends over time.
+
+---
+  
+  # Slide 7: External Sector and Oil Prices
+  
+  **Prompt:** How do fluctuations in oil prices affect economic performance?
+  
+  - Correlate oil price movements with GDP, inflation.
+- Key visual: scatter plot or line chart of oil prices and macro indicators.
+
+---
+  
+  # Slide 8: Public Debt and Economic Growth
+  
+  **Prompt:** Is there a relationship between public debt and economic growth?
+  
+  - Study public debt in relation to GDP growth.
+- Key visual: a line plot comparing debt and GDP growth trends.
+
+---
+  
+  # Slide 9: Policy Impact on Growth and Inflation
+  
+  **Prompt:** How have major policy shifts impacted inflation and economic growth?
+  
+  - Analyze historical data on inflation and growth around policy changes.
+- Key visualization: annotated line chart.
+
+---
+  
+  # Slide 10: Recommendations for Policy Action
+  
+  **Prompt:** What policy recommendations can be drawn from the data to address current economic challenges?
+  
+  - Summarize insights and propose recommendations.
+- Encourage participants to use findings from previous slides for policy suggestions.
+
+---
+  
+  ```
+
+This template structure in Quarto will guide participants through each slide, blending prompts with R code for generating relevant visualizations and analyses. You can expand this by adding specific datasets, fine-tuning the visualizations based on your data, or introducing more complex analyses like regression or forecasting where needed.
+
+Let me know if you'd like more specific R code for any of the slides or have further questions on generating charts!

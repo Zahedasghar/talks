@@ -1,0 +1,161 @@
+---
+title: ""
+author: "Zahid Asghar"
+date: "2024-09-24"
+format: 
+  revealjs:
+    logo: "images/qau1.jpg"
+    theme: [default, custom2.scss]
+    css: style.scss
+    title-slide-attributes:
+      data-background-image: images/background_title.png
+
+execute:
+  freeze: auto
+  echo: false
+  message: false
+  warning: false
+--- 
+
+## AI in Economics {background-image="images/background_title.png"}
+
+[**Zahid Asghar**]{.orange}
+
+
+
+
+
+--- 
+
+## The Economist’s Role: Doctors for Economies
+
+::: {.incremental}
+
+- Economists diagnose and solve economic challenges.
+- [Similar to doctors, who treat patients, economists help economies.]{.yellow}
+- Both aim to improve the overall health and well-being of their clients—people and nations.
+
+:::
+
+  
+## Economic Health Check
+  
+  - Inflation, geopolitical tensions, and regulatory shifts.
+- Impact: Productivity, GDP, and trade balances may decline.
+- Solution: AI optimization for economic management.
+
+  
+## AI Optimization for Economic Health
+  
+  - AI helps economies respond to challenges more efficiently.
+- Economic data is the lifeblood of national planning.
+- AI optimizes economic forecasting, resource allocation, and policy-making.
+
+## Traditional AI: Automating Data-Driven Tasks
+  
+  - AI automates data collection, pattern recognition, and economic modeling.
+- Economic policy analysis can be enhanced through AI-driven simulations.
+- Faster, more accurate insights into inflation trends, labor markets, and trade flows.
+
+## Generative AI: Collaborating with Economists
+  
+  - Deep learning models create new economic forecasts based on historical data.
+- AI analyzes patterns in global trade, inflation, and unemployment rates.
+- Helps generate policy scenarios and impact studies, reducing analysis time by up to 90%.
+
+## Generative AI in Economic Planning
+  
+  - Saves time on data entry, analysis, and report generation.
+- Quickly structures economic data and forecasts trends.
+- Generates actionable insights and policy proposals in shareable formats.
+
+## AI Revolutionizing Economic Planning
+  
+  - Detects anomalies in economic data, explains market variances.
+- Creates simulations for policy impact and crisis response.
+- AI enhances the economist’s ability to handle complex global economic challenges.
+
+## Key AI Focus Areas in Economic Policy
+  
+  - Economic forecasting, fiscal policy, trade modeling, and labor market analysis.
+- AI enables more precise economic predictions and faster policy-making.
+- Economic planning and analysis see the greatest impact from AI.
+
+## Fast Decisions = Economic Growth
+  
+  - AI accelerates economic decision-making.
+- Impacts fiscal policy, trade agreements, and resource allocation.
+- Automates data aggregation and provides economic insights (Traditional AI).
+
+## Generative AI Capabilities for National Economies
+  
+  - Detects economic patterns, creates dynamic forecasts.
+- Generates market comparisons and policy impact simulations.
+- AI-driven models simulate outcomes without affecting the real economy.
+
+## ROI from AI Implementation
+  
+  - 18% growth in economic efficiency through AI implementation.
+- 24% improvement in forecasting accuracy with AI operationalization.
+- 51% economic ROI through AI optimization and scaling.
+
+## Challenges in AI Adoption for Economists
+  
+  - Concerns: Data security, biases, governance, and public trust.
+- Fear of negative impacts on national policy outcomes.
+- Solution: Implement strong regulatory frameworks and governance protocols for AI.
+
+## AI Empowers, Not Replaces Economists
+  
+  - AI enhances the efficiency of economic research and analysis.
+- Enables economists to focus on strategic tasks and policy recommendations.
+- Empowers workers to learn new skills and embrace AI-driven economic models.
+
+## Training for an AI-First Economy
+  
+  - Investment in training for economic analysts in machine learning and AI tools.
+- Economists must collaborate with AI for effective policy-making.
+- AI democratizes access to complex economic models and forecasts.
+
+## Securing AI Buy-In for Economic Transformation
+  
+  - Economists, policymakers, and stakeholders must support AI integration.
+- AI-driven forecasting and policy analysis can be a first use case.
+- Align AI technology with national economic goals.
+
+## Key Questions for AI Use Cases in Economics
+  
+  - What are your economic goals? Growth? Stability? Productivity?
+  - Will AI help achieve better, data-driven decision-making?
+  - How will a hybrid human-AI approach impact economic planning?
+  
+## Mapping AI Strategy for Economic Development
+  
+  - Answer critical questions to create an AI-driven national economic vision.
+- Start by piloting AI for targeted economic sectors.
+- Scale traditional AI applications and integrate Generative AI for greater impact.
+
+## AI and National Economic Agility
+  
+  - National economies must adapt to global changes faster with AI.
+- AI keeps economies competitive in global trade and investment.
+- Enables adaptation to new fiscal policies and economic models efficiently.
+
+## Tackling Data Overload with AI in Economics
+  
+  - Difficulty in processing large amounts of economic data.
+- Constant changes in global trade, inflation rates, and fiscal policies.
+- Impact on accurate forecasting and economic planning.
+
+## Generative AI for Data Parsing in Economics
+  
+  - Ideal for parsing low-variability economic data.
+- AI assistants can help ingest and summarize economic reports.
+- Automates data handling, reducing the burden on economists.
+
+## Gen AI’s Value for Economic Research
+  
+  - Parses through complex economic reports and global trends.
+- Answers questions, generates policy insights, and forecasts outcomes.
+- Identifies patterns in trade, inflation, and economic growth.
+

@@ -1,331 +1,38 @@
 ---
 title: "Privatisation"
-date: "2024-09-07"
+date: "2022"
 format: 
-  typst: 
+  docx: 
     slide-number: true
-    #toc: true
+    toc: true
+    transition: slide
     theme: simple
     incremental: true
-execute:
-  echo: false
-  warning: false
-  message: false
 ---
 
 
-# Privatisation in Pakistan
-
-> ## The ultimate goal should be to stop the bleeding of public money.  
-
-# No empirical study to verify or refute the claim that privatisation done in the past was successful and in which sectors it was successful.
-
-
-
-### 4TH INDUSTRIAL REVOLUTION (Today)\nCyber Physical Systems & Networks (AI, IoT, Blockchain)
-
-### 3RD INDUSTRIAL REVOLUTION (1969)\nAutomation, Electronics & IT Systems 
-
-### 2ND INDUSTRIAL REVOLUTION (1870)\nMass Production & Electricity
-
-### 1ST INDUSTRIAL REVOLUTION (1784)\nMechanisation & Steam Power
-
-
-## THREE DOGMAS OF NEOLIBERAL ECONOMICS
-
-
-### 1. THE STATE HAS NO ROLE IN THE ECONOMY, NOR IN ECONOMIC ENTERPRISE.\n\n
-
-### 2. DISINVEST, PRIVATISE AND DEREGULATE ALL STATE ENTERPRISES.\n\n
-### 3. THE 'MARKET' CAN PROVIDE EVERYTHING, LET THE PRIVATE SECTOR DO BUSINESS 'EASILY' (WITH NO OVERSIGHT)."
-
-### Political Decisions for Electricity and Gas Sector Provsision in Pakistan 
-
-
-
-
-
-
-
-25 entities for sale in the first phase of privatisation.
-
-- 207 total entities: 11 contribute 80% of losses.
-- 3 are from transport sector, 8 from power sector.
-
-## SOE Profitability Trends 
-
-- **World Bank report**: Declining profitability of SOEs for over a decade.
-- Profitability dropped from **0.8% of GDP in 2014** to **losses of 0.4% of GDP in 2020**.
-- SOEs in Pakistan now have the lowest profitability in the South Asian region.
-
-## Losses 
-
-
-```{r}
-# Install necessary packages if you haven't already
-# install.packages("ggplot2")
-# install.packages("treemapify")
-
-# Load the required libraries
-library(ggplot2)
-library(treemapify)
-
-# Create a data frame with SOEs and their corresponding losses
-soes_losses <- data.frame(
-  SOE = c("National Highway Authority (NHA)", 
-           
-          "Quetta Electric Supply Company Limited (QESCO)", 
-          "Peshawar Electric Supply Company Limited (PESCO)", 
-          "Lahore Electric Supply Company Limited (LESCO)", 
-          "Sukkur Electric Power Company Limited (SEPCO)", 
-          "Multan Electric Power Company Limited (MEPCO)", 
-          "Hyderabad Electric Supply Company Limited (HESCO)", 
-          "Faisalabad Electric Supply Company Limited (FESCO)", 
-          "Islamabad Electric Supply Company Limited (IESCO)", 
-          "Pakistan International Airlines Corporation (PIA)", 
-          "Pakistan Railways", 
-          "Pakistan Steel Mills Corporation (Private) Limited", 
-          "Sui Southern Gas Company Limited (SSGC)", 
-          "Pakistan Telecommunication Company Limited (PTCL)", 
-          "GENCO-II Central Power Generation Company Limited, Thermal Power Station Guddu", 
-          "GENCO-III Northern Power Generation Company Limited, Thermal Power Station Muzaffargarh", 
-          "Pakistan Post Office", 
-          "Pakistan Broadcasting Corporation (PBC)", 
-          "GENCO-I Jamshoro Power Company Limited", 
-          "GENCO-IV Lakhra Power Generation Company Limited", 
-          "Pakistan Expo Centres (Pvt) Ltd", 
-          "Pakistan Revenue Automation (Private) Limited", 
-          "State Engineering Corporation (Private) Limited"),
-  
-  Losses_Rs_Billion = c(413.454, 
-                         
-                        88.487, 
-                        80.595, 
-                        30.839, 
-                        30.667, 
-                        23.372, 
-                        15.640, 
-                        14.983, 
-                        0.666, 
-                        75.755, 
-                        48.534, 
-                        25.455, 
-                        17.350, 
-                        15.544, 
-                        14.170, 
-                        3.240, 
-                        3.234, 
-                        1.617, 
-                        0.910, 
-                        0.480, 
-                        0.181, 
-                        0.165, 
-                        0.032)
-)
-
-# Filter for losses greater than 5 billion
-soes_losses_filtered <- subset(soes_losses, Losses_Rs_Billion > 20)
-
-# Create the treemap using treemapify
-ggplot(soes_losses_filtered, aes(area = Losses_Rs_Billion, fill = SOE, label = paste(SOE, "\n", Losses_Rs_Billion, "B"))) +
-  geom_treemap() +
-  geom_treemap_text(fontface = "italic", colour = "black", place = "centre", grow = TRUE) +
-  labs(title = "Treemap of SOEs Losses Greater than 20 Billion") +
-  theme(legend.position = "none")  # Remove legend for simplicity
-
-```
-
-
-```{r}
-
-# Create a data frame with SOEs and their corresponding losses
-soes_losses <- data.frame(
-  SOE = c("National Highway Authority (NHA)", 
-          "Power Sector", 
-          "Quetta Electric Supply Company Limited (QESCO)", 
-          "Peshawar Electric Supply Company Limited (PESCO)", 
-          "Lahore Electric Supply Company Limited (LESCO)", 
-          "Sukkur Electric Power Company Limited (SEPCO)", 
-          "Multan Electric Power Company Limited (MEPCO)", 
-          "Hyderabad Electric Supply Company Limited (HESCO)", 
-          "Faisalabad Electric Supply Company Limited (FESCO)", 
-          "Islamabad Electric Supply Company Limited (IESCO)", 
-          "Pakistan International Airlines Corporation (PIA)", 
-          "Pakistan Railways", 
-          "Pakistan Steel Mills Corporation (Private) Limited", 
-          "Sui Southern Gas Company Limited (SSGC)", 
-          "Pakistan Telecommunication Company Limited (PTCL)", 
-          "GENCO-II Central Power Generation Company Limited, Thermal Power Station Guddu", 
-          "GENCO-III Northern Power Generation Company Limited, Thermal Power Station Muzaffargarh", 
-          "Pakistan Post Office", 
-          "Pakistan Broadcasting Corporation (PBC)", 
-          "GENCO-I Jamshoro Power Company Limited", 
-          "GENCO-IV Lakhra Power Generation Company Limited", 
-          "Pakistan Expo Centres (Pvt) Ltd", 
-          "Pakistan Revenue Automation (Private) Limited", 
-          "State Engineering Corporation (Private) Limited"),
-  
-  Losses_Rs_Billion = c(413.454, 
-                        285, 
-                        88.487, 
-                        80.595, 
-                        30.839, 
-                        30.667, 
-                        23.372, 
-                        15.640, 
-                        14.983, 
-                        0.666, 
-                        75.755, 
-                        48.534, 
-                        25.455, 
-                        17.350, 
-                        15.544, 
-                        14.170, 
-                        3.240, 
-                        3.234, 
-                        1.617, 
-                        0.910, 
-                        0.480, 
-                        0.181, 
-                        0.165, 
-                        0.032)
-)
-
-# Arrange in descending order of losses and select only SOE and Losses_Rs_Billion columns
-soes_losses <- soes_losses[order(-soes_losses$Losses_Rs_Billion), c("SOE", "Losses_Rs_Billion")]
-
-
-# Optionally, for visual display in your R environment, use View() or save to CSV
-# View(soes_losses)
-# write.csv(soes_losses, "SOEs_Losses_Descending_Order.csv")
-# Arrange in descending order of losses and select only SOE and Losses_Rs_Billion columns
-soes_losses <- soes_losses[order(-soes_losses$Losses_Rs_Billion), c("SOE", "Losses_Rs_Billion")]
-
-# Use knitr::kable to render a readable table with both columns visible side by side
-knitr::kable(soes_losses, col.names = c("SOE", "Losses (Rs Billion)"), align = 'l')
-```
-
-
+> The ultimate goal should be to stop the bleeding of public money. 
 
 ## Introduction
 
-- SOEs in Pakistan are underperforming. Why? Governance issues, lack of accountability, political interference, and corruption. 
+"The Case for Privatization of Pakistan’s State-owned Enterprises"
+author: "Naveed Iftikhar"
+- SOEs in Pakistan are underperforming.
+- Debate on SOEs: privatization vs government shareholding.
+- Financial crisis demands a reassessment of SOEs.
 
-- Debate on SOEs: privatization vs government shareholding. 
+## Advancements in Governance
+- **Technology, globalization, and management** have evolved.
+- Traditional governance models of SOEs are outdated.
+- Pakistan has around **200 SOEs** linked to the federal government, but only about **50 are of significance**.
 
-- Financial crisis demands a  reassessment of SOEs.  
+## Sector Focus: Energy, Communication, Manufacturing
+- SOEs in these sectors need substantial reforms.
+- Many SOEs should be closed or liquidated.
 
-- **Privatisation** is considered a key tool for **restructuring** and **improving efficiency** of SOEs. (Assumption)
-
-
-## Arguments for Privatisation
-
-- Privatisation can reduce the **fiscal burden** on the government.
-
-- Privatisation can **improve efficiency** and **reduce losses** in SOEs. 
-
-- Privatisation can **increase competition** and **improve service quality**. 
-
-- Privatisation can **attract foreign investment** and **improve economic growth**. 
-
-- Privatisation can **reduce corruption** and **improve transparency**. 
-
-- Reduce burden on taxpayers 
-
-## Arguments Against Privatisation
-
-- Privatisation can lead to **job losses** and **wage cuts**. 
-
-- Privatisation can lead to **monopolies** and **higher prices**. 
-- Privatisation can lead to **loss of control** over strategic sectors. 
-
-- Privatisation can lead to **foreign ownership** and **capital flight**. 
-
-- Privatisation can lead to **inequality** and **social unrest**.    
-
-## Key Principles of Privatisation 
-
-
-- Efficiency & Profitability: The divestment should improve the operational efficiency of the enterprises.  
-
-- **Transparency and fair pricing**: The process should be transparent and open to public scrutiny. 
-
-- **Competition**: The market should be competitive and open to new entrants. 
-
-- **Regulation**: The sector should be regulated to prevent abuse of market power. 
-
-- **Social Impact**: The social impact of privatisation should be carefully considered. 
-
-- **Economic Impact**: The economic impact of privatisation should be carefully considered. 
-
-- **Political Impact**: The political impact of privatisation should be carefully considered. 
-
-- **Legal Framework**: The legal framework for privatisation should be clear and well-defined. 
-
-- **Public Support**: There should be public support for privatisation. 
-
-## No one size fits all approach 
-
-- Privatisation should be tailored to the specific circumstances of each SOE. 
-
-- Different SOEs may require different approaches to privatisation. 
-
-- The goal of privatisation should be to improve the performance of SOEs, not just to raise revenue or reduce the fiscal deficit. 
-
-- Privatisation should be part of a broader strategy to reform the public sector and improve governance. 
-
-- Privatisation should be accompanied by measures to protect workers and consumers. 
-
-
-## Privatisation of Transport Sector
-
-- Airports, airlines,  roads and railways are key components of the transport sector.
-
-- **PIA** : Rs. 70 to 80 billion losses annually on accounting books. Economic loses are much higher.
-
-
-## Privatisation of Power Sector
-
-- Power generation, transmission and distribution are key components of the power sector. 
-
-- **Circular debt** is a major issue in the power sector. 
-
-- DISCOs are **inefficient** and **loss-making**.
-
-- Each DISCO has its own set of problems and challenges.
-
-
-## Success stories of privatisation 
-
-- **Karachi Electric**: Privatisation of K-Electric has improved efficiency and service quality. 
-
-- **PTCL**: Privatisation of PTCL has attracted foreign investment and improved service quality. 
-
-- **HBL**: Privatisation of HBL has attracted foreign investment and improved service quality. 
-
-- **UBL**: Privatisation of UBL has attracted foreign investment and improved service quality. 
-
-Youth got chance to be anchors, ceos and managers in open tv and telcos.
-
-## PTCL Privatisation
-
-- Total employees: 61,000
-- 2006: Etisalat buys 26% shares for $2.6 billion. 
-
-- 2006: VSS offered to 30,000 employees.
-
-- Second VSS offered in 2010 and almost 16000 employees left. 
-
-- Etisallat invested $1.4 billion in PTCL. It has not paid $800 million yet just because of land title issue for assets which are with it but not in its name. 
-
-## SOEs
-
-80 SOEs are privatized in Pakistan. But there is no empirical evidence that in which sector privatisation is successful and in which sector it is not.
-
-- No empirical evidence that privatisation is successful in all sectors. 
-
-- Data are not available for all sectors.
-
+## Tailored Approach Needed
+- **No one-size-fits-all** approach for privatization.
+- Specialized treatment required for each SOE based on local and global circumstances.
 
 ## Example: Pakistan International Airlines & Pakistan Steel Mills
 - These SOEs are incurring huge losses.
@@ -375,7 +82,10 @@ Youth got chance to be anchors, ceos and managers in open tv and telcos.
 > - **Total accumulated losses** exceed Rs2.5 trillion (approx. **$9 billion**).
 - These losses pose a **systemic risk** to the financial sector.
 
-
+## SOE Profitability Trends
+- **World Bank report**: Declining profitability of SOEs for over a decade.
+- Profitability dropped from **0.8% of GDP in 2014** to **losses of 0.4% of GDP in 2020**.
+- SOEs in Pakistan now have the lowest profitability in the South Asian region.
 
 ## IMF and Privatisation
 - **IMF bailout conditions** emphasize privatisation of PIA, Pakistan Steel Mills, RLNG power plants, and electricity distribution companies.
@@ -530,95 +240,18 @@ Successive governments have attempted SOE reforms, but with limited success. The
 - **SOEs beyond restructuring**: SOEs like PIA and Pakistan Steel Mills need massive investments in technology and human resources.
 - **Political consequences**: Reforms often stall due to political considerations, despite the financial burden.
 
+## Privatization as the Solution
+A sustainable solution is the **outright privatization** of ailing SOEs. Benefits include:
+- **Revenue generation**: Privatization will generate revenue for the government.
+- **Arresting public money drain**: It will stop the ongoing financial loss from inefficient SOEs.
 
-
+## Past Privatization Efforts
+The Pakistan Muslim League-Nawaz (PML-N) government made progress in SOE privatization between 2013-2018, especially with power distribution companies. However, the process was halted due to political reasons.
 
 ## International Example: India
 India privatized its SOEs in the late 1990s. Key successes include:
 - **Defense sector**: Majority of defense production is now in the private sector.
 - **National carrier**: Air India was privatized and is being restructured by the Tata Group to compete globally.
 
-# Demands from Government
-
-## Key Demands
-
-- **An independent board**: The board should be independent of political influence.
-
-- **Forensic audit**: A forensic audit of SOEs should be conducted to identify the root causes of their financial distress in 3 months.
-
-- **Reform plan**: A reform plan should be prepared for each SOE within 6 months.
-
-## Advancements in Governance 
-
-- **Technology, globalization, and management** have evolved.
-- Traditional governance models of SOEs are outdated. 
-
-
-## Tailored Approach Needed 
-
-- **No one-size-fits-all** approach for privatization.
-- Specialized treatment required for each SOE based on local and global circumstances.
-
-## Privatisation of elite clubs
-
-- **Privatization of elite clubs** like the Islamabad Club, Lahore Gymkhana, and Karachi Gymkhana can generate significant revenue. 
-
-- **GORs**: Government Officers Residences (GORs) in prime locations can be sold for commercial purposes. 
-
-- **Golf Courses**: Golf courses in prime locations can be privatized. 
-
-- **State Guest Houses**: Punjab House, Sindh House ... land can be sold or leased for commercial purposes to hotels, shopping malls, etc.
-
-
-# Introduction
-
-Privatization is a widely debated concept. But what does it actually mean?
-
-# Public Infrastructure and Investments
-
-- Generations ago, America built:
-  - National highways
-  - Public colleges and universities
-  - Public schools, parks, libraries, research, etc.
-- Mid 1980, privatization was pushed to boost efficiency and reduce taxes.
-  
-> **Reality**: Privatization often boosts corporate profits instead.
-
-
-> **Question**: Are these services reaching where they are most needed?
-
-# The Role of Private Corporations
-
-- Private corporations can be efficient.
-- Some privatization has worked.
-  
-**BUT**: Their goal is to maximize **profit** for shareholders, not serve the **public interest**.
-
-# The Public Interest
-
-The key question: **What’s best for the public?**
-
-Let’s consider 5 rules of thumb for when public services should not be privatized.
-
----
-
-# 1. Community Services
-
-- Don’t privatize when the service aims to bring communities together.
-- Example: The **Railways and Roads** serves even the most rural areas.
-- Privatization risks isolating marginalized groups.
-
-
-
-# 5. Lack of Competition
-
-- Don’t privatize where there’s insufficient competition.
-- Example: **Defense contractors** face limited competition, leading to cost overruns.
-
-> Privatization without competition results in inefficiency.
-
-
-
-# The Public vs. Profit
-
-
+## Conclusion
+Pakistan stands at a crossroads. Outright privatization is the only viable solution to address the financial burden of loss-making SOEs and ensure sustainable economic growth.

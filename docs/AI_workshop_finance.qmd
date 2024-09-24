@@ -32,7 +32,7 @@ This condensed yet intensive workshop is designed to empower employees from key 
 
 ## Workshop Agenda
 
-### Session 1:  AM -  AM
+### Session 9:30  AM - 11:00 AM
 **Introduction and Understanding Basic Terminologies**
 
 - Machine Learning , Big Data , LLMs, Prompt writing 
@@ -41,14 +41,13 @@ This condensed yet intensive workshop is designed to empower employees from key 
 
 -   Builtin ChatGPT: Economics Expert, Fiscal Policy Advisor, Policy Advisor, Generative AI, AI in Economic Planning, AI Tools for Economic Analysis, Data Analysis, Policy Analysis ,...
 
-
-
-### Break: :00 AM -  AM
+### Q&A Session: 11:00 AM - 11:15 AM
 
 ### Session 2:  AM -  PM
 
 **Tailored Content to Specific Roles:**  
-   - Customize scenarios based on participant roles (e.g., budget analysts, tax policy experts, debt managers).
+   - Customize scenarios based on participant roles (e.g., budget analysts, tax policy experts, debt managers). 
+   
    - **Role-Based Exercises:** Participants engage in exercises aligned with their daily responsibilities, such as simulating the impact of different fiscal policies.
 
 **Interactive Learning and Hands-On Training with AI Tools**
@@ -106,22 +105,83 @@ Participants will leave the workshop with a deep understanding of how AI can be 
 ## Organizers' Note
 
 This workshop is designed to be both practical and impactful, providing government officials with the tools and strategies necessary to leverage AI in economic governance, thus fostering innovation and efficiency in their daily operations.
+## Detailed Activities with "Training from the Back of the Room" (TBR) Techniques
 
+### Introduction to Generative AI (10:00 - 11:00, 60 min)
 
-##Resources
+```{r}
+# Create a table for the first detailed activity
+gen_ai <- data.frame(
+  Step_Name = c("Connections to Prior Knowledge", "Chunk Information", "Practice with Concepts", "Feedback & Summary"),
+  Time = c("10 min", "20 min", "20 min", "10 min"),
+  Technique = c("Small Group Discussion", "Interactive Presentation", "Paired Discussions", "Open Q&A"),
+  Process = c(
+    "Have participants discuss what they know about AI.", 
+    "Use visuals, examples to explain Gen AI.", 
+    "Ask them to share how they think Gen AI might affect policy.", 
+    "Invite participants to clarify doubts and summarize key points."
+  ),
+  Output = c(
+    "Activates prior knowledge, engages the group.", 
+    "Participants absorb key concepts of Gen AI.", 
+    "Encourages active application of new knowledge.", 
+    "Clear understanding of Gen AI concepts."
+  )
+)
 
-This is a living list and some more resources will be added as we go along. 
+# Display the table
+kable(gen_ai, caption = "TBR Techniques for Generative AI Introduction")
+```
 
-- [YouTube Playlist](https://www.youtube.com/playlist?list=PLwRdpYzPkkn302_rL5RrXvQE8j0jLP02j)
+### Prompting in Economics (11:30 - 12:45, 75 min)
 
-- [AI for Economists: Prompts & Resources](https://sites.google.com/view/lastunen/ai-for-economists)
-- [Causal Inference Substack](https://causalinf.substack.com/)
-- [One Useful Thing](https://www.oneusefulthing.org/)
-- [Understanding AI](https://www.understandingai.org/)
+```{r}
+# Create a table for the second detailed activity
+prompting <- data.frame(
+  Step_Name = c("Connections to Prior Knowledge", "Chunk Information", "Practice with Concepts", "Feedback & Summary"),
+  Time = c("10 min", "20 min", "30 min", "15 min"),
+  Technique = c("Small group brainstorming", "Interactive Presentation", "Hands-on Prompting Exercises", "Peer Review and Discussion"),
+  Process = c(
+    "Have participants think of AI prompts they’ve heard of.", 
+    "Demonstrate effective prompting with live examples.", 
+    "Groups create economic-related prompts and share outcomes.", 
+    "Groups exchange feedback on their prompt effectiveness."
+  ),
+  Output = c(
+    "Activates knowledge, primes participants.", 
+    "Participants understand prompting basics.", 
+    "Practical prompting skills developed.", 
+    "Improved understanding through feedback."
+  )
+)
 
-**Other AI sites:**
+# Display the table
+kable(prompting, caption = "TBR Techniques for Prompting in Economics")
+```
 
-- [ChatPDF](https://www.chatpdf.com/)
-- [Reeder AI](https://reeder.ai/)
-- [Unriddle AI](https://app.unriddle.ai/)
-- [Magic School AI](https://app.magicschool.ai/)
+### Data Analysis & Fiscal Policy Advisor (14:00 - 15:15, 75 min)
+
+```{r}
+# Create a table for the third detailed activity
+data_analysis <- data.frame(
+  Step_Name = c("Connections to Prior Knowledge", "Chunk Information", "Practice with Concepts", "Feedback & Summary"),
+  Time = c("10 min", "20 min", "30 min", "15 min"),
+  Technique = c("Small Group Discussions", "Demonstration", "Hands-on Analysis", "Group Discussion and Reflection"),
+  Process = c(
+    "Participants share how they use data in fiscal analysis.", 
+    "Live demo of data analysis using Fiscal Policy Advisor.", 
+    "Participants run their own data analysis using the tool.", 
+    "Group discusses potential policy impacts from their analysis."
+  ),
+  Output = c(
+    "Prepares group for hands-on activity.", 
+    "Understanding the interface and key features.", 
+    "Practical experience with AI-driven analysis.", 
+    "Insights on how to apply tools in real contexts."
+  )
+)
+
+# Display the table
+kable(data_analysis, caption = "TBR Techniques for Data Analysis & Fiscal Policy Advisor")
+```
+
