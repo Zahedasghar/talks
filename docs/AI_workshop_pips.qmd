@@ -1,0 +1,98 @@
+---
+title: "[How AI Can Help Public Policy Professoinals Improve Efficiency]{.yellow}"
+author: "Zahid Asghar"
+date: "today"
+format: 
+  html:
+    theme: [default, custom2.scss]
+    toc: true
+    toc-float: true
+---
+
+
+### [**Workshop Overview**]{.yellow} 
+
+This workshop is crafted to introduce public policy professionals, to understand AI and the practical applications of AI tools in decision-making and governance. The focus is on using AI to enhance the efficiency of public service operations and policy formulation. AI tools like [**Policy Advisor**]{.yellow} will be demonstrated, with an emphasis on how these technologies can be used in roles like policy assistants, getting insights from data without having coding background and making sense of written text (text data).
+
+Participants will explore [**Generative AI**]{.yellow} and its potential to streamline tasks in the public sector, such as creating policy briefs, economic reports, and decision support systems. The workshop includes hands-on exercises and scenario-based learning, ensuring participants gain real-world experience in AI integration.
+
+### [**Key Learning Objectives**]{.yellow}
+
+1. **Understanding AI in Public Policy**  
+   Gain a foundational understanding of AI and its uses in public policy, with a focus on decision-making, data analysis, and resource allocation.
+
+2. **Adopting AI in Public Service**  
+   Learn how to incorporate AI tools in government processes to improve efficiency, transparency, and policy development.
+
+3. **Practical AI Tools for Government Roles**  
+   Develop skills in using specific AI tools like **Policy Advisor** and **Fiscal Policy Advisor** for tasks such as analyzing fiscal data, budget planning, and forecasting policy outcomes.
+
+4. **Real-World Application and Role-Based Learning**  
+   Tailor the learning experience with practical exercises based on participants’ roles, ensuring relevance to their daily work.
+
+---
+
+### [**Workshop Agenda**]{.yellow}
+
+#### **Session 1: 9:30 AM - 11:00 AM**
+**Introduction to AI and Basic Terminologies**
+
+- What is Artificial Intelligence (AI)?
+- Overview of AI Tools in Public Policy: ChatGPT, Bard, Binge, ...
+- AI Applications in Public Policy: Policy Analysis, Budget Planning, Forecasting.
+- Basics of Big Data and Large Language Models (LLMs).
+
+#### **Q&A Session: 11:00 AM - 11:15 AM**
+
+#### **Session 2: 11:15 AM - 1:00 PM**
+
+**Prompt writing and reading AI tools**
+
+- **Generative AI for Policy Briefs:**  
+   - Learn how AI tools can generate policy briefs, economic reports, and other written content. 
+   
+- **Effective Prompt Writing:**  
+   - Practice writing prompts for AI tools to generate policy recommendations and fiscal analyses. 
+
+
+
+
+**Role-Specific AI Applications and Hands-On Learning**
+
+- **Tailored Content:** Customize exercises for different roles (budget analysts, policy advisors, tax experts).  
+   - Participants work with role-based AI scenarios, simulating policy decisions (e.g., tax adjustments, fiscal deficit control).
+- **Live Demonstrations:**  
+   - Interactive sessions showcasing how AI tools can simulate economic scenarios and guide decision-making.
+- **Group Work:**  
+   - Groups tackle fiscal policy challenges using AI, presenting their analyses and solutions.
+
+#### **Prayer Break: 1:00 PM - 2:00 PM**
+
+#### **Session 3: 2:00 PM - 4:30 PM**
+**Integrating AI into Public Policy Processes**
+
+- **Strategies for AI Adoption in Government:**  
+   - Learn how to integrate AI tools into planning processes 
+- **Case Studies:**  
+   - Analyze current policy issues using AI tools to predict outcomes and propose data-driven solutions.
+- **Hands-on Analysis and Reporting:**  
+   - Participants use AI tools to generate automated reports on economic and policy issues.
+
+#### **Wrap-Up: 4:30 PM - 4:45 PM**
+
+- **Summary and Reflection:**  
+   Recap key learnings and discuss practical steps for AI adoption in public service.
+- **Post-Training Resources:**  
+   Participants receive resources, such as sample data and AI tool access for continued learning.
+
+---
+
+### [**Workshop Outcomes**]{.yellow}
+
+By the end of the workshop, participants will: 
+- Understand how AI can improve decision-making and efficiency in public policy. 
+
+- Gain hands-on experience using AI tools for policy analysis and fiscal management. 
+
+- Be able to advocate for AI-driven solutions within their roles in government. 
+

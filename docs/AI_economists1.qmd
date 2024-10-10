@@ -3,10 +3,9 @@ title: ""
 author: "Zahid Asghar"
 date: "2024-09-24"
 format: 
-  revealjs:
+  :
     logo: "images/qau1.jpg"
-    theme: [default, custom1.scss]
-    css: style.scss
+    theme: [default, custom2.scss]
     chalkboard: true
     slideNumber: c/t
     title-slide-attributes:
@@ -319,6 +318,8 @@ In summary, Iqbal would likely see both the dangers and the opportunities in soc
 Many a times technology races ahead of education. This leads to social pain and inequality. The whole educational system has to revolutionize to keep up. Well, our world has always been in a race between technology and education. Usually, these two go hand in hand, but there are some points in history where technology races so far ahead that education can barely keep pace.
 :::
 
+---
+
 ### The Role of AI in Idea Generation
 
 -   AI can assist in generating ideas, refining questions, and clarifying thought processes.
@@ -523,7 +524,7 @@ Yet, our educational institutions have not evolved much. [We still put people in
 
 -   Snythesia video maker
 
-## Books I found useful in 2024
+## Useful Books (2024)
 
 ::: columns
 ::: {.column width="20%"}

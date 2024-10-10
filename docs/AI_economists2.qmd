@@ -3,11 +3,13 @@ title: ""
 author: "Zahid Asghar"
 date: "2024-09-24"
 format: 
-  revealjs:
+  typst:
     logo: "images/qau1.jpg"
     theme: [default, custom2.scss]
     chalkboard: true
     slideNumber: c/t
+    toc: true
+    toc-float: true
     title-slide-attributes:
       data-background-image: images/background_title.png
 
@@ -31,7 +33,7 @@ In the short term, these models can [augment our productivity by automating rout
 
  
   
-## Use Cases of LLMs in Economic Research 
+## Use Cases of LLMs in Economics Research 
 
 **Domains**:  
 
@@ -207,7 +209,7 @@ Convert to csv]{.yellow}
 Set up the optimization problem of a consumer with CES preferences over two goods mathematically.
 
 $$ max U = \left( \alpha x_1^{\rho} + (1-\alpha) x_2^{\rho} \right)^{\frac{1}{\rho}} $$
-subject to $p_1 x_1 + p_2 x_2 = m $ 
+subject to $$p_1 x_1 + p_2 x_2 = m$$ 
 
 Solve the following system of equations:
 
