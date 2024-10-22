@@ -1,0 +1,90 @@
+---
+title: "AI for Students, Teachers, and Researchers"
+author: "Zahid Asghar"
+date: today
+format: 
+  html:
+    theme: [default, custom2.scss]
+    toc: true
+    toc-float: true
+---
+
+## Workshop Overview
+
+This workshop is designed to introduce students, educators, and researchers to the fundamentals of AI and its practical applications in education, research, and societal development. [The focus will be on leveraging AI tools to enhance learning, streamline research processes, and improve teaching methodologies. Participants will explore various AI platforms, highlighting their use for tasks like data analysis, content creation, and simplifying complex processes.]{.yellow}
+
+Attendees will engage with [**Generative AI**]{.yellow} to understand its potential in automating tasks such as creating academic content, analyzing data, and supporting innovative research projects. [Through hands-on exercises and scenario-based learning, participants will gain practical experience integrating AI tools into their work and studies.]{.yellow}
+
+## [Key Learning Objectives]{.yellow}
+
+
+1. [**Understanding AI for Education and Research**]{.yellow}  
+   Develop a foundational understanding of AI and its uses in education, research, and beyond, focusing on content creation, data analysis, and innovation.
+
+2. [**AI for Students: Learning Enhancement**]{.yellow}  
+   Discover how students can utilize AI tools for tasks such as academic writing, data analysis, and gaining insights into complex topics.
+
+3. [**AI for Teachers: Teaching and Content Creation**  ]{.yellow}
+   Learn how educators can incorporate AI to design more engaging curricula, assess student performance, and generate educational content efficiently.
+
+4. [**AI for Researchers: Streamlining Research**]{.yellow}  
+   Gain proficiency in using AI tools for literature review, data collection, analysis, and report generation, making research more efficient and accurate.
+
+5. [**Impact of AI on Society** ]{.yellow} 
+   Understand the broader implications of AI on society, and how educational institutions can prepare the next generation to responsibly and effectively use AI.
+
+## [Workshop Agenda]{.yellow}
+
+### Session 1: 9:30 AM - 11:00 AM
+**Introduction to AI and Basic Terminologies**
+
+- What is Artificial Intelligence (AI)?
+- Overview of AI Tools in Education and Research: ChatGPT, Bard, Bing, and others.
+- AI Applications in Education: Personalized Learning, Curriculum Design, Assessment.
+- Basics of Big Data and Large Language Models (LLMs).
+
+### Q&A Session: 11:00 AM - 11:15 AM
+
+### Session 2: 11:15 AM - 1:00 PM 
+
+[**Practical Applications of AI for Students, Teachers, and Researchers**]{.yellow}
+
+- **Generative AI for Academic Writing and Content Creation:**  
+   Explore how AI tools can assist in creating essays, reports, and educational materials.
+   
+- [**Effective Prompt Writing:** ]{.yellow} 
+   Practice crafting prompts for AI tools to generate accurate, relevant academic content and research insights.
+
+**Role-Specific AI Applications and Hands-On Learning**
+
+- [**Tailored Exercises:**]{.yellow} Customize tasks for students (homework assistance, study aids), teachers (lesson planning, grading automation), and researchers (data analysis, literature reviews).  
+- [**Live Demonstrations:** ]{.yellow} 
+   Interactive sessions demonstrating how AI tools can simplify tasks and improve learning outcomes.
+- [**Group Work:**]{.yellow}  
+   Collaborative projects where groups utilize AI tools to solve real-world problems, present findings, and share insights.
+
+### Lunch/Prayer Break: 1:00 PM - 2:00 PM
+
+### Session 3: 2:00 PM - 4:30 PM
+[**Integrating AI into Educational and Research Processes**]{.yellow}
+
+- [**Strategies for AI Adoption in Education and Research:** ]{.yellow} 
+   Learn how to effectively implement AI tools within educational and research environments.
+- [**Case Studies:** ]{.yellow} 
+   Analyze real-life scenarios where AI has been successfully integrated into educational practices and research projects.
+- [**Hands-on Analysis and Reporting:**]{.yellow}  
+   Participants will use AI tools to conduct quick data analysis, automate content generation, and streamline research workflows.
+
+### Wrap-Up: 4:30 PM - 4:45 PM
+
+- [**Summary and Reflection:**]{.yellow}  
+   Recap key learnings and discuss practical steps for AI integration in education and research.
+- [**Post-Training Resources:**]{.yellow}  
+   Participants will receive resources, including sample data sets, AI tool access, and guides for continued learning.
+
+## [Workshop Outcomes]{.yellow}
+
+By the end of the workshop, participants will: 
+- Understand how AI can improve learning, teaching, and research efficiency. 
+- Gain hands-on experience using AI tools for educational content creation, data analysis, and research management. 
+- Be prepared to advocate for responsible and innovative AI adoption in educational institutions and research settings.

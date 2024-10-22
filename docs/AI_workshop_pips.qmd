@@ -3,10 +3,10 @@ title: "[How AI Can Help Public Policy Professoinals Improve Efficiency]{.yellow
 author: "Zahid Asghar"
 date: "today"
 format: 
-  html:
+  docx:
     theme: [default, custom2.scss]
-    toc: true
-    toc-float: true
+    # toc: true
+    # toc-float: true
 ---
 
 
