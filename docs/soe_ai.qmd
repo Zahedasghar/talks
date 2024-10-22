@@ -35,17 +35,20 @@ Attendees will engage with [**Generative AI**]{.yellow} to understand its potent
 
 ## [Workshop Agenda]{.yellow}
 
-### Session 1: 9:30 AM - 11:00 AM
+### Session 1: 9:30 AM - 11:15 AM
 **Introduction to AI and Basic Terminologies**
 
 - What is Artificial Intelligence (AI)?
 - Overview of AI Tools in Education and Research: ChatGPT, Bard, Bing, and others.
 - AI Applications in Education: Personalized Learning, Curriculum Design, Assessment.
-- Basics of Big Data and Large Language Models (LLMs).
+- Basics of Big Data and Large Language Models (LLMs). 
 
-### Q&A Session: 11:00 AM - 11:15 AM
+- Prompts writing for AI tools: Understanding the structure and requirements of effective prompts. 
 
-### Session 2: 11:15 AM - 1:00 PM 
+
+### Q&A Session: 11:15 AM - 11:30 AM
+
+### Session 2: 11:30 AM - 1:00 PM 
 
 [**Practical Applications of AI for Students, Teachers, and Researchers**]{.yellow}
 
@@ -84,7 +87,10 @@ Attendees will engage with [**Generative AI**]{.yellow} to understand its potent
 
 ## [Workshop Outcomes]{.yellow}
 
-By the end of the workshop, participants will: 
-- Understand how AI can improve learning, teaching, and research efficiency. 
-- Gain hands-on experience using AI tools for educational content creation, data analysis, and research management. 
+By the end of the workshop, participants will:  
+
+- Understand how AI can improve learning, teaching, and research efficiency.  
+
+- Gain hands-on experience using AI tools for educational content creation, data analysis, and research management.  
+
 - Be prepared to advocate for responsible and innovative AI adoption in educational institutions and research settings.
