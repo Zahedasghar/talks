@@ -1,10 +1,12 @@
 ---
-title: "Transforming the Classroom: How AI is Revolutionizing Teaching and Learning"
+title: "[Generative AI for Public Policy]{.yellow}"
+subtitle: "GCU, Lahore"
 author: "Zahid Asghar"
-date: "2024-01-25"
+date: "2024-10-24"
 format:
   revealjs:
     theme: [default, custom2.scss]
+    css: "logo1.css" 
     title-slide-attributes:
       data-background-image: images/ai-education.jpeg
       data-background-size: cover

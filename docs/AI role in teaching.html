@@ -7,12 +7,12 @@
 <link href="AI role in teaching_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="AI role in teaching_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="AI role in teaching_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="AI role in teaching_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.528">
+<link href="AI role in teaching_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.5.29">
 
   <meta name="author" content="Zahid Asghar">
-  <meta name="dcterms.date" content="2024-01-25">
-  <title>Transforming the Classroom: How AI is Revolutionizing Teaching and Learning</title>
+  <meta name="dcterms.date" content="2024-10-24">
+  <title>Generative AI for Public Policy</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -32,6 +32,7 @@
     }
   </style>
   <link rel="stylesheet" href="AI role in teaching_files/libs/revealjs/dist/theme/quarto.css">
+  <link rel="stylesheet" href="logo1.css">
   <link href="AI role in teaching_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="AI role in teaching_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="AI role in teaching_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -322,12 +323,13 @@
     }
   </style>
 </head>
-<body class="quarto-light">
+<body class="quarto-dark">
   <div class="reveal">
     <div class="slides">
 
 <section id="title-slide" data-background-image="images/ai-education.jpeg" data-background-size="cover" class="quarto-title-block center">
-  <h1 class="title">Transforming the Classroom: How AI is Revolutionizing Teaching and Learning</h1>
+  <h1 class="title"><span class="yellow">Generative AI for Public Policy</span></h1>
+  <p class="subtitle">GCU, Lahore</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -337,10 +339,14 @@ Zahid Asghar
 </div>
 </div>
 
-  <p class="date">2024-01-25</p>
+  <p class="date">2024-10-24</p>
 </section>
 <section class="slide level2">
 
+<p>Double check answers</p>
+<p>What are games: dictator games What is average discount rate What is the average amount of money given in the dictator game</p>
+<p>You may ask chatGPT to rewrite sentence, soften the language, or make it more formal. You can also ask it to write a sentence in a specific style, such as academic or journalistic.</p>
+<p>Ask for quiz questions</p>
 
 <img data-src="images/ai_education.webp" class="r-stretch"><p><strong>Image:</strong> A teacher using a digital tablet to interact with students in a futuristic classroom with robots and holographic displays.</p>
 </section>
@@ -415,13 +421,13 @@ Zahid Asghar
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
-
-</section>
-    <div class="quarto-auto-generated-content">
+<div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
 </div>
-</div></div>
+</div>
+</section>
+    </div>
   </div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
@@ -663,18 +669,7 @@ Zahid Asghar
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -706,7 +701,47 @@ Zahid Asghar
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
       function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
@@ -743,7 +778,11 @@ Zahid Asghar
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {

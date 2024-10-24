@@ -1,8 +1,4 @@
-.quarto-title-block .quarto-title-banner {
-  background-image: url(images/HSF_germany.png);
-  background-size: 300px;
-  background-position: left;
-  background-repeat: no-repeat;
-  padding-left: 10px;
-  background-origin: content-box;
+.reveal img[alt="qau1"] {
+    width: 500px !important;
+    height: auto !important;
 }

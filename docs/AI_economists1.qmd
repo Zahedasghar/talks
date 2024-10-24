@@ -3,138 +3,114 @@ title: ""
 author: "Zahid Asghar"
 date: "2024-09-24"
 format: 
-  :
+  revealjs:
     logo: "images/qau1.jpg"
     theme: [default, custom2.scss]
     chalkboard: true
     slideNumber: c/t
     title-slide-attributes:
-      data-background-image: images/background_title.png
+      data-background-image: images/ai_pub_pol.png
 
 execute:
   freeze: auto
   echo: false
   message: false
   warning: false
---- 
+---
 
-## AI in Economics {background-image="images/background_title.png"}
 
-[**Zahid Asghar**]{.orange}
+## []{.yellow style="text-align: center;"}
 
-# AI Won’t Replace Humans — But Humans With AI Will Replace Humans Without AI 
+![](images/ai_pub_pol.png){style="display: block; margin: 0 auto;"}
+
+[**Zahid Asghar, QAU**]{.yellow} \
+[MS Public Policy and Governance , MPhil Economics and MS-ESME, GCU, Lahore]{.orange}
+
+# AI Won’t Replace Humans — But Humans With AI Will Replace Humans Without AI
 
 [HBR](https://hbr.org/2023/08/ai-wont-replace-humans-but-humans-with-ai-will-replace-humans-without-ai)
 
----
+------------------------------------------------------------------------
 
 ## What is AI?
 
-**Artificial Intelligence (AI):** 
+**Artificial Intelligence (AI):**
 
-- The broad concept where machines simulate human intelligence. 
+-   The broad concept where machines simulate human intelligence.
 
-- AI allows machines to perform tasks like decision-making, speech recognition, and problem-solving.
+-   AI allows machines to perform tasks like decision-making, speech recognition, and problem-solving.
 
-**Examples:** 
+**Examples:**
 
-- Self-driving cars
-- Virtual assistants like Siri or Alexa
-
-
+-   Self-driving cars
+-   Virtual assistants like Siri or Alexa
 
 ## What is Machine Learning (ML)?
 
-**Machine Learning (ML):** 
+**Machine Learning (ML):**
 
-- A subset of AI that enables machines to learn from data and improve performance over time. 
+-   A subset of AI that enables machines to learn from data and improve performance over time.
 
-- ML doesn’t require explicit programming for each task. 
+-   ML doesn’t require explicit programming for each task.
 
+**Types of ML:**
 
-**Types of ML:** 
+-   Supervised Learning: Uses labeled data.
+-   Unsupervised Learning: Finds hidden patterns in unlabeled data.
+-   Reinforcement Learning: Learns through rewards and penalties.
 
-- Supervised Learning: Uses labeled data.
-- Unsupervised Learning: Finds hidden patterns in unlabeled data.
-- Reinforcement Learning: Learns through rewards and penalties.
-
-**Examples:**
-- Netflix recommendation system
-- Spam filters in email
-
-
+**Examples:** - Netflix recommendation system - Spam filters in email
 
 ## What is Natural Language Processing (NLP)?
 
-**Natural Language Processing (NLP):** 
+**Natural Language Processing (NLP):**
 
-- A branch of AI focused on the interaction between computers and human (natural) languages.  
+-   A branch of AI focused on the interaction between computers and human (natural) languages.
 
-- Helps machines understand, interpret, and respond to human language.
+-   Helps machines understand, interpret, and respond to human language.
 
-**Applications:**
-- Sentiment analysis (understanding opinions)
-- Chatbots and language translation tools
+**Applications:** - Sentiment analysis (understanding opinions) - Chatbots and language translation tools
 
-**Examples:**
-- Google Translate
-- Virtual Assistants
-
-
+**Examples:** - Google Translate - Virtual Assistants
 
 ## Generative AI
 
-**Generative AI:** 
+**Generative AI:**
 
-- A form of AI that creates new content—whether it’s text, images, music, or other media—by learning from patterns in existing data. 
+-   A form of AI that creates new content—whether it’s text, images, music, or other media—by learning from patterns in existing data.
 
-- Uses deep learning models such as transformers (like GPT) and GANs (Generative Adversarial Networks). 
+-   Uses deep learning models such as transformers (like GPT) and GANs (Generative Adversarial Networks).
 
-
-**Examples:**
-- GPT-4o for text generation
-- DALL-E for creating images from text descriptions
-- AI-generated music or art
-
-
+**Examples:** - GPT-4o for text generation - DALL-E for creating images from text descriptions - AI-generated music or art
 
 ## Traditional AI vs. Generative AI {.scrollable}
 
-
 ### Traditional AI
 
-**Definition:** 
+**Definition:**
 
-- Analyzes existing data to uncover patterns, trends, or insights.
+-   Analyzes existing data to uncover patterns, trends, or insights.
 
-**Purpose:**  
+**Purpose:**\
 - Understand and summarize what’s already there.
 
-**Techniques:**
-- Statistical analysis, clustering, classification.
+**Techniques:** - Statistical analysis, clustering, classification.
 
-**Examples:**
-- Business reports summarizing sales performance.
-- Tools like Google Analytics offering insights based on historical data.
-
+**Examples:** - Business reports summarizing sales performance. - Tools like Google Analytics offering insights based on historical data.
 
 ## Generative AI {.scrollable}
 
-**Definition:**  
+**Definition:**\
 - Focuses on creating new content by learning from existing patterns.
 
-**Purpose:**  
+**Purpose:**\
 - To generate something new—whether it's text, art, or even videos.
 
-**Techniques:**
-- Deep learning models,  transformers.
+**Techniques:** - Deep learning models, transformers.
 
-**Examples:**
-- GPT generating essays, DALL-E creating new images, AI composing music.
+**Examples:** - GPT generating essays, DALL-E creating new images, AI composing music.
 
-
-
----
+------------------------------------------------------------------------
 
 ### Generative AI in a Nutshell
 
@@ -172,52 +148,30 @@ execute:
 
 ![](images/AI/genAI6.png)
 
----
+------------------------------------------------------------------------
 
 ![](images/AI/genAI7.png)
-
 
 ## Generative AI in a Nutshell
 
 ![](https://blog.crisp.se/wp-content/uploads/2024/01/generative-AI-in-a-nutshell.png){width="1273" height="700"}
 
-------------------------------------------------------------------------
-## Traditional AI vs. Generative AI (Comparison){.scrollable}
-
-| Feature               | **Traditional AI**                                     | **Generative AI**                                  |
-|-----------------------|--------------------------------------------------------|----------------------------------------------------|
-| **Function**           | Summarizes and analyzes existing data                  | Creates new content based on learned patterns      |
-| **Output**             | Insights, summaries, analysis of existing data         | New text, images, music, etc.                      |
-| **Examples**           | Business reports, trend analysis, sentiment analysis   | AI-generated images, articles, music               |
-| **Technologies Used**  | Statistical models, clustering, classification         | Neural networks (GANs, transformers)               |
-
-
-## Key Takeaway
-
-- **Artificial Intelligence (AI)** is the broad field enabling machines to mimic human intelligence. 
-
-- **Machine Learning (ML)** is a technique within AI, focused on learning from data. 
-
-- **NLP** allows AI to understand and interact with human language. 
-
-- **Generative AI** creates new, original content based on learned patterns. 
-
-- **Traditional AI** analyzes existing data to provide insights, while **Generative AI** creates something entirely new. 
-
-
-### New Wave of Technology
-
--   What does the wave of technology mean for humanity?
-
--   Historical discoveries: [Fire, the wheel, printing press, steel, harnessing electricity]{.hi-purple}
-
--   Transformation of human civilization through technological advancements
-
-### Advanced AI and biotechnology
-
--   [Benefits: Unlock secrets of the universe , Cure diseases, Create a healthier, sustainable world]{.hi-purple}
-
-------------------------------------------------------------------------
+|  |
+|:-----------------------------------------------------------------------|
+| \## Traditional AI vs. Generative AI (Comparison){.scrollable} |
+| \| Feature \| **Traditional AI** \| **Generative AI** \| \|-----------------------\|--------------------------------------------------------\|----------------------------------------------------\| \| **Function** \| Summarizes and analyzes existing data \| Creates new content based on learned patterns \| \| **Output** \| Insights, summaries, analysis of existing data \| New text, images, music, etc. \| \| **Examples** \| Business reports, trend analysis, sentiment analysis \| AI-generated images, articles, music \| \| **Technologies Used** \| Statistical models, clustering, classification \| Neural networks (GANs, transformers) \| |
+| \## Key Takeaway |
+| \- **Artificial Intelligence (AI)** is the broad field enabling machines to mimic human intelligence. |
+| \- **Machine Learning (ML)** is a technique within AI, focused on learning from data. |
+| \- **NLP** allows AI to understand and interact with human language. |
+| \- **Generative AI** creates new, original content based on learned patterns. |
+| \- **Traditional AI** analyzes existing data to provide insights, while **Generative AI** creates something entirely new. |
+| \### New Wave of Technology |
+| \- What does the wave of technology mean for humanity? |
+| \- Historical discoveries: [Fire, the wheel, printing press, steel, harnessing electricity]{.hi-purple} |
+| \- Transformation of human civilization through technological advancements |
+| \### Advanced AI and biotechnology |
+| \- [Benefits: Unlock secrets of the universe , Cure diseases, Create a healthier, sustainable world]{.hi-purple} |
 
 ### The Dangers
 
@@ -233,7 +187,7 @@ execute:
 
 -   [Question: How do we respond?]{.hi-purple}
 
---- 
+------------------------------------------------------------------------
 
 ### The Dilemma
 
@@ -253,34 +207,37 @@ execute:
 
 ------------------------------------------------------------------------
 
-
-
 ### What are you?
 
 ::: incremental
+-   
 
--   #### What are you? Explain in one sentence to a 10 year old.
+    #### What are you? Explain in one sentence to a 10 year old.
 
--   #### [What are you? Explain in two sentences to a university student.]{.hi-purple}
+-   
 
--   #### What are you? Explain to a university teacher.
+    #### [What are you? Explain in two sentences to a university student.]{.hi-purple}
 
--   #### [What are you? Explain to an economics research scholar.]{.hi-purple}
+-   
 
-::: 
+    #### What are you? Explain to a university teacher.
 
----
+-   
+
+    #### [What are you? Explain to an economics research scholar.]{.hi-purple}
+:::
+
+------------------------------------------------------------------------
 
 ### Some more prompting
 
 #### What role could and should generative AI play for supporting effective and engaging evidence-based learning for economists?
 
-
 #### What challenges AI poses to the traditional role of the teacher in the classroom?
 
-#### What challenges AI poses to policy integrity and evaluation of policies? 
+#### What challenges AI poses to policy integrity and evaluation of policies?
 
-### Fiscal Policy Advisor 
+### Fiscal Policy Advisor
 
 #### How do 1% increase in GST affects inflation and its consequences on poor segments of the society?
 
@@ -309,7 +266,6 @@ In summary, Iqbal would likely see both the dangers and the opportunities in soc
 
 ------------------------------------------------------------------------
 
-
 ### Race between Education and Technology
 
 ![](images/AI/race_tech_edu.png){.r-stretch}
@@ -318,7 +274,7 @@ In summary, Iqbal would likely see both the dangers and the opportunities in soc
 Many a times technology races ahead of education. This leads to social pain and inequality. The whole educational system has to revolutionize to keep up. Well, our world has always been in a race between technology and education. Usually, these two go hand in hand, but there are some points in history where technology races so far ahead that education can barely keep pace.
 :::
 
----
+------------------------------------------------------------------------
 
 ### The Role of AI in Idea Generation
 
@@ -328,7 +284,7 @@ Many a times technology races ahead of education. This leads to social pain and 
 
 > #### The best way to have a good idea is to have lots of ideas. Humans will need to continue the process of prototyping, testing, and iterating, but humans consistently struggle to produce large quantities of different and new ideas.'
 
---- 
+------------------------------------------------------------------------
 
 ### Comming Wave & Jobs
 
@@ -346,7 +302,7 @@ Many a times technology races ahead of education. This leads to social pain and 
 Let me give you a quick historical example. In the 15th century, technology raced ahead as a great piece of technology was invented: the printing press, which allowed books to be printed much cheaper than ever before. Unfortunately, only a small fraction of the population knew how to read, leading to massive social conflicts and inequality. Ultimately, the whole educational system had to revolutionize to keep up. This led to the birth of the first universities and schools.
 :::
 
---- 
+------------------------------------------------------------------------
 
 ### AI Tutoring : Khanmigo , Conmigo {.scrollable}
 
@@ -372,20 +328,21 @@ Let me give you a quick historical example. In the 15th century, technology race
 
 ![](images/AI/2_sigma.png){.r-stretch}
 
-
 ## AI Writing and Reading Coach {.scrollable}
 
 -   "Collaborative Writing with AI Assistance"
+
 -   "Enhancing Writing Skills: AI-Student Collaboration"
+
 -   "Feedback, Guidance, and Improvement in Writing"
 
-
 -   "Interactive Reading Comprehension with AI"
+
 -   "Analyzing Texts, Answering Questions, and Providing Insights"
+
 -   "Enhancing Critical Thinking and Analysis Skills"
 
 -   "AI-Powered Teaching Assistant for Teachers"
-
 
 -   "Transformative Potential of AI in Education"
 
@@ -395,8 +352,7 @@ Let me give you a quick historical example. In the 15th century, technology race
 
 ## Paul Samuelson as your Assistant
 
-::: {.scrollable style="max-height: 500px; overflow-y: auto;"} 
-
+::: {.scrollable style="max-height: 500px; overflow-y: auto;"}
 #### Give a learning outcomes on consumer theory lecture in 3 points with 15 words for each point
 
 #### Differentiate between Marshalian and Hicksian demand function, restrict response to 50 words
@@ -412,12 +368,11 @@ Let me give you a quick historical example. In the 15th century, technology race
 #### Provide a quiz on Marshallian and Hicksian demand function
 :::
 
-
----
+------------------------------------------------------------------------
 
 ### The 3 Principles of Macroeconomic Policy Formulation using Gen AI
 
-::: {.scrollable style="max-height: 500px; overflow-y: auto;"}
+:::: {.scrollable style="max-height: 500px; overflow-y: auto;"}
 ::: column-page
 #### ![](https://cdn.jsdelivr.net/gh/twbs/icons@1.9.1/icons/graph-up-arrow.svg){width="50px"} **Predictive Analytics for Policy Decisions**
 
@@ -435,18 +390,17 @@ Gen AI can process real-time economic data from global markets, providing immedi
 
 AI can simulate multiple policy scenarios, helping policymakers assess the potential outcomes of different strategies. This allows for better risk assessment and policy optimization, ensuring that policies are robust and adaptable to various macroeconomic environments.
 :::
-:::
+::::
 
----
-
-These key points emphasize how **Gen AI** can significantly enhance the process of macroeconomic policy formulation by improving forecasting, decision-making, and scenario planning.
 ------------------------------------------------------------------------
+
+## These key points emphasize how **Gen AI** can significantly enhance the process of macroeconomic policy formulation by improving forecasting, decision-making, and scenario planning.
 
 ## Text to image
 
 #### Prompt : Create an image for QAU students sitting as a community learners in a classroom.
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](images/AI/interactive_learning.webp)
 :::
@@ -454,7 +408,7 @@ These key points emphasize how **Gen AI** can significantly enhance the process 
 ::: {.column width="50%"}
 ![](images/AI/interactive_learning1.webp)
 :::
-:::
+:::::
 
 ------------------------------------------------------------------------
 
@@ -464,7 +418,7 @@ These key points emphasize how **Gen AI** can significantly enhance the process 
 
 Yet, our educational institutions have not evolved much. [We still put people in lecture halls for one-size-fits-all teaching]{.hi-purple}, and many companies only offer a couple of days of training per year. This model is outdated.
 
-## Things to be  discussed {.scrollable}
+## Things to be discussed {.scrollable}
 
 -   Customised advanced tools: Policy Advisor, Fiscal Policy Advisor, Economics Expert,...
 
@@ -526,7 +480,7 @@ Yet, our educational institutions have not evolved much. [We still put people in
 
 ## Useful Books (2024)
 
-::: columns
+:::::::: columns
 ::: {.column width="20%"}
 ![](images/AI/book1.jpeg){.stretch}
 :::
@@ -546,5 +500,4 @@ Yet, our educational institutions have not evolved much. [We still put people in
 ::: {.column width="20%"}
 ![](images/AI/book5.jpeg){.stretch}
 :::
-:::
-
+::::::::
