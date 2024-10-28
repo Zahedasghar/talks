@@ -3,7 +3,7 @@ title: ""
 author: "Zahid Asghar"
 date: "2024-09-24"
 format: 
-  typst:
+  html:
     logo: "images/qau1.jpg"
     theme: [default, custom2.scss]
     chalkboard: true

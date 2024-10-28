@@ -81,9 +81,7 @@ execute:
 
 **Examples:** - Netflix recommendation system - Spam filters in email
 
-## What is Natural Language Processing (NLP)?
-
-[**Natural Language Processing (NLP):**]{.yellow}
+## [What is Natural Language Processing (NLP)?]{.yellow}
 
 -   A branch of AI focused on the interaction between computers and human (natural) languages.
 
