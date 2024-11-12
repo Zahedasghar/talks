@@ -1,4 +1,8 @@
-.reveal img[alt="qau1"] {
-    width: 500px !important;
-    height: auto !important;
+.quarto-title-block .quarto-title-banner {
+  background-image: url(images/qau1.jpg);
+  background-size: 600px;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  background-origin: content-box;
 }

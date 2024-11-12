@@ -1,0 +1,186 @@
+---
+title: "[One-Day Workshop: AI for Teachers, Researchers, and Students]{.yellow style='text-align: center;'}"
+author: "Zahid Asghar"
+date: "2024-09-24"
+format: 
+  html:
+    logo: "images/qau1.jpg"
+    theme: [default, custom2.scss]
+    toc: true
+    toc-float: true
+  
+    chalkboard: true
+    slideNumber: c/t
+    title-slide-attributes:
+      data-background-image: images/ai_pub_pol.png
+
+execute:
+  freeze: auto
+  echo: false
+  message: false
+  warning: false
+---
+
+
+## []{.yellow style="text-align: center;"}
+
+![](images/ai.gif){style="display: block; margin: 0 auto;"}
+
+## [Workshop Overview]{.yellow style="text-align: center;"}
+
+Are you an educator, researcher, student, or data analyst in the fields of economics, education, business data and social sciences? Do you want to harness the transformative power of Artificial Intelligence (AI) to enhance your teaching, research, and learning experiences? Join us for a dynamic and insightful one-day workshop led by Zahid Asghar, an expert in data analytics, applied econometrics and getting help from AI in research and teaching.
+
+### What You'll Gain
+
+- **In-Depth Understanding:** Learn about AI, Machine Learning (ML), Natural Language Processing (NLP), and Generative AI, and how they apply for research, teaching and as personal learning.
+- **Practical Skills:** Engage in hands-on sessions to familiarize yourself with AI tools for writing, data analysis, and visualization.
+- **Ethical Insights:** Discuss the ethical implications and challenges of integrating AI into academia.
+- **Networking Opportunities:** Connect with professionals and peers who are passionate about the future of education and AI.
+
+---
+
+## [Session 1: Demystifying AI for Educators and Learners]{.yellow style="text-align: center;"}
+
+**Time:** 9:00 AM - 11:15 AM
+
+**Objectives:**
+
+- Provide a clear understanding of AI and its core components.
+- Explore the specific applications of AI in teaching, research, and learning within economics and social sciences.
+- Discuss the ethical considerations and societal impacts of AI.
+
+### Agenda
+
+- **9:00 AM - 9:15 AM | Welcome and Introduction**
+  - Opening remarks by Zahid Asghar.
+  - Overview of the workshop goals and the day's schedule.
+
+- **9:15 AM - 9:45 AM | Understanding AI: From Basics to Advanced Concepts**
+  - **What is AI?**
+    - Definition and key concepts.
+    - Historical evolution and future trends.
+  - **Machine Learning (ML)**
+    - How machines learn from data.
+    - Types: Supervised, Unsupervised, and Reinforcement Learning.
+  - **Natural Language Processing (NLP)**
+    - Interaction between computers and human language.
+    - Applications in education and research.
+
+- **9:45 AM - 10:15 AM | Generative AI and Its Educational Applications**
+  - **Generative AI Explained**
+    - How it creates new content: text, images, music.
+    - Tools like GPT-4 and DALL-E.
+  - **Traditional AI vs. Generative AI**
+    - Comparative analysis.
+    - Practical examples in academia.
+
+- **10:15 AM - 10:45 AM | The Ethical Landscape of AI in Education**
+  - **Opportunities and Dangers**
+    - Benefits: Unlocking new knowledge, personalized learning.
+    - Risks: Bias, privacy concerns, and misinformation.
+  - **The Containment Challenge**
+    - Managing the exponential growth of AI technology.
+    - Strategies for responsible use.
+
+- **10:45 AM - 11:15 AM | Interactive Discussion and Q&A**
+  - Open floor for participants to share thoughts and ask questions.
+  - Topics: AI's impact on teaching roles, policy integrity, and learning dynamics.
+
+**Coffee Break:** 11:15 AM - 11:30 AM
+
+---
+
+## [Session 2: Harnessing AI for Academic Writing and Research]{.yellow style="text-align: center;"}
+
+**Time:** 11:30 AM - 1:00 PM
+
+**Objectives:**
+
+- Introduce AI tools that assist in academic writing and idea generation.
+- Demonstrate how AI can improve productivity while maintaining academic integrity.
+- Provide hands-on experience with AI-driven writing assistance.
+
+### Agenda
+
+- **11:30 AM - 12:00 PM | AI Tools for Writing and Research**
+  - Overview of platforms like Grammarly and ChatGPT.
+  - How AI aids in drafting, editing, and refining academic work.
+
+- **12:00 PM - 12:30 PM | Hands-On Activity: Collaborative Writing with AI**
+  - Participants draft a brief essay or research abstract using AI tools.
+  - Emphasis on maintaining originality and ethical considerations.
+
+- **12:30 PM - 1:00 PM | Enhancing Critical Thinking with AI**
+  - Using AI for brainstorming and idea expansion.
+  - Strategies to avoid over-reliance on AI suggestions.
+
+**Lunch Break:** 1:00 PM - 2:00 PM
+
+---
+
+## [Session 3: AI in Data Analysis and Visualization for Economics and Social Sciences]{.yellow style="text-align: center;"}
+
+**Time:** 2:00 PM - 4:00 PM
+
+**Objectives:**
+
+- Demonstrate the use of AI in data analysis specific to economics and social sciences.
+- Provide practical experience with AI-driven analytical tools.
+- Explore AI's role in policy formulation and evaluation.
+
+### Agenda
+
+- **2:00 PM - 2:30 PM | Introduction to AI Analytical Tools**
+  - Tools: Python, R, and AI-enhanced Excel plugins.
+  - Applications in econometrics and policy analysis.
+
+- **2:30 PM - 3:15 PM | Hands-On Activity: Data Analysis with AI**
+  - Participants engage in a guided exercise analyzing economic or social data.
+  - Focus on interpreting results and generating insights.
+
+- **3:15 PM - 3:45 PM | Visualizing Data with AI**
+  - Creating impactful charts, graphs, and interactive visuals.
+  - Best practices for presenting data-driven findings.
+
+- **3:45 PM - 4:00 PM | Discussion: AI's Impact on Policy and Society**
+  - How AI influences policy integrity and decision-making.
+  - Ethical considerations in data handling and analysis.
+
+---
+
+## [Closing Session: Reflecting on the Future of AI in Education]{.yellow style="text-align: center;"}
+
+**Time:** 4:00 PM - 5:00 PM
+
+### Agenda
+
+- **4:00 PM - 4:30 PM | The Road Ahead: AI and the Evolution of Education**
+  - Insights on the "Race between Education and Technology."
+  - Strategies for educators and learners to stay ahead.
+
+- **4:30 PM - 4:45 PM | Key Takeaways and Resources**
+  - Summary of workshop highlights.
+  - Additional resources for continued learning (e.g., recommended books, websites, and tools).
+
+- **4:45 PM - 5:00 PM | Certificate Distribution and Networking**
+  - Presentation of certificates by Zahid Asghar.
+  - Opportunity to connect with fellow participants and discuss collaboration.
+
+---
+
+## [About the Presenter]{.yellow style="text-align: center;"}
+
+**Zahid Asghar**
+
+Zahid Asghar is a seasoned educator and AI enthusiast with a passion for integrating technology into teaching and research. With a background in economics and data analysis/analytics, Zahid has been at the forefront of exploring AI's potential in academia. He has conducted numerous workshops and training sessions on AI for educators and researchers, focusing on practical applications and ethical considerations. Zahid's engaging and interactive teaching style has earned him recognition as a thought leader in the field of AI in education.
+---
+
+## [Why Attend This Workshop?]{.yellow style="text-align: center;"}
+
+- **Stay Current:** Equip yourself with knowledge about the latest AI developments affecting education and research.
+- **Enhance Skills:** Learn practical applications of AI tools that can significantly improve productivity.
+
+- **Research Advancement:** Discover how AI can revolutionize data analysis and interpretation of results beside improving writing skills.
+- **Ethical Insight:** Understand the implications of AI to make informed and responsible choices in your professional practice.
+- **Networking:** Build connections with professionals and peers in your field.
+

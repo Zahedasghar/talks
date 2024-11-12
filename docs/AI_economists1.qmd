@@ -3,7 +3,7 @@ title: ""
 author: "Zahid Asghar"
 date: "2024-09-24"
 format: 
-  revealjs:
+  html:
     logo: "images/qau1.jpg"
     theme: [default, custom2.scss]
     chalkboard: true
@@ -21,7 +21,7 @@ execute:
 
 ## []{.yellow style="text-align: center;"}
 
-![](images/ai_pub_pol.png){style="display: block; margin: 0 auto;"}
+![](images/ai.gif){style="display: block; margin: 0 auto;"}
 
 [**Zahid Asghar, QAU**]{.yellow} \
 [MS Public Policy and Governance , MPhil Economics and MS-ESME, GCU, Lahore]{.orange}
@@ -154,24 +154,32 @@ execute:
 
 ## Generative AI in a Nutshell
 
-![](https://blog.crisp.se/wp-content/uploads/2024/01/generative-AI-in-a-nutshell.png){width="1273" height="700"}
+![](https://blog.crisp.se/wp-content/uploads/2024/01/generative-AI-in-a-nutshell.png)
 
-|  |
-|:-----------------------------------------------------------------------|
-| \## Traditional AI vs. Generative AI (Comparison){.scrollable} |
-| \| Feature \| **Traditional AI** \| **Generative AI** \| \|-----------------------\|--------------------------------------------------------\|----------------------------------------------------\| \| **Function** \| Summarizes and analyzes existing data \| Creates new content based on learned patterns \| \| **Output** \| Insights, summaries, analysis of existing data \| New text, images, music, etc. \| \| **Examples** \| Business reports, trend analysis, sentiment analysis \| AI-generated images, articles, music \| \| **Technologies Used** \| Statistical models, clustering, classification \| Neural networks (GANs, transformers) \| |
-| \## Key Takeaway |
-| \- **Artificial Intelligence (AI)** is the broad field enabling machines to mimic human intelligence. |
-| \- **Machine Learning (ML)** is a technique within AI, focused on learning from data. |
-| \- **NLP** allows AI to understand and interact with human language. |
-| \- **Generative AI** creates new, original content based on learned patterns. |
-| \- **Traditional AI** analyzes existing data to provide insights, while **Generative AI** creates something entirely new. |
-| \### New Wave of Technology |
-| \- What does the wave of technology mean for humanity? |
-| \- Historical discoveries: [Fire, the wheel, printing press, steel, harnessing electricity]{.hi-purple} |
-| \- Transformation of human civilization through technological advancements |
-| \### Advanced AI and biotechnology |
-| \- [Benefits: Unlock secrets of the universe , Cure diseases, Create a healthier, sustainable world]{.hi-purple} |
+## Traditional AI vs. Generative AI (Comparison){.scrollable}
+
+| Feature              | **Traditional AI**                                  | **Generative AI**                            |
+|----------------------|----------------------------------------------------|----------------------------------------------|
+| **Function**         | Summarizes and analyzes existing data              | Creates new content based on learned patterns|
+| **Output**           | Insights, summaries, analysis of existing data     | New text, images, music, etc.                |
+| **Examples**         | Business reports, trend analysis, sentiment analysis| AI-generated images, articles, music         |
+| **Technologies Used**| Statistical models, clustering, classification     | Neural networks (GANs, transformers)         |
+
+## Key Takeaway
+- **Artificial Intelligence (AI)** is the broad field enabling machines to mimic human intelligence.
+- **Machine Learning (ML)** is a technique within AI, focused on learning from data.
+- **NLP** allows AI to understand and interact with human language.
+- **Generative AI** creates new, original content based on learned patterns.
+- **Traditional AI** analyzes existing data to provide insights, while **Generative AI** creates something entirely new.
+
+### New Wave of Technology
+- What does the wave of technology mean for humanity?
+- Historical discoveries: <span class="hi-purple">Fire, the wheel, printing press, steel, harnessing electricity</span>
+- Transformation of human civilization through technological advancements
+
+### Advanced AI and Biotechnology
+- <span class="hi-purple">Benefits: Unlock secrets of the universe, Cure diseases, Create a healthier, sustainable world</span>
+
 
 ### The Dangers
 
@@ -304,7 +312,7 @@ Let me give you a quick historical example. In the 15th century, technology race
 
 ------------------------------------------------------------------------
 
-### AI Tutoring : Khanmigo , Conmigo {.scrollable}
+### {.scrollable}
 
 -   "Benjamin Bloom's 2 Sigma Study"
 

@@ -1,0 +1,473 @@
+---
+title: " "
+
+author: "Zahid Asghar"
+date: "2024-11-12"
+format: 
+  revealjs:
+    footer: "[Zahid Asghar](https://zahidasghar.com)&nbsp;&nbsp;&nbsp;"
+    logo: "images/qau1.jpg"
+    theme: [default, custom1.scss]
+    css: style.scss
+    chalkboard: true
+    slide-number: c/t
+    title-slide-attributes:
+      data-background-image: images/ai_hed.webp
+      data-background-size: cover
+execute:
+  echo: false
+  warning: false
+  freeze: auto
+---
+
+# AI in Higher Education
+
+![](images/ai_hed.webp){width="100vw" height="100vh"}
+
+
+
+## AI in Education: Empowering the Future 
+
+#### Dedicated to the memory of Arif Naveed for his invaluable contributions, vision, and passion for education and society.
+
+
+
+![](images/arif.jpeg){width="100vw" height="100vh"}
+
+
+## History
+
+:::{.columns}
+
+::: {.column width="33%"} 
+![Subcontinent](images/india.webp)
+:::
+
+::: {.column width="33%"}
+ ![Roman](images/catapult.gif)
+:::
+
+::: {.column width="33%"}
+ ![Mongol](images/mongol.jpg)
+:::
+
+:::
+
+:::{.columns}
+
+::: {.column width="33%"} 
+![Ottoman](images/ottoman.jpg)
+:::
+
+::: {.column width="33%"}
+ ![British](images/british.gif)
+:::
+
+::: {.column width="33%"}
+ ![US: Economic and Military Power](images/us.jpeg)
+:::
+
+:::
+
+## Recent Developments
+
+:::{.columns} 
+
+::: {.column width="49%"}
+![](images/fourth-indust.png) 
+
+
+:::
+
+::: {.column width="49%"}
+![data](images/data.gif)
+:::
+:::
+
+
+
+## *AI Won’t Replace Humans — But Humans With AI Will Replace Humans Without AI* [HBR](https://hbr.org/2023/08/ai-wont-replace-humans-but-humans-with-ai-will-replace-humans-without-ai) 
+
+### AI will affect every job and every industry. But it doesn’t mean that AI will replace humans. Instead, AI will augment human capabilities, making us more productive and efficient in our work.
+
+------------------------------------------------------------------------
+
+## What is AI?
+
+**Artificial Intelligence (AI):**
+
+-   The broad concept where machines simulate human intelligence.
+
+-   AI allows machines to perform tasks like decision-making, speech recognition, and problem-solving.
+
+**Examples:**
+
+-   Self-driving cars
+-   Virtual assistants like Siri or Alexa
+
+## What is Machine Learning (ML)?
+
+**Machine Learning (ML):**
+
+-   A subset of AI that enables machines to learn from data and improve performance over time.
+
+-   ML doesn’t require explicit programming for each task.
+
+**Types of ML:**
+
+-   Supervised Learning: Uses labeled data.
+-   Unsupervised Learning: Finds hidden patterns in unlabeled data.
+-   Reinforcement Learning: Learns through rewards and penalties.
+
+**Examples:** - Netflix recommendation system - Spam filters in email
+
+## What is Natural Language Processing (NLP)?
+
+**Natural Language Processing (NLP):**
+
+-   A branch of AI focused on the interaction between computers and human (natural) languages.
+
+-   Helps machines understand, interpret, and respond to human language.
+
+**Applications:** - Sentiment analysis (understanding opinions) - Chatbots and language translation tools
+
+**Examples:** - Google Translate - Virtual Assistants
+
+## Generative AI
+
+**Generative AI:**
+
+-   A form of AI that creates new content—whether it’s text, images, music, or other media—by learning from patterns in existing data.
+
+-   Uses deep learning models such as transformers (like GPT) and GANs (Generative Adversarial Networks).
+
+**Examples:** - GPT-4o for text generation - DALL-E for creating images from text descriptions - AI-generated music or art
+
+## Traditional AI vs. Generative AI {.scrollable}
+
+### Traditional AI
+
+**Definition:**
+
+-   Analyzes existing data to uncover patterns, trends, or insights.
+
+**Purpose:**\
+- Understand and summarize what’s already there.
+
+**Techniques:** - Statistical analysis, clustering, classification.
+
+**Examples:** - Business reports summarizing sales performance. - Tools like Google Analytics offering insights based on historical data.
+
+## Generative AI {.scrollable}
+
+**Definition:**\
+- Focuses on creating new content by learning from existing patterns.
+
+**Purpose:**\
+- To generate something new—whether it's text, art, or even videos.
+
+**Techniques:** - Deep learning models, transformers.
+
+**Examples:** - GPT generating essays, DALL-E creating new images, AI composing music.
+
+
+---
+
+### Generative AI in a Nutshell
+
+![](images/AI/genAI1.png)
+
+------------------------------------------------------------------------
+
+## 
+
+![](images/AI/genAI2.png)
+
+------------------------------------------------------------------------
+
+## 
+
+![](images/AI/genAI3.png)
+
+------------------------------------------------------------------------
+
+## 
+
+![](images/AI/genAI4.png)
+
+------------------------------------------------------------------------
+
+### LLMs
+
+![](images/AI/LLM.webp){.stretch}
+
+
+
+## What Sets Successful People Apart? A Commitment to Reading, Continuous Learning, and Adapting to Technological Change
+
+## Starting Advice
+
+- Use the best large language model (LLM) model you can access
+
+- Treat the LLM as if it was your intern who is:
+  - smart, incredibly motivated, and eager to help
+  - completely lacks the context of what you are doing
+
+  → provide background & context  
+  → iterate & experiment  
+  → be patient
+  
+## Leading LLMs (as of 10/10/2024)
+
+| Company     | Model     | Best Version | Released/Updated | Tokens | Data Cutoff | URL                |
+|-------------|-----------|--------------|------------------|--------|-------------|--------------------|
+| OpenAI      | GPT-4     | GPT-4o       | 9/2024           | 128k   | Oct 2023    | chatgpt.com       |
+| Google      | Gemini    | 1.5 Pro 002  | 9/2024           | 1m     | Nov 2023    | gemini.google.com |
+| xAI         | Grok      | Grok-2       | 8/2024           | 128k   | Mar 2024    | xai.com           |
+| Anthropic   | Claude 3.5| Sonnet       | 6/2024           | 200k   | Apr 2024    | claude.ai         |
+| Meta        | Llama     | Llama-3.1    | 7/2024           | 128k   | Dec 2023    | [open source]     |
+
+
+## The Role of AI in Higher Education
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJuhmfTBrBuH8BgOleVOOvBcbK1esNMHUzng&s){.stretch fig-align="center" width="728"}
+
+
+### What role could and should generative AI play both in and on the classroom in supporting effective, engaging and active learning for university students?
+
+
+### What challenges AI poses to the traditional role of the teacher in the classroom?
+
+--- 
+
+### What challenges AI poses to academic integrity and evaluation of students? 
+
+
+### How do nuclear capabilities shape the strategic calculus of both Pakistan and India?
+
+## What will Iqbal say to youth about use of Social Media {background-color="#002746"}
+
+::: {.scrollable style="max-height: 500px; overflow-y: auto;"}
+Allama Iqbal, known for his deep reflections on spirituality, selfhood (*Khudi*), and societal progress, would likely have a nuanced view of social media's impact on youth. Here's what he might say:
+
+**1. Distraction from Purpose:**\
+Iqbal would likely be concerned about social media's ability to distract youth from their true purpose. He often emphasized the need for deep self-reflection and personal growth, and he might view the constant scrolling and superficial interactions on social media as hindrances to achieving *Khudi*. He might say, [***"The pursuit of likes and followers should not replace the pursuit of self-realization and greater goals."***]{.yellow}
+
+**2. Lost Sense of Identity:**\
+Iqbal believed in the importance of individual and cultural identity. He might see social media as contributing to a loss of self, where youth are too often influenced by external validation and trends rather than their inner values and cultural heritage. He could warn that [***"In a world of filters and illusions, do not lose your true self. Your identity is not what others see online, but what you discover within."***]{.yellow}
+
+**3. Potential for Positive Change:**\
+Despite his concerns, Iqbal would recognize the potential of social media as a powerful tool for positive change. He might encourage the youth to use these platforms to raise awareness about important issues, foster meaningful connections, and promote justice and knowledge. He could say, [***"Use your voice on these platforms as a means to awaken and uplift, not just to entertain."***]{.yellow}
+
+**4. Spiritual and Intellectual Balance:**\
+Iqbal would likely urge the youth to balance their time on social media with activities that promote intellectual growth and spiritual reflection. He might remind them that while social media can be a tool for learning and connection, it should not replace the deeper, more personal journey of seeking knowledge and spiritual fulfillment. He might caution, [***"Do not let fleeting moments of entertainment steal the time meant for the pursuit of wisdom and self-enlightenment."***]{.yellow}
+
+**5. The Power of Influence:**\
+Iqbal would be keenly aware of social media's power to influence minds. He would advise youth to be discerning in their consumption of content, warning them not to fall prey to misinformation or hollow trends. He might say, [***"Just as a gardener tends to what he plants, so too must you guard your mind from the weeds of falsehood and idle talk."***]{.yellow}
+
+In summary, Iqbal would likely see both the dangers and the opportunities in social media. He would call on the youth to use these platforms wisely, ensuring they foster self-growth, preserve cultural identity, and contribute meaningfully to society, rather than getting lost in the distractions of the digital world.
+:::
+
+
+
+---
+
+### Introduction
+
+- **AI Integration**: Transforming teaching, learning, and administrative processes.
+- **Purpose**: Enhance educational outcomes, personalize learning, and streamline operations.
+- **Historical Context**: Technology has always influenced education, from the printing press to digital learning platforms.
+
+---
+
+### AI as a Partner in Learning
+
+- **Personalized Learning**: Tailoring education to individual student needs.
+- **Enhanced Engagement**: Interactive and adaptive learning experiences.
+- **Accelerated Achievement**: AI tools that support and enhance student performance.
+
+---
+
+### Practical Applications of AI in Education
+
+- **Grading and Assessments**
+  - Automated grading for efficiency and consistency.
+  - AI-driven feedback to aid student improvement.
+  
+- **Administrative Tasks**
+  - Managing student interactions and communications.
+  - Streamlining course management and scheduling.
+  
+- **Content Creation**
+  - Developing customized assignments and learning materials.
+  - Enhancing lecture outcomes through AI-generated resources.
+
+---
+
+### AI Tutoring and Support
+
+- **AI Tutors (e.g., Khanmigo, Conmigo)**
+  - Provide 1-to-1 tutoring with significant performance improvements.
+  - Scalable solutions to address diverse student needs.
+  
+- **Writing and Reading Coaches**
+  - Assist in developing writing skills through collaborative AI feedback.
+  - Enhance reading comprehension and critical analysis with interactive tools.
+
+---
+
+### Enhancing Critical Thinking and Idea Generation
+
+- **Idea Generation**
+  - AI assists in brainstorming and refining research questions.
+  - Facilitates a high volume of ideas for academic projects.
+  
+- **Critical Thinking**
+  - AI tools that challenge students to think deeper and more analytically.
+  - Support in developing robust problem-solving skills.
+
+---
+
+### Ethical Challenges and Considerations
+
+- **Academic Integrity**
+  - Addressing AI-assisted cheating and plagiarism.
+  - Reevaluating academic standards in the AI era.
+  
+- **Bias and Fairness**
+  - Ensuring AI tools are free from biases that could affect student evaluations.
+  
+- **Privacy Concerns**
+  - Protecting student data and ensuring ethical use of AI.
+
+---
+
+### Future Implications
+
+- **Evolving Educational Roles**
+  - Educators transitioning to facilitators and guides in AI-enhanced environments.
+  
+- **Skill Development**
+  - Preparing students for AI-integrated workplaces.
+  - Emphasizing critical thinking and adaptability alongside AI proficiency.
+  
+- **Policy and Governance**
+  - Developing policies that govern AI use in educational settings.
+  - Ensuring equitable access to AI resources for all students.
+
+---
+
+### The Coming Wave of Technology
+
+- **Advanced AI and Biotechnology**
+  - Benefits: Unlock secrets of the universe, cure diseases, create a healthier, sustainable world.
+  
+- **The Dangers**
+  - Manipulating DNA: implications for individuals and ecosystems.
+  - Choice: Unparalleled possibilities vs. unimaginable perils.
+  - Exponential speed of change in technology (e.g., LLMs).
+  
+- **The Rise of AI**
+  - Four years ago, no one believed in LLMs; now, everyone talks about them.
+  - Future: Superintelligence in the next decade?
+  - Question: How do we respond?
+
+---
+
+### The Dilemma
+
+- **Replicating Our Unique Intelligence**
+  - The Luddite reaction: fears, bans, moratoriums.
+  - Challenge: balancing immense benefits and potential perils.
+  
+- **The Containment Problem**
+  - Technology spreads exponentially, nearly impossible to stop.
+  - Examples: Industrial Revolution, AI, Synthetic biology.
+  - Inventions cannot be uninvented; knowledge proliferates.
+
+---
+
+### AI in Grading and Assignments
+
+- **Efficiency and Consistency**
+  - AI can help make grading more efficient and consistent.
+  
+- **Changing Nature of Grades**
+  - AI alters what grades represent, focusing more on real-world skills.
+  
+- **Future of Grading**
+  - Grading as a tool to prepare students with better real-world skills.
+  - Traditional grading methods are evolving to accommodate AI integration.
+
+---
+
+### AI's Role in Idea Generation
+
+- **Generating Ideas**
+  - AI assists in generating and refining ideas, questions, and thought processes.
+  
+- **High Volume of Ideas**
+  - AI can produce a large quantity of ideas, which humans can further iterate on.
+  
+> #### The best way to have a good idea is to have lots of ideas. Humans will need to continue the process of prototyping, testing, and iterating, but humans consistently struggle to produce large quantities of different and new ideas.
+
+---
+
+### AI in Policy and Governance
+
+- **Public Policy Development**
+  - AI analyzes vast amounts of data to predict economic trends and inform policy decisions.
+  
+- **Scenario Analysis**
+  - AI simulates multiple policy scenarios to assess potential outcomes.
+  
+- **Ethical AI Usage**
+  - Emphasizing the need for ethical standards and responsible AI usage in policymaking.
+
+---
+
+### Enhancing Learning Outcomes
+
+- **Personalized Feedback**
+  - AI provides tailored feedback to help students improve.
+  
+- **Motivation and Agency**
+  - Building AI feedback into assignments can increase motivation, learning, and agency.
+  
+- **Collaborative Learning**
+  - Combining human intelligence with AI for educational advancement.
+
+---
+
+### Conclusion: Embracing AI in Education
+
+- **Opportunities and Challenges**
+  - Balancing AI benefits with ethical considerations.
+  
+- **Guiding the Future**
+  - Educators and institutions must lead in integrating AI responsibly.
+  
+- **Enhancing Learning Outcomes**
+  - Leveraging AI to create more effective, engaging, and personalized educational experiences.
+
+---
+
+### Thank You!
+
+![Thank You](images/thank_you.webp){style="display: block; margin: 0 auto; width: 450px;"}
+
+**Prof. Dr. Zahid Asghar, QAU, Islamabad**  
+**MS Public Policy and Governance, MPhil Economics and MS-ESME, GCU, Lahore**
+
+---
+
+### Questions or Comments?
+
+**Contact Information:**
+
+- **Email:** [g.zahid@gmail.com](mailto:g.zahid@gmail.com)
+- **LinkedIn:** [https://www.linkedin.com/in/zahid-asghar/](https://www.linkedin.com/in/zahid-asghar/)
+- **Twitter:** [@Zahadasghar](https://twitter.com/Zahadasghar)
+
+---
+

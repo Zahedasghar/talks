@@ -1,9 +1,26 @@
 /* Styles for other headings */
 
+/* Shift title heading up on the title slide */
+.reveal .title-slide h1 {
+  margin-bottom: 50px; /* Adjust this value to move the title up or down */
+}
+
+/* Move author name to the bottom of the title slide */
+.reveal .title-slide .author {
+  position: absolute;
+  bottom: 20px; /* Adjust this value as needed */
+  left: 50%;
+  transform: translateX(-50%); /* Center horizontally */
+  margin: 10px; /* Remove any extra margin */
+}
+
+
+
 .reveal h1 {
   background-color: #4B0082; /* Green */
   color: white;
   padding: 10px;
+  margin-top: -400px; /* Adjust this value to move the title up or down */
 }
 
 

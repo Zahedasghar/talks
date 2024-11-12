@@ -1,7 +1,7 @@
 ---
 title: ""
 author: "Zahid Asghar"
-date: "2024-09-24"
+date: "2024-11-12"
 format: 
   revealjs:
     logo: "images/qau1.jpg"
@@ -10,7 +10,7 @@ format:
     chalkboard: true
     slideNumber: c/t
     title-slide-attributes:
-      data-background-image: images/ai_pub_pol.png
+      data-background-image: images/gen_ai_hed.webp
 
 execute:
   freeze: auto
@@ -23,12 +23,12 @@ execute:
 
 ## []{.yellow style="text-align: center;"}
 
-![](images/ai_pub_pol.png){style="display: block; margin: 0 auto;"}
+![](images/gen_ai_hed.webp){style="display: block; margin: 0 auto;"}
 
-[**Prof.Dr.Zahid Asghar, QAU, Islamabad**]{.yellow} \
-[MS Public Policy and Governance , MPhil Economics and MS-ESME, GCU, Lahore]{.orange}
+[Pre-Conference Workshop, The Islamia University of Bahawalpur]{.yellow} \
+[**Prof.Dr.Zahid Asghar, QAU, Islamabad**]{.orange}
 
-#### [24th October 2024]{.yellow style="text-align: center;"} 
+#### [12th November 2024]{.yellow style="text-align: center;"} 
 
 # [AI Won’t Replace Humans]{.yellow} — But Humans With AI Will [Replace Humans Without AI]{.yellow}
 
@@ -36,7 +36,7 @@ execute:
 
 ------------------------------------------------------------------------ 
 
-## AI in Public and Economic Policy
+## AI in Higher Education, Economic Development, and Public Policy
 
 - [**Governments have to increasingly rely on AI**]{.yellow} to deliver policies and improve services. 
 

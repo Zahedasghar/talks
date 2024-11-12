@@ -6,6 +6,9 @@ categories: [Economics, AI, Policy]
 format: html
 ---
 
+Economists, consultants, policy makers are like medical doctors who have to be very agile and vigilant not only diagnosing and prescribing solutions but also fasten the process of implementation. Best prescription, or excellent diagnostic for a patient is not of any value so long as patient does not take medicine as per instructions of a physician. Policy makers and implementation authority should have strong coordination with each other and solutions are almost well prescribed but one has to look into where is weakest link which is a bottle neck for policy implementation.  
+Developing countries like Pakistan have many constraints due to low capability trap at various tiers of policy making. AI has helped to overcome many of these barriers.
+
 Artificial Intelligence (AI) is not just reshaping industries but also revolutionizing the way we approach economic research and policymaking. Economists, much like doctors for economies, diagnose problems, prescribe solutions, and monitor economic health. With AI, economists can now leverage unprecedented tools to optimize decisions, model complex scenarios, and extract actionable insights from vast datasets. This blog post explores the integration of AI in economic research, highlighting both the challenges and opportunities that come with this powerful technology.
 
 ## 1. Economists as Doctors for Economies
