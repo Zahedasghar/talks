@@ -1,0 +1,67 @@
+---
+title: "Senate of Pakistan: 342nd Session Report"
+title-block-banner: true
+
+date: "November 19, 2024"
+format: 
+  html:    
+    logo: "images/senate_logo.jpg"
+    theme: [default, custom1.scss]
+
+ 
+---
+
+# Senate of Pakistan: 342nd Session Journal
+
+## Sittings and Hours
+
+| **Category**                     | **Details**                      |
+|-----------------------------------|-----------------------------------|
+| Session summoned on               | 27-08-2024                       |
+| Session prorogued on              | 16-09-2024                       |
+| Number of working days            | 21                                |
+| Number of actual sittings         | 11                                |
+| Number of Private Members’ days   | 03                                |
+| Maximum attendance                | 70 (on 12-09-2024)               |
+| Minimum attendance                | 45 (on 30-08-2024)               |
+| Average attendance                | 59.00%                           |
+| Total hours of sittings           | 27 hours and 5 minutes           |
+| Maximum hours of sitting          | 04 hours and 12 minutes (12-09-2024) |
+| Minimum hours of sitting          | 15 minutes (16-09-2024)          |
+| Average hours of sittings         | 2 hours and 45 minutes           |
+
+### Panel of Presiding Officers
+
+- Senator Sherry Rehman
+- Senator Irfan-ul-Haque Siddiqui
+- Senator Manzoor Ahmed
+
+## Legislative Business
+
+| **Type of Business**                      | **Details**                      |
+|-------------------------------------------|-----------------------------------|
+| Private Members’ Bills introduced         | 15                                |
+| Private Members’ Bills received (NA)      | Nil                               |
+| Private Members’ Bills withdrawn          | Nil                               |
+| Private Members’ Bills passed             | 01                                |
+| Private Members’ Bills referred           | Nil                               |
+| Government Bills received (NA)            | 06                                |
+| Government Bills introduced               | 02                                |
+| Government Bills passed                   | 07                                |
+| Government Ordinances laid                | Nil                               |
+| Presentation of Money Bill/Finance Bill   | Nil                               |
+
+## Calling Attention Notices
+
+| **Category**                               | **Details**                      |
+|--------------------------------------------|-----------------------------------|
+| Total Received                             | 31                                |
+| Admitted/Lapsed                            | 13                                |
+| Disallowed                                 | 03                                |
+| Talked out in the House                    | 06                                |
+| Lapsed                                     | 05                                |
+| Referred to Standing Committee for Interior| 04                                |
+
+## Prorogation of the Session
+
+On 16th September 2024, the Deputy Chairman Senate read out the prorogation order of the President and prorogued the Senate Session.

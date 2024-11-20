@@ -1,0 +1,562 @@
+---
+title: "Prompting"
+author: "[**Zahid Asghar, QAU**]{.yellow}"
+
+format: 
+  revealjs:
+    footer: "[Zahid Asghar](https://zahidasghar.com)&nbsp;&nbsp;&nbsp;"
+    logo: "images/pips.png"
+    theme: [default, custom1.scss]
+    css: style.scss
+    chalkboard: true
+    slide-number: c/t
+    title-slide-attributes:
+      data-background-image: images/pips1.png
+      data-background-size: 70% # Make the image smaller
+      data-background-opacity: 40% # Make the image lighter
+date: "2024-11-20"
+execute:
+  echo: false
+  warning: false
+  freeze: auto
+---
+
+## Use Cases of LLMs in Economics Research 
+
+**Domains**:  
+
+  - Ideation & Feedback 
+  
+  - [Writing & Editing]{.yellow}
+  
+  - Background Research
+  
+  - [Coding]{.yellow}
+  
+  - Data Analysis
+  
+  - [Mathematical Derivations]{.yellow}
+
+
+## Ideation and Feedback {.scrollable}
+
+### Brainstorming 
+
+- Can you brainstorm 20 channels through which AI may increase inequality? Limit your response to 10 words (I am restricting) for each point. 
+
+- [I am an economist working on AI and inequality. Can you brainstorm an outline on [insert topic]? (put any of above mentioned: like AI and inequality)]{.yellow} 
+
+
+
+- I am an economist working on AI and inequality. Can you brainstorm five potential paper topics and describe each in one sentence?  
+
+- [I am an economist working on an academic paper on [insert topic]. Can you brainstorm a research plan for me?]{.yellow} 
+
+
+- What are the top three pros and cons of working on the economics of AGI? 
+
+- [Can you suggest ways to improve this paper? (I am attaching economic_update_August_2024.pdf) [Attachment: w30957.pdf] (Korinek 2023 paper)]{.yellow} 
+
+- Can you draft a referee report for this paper for the *Journal of Economic Literature*? [Attachment: w30957.pdf]
+- [Would this paper be suitable for the *American Economic Review*?]{.yellow}
+
+--- 
+
+### Providing Counterarguments
+
+- I am working on an economic model that predicts that cognitive automation will increase inequality. What are the top five counterarguments? One line each.
+
+## Writing and Editing {.scrollable}
+
+Write a paragraph in the style of an academic economist that integrates the following points. Include a topic sentence:
+
+- Large language models (LLMs) automate many cognitive tasks. 
+
+- The work of academic economists is largely cognitive [add examples].
+- We economists should therefore worry about recent progress in language models.
+- In the short run, these models can help us be more productive.
+- In the long run, there is a good likelihood that they will displace human economists.
+- We should think about how to prepare [offer solutions].
+
+## Editing {.scrollable}
+
+
+Can you correct the following sentence? 
+*These paper describe six domain in which large language models (LLMs) displays emergant capbilities that are useful to the economic research.*
+
+**Corrections**: 
+
+- Changed *These paper* to *These papers* for subject-verb agreement. 
+
+- Corrected *domain* to *domains* for plural consistency. 
+
+- Changed *emergant* to *emergent*. 
+
+- Corrected *displays* to *display* for plural subject agreement. 
+
+- Added *the* before *economic research* to improve clarity. 
+
+
+## Background research {.scrollable}
+
+1. Give a concise list of the top five stylistic shortcomings of the following abstract: [abstract here] 
+
+2. Rewrite the abstract to correct these shortcomings. 
+
+
+### Brainstorming
+
+[Brainstorm two or three catchy titles]{.yellow} for a paper with the following abstract: [Abstract from chat inserted]: 
+
+
+- [“Revolutionizing Economic Research: The Power of Generative AI and Large Language Models”]{.yellow}
+
+- “Unleashing AI in Economics: A Comprehensive Guide to Utilizing Large Language Models” 
+
+- [“The Future of Economic Research: Harnessing the Potential of Generative AI and Large Language Models”]{.yellow}
+
+Make them a bit more sober and keep them short.
+
+## [Promotion (e.g Social Media)]{.yellow} {.scrollable}
+
+1. Write three or four posts that summarize the following text. Use simple sentences and make them catchy: [paste your economic outlook paragraph or fiscal position after IMF approval.]{.yellow}
+
+2. Can you create a 20-slide deck for the attached economic research paper? [Attachment: w30957.pdf] (economic survey executive summary)
+
+## Summarization
+
+- Summarize the following text in one sentence: [Abstract of paper inserted]. 
+>  [*The author discusses the potential of Generative AI, specifically large language models like ChatGPT, to revolutionize research in various domains such as ideation, writing, data analysis, coding, and mathematics, and suggests that economists can significantly increase productivity by automating micro-tasks with AI, with the performance of these systems expected to improve over time.*]{.yellow} 
+  
+
+- Provide a short summary of this paper. [Attachment: w30957.pdf]
+
+## Translating Text
+
+Translate the following sentence into [Urdu, Persian, and Arabic]{.yellow}:
+*Generative AI, in particular large language models (LLMs) such as ChatGPT, has the potential to revolutionize research in many disciplines.*
+
+## Explaining Concepts
+
+- What are instrumental variables useful for? 
+
+- [What is the second theorem of welfare economics?]{.yellow} 
+
+- What is the difference between a Gini coefficient and a Lorenz curve?
+
+## Coding: Python or R {.scrollable}
+
+LLMs lead to the greatest productivity gains. Peng et al. (2023) report a controlled experiment in which programmers using OpenAI-powered [GitHub Copilot completed their assignments on average 55.8% faster, amounting to a 126% productivity increase.]{.yellow}
+
+-   Write code to download adjusted close of GOOG, META and MSFT as well as the S&P500 index from 7/1/2014 to 6/30/2024 and save it in a
+CSV file. 
+
+- Simulate the Solow growth model and plot the results in a four chart.  
+
+- What does following code do?
+
+- Translate this python code to R or Matlab or vice versa.
+
+- What are data sources to analyse impact of AI on labour force? 
+
+- Can you display a graph that shows the perfor mance of these securities normalized to start at 100? [Uploaded stock_data.csv] goog, meta, msft 
+
+- Have increased heading 
+
+- [Calculate the beta for each of the stocks and add it to the legend. Change the colors to make them easier to distinguish. Use the title “ One-Decade Performance of Three Big Tech Companies.”]{.yellow}
+
+-	[Double the size of the title, legend, axes labels, and ticks. Label “^GSPC” in the legend as “S&P 500.”]{.red}
+
+-	 Assume I put $100 in each of the three stocks at the start. Can you show a pie chart that shows how much I would have in each stock now? 
+
+-  Can you label each position with its current dollar value in addition to the percentage? Can you make one of the pieces pop out of the pie?
+
+-	[Mark got an A in econ and a B+ in math. Sally got an A− in both econ and math. Frank got a B in econ and a C in math. 
+ Name and econ grade and math grade. Mark and A and B+ Sally and A− and A− Frank and B and C 
+Convert to csv]{.yellow} 
+
+
+
+## Extracting Sentiments {.scrollable}
+
+ Policy that loosens immigration restrictions on highly educated foreign workers in Pakistan: 
+ 
+1. [**A 32-year-old female lawyer in Karachi who is Urdu-speaking.**]{.yellow}
+
+2. **A 73-year-old male retired doctor in Multan who is Punjabi.**
+
+3. [**A 25-year-old software engineer in Islamabad who is from Khyber Pakhtunkhwa and identifies as nonbinary.**]{.yellow}
+
+4. **A 45-year-old female grocery check-out clerk in Lahore who is second-generation Kashmiri.**
+
+5. [**A 55-year-old male insurance agent in Sialkot who is Punjabi.**]{.yellow}
+
+## Mathematical Equations
+
+
+Set up the optimization problem of a consumer with CES preferences over two goods mathematically.
+
+$$ max U = \left( \alpha x_1^{\rho} + (1-\alpha) x_2^{\rho} \right)^{\frac{1}{\rho}} $$
+subject to $$p_1 x_1 + p_2 x_2 = m$$ 
+
+Solve the following system of equations:
+
+
+
+
+
+## Titles for role of AI in Economic Policy {.scrollable}
+
+-   "AI and Human Synergy in Economic and Fiscal Policy Making" 
+-   "AI-Human Partnership in Shaping Economic and Fiscal Policies" 
+-   "AI and Human Integration in Economic and Fiscal Governance" 
+-   "AI and Human Co-Development in Economic and Fiscal Strategies" 
+-   "AI-Enhanced Collaboration in Economic and Fiscal Policy" 
+-   "AI and Human Alliance in Economic and Fiscal Policy Making" 
+-   "AI-Human Convergence in Economic and Fiscal Governance" 
+-   "AI and Human Teamwork in Economic and Fiscal Policy Design" 
+-   "AI-Driven Collaboration in Economic and Fiscal Policy" 
+-   "AI and Human Cooperation in Economic and Fiscal Policy Making" 
+
+## Mathematics
+
+- Derive demand functions for goods 1 and 2 in a CES utility function.
+- Solve the following system of equations: 
+  - 3x + 2y = 12
+  - 2x - 3y = 6
+Can you explain what this model is, how to get from one step to the next, and what the intuition for each step is?
+
+- What is the difference between a Cobb-Douglas and a CES utility function? 
+
+
+
+
+## Prompts Pakistan Economy {.scrollable}
+
+Here are the extracted prompts:
+
+1. **Growth Projections for Pakistan Based on Increased Investment and Saving Rates:**
+   - "If the government encourages saving and increases financial market development, taking saving to 15% and investment to 22%, what growth projections would result?"
+
+2. **Impact of Reducing VAT/GST Rate in Pakistan:**
+   - ["If Pakistan reduces its VAT/GST rate from 17% to 10% while enhancing compliance, what will be the potential economic impacts?"]{.yellow}
+
+3. **Sacrifice Ratio for Inflation and Economic Growth in Pakistan:**
+   - "Given Pakistan’s interest rate of 17% and receding inflation, is there a sacrifice ratio between inflation reduction and economic growth?"
+
+4. **Impact of Increasing Trade-to-GDP Ratio in Pakistan:**
+   - ["If Pakistan increases its trade-to-GDP ratio from 0.3 to 0.5 through tariff rationalization, how might this impact economic growth?"]{.yellow}
+
+5. **Impact of AI on Employment in Highly Populated Countries like Pakistan:**
+   - "With AI replacing human labor, what are the implications for employment in a highly populated, unskilled labor market like Pakistan?" 
+
+6. **Optimal Tax Policy for Pakistan:** 
+   - ["What would be the optimal tax policy for Pakistan to maximize revenue while ensuring progressive taxation and economic growth?"]{.yellow} 
+
+7. **Impact of AI on Labor Market in Pakistan:** 
+   - "How will the integration of AI and automation affect the labor market in Pakistan, particularly in sectors like agriculture and manufacturing?" 
+   
+## [5 Powerful prompts for ChatGPT](https://www.forbes.com/sites/jodiecook/2024/08/22/improve-your-writing-with-chatgpt-5-powerful-prompts/){.scrollable}
+
+1. “Analyze the opening of my online article. I'll paste the first paragraph below. Rewrite it 3 different ways to make it more compelling and hook the reader instantly. For each rewrite, explain the key changes and how they improve engagement. After presenting the 3 options, give me 5 general tips for crafting attention-grabbing openers that keep readers hooked. Here's my current opening paragraph: [paste your paragraph].” 
+
+2. “Help me strengthen my article with compelling data. I'll provide the main points of my piece below. For each point, suggest 2-3 relevant statistics or research findings that support my argument. Include the source for each stat. After we've covered all the main points, summarize the most impactful statistics and explain how I can seamlessly weave them into my writing for maximum effect. Here are my main points: [list your key points].” 
+
+3. “Sharpen my writing by eliminating unnecessary words. I'll paste a section of my article below. Your job is to cut it down by 30% without losing the core message. Present the condensed version alongside the original, highlighting the key changes. Then, give me 3 rules for identifying and removing fluff in my future writing. Here's the section to condense: [paste your section].” 
+
+4. “Enhance my article with vivid imagery. I'll share the main theme and tone of my piece. Your task is to suggest 5 descriptive metaphors or similes that bring my writing to life. For each suggestion, explain how it enhances the reader's experience and reinforces my message. After we've developed all 5, advise me on how to incorporate these vivid images throughout my article for maximum impact. My article's theme and tone are: [describe your theme and tone].”
+
+5. “Analyze my writing style to uncover my unique voice. I'll provide 3 samples of my online writing below. Your task is to identify recurring patterns, signature phrases, and distinctive elements that define my style. After analyzing each sample, summarize my key stylistic traits and suggest how I can amplify these in future pieces to make my writing more recognizably 'me'. Here are my writing samples: [paste your samples].”
+
+## Naive vs improved prompts {.scrollable}
+
+
+### 1. [Supply and Demand in Economics]{.yellow}
+**Original Prompt**:
+"Talk about supply and demand and how it is affected in economics."
+
+**Rewritten Prompt**:
+"Explain the concept of supply and demand in economics. Describe how an increase in demand can influence pricing with the help of an illustrative example, like the smartphone market. Similarly, explain the repercussions of reduced supply on pricing by drawing parallels with situations like disruptions in oil production."
+
+---
+
+### 2. [Fitness Expert Persona]{.yellow}
+**Original Prompt**:
+"What is the best way to get fit?"
+
+**Rewritten Prompt**:
+"Acting as a fitness expert, tell me the best way to get fit."
+
+**Enhanced Version**:
+"Act as a fitness expert who is current with the latest research data. Provide very detailed, step-by-step instructions on how to get fit."
+
+---
+
+### 3. [Gym Workout Program for Beginners]{.yellow}
+**Original Prompt**:
+"Create a gym workout program to lose weight and build strength for an out-of-shape beginner."
+
+**Enhanced Prompt**:
+"Act as a fitness expert who is up-to-date with the latest research. Provide a detailed, step-by-step gym workout program tailored for an out-of-shape beginner looking to lose weight and build strength."
+
+---
+
+### 4. Article Titles for a Dog Training Book (Marketing Persona)
+**Original Prompt**:
+"Give me a list of 10 article titles to promote my new book about dog training."
+
+**Enhanced Prompt**:
+"Acting as marketing expert Seth Godin, give me a list of 10 article titles to promote my new book about dog training."
+
+---
+
+### 5. Political Expert Comparison
+**Original Prompt**:
+"Which policies should be implemented to address inflation?"
+
+**Enhanced Prompt**:
+"You'll act as a liberal political expert and as a conservative political expert and provide two answers for the question: 'Which policies should be implemented to address inflation?'"
+
+   
+## Referee Report 
+ 
+#### Can you draft a referee report for this paper for the Journal of Economic Literature? [Attachment: w30957.pdf ] 
+
+#### Would this paper be suitable for the American Economic Review? 
+
+#### Can you provide a detailed critique of this paper for the Journal of Economic Perspectives?
+
+
+
+
+## Summary of LLM Capabilities and Usefulness {.scrollable}
+
+| **Category**            | **Task**                              | **Usefulness** |
+|-------------------------|---------------------------------------|----------------|
+| **Ideation and Feedback**| Brainstorming                        | ● Highly Useful|
+|                         | Feedback                              | ◑ Useful       |
+|                         | Providing counterarguments            | ◑ Useful       |
+| **Writing**             | Synthesizing text                     | ● Highly Useful|
+|                         | Editing text                          | ● Highly Useful|
+|                         | Evaluating text                       | ● Highly Useful|
+|                         | Converting hand-written equations     | ◯ Experimental |
+|                         | Generating catchy titles and headlines| ● Highly Useful|
+|                         | Generating tweets to promote a paper  | ● Highly Useful|
+|                         | Generating presentation slides        | ● Highly Useful|
+| **Background Research**  | Summarization                        | ● Highly Useful|
+|                         | Literature Research                   | ◑ Useful       |
+|                         | Formatting References                 | ● Highly Useful|
+|                         | Translating Text                      | ● Highly Useful|
+|                         | Explaining Concepts                   | ◑ Useful       |
+| **Coding**              | Writing code                         | ◑ Useful       |
+|                         | Explaining code                      | ◑ Useful       |
+|                         | Translating code                     | ◑ Useful       |
+|                         | Debugging code                       | ◑ Useful       |
+| **Data Analysis**       | Locating data sources                | ◑ Useful       |
+|                         | Creating figure
+  
+## LLMs in Data Analysis
+
+**Capabilities**:  
+  
+- Locating Data Sources (◐) 
+  
+- Creating Figures (◐) 
+
+- Extracting Data from Text (●) 
+
+- Sentiment Analysis (◐)
+
+---
+
+## LLMs and Mathematical Derivations
+  **Applications**: 
+  
+- Setting Up Models (◐) 
+
+- Deriving Equations (○) 
+
+- Explaining Models (◐)
+
+
+
+## Resources {.scrollable}
+
+
+
+- [YouTube Playlist](https://www.youtube.com/playlist?list=PLwRdpYzPkkn302_rL5RrXvQE8j0jLP02j)
+
+- [AI for Economists: Prompts & Resources](https://sites.google.com/view/lastunen/ai-for-economists)
+- [Causal Inference Substack](https://causalinf.substack.com/)
+- [One Useful Thing](https://www.oneusefulthing.org/)
+- [Understanding AI](https://www.understandingai.org/)
+
+**Other AI sites:**
+
+- [ChatPDF](https://www.chatpdf.com/)
+- [Reeder AI](https://reeder.ai/)
+- [Unriddle AI](https://app.unriddle.ai/)
+- [Magic School AI](https://app.magicschool.ai/)
+
+
+## [Key takeaways]{.yellow} {.scrollable}
+
+The article provides a framework for experimentation when integrating AI into government work, emphasising the balance between innovation and ethical considerations. Key takeaways (as summarised by ChatGPT) include:
+
+-   [AI as an assistant:]{.yellow} AI should be seen as a [decision-making assistant rather than a decision-maker]{.scrollable}, emphasising the importance of human oversight and ethical responsibility in its use. 
+
+-   [Balancing efficiency and compliance:]{.yellow} While it’s important to follow guidelines, caution shouldn’t prevent experimentation with AI. 
+
+-   [Creative potential:]{.yellow} AI can act as an “extra brain” or “extra hands,” helping with tasks like summarising documents and providing diverse perspectives, offering a creative avenue for public servants. 
+
+-   [Ethical considerations:]{.yellow} Public servants should prioritise ethics, avoid using sensitive information, and ensure AI use aligns with public service principles. 
+
+-   [Informed experimentation:]{.yellow} Staying informed without being overwhelmed and experimenting in safe environments can enhance creativity and learning. 
+
+-  [Transparency:]{.yellow} Transparency is crucial; always disclose when AI is being used. 
+
+-   [Quick wins with AI:]{.yellow} AI can boost productivity in areas like drafting documents, summarising information, and analysing data, but rules and regulations must still be adhered to. 
+
+
+
+
+## AI Terminology {.scrollable}
+
+| **Term**                          | **Definition**                                                                                                                 |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| Data augmentation                  | A technique used in machine learning and deep learning to increase the diversity and amount of training data.                   |
+| Deep learning                      | A subset of machine learning that focuses on training computers to perform tasks by learning from data, using neural networks.   |
+| Diffusion model                    | A generative model used for generating high-quality samples and tasks, such as image synthesis.                                 |
+| Discriminative AI                  | Artificial intelligence that distinguishes between different classes of data.                                                   |
+| Discriminative AI models           | Models that identify and classify patterns in data, commonly used for prediction and classification tasks.                     |
+| Foundation models                  | Broad AI models that can be adapted to create more specialized models or tools for specific use cases.                          |
+| Generative adversarial network (GAN) | A type of generative model with two neural networks (generator and discriminator) where the generator creates samples and the discriminator evaluates them. |
+| Generative AI                      | AI that can create new content such as text, images, audio, and video.                                                         |
+| Generative AI models               | Models that generate new content by understanding the context of the input. Used for automated content creation and communication.|
+| Generative pre-trained transformer (GPT) | A type of large language model developed by OpenAI that uses transformers to understand and generate text.                     |
+| Large language models (LLMs)       | Deep learning models trained on massive text datasets to learn language patterns and structures.                                |
+| Machine learning                   | AI focused on creating algorithms and models that enable computers to learn and make predictions or decisions from data.        |
+| Natural language processing (NLP)  | AI that enables computers to understand, manipulate, and generate human language.                                               |
+| Neural networks                    | Computational models inspired by the human brain, essential in deep learning and AI.                                             |
+| Prompt                             | Instructions or questions given to a generative AI model to generate new content.                                               |
+| Training data                      | Data used to teach a machine learning model, often containing labeled examples.                                                 |
+| Transformers                       | A deep learning architecture that uses encoders and decoders to generate contextually relevant text.                            |
+| Variational autoencoder (VAE)      | A generative model that encodes input data into a smaller space and then decodes it back to its original form.                 |
+
+
+
+## Prompt Overview
+
+- A prompt is any input or series of instructions used to produce a desired output.
+- These instructions help in directing the creativity of a generative model.
+- Building blocks of a well-structured prompt include instruction, context, input data, and output indicators.
+- These elements help the model comprehend our necessities and generate relevant responses.
+
+
+## What is Prompt Engineering?
+
+- **Define Prompt Engineering**:
+  - The practice of designing and refining prompts to guide generative models in producing desired outputs.
+
+---
+
+## Importance of Prompt Engineering
+
+- **Relevance and Importance**:
+  - Prompt engineering is crucial for improving the accuracy, creativity, and relevance of AI-generated responses.
+  - It helps AI systems understand the user's intention and produce better, more aligned results.
+
+---
+
+## How to Write Effective Prompts
+
+- **Writing Effective Prompts**:
+  - Effective prompts are clear, context-rich, and structured to help AI understand what is expected.
+  - The process involves defining the instruction, providing necessary context, and outlining the desired output.
+
+
+## 
+
+Prompt engineering is a blend of critical analysis,
+creativity, and technical acumen.
+It is not limited to asking the right question.
+It includes framing the question in
+the right context with the right information
+and your expectation of
+desired outcomes to elicit the most appropriate response.
+
+## Best Practices for Writing Effective Prompts {.fragment .fade-up} {.scrollable}
+
+Key Dimensions:
+
+- **Clarity**:
+  - Use simple and concise language. 
+  - Avoid ambiguity and vagueness. 
+- **Context**: 
+  - Provide background and necessary details. 
+  - Help the model understand the situation.
+- **Precision**:
+  - Be specific and give examples. 
+  - Clearly define the scope and expectations.
+- **Role-play**:
+  - Assume a persona to enhance the response. 
+  - Offer relevant context for better understanding.
+
+## Prompt Engineering Techniques
+
+At this point, you have learned the techniques for skillfully crafting prompts that effectively steer generative AI models. You now know the various prompt engineering approaches that optimize the response of generative AI models.
+
+
+
+## Microsoft Word 
+
+### Document Drafting
+- "Create a professional business proposal template."
+- "Generate a summary of this 10-page report."
+- "Format this document to APA style."
+
+### Editing and Proofreading
+- "Check this document for grammar and spelling errors."
+- "Rewrite this paragraph to make it more concise."
+- "Suggest improvements for the introduction section."
+
+### Content Generation
+- "Write a cover letter for a marketing manager position."
+- "Create an outline for a research paper on climate change."
+- "Generate a list of interview questions for a software developer role."
+
+## Microsoft PowerPoint (PPTX)
+
+### Presentation Creation
+- "Create a 10-slide presentation on the benefits of renewable energy."
+- "Generate a pitch deck for a startup in the tech industry."
+- "Design a training presentation on workplace safety."
+
+### Design and Layout
+- "Suggest a modern design theme for this presentation."
+- "Add relevant images and icons to these slides."
+- "Create a visually appealing title slide."
+
+### Content Enhancement
+- "Summarize this report into key points for a presentation."
+- "Add speaker notes for each slide."
+- "Create an infographic to represent this data."
+
+## Microsoft Excel
+
+### Data Analysis
+- "Analyze this sales data and generate insights."
+- "Create a pivot table to summarize this dataset."
+- "Generate a forecast for the next quarter based on this data."
+
+### Formulas and Functions
+- "Write a formula to calculate the average sales per month."
+- "Use VLOOKUP to find the corresponding values from another sheet."
+- "Create a conditional formatting rule to highlight cells above a certain value."
+
+### Visualization
+- "Create a bar chart to represent this data."
+- "Generate a dashboard to track key performance indicators."
+- "Create a scatter plot to show the relationship between these variables."
+
+These prompts should help you leverage the capabilities of Microsoft Office tools to enhance your productivity and create high-quality documents, presentations, and spreadsheets. If you need more specific prompts or have a particular task in mind, feel free to let me know!

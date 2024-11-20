@@ -1,38 +1,35 @@
 ---
-title: "AI in Education: Challenges and Opportunities"
+title: "Using AI"
+author: "[**Zahid Asghar, QAU**]{.yellow}"
 
-author: "[**Zahid Asghar,QAU**]{.yellow}"
-date: "2024-11-12"
 format: 
   revealjs:
     footer: "[Zahid Asghar](https://zahidasghar.com)&nbsp;&nbsp;&nbsp;"
-    logo: "images/qau1.jpg"
+    logo: "images/pips.png"
     theme: [default, custom1.scss]
     css: style.scss
     chalkboard: true
     slide-number: c/t
     title-slide-attributes:
-      data-background-image: images/iub.png
-      data-background-size: cover
+      data-background-image: images/pips1.png
+      data-background-size: 70% # Make the image smaller
+      data-background-opacity: 40% # Make the image lighter
+date: "2024-11-20"
 execute:
   echo: false
   warning: false
   freeze: auto
 ---
 
-# AI in Higher Education
 
-![](images/ai_hed.webp){width="100vw" height="100vh"}
+# {background-image=https://tettra.com/wp-content/uploads/2023/10/use-AI-at-work.jpg}
 
+::: {.absolute left="75%" top="45%" style="font-size:1.1em; padding: 0.5em 1em; background-color: rgba(255, 255, 250, 0.5); backdrop-filter: blur(2px); box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, .5); border-radius: 5px;"}
 
+[Always embrace the unexpected]{.red}
 
-## AI in Education: Empowering the Future 
-
-#### Dedicated to the memory of Arif Naveed for his invaluable contributions, vision, and passion for education and society.
-
-
-
-![](images/arif.jpeg){width="100vw" height="100vh"}
+Comfortable being uncomfortable
+:::
 
 
 ## History
@@ -231,22 +228,26 @@ execute:
 | Meta        | Llama     | Llama-3.1    | 7/2024           | 128k   | Dec 2023    | [open source]     |
 
 
-## The Role of AI in Higher Education
+## The Role of AI
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJuhmfTBrBuH8BgOleVOOvBcbK1esNMHUzng&s){.stretch fig-align="center" width="728"}
 
 
-### What role could and should generative AI play both in and on the classroom in supporting effective, engaging and active learning for university students?
+### AI role in office use for boosting productivity?
 
 
-### What challenges AI poses to the traditional role of the teacher in the classroom?
+### What challenges AI poses to the traditional role for office worker?
 
 --- 
 
-### I am an economics student and I am interested in the impact of AI on the future of work. How will AI affect the job market and what skills will be most valuable in the future? Brainstorm 20 ideas with one line each. 
+### What are you? 
 
 
-### What challenges AI poses to academic integrity and evaluation of students? 
+### What are you doing? 
+
+### What are you as I am 10. 
+
+
 
 
 ### How do nuclear capabilities shape the strategic calculus of both Pakistan and India?
@@ -282,8 +283,8 @@ In summary, Iqbal would likely see both the dangers and the opportunities in soc
 
 ### Introduction
 
-- **AI Integration**: Transforming teaching, learning, and administrative processes.
-- **Purpose**: Enhance educational outcomes, personalize learning, and streamline operations.
+- **AI Integration**: Transforming working, learning, and administrative processes.
+- **Purpose**: Enhance office outcomes, personalize learning, and streamline operations.
 - **Historical Context**: Technology has always influenced education, from the printing press to digital learning platforms.
 
 ---
@@ -296,7 +297,7 @@ In summary, Iqbal would likely see both the dangers and the opportunities in soc
 
 ---
 
-### Practical Applications of AI in Education
+### Practical Applications of AI 
 
 - **Grading and Assessments**
   - Automated grading for efficiency and consistency.
@@ -395,20 +396,6 @@ In summary, Iqbal would likely see both the dangers and the opportunities in soc
 
 ---
 
-### AI in Grading and Assignments
-
-- **Efficiency and Consistency**
-  - AI can help make grading more efficient and consistent.
-  
-- **Changing Nature of Grades**
-  - AI alters what grades represent, focusing more on real-world skills.
-  
-- **Future of Grading**
-  - Grading as a tool to prepare students with better real-world skills.
-  - Traditional grading methods are evolving to accommodate AI integration.
-
----
-
 ### AI's Role in Idea Generation
 
 - **Generating Ideas**
@@ -481,7 +468,7 @@ In summary, Iqbal would likely see both the dangers and the opportunities in soc
 
 ## Resources {.scrollable}
 
--   [Re-inventing Education for the Digital Age \| David Middelbeck \| TEDxMünster](https://www.youtube.com/watch?v=ArI6albrkuY)
+-   [Re-inventing Education for the Digital Age | David Middelbeck | TEDxMünster](https://www.youtube.com/watch?v=ArI6albrkuY)
 
 -   [AI for Economists: Prompt & Resources](https://sites.google.com/view/lastunen/ai-for-economists)
 
@@ -514,6 +501,12 @@ In summary, Iqbal would likely see both the dangers and the opportunities in soc
 -   Myheritage
 
 -   Snythesia video maker
+
+-   PsiSpace for literature review
+
+-   litmaps for literature review
+
+
 
 ## Useful Books (2024)
 
@@ -551,18 +544,7 @@ In summary, Iqbal would likely see both the dangers and the opportunities in soc
 
 
 
-## Workshop Information
-
-**Workshop Title:** AI for Students, Teachers, and Researchers
-
-Hybrid Workshop: In-Person and Virtual
-
-**Instructor:** Zahid Asghar
-
-**Date:** 2024-11-21
-
 ---
-
 ### Questions or Comments?
 
 **Contact Information:**
@@ -573,5 +555,5 @@ Hybrid Workshop: In-Person and Virtual
 
 - **YouTube:** [https://www.youtube.com/c/ZahidAsghar](https://www.youtube.com/c/ZahidAsghar)
 
----
+
 
