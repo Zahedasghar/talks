@@ -1,5 +1,5 @@
 ---
-title: "Using AI"
+title: "AI Literacy"
 author: "[**Zahid Asghar, QAU**]{.yellow}"
 
 format: 
@@ -12,7 +12,7 @@ format:
     slide-number: c/t
     title-slide-attributes:
       data-background-image: images/pips1.png
-      data-background-size: 70% # Make the image smaller
+      data-background-size: 60% # Make the image smaller
       data-background-opacity: 40% # Make the image lighter
 date: "2024-11-20"
 execute:
@@ -21,6 +21,11 @@ execute:
   freeze: auto
 ---
 
+# {background-image=images/pips1.png}
+::: {.absolute left="75%" top="45%" style="font-size:1.1em; padding: 0.5em 1em; background-color: rgba(255, 255, 250, 0.5); backdrop-filter: blur(2px); box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, .5); border-radius: 5px;"}
+
+Emerging Trends in Office Work - Use of AI 
+:::
 
 # {background-image=https://tettra.com/wp-content/uploads/2023/10/use-AI-at-work.jpg}
 
@@ -505,6 +510,10 @@ In summary, Iqbal would likely see both the dangers and the opportunities in soc
 -   PsiSpace for literature review
 
 -   litmaps for literature review
+
+-   Otter ai for speech to text
+
+
 
 
 

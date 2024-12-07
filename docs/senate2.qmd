@@ -3,7 +3,7 @@ title: "Prompting"
 author: "[**Zahid Asghar, QAU**]{.yellow}"
 
 format: 
-  revealjs:
+  docx:
     footer: "[Zahid Asghar](https://zahidasghar.com)&nbsp;&nbsp;&nbsp;"
     logo: "images/pips.png"
     theme: [default, custom1.scss]
