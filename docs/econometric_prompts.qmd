@@ -1,0 +1,15 @@
+---
+title: "Your Quarto Document Title"
+author: "Your Name"
+date: "2024-06-17"
+format: html
+---
+
+## Prompts and Assistant Responses
+
+### User Prompt: 
+
+**"caschool.xls Summarise testscr str el_pct avginc variables and have some possible visualisations"**
+
+**Assistant Response**:  
+Summarized the variables `testscr`, `str`, `el_pct`, and `avginc` and provided visualizations.

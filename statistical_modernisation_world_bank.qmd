@@ -1,0 +1,154 @@
+---
+title: "Statistical Modernisation"
+title-block-banner: true
+author: "Prof.Dr. Zahid Asghar <br> School of Economics, QAU"
+date: "2024-12-06"
+format:
+  typst:
+    
+    papersize: a4
+    margin: 
+      x: 1cm
+      y: 1cm
+    columns: 1
+---
+
+## Introduction
+
+Historically, nations gained power based on different strengths like cultural influence, military might, and technological advancements. For example, Ancient India was known for its deep knowledge and rich culture, serving as a center of learning and philosophy. The Roman Empire expanded with organized armies and inventions like the catapult. The Mongol Empire used mobility and trade networks, while the Ottoman Empire relied on heavy artillery and cannons. The British Empire grew through colonization, backed by naval strength and gunpowder. In the 20th century, the United States became a global leader with economic power and military strength.
+
+Now, in the 21st century, data has become the new source of competitive advantage. It is changing the global landscape and redefining power dynamics. Yet, Pakistan stands at a crossroads, overwhelmed by data but struggling to harness its true potential.
+
+Data fuels economic growth and innovation. The 4th Industrial Revolution uses data, artificial intelligence (AI), and advanced analytics to transform industries. It creates opportunities that were unimaginable a few decades ago.
+
+There's a saying, "Water, water everywhere, nor a drop to drink," from Samuel Taylor Coleridge's poem "The Rime of the Ancient Mariner." It describes a sailor surrounded by water but unable to drink—a paradox of abundance without usability. We face a similar "Data Paradox" today. We have plenty of data, but not the right kind to make informed decisions. Despite an enormous amount of information, the public sector lacks proper indicators for evidence-based policymaking. Similarly, Generative AI is based on right kind of data.[^1]
+
+[^1]: Nitin Seth. 2024.**Mastering** the **Data Paradox**: The Key to Winning in the AI Age. Penguin Business
+
+Another paradox is the data deluge versus capacity drought. While enormous quantities of data are generated, many organizations and government bodies lack the capability to manage and utilize it effectively. This results in missed opportunities for growth and development. Additionally, data quality remains a significant concern. Reliable, accurate data is essential for sound decision-making. Poor data quality leads to flawed conclusions, wasted resources, and ineffective policies. In Pakistan, inadequate data quality standards hinder our progress, emphasizing the need for robust governance and standardized data practices.
+
+Every time we use our mobile phones, swipe our credit cards, or visit a government office, we generate data. In Pakistan alone, millions of these digital records are created daily. This is not just an abstract problem; it affects our privacy and the cost of essential services we depend on.
+
+Having sufficient, relevant, accurate, and timely statistics is essential for creating intelligent public policies. Intelligent public policies are critical for an intelligent government. Good data cannot be taken for granted; it must be a high priority for the government. As Hans Rosling said,
+
+```         
+"Numbers alone can't explain the world, but the world can't be explained without numbers."
+```
+
+Modernizing the national statistical system is crucial for providing the necessary statistics. Government agencies and policymakers need modern and efficient statistical systems to collect and analyze data effectively. This helps them design and implement strategies that meet societal needs.
+
+### Importance of Data Analytics in Policy Making
+
+Data analytics can greatly help the government improve its functions, deliver better services, increase efficiency, and enhance program evaluations. The government has many records, archives, and reports that can be utilized as data points. While the private sector is leveraging data analytics and data science innovations extensively, the public sector has yet to fully capitalize on these opportunities. The goal is to use analytics to boost public sector productivity.[^2]
+
+[^2]: Schnell, Sabina. "The government analytics handbook: Leveraging data to strengthen public administration. By Daniel Rogger, Christian Schuster (Eds.), Washington, DC: World Bank. 2023
+
+### Stakeholder Benefits
+
+Statistics are important for various stakeholders, including:
+
+::::: columns
+::: {.column width="50%"}
+-   Government Agencies and Policymakers\
+-   Businesses and Industry\
+-   Agriculture and Environment\
+-   Researchers and Academics\
+-   International Organizations
+:::
+
+::: {.column width="50%"}
+-   Non-Governmental Organizations (NGOs)\
+-   Media and Journalists\
+-   General Public\
+-   Financial Institutions and Investors\
+-   Healthcare Sector
+:::
+:::::
+
+### Challenges in Collecting Official including Economic Statistics in Pakistan
+
+-   **New Products and Services**: The rise of free apps, online shopping, and online learning complicates traditional economic data collection.\
+-   **Funding Issues**: Limited financial support for the Pakistan Bureau of Statistics (PBS) has hindered its role as a primary data producer.\
+-   **Human Capital Deficit**: There is a lack of skilled professionals to handle modern analysis methods and harness publicly available data.
+
+## Key Areas for Modernization
+
+1.  **Nowcasting**: Use real-time data for short-term economic forecasts, enabling swift government responses to changes.\
+2.  **Data Integration**:
+    -   Census-Survey Integration\
+    -   Survey-Survey Integration\
+    -   Survey-Administrative Data Integration\
+    -   Survey-Synthetic Data Creation\
+3.  **Automating Reports**: Use software to generate reports automatically, saving time and reducing errors.\
+4.  **Data Availability**: Provide data in machine-readable, user-friendly formats.\
+5.  **Legislation for Coordination**: Establish legal frameworks for collaboration among PBS, provincial bureaus, and the State Bank of Pakistan.\
+6.  **Geospatial Data Linkages**: Combine geospatial data with household data for accurate measurements.\
+7.  **Sectoral Strategies**:
+    -   Comparable Global Data\
+    -   Data Improvement\
+    -   Addressing Data Gaps\
+8.  **Climate and Nightlights Data**: Leverage data from NASA, NOAA, and IEA for climate and economic activity analysis.\
+9.  **APIs and Capacity Building**: Develop APIs for data access and train staff to utilize global datasets.
+
+## Strategies for Modernization
+
+-   **Conduct Gap Analysis**: Identify weaknesses in current data systems, technology, and human resources.\
+-   **Review International Practices**: Learn from Malaysia, the Philippines, South Korea, Estonia, and others.\
+-   **Engage Stakeholders**: Collaborate with data users, academia, and NGOs to align modernization with their needs.\
+-   **Reproducibility and Automation**: Utilize advanced tools like R/Python through Quarto for data processing and reporting.
+
+### Data Analytics for Policy Making
+
+![](images/AdvancedDataMonetizationCapabilities.jpg){fig-align="center"} 
+[^3] 
+
+
+[^3]:Wixom, B. H., Beath, C. M., & Owens, L. 1. (2023). Data is everybody's business: the fundamentals of data monetization. Cambridge, Massachusetts, The MIT Press. 
+
+Repurposing existing government data is essential. By extracting insights from policy documents, surveys, procurement records, and project plans (e.g., PC1 and PSDP), evidence-based decision-making can be enhanced.
+
+### Key Strategies for Data Analytics
+
+-   Automate district and sector reports using dynamic, parameterized tools in R or Python.\
+-   Prioritize strong data governance frameworks for quality and security.\
+-   Foster collaboration through workshops like PBS-hosted *Datafests*.\
+-   Develop user-friendly interactive dashboards and APIs for real-time data access.\
+-   Use machine learning to unlock insights from unstructured data (e.g., PDF reports).\
+-   Promote data-driven culture through training and success stories.\
+-   Integrate real-time data for nowcasting and geospatial data for precision.
+
+### Challenges
+
+-   Difficulty in collecting statistics for non-physical markets such as free apps and online platforms.\
+-   Insufficient funding and staffing at the bureaus.
+-   Lack of coordination among data producers and users.
+-   Limited access/capacity to use global datasets and APIs.
+-   Lack of focus on evidence-based decision-making.
+-   Autonomy and independence of PBS and provincial bureaus.
+
+### Research Working Plan
+
+There will be two main parts to work on statistical modernization. Firstly, we will get contextual insight through focus group discussion sessions with PBS, Planning Commission, and other stakeholders. At second stage we shall carry deliberations for sub-sectoral strategies like labour force, agriculture, industry and other data collection issues. Following will mainly be included for getting feedback and insights: 1. Planning Commission\
+2. Pakistan Bureau of Statistics\
+3. Provincial Bureaus\
+4. WB/UN/ADB Staff in Islamabad 5. Academia (e.g., QAU, LUMS, IBA, NUST, etc.) 6. Development/Research Organizations (e.g., SDPI, LEAD, CERP, PIDE, SBP)
+
+Secondly, we shall work on developing a strategic plan for modernization of statistical system in Pakistan in the light of feedback and advice from stakeholders.
+
+## Data Analysis and Strategy Development
+
+### Steps
+
+-   Conduct a **Gap Analysis** to identify weaknesses in current systems.
+-   **Digitize** and **Automate** data collection and reporting processes.
+-   **Integrate** data from different sources for a comprehensive view.
+-   **Develop** a **Data Governance Framework** for quality and security.
+-   Review **Best Practices** from other countries.\
+-   Develop a **Strategic Plan** with specific actions and timelines.\
+-   Engage stakeholders to align with their needs.\
+-   **Train** staff in modern tools and techniques
+-   Assessing Challenges and Opportunities in an era of **Big Data** and **Artificial Intelligence** in the modernization process will be a key part of the strategy development.
+
+### Conclusion
+
+Investing in modern statistical systems and data analytics is vital for sustainable development and informed decision-making. By bridging data gaps, embracing modern tools, and fostering a data-driven culture, Pakistan can enhance public services and improve the quality of life for its citizens.

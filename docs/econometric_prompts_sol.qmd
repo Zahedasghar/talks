@@ -1,0 +1,21 @@
+---
+  title: "Your Quarto Document Title"
+author: "Your Name"
+date: "2024-06-17"
+format: html
+---
+
+  ## Introduction
+
+  This is a Quarto document. You can include formatted text, R code, and its output in one place.
+
+---
+
+## Load Libraries
+
+  Let's load necessary libraries for the analysis.
+
+```{r}
+# Load required libraries
+library(ggplot2)
+library(dplyr)

@@ -1,0 +1,154 @@
+---
+title: ""
+author: "Zahid Asghar"
+date: "2024-09-24"
+format: 
+  html:
+    logo: "images/qau1.jpg"
+    theme: [default, custom2.scss]
+    chalkboard: true
+    slideNumber: c/t
+    toc: true
+    toc-float: true
+    title-slide-attributes:
+      data-background-image: images/background_title.png
+
+execute:
+  freeze: auto
+  echo: false
+  message: false
+  warning: false
+--- 
+
+
+# Categories and Prompts
+
+This document provides a categorized list of  data analysis, financial analysis, image processing, file conversion, and code-related prompts for ChatGPT. These prompts can help in data exploration, visualization, analysis, and technical operations.
+
+## Analyzing Datasets
+
+### Task Description Prompts
+1. **Load and Preview the Data**
+   - Can you load and preview the data?
+2. **Describe the Data**
+   - Can you describe the data?
+3. **Explain the Dataset**
+   - Explain this dataset in one paragraph.
+   - Explain this dataset in simple terms.
+   - Explain this dataset like I'm 5 years old.
+4. **Identify Key Takeaways**
+   - What’s the main takeaway from this dataset?
+5. **Describe Rows and Columns**
+   - What are the rows and columns in this dataset?
+6. **Provide Insights**
+   - What insights do you see here? Give me a numbered list.
+7. **Visualize the Data**
+   - Can you create a graph using this data?
+   - Can you create a chart using this data?
+   - Can you create a heatmap using this data?
+8. **Identify Trends**
+   - What are the trends shown in this data?
+9. **Summarize Key Points**
+   - Can you list the top 10 key points?
+   - Can you write a one-sentence recap of this data?
+10. **Data Cleaning**
+    - Can you clean this dataset?
+11. **Data Segmentation**
+    - Can you segment this data and create a table?
+12. **Presentation and Visualization**
+    - Can you create a presentation based on this dataset?
+    - Can you create 10 visuals to represent different data?
+    - Can you create a visual word cloud?
+    - Can you make the graphs more beautiful?
+13. **Lessons and Articles**
+    - What is the key lesson from this dataset?
+    - Can you write me an article based on this dataset?
+
+---
+
+## Analyzing Financial Data
+
+### Task Description Prompts
+1. **Preview and Describe**
+   - Load and preview the data.
+   - Describe the data.
+2. **Plotting and Visualization**
+   - Plot the closing price.
+   - Create a candlestick chart.
+   - Plot Bollinger Bands.
+   - Plot a histogram of daily returns.
+3. **Calculations and Analysis**
+   - Calculate daily percentage change.
+   - Calculate moving averages (e.g., 7-day).
+   - Compare price with volume.
+   - Analyze the volume.
+   - Calculate volatility.
+   - Perform rolling window operations.
+4. **Identify Key Dates and Trends**
+   - Find the date with the highest closing price.
+   - Identify dates of significant changes in volume or price.
+5. **Time Series Analysis**
+   - Decompose the closing price time series.
+   - Test for stationarity using the Augmented Dickey-Fuller test.
+   - Show autocorrelation and partial autocorrelation plots.
+   - Implement an ARIMA model to predict future prices.
+6. **Key Events**
+   - Find the largest single-day gain and loss.
+   - Identify the duration of the fastest price increase or decrease.
+
+---
+
+## Image Editing and Alteration
+
+### Task Description Prompts
+1. **Basic Editing**
+   - Identify the main colors and objects in the image.
+   - Change the brightness/contrast.
+   - Resize the image to specific dimensions.
+2. **Metadata and Analysis**
+   - Look at the image's metadata.
+   - Calculate the aspect ratio.
+3. **Advanced Alterations**
+   - Convert to black and white.
+   - Enhance resolution.
+   - Apply artistic effects (e.g., oil painting effect).
+4. **Cropping and Formatting**
+   - Crop the image to vertical or square formats.
+   - Transform the image into a color palette.
+
+---
+
+## Converting File Types
+
+### Task Description Prompts
+1. Convert file types such as:
+   - MP3 to WAV.
+   - PNG to JPEG.
+   - MP4 to GIF.
+
+---
+
+## Analyzing Code
+
+### Task Description Prompts
+1. **Explain and Review**
+   - Explain this code.
+   - What's the key purpose of this code?
+   - Suggest improvements.
+2. **Error Detection**
+   - Analyze the code for potential errors.
+   - Identify potential security issues.
+   - Test the code with different input parameters.
+3. **Optimization**
+   - Suggest ways to optimize or refactor the code.
+   - Identify potential multithreading opportunities.
+4. **Visualize and Analyze**
+   - Create a flowchart to visualize the code.
+   - Explain any classes and methods in the code.
+
+---
+
+## Additional Resources
+- **Download Datasets**: [Kaggle Datasets](https://www.kaggle.com/datasets)
+- **AI Learning Resources**: [SkillLeap AI Course Library](https://skillleap.ai/)
+
