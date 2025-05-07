@@ -1,11 +1,12 @@
 ---
 title: "[AI for Parliamentary Research]{.yellow}"
-subtitle: "09th Annual National Parliamentary Researchers Workshop"
+subtitle: "09^th^ Annual National Parliamentary Researchers Workshop"
 author: "Zahid Asghar"
 date: "2025-05-07"
 format:
   revealjs:
     theme: [default, custom1.scss]
+    chalkboard: true
     slide-number: c/t  # Shows current slide/total slides for better navigation
     logo: "https://www.pips.gov.pk/wp-content/uploads/2020/01/500-x500.png"
     footer: "Pakistan Institute for Parliamentary Services (PIPS)"
@@ -31,6 +32,37 @@ execute:
 
 ------------------------------------------------------------------------
 
+
+## The Impact of AI on Creative Work 
+
+::: columns
+
+::: {.column width="50%"}
+
+> *"Once people experience smarter ways of working, they don’t want to return to old habits."*  
+
+
+---
+
+> *“frees up the time that creatives need to be creative”*
+
+:::
+
+::: {.column width="50%"}
+
+- Planning: emails, budget spreadsheets, meeting notes, etc  
+- Ideating and visualizing in the room with a client  
+- Turning a few lines of text into a full proposal  
+- Iterating a lot faster  
+- Office hours where people share tricks
+
+:::
+
+:::
+
+
+
+
 ## What is AI?
 
 **Artificial Intelligence (AI):**
@@ -52,12 +84,29 @@ Autonomous Drones: AI-powered drones navigate environments, avoid obstacles, and
 
 :::
 
+---
 
-## What is Machine Learning (ML)?
+**Key Concepts**: 
 
-**Machine Learning (ML):**-   A subset of AI that enables machines to learn from data and improve performance over time.
+  - Natural Language Processing (NLP) 
+  
+  - Machine Learning 
+  
+  - Generative AI (ChatGPT, Claude, Grok, Copilot, Gemini, etc.) 
+  
+- Real-world examples across sectors 
 
--   ML doesn’t require explicit programming for each task.
+- **Why AI now?** 
+
+  - Advances in compute power, data, algorithms
+
+
+--- 
+
+
+**Machine Learning (ML)**:   A subset of AI that enables machines to learn from data and improve performance over time. 
+
+-   ML doesn’t require explicit programming for each task. 
 
 **Types of ML:**
 
@@ -67,7 +116,7 @@ Autonomous Drones: AI-powered drones navigate environments, avoid obstacles, and
 
 **Examples:** - Netflix recommendation system - Spam filters in email
 
-## What is Natural Language Processing (NLP)?
+--- 
 
 **Natural Language Processing (NLP):**
 
@@ -145,14 +194,16 @@ VALL-E synthesizing speech
 
 
 
-## 
+---
 
 ![](images/AI/genAI4.png)
 
+--- 
 
 ### LLMs
 
 ![](images/AI/LLM.webp){.stretch}
+--- 
 
 
 ![](images/AI/genAI7.png)
@@ -162,19 +213,13 @@ VALL-E synthesizing speech
 ![](https://blog.crisp.se/wp-content/uploads/2024/01/generative-AI-in-a-nutshell.png)
 
 
-## Key Takeaway
+## Key Takeaway 
+
 - **Artificial Intelligence (AI)** is the broad field enabling machines to mimic human intelligence.
 - **Machine Learning (ML)** is a technique within AI, focused on learning from data.
 - **NLP** allows AI to understand and interact with human language.
 - **Generative AI** creates new, original content based on learned patterns.
 - **Traditional AI** analyzes existing data to provide insights, while **Generative AI** creates something entirely new.
-
-## AI Race 
-
-<video style="width: 100vw; height: 100vh; object-fit: cover;" autoplay loop muted playsinline>
-  <source src="images/business_ai_race_us_china.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 
 
@@ -197,17 +242,6 @@ The key skill for most of us today isn’t coding or prompt engineering, but:
 
 
 
-
-## Introduction to AI
-
-- What is Artificial Intelligence?
-- Key Concepts:
-  - Natural Language Processing (NLP)
-  - Machine Learning
-  - Generative AI (ChatGPT, Claude)
-- Real-world examples across sectors
-- **Why AI now?**
-  - Advances in compute power, data, algorithms
 
 
 
@@ -436,24 +470,6 @@ gantt
 ```
 
  
-## Next Steps 
-
-1. **Establish AI Steering Committee** with cross-party representation
-2. **Conduct comprehensive needs assessment**
-3. **Develop Pakistan-specific AI governance framework**
-4. **Initiate staff training and awareness programs**
-5. **Launch transcription pilot project**
-6. **Document and share lessons learned**
-7. **Present comprehensive AI strategy to Parliament**
-
-## Quick Start Guide
-
-- Start with small, well-defined projects
-- Focus on existing pain points in parliamentary research
-- Use available AI tools (ChatGPT, Claude, etc.) to experiment
-- Document successes and challenges
-- Share learning with colleagues
-- Join the parliamentary AI community of practice
 
 ## Questions & Discussion
 
