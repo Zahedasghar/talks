@@ -3,7 +3,7 @@ title: "[Empowering Public Policy with AI ]{.yellow}"
 author: "Zahid Asghar"
 date: "today"
 format: 
-  docx:
+  html:
     theme: [default, custom2.scss]
     # toc: true
     # toc-float: true
