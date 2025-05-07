@@ -1,0 +1,149 @@
+---
+title: "[AI for Parliamentary Research]{.yellow}"
+subtitle: " 09th Annual National Parliamentary Researchers Workshop"
+author: " Zahid Asghar"
+format:
+  revealjs:
+    logo: "images/qau1.jpg"
+    footer: "Pakistan Institutefor Parliamentary Services (PIPS)"
+    theme: [default, custom2.scss]
+    slide-number: true
+    toc: false
+    
+    incremental: true
+    transition: fade
+---
+
+
+## [Myth : You need to be a coder or AI expert]{.yellow}} 
+
+
+### Reality
+
+You [**don’t need to build AI models**]{.yellow} or be a data scientist.   
+Instead, [**you need to be a problem-solver**]{.yellow} who can [**apply AI to real-world challenges**]{.pink}.
+
+
+The key skill for most of us today isn’t coding or prompt engineering, but: 
+
+- **Understanding who you help** 
+
+- **Identifying a painful, valuable problem**  
+- **Using AI to automate 80–90% of the heavy lifting**
+
+--- 
+
+### **Example**
+
+🩺 **Doctors** use AI to draft patient summaries — no coding needed.  
+🏛 **Parliamentary researchers** use AI to analyze documents & public opinion — without programming.
+
+
+
+### **A word from Jensen Huang (CEO, NVIDIA)**
+
+> "Everyone is now a programmer. You just have to tell the computer what to do."
+
+
+
+### **Takeaway**
+
+In this new era, **problem-solvers** who think clearly and craft valuable offers hold the real advantage.
+
+# [AI Won’t Replace Humans]{.yellow} — But Humans With AI Will [Replace Humans Without AI]{.yellow}
+
+[HBR](https://hbr.org/2023/08/ai-wont-replace-humans-but-humans-with-ai-will-replace-humans-without-ai)
+
+
+## Introduction to AI
+
+- What is Artificial Intelligence?
+- Key Concepts:
+  - Natural Language Processing (NLP)
+  - Machine Learning
+  - Generative AI (ChatGPT, Claude)
+- Real-world examples across sectors
+- **Why AI now?**
+  - Advances in compute power, data, algorithms
+
+---
+
+## Why AI for Parliamentary Research?
+
+- Data deluge & complex policy issues
+- Limited time & human resources
+- AI’s value proposition:
+  - Automating information gathering
+  - Enhancing analysis and predictions
+  - Improving evidence-based decision-making
+
+---
+
+## Core AI Tools & Techniques
+
+- **Generative AI** (ChatGPT, Claude, Copilot)
+- **Text Mining & NLP** (Natural Language Processing)
+- **Sentiment & Trend Analysis**
+- **Knowledge Graphs & RAG** (Retrieval-Augmented Generation)
+
+---
+
+## Practical Use Cases
+
+- Drafting policy briefs and talking points
+- Summarizing bills & committee reports
+- AI-assisted Q&A during debates
+- Media monitoring and public opinion analysis
+
+---
+
+# Practical Use Cases of AI in Parliamentary Research
+
+---
+
+### 📝 Drafting Policy Briefs & Talking Points
+
+- **Task:** Quickly generate drafts using Generative AI.
+- **Capabilities:** Tailor content for different audiences (lawmakers, media, public). Maintain consistency and reduce writing time.
+  
+**Example:**  
+A researcher uses ChatGPT to draft a **brief summarizing the economic impact of proposed tax reforms**, customized for both legislators and the press.
+
+---
+
+### 📄 Summarizing Bills & Committee Reports
+
+- **Task:** Use NLP and AI summarization tools.
+- **Capabilities:** Extract key points, amendments, and policy impacts. Speed up legislative analysis and briefing preparation.
+  
+**Example:**  
+An AI tool summarizes a **200-page infrastructure bill**, highlighting funding allocations, environmental implications, and changes from previous drafts for committee members.
+
+---
+
+## Best Practices & Limitations
+
+- Ensure factual accuracy
+- Mitigate bias
+- Data privacy and security
+- Maintain human oversight
+
+---
+
+## Roadmap for Implementation
+
+1. Pilot AI tools in research units
+2. Staff training and upskilling
+3. Develop internal AI guidelines
+
+---
+
+## Q&A + Quick Start Guide
+
+**Questions?**
+
+- Downloadable Quick Start Guide
+- Contact for further resources or pilot support
+
+---
+

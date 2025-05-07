@@ -158,3 +158,22 @@ $code-block-bg: #f8f8f8;
   text-align: center;
 }
 
+.reveal h2 {
+  background: linear-gradient(90deg, #d4edda, #a3d8ca);
+  padding: 14px 18px;
+  border-radius: 10px;
+  color: #155724;
+  font-weight: 700;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15);
+  border-left: 6px solid #28a745;
+}
+
+.reveal h3 {
+  background: linear-gradient(90deg, #d4edda, #a3d8ca);
+  padding: 14px 18px;
+  border-radius: 10px;
+  color: #155724;
+  font-weight: 700;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15);
+  border-left: 6px solid #28a745;
+}

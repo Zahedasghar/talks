@@ -1,0 +1,36 @@
+## AI Prompts for Summarizing Parliamentary Documents
+
+---
+
+### 🔹 **General Summarization**
+- "Summarize the key provisions and objectives of this bill."
+- "List the main changes introduced compared to the previous law."
+- "Identify penalties and explain who they apply to."
+
+---
+
+### 🔹 **Audience-Specific Summaries**
+- "Summarize this bill for a legislator with limited time."
+- "Draft a summary suitable for the general public."
+- "Explain the bill’s impact on [stakeholder group]."
+
+---
+
+### 🔹 **Analytical & Comparative**
+- "Compare this bill to the previous version — highlight key differences."
+- "List potential implementation challenges or controversies."
+- "Identify international best practices reflected in the bill."
+
+---
+
+### 🔹 **Extractive Tasks**
+- "Extract sections mentioning penalties or fines."
+- "List updated or added definitions."
+- "Find clauses related to data protection or privacy."
+
+---
+
+### 🔹 **Simplification & Talking Points**
+- "Rewrite key points as bullet points for a speech."
+- "Generate three talking points in favor of the bill."
+- "Summarize into a brief for social media or press release."

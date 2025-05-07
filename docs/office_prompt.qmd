@@ -1,0 +1,124 @@
+---
+title: ""
+author: "Zahid Asghar"
+date: "2024-09-24"
+format: 
+  html:
+    logo: "images/qau1.jpg"
+    theme: [default, custom2.scss]
+    chalkboard: true
+    slideNumber: c/t
+    toc: true
+    toc-float: true
+    title-slide-attributes:
+      data-background-image: images/background_title.png
+
+execute:
+  freeze: auto
+  echo: false
+  message: false
+  warning: false
+---
+
+
+## 📬 Official Letter & Email Writing
+
+- Write a polite reminder letter to a contractor who has not completed the assigned work using C.A.T.S. method.
+
+  - **Context**: The contractor was supposed to finish the work by last week, but there has been no communication or progress.
+  - **Action**: Request an update on the status of the work. 
+  - **Task**: Emphasize the importance of timely completion for project success. 
+  - **Style**: Use a formal and respectful tone. Attach a copy of the original contract for reference.  
+  
+- Draft a formal email to request meeting rescheduling due to urgent field visit.  
+- Reply to a citizen complaint about electricity outage in professional tone using D.O.G.S method.
+  - **Details**: Acknowledge the complaint and express understanding of the inconvenience caused. 
+  - **Objective**: Provide information about the ongoing repair work and expected resolution time. 
+  - **Goal**: Assure the citizen that their concern is being addressed. 
+  - **Style**: Use a friendly yet professional tone. 
+  
+- Compose a letter to inform staff about office timings during Ramadan.  
+
+## 📝 Office Circulars, Memos & Notifications
+
+- Draft a circular announcing upcoming training for staff on using AI tools. 
+  - **Context**: The training is scheduled for next week and is mandatory for all staff.
+  - **Action**: Provide details about the training schedule, location, and registration process.
+  - **Task**: Encourage all staff to participate and enhance their skills.
+  - **Style**: Use a clear and concise format with bullet points for easy reading.
+  
+  
+- Write a memo to inform staff about the new office policy on remote work.
+- Create a memo to remind staff about attendance policies.  
+- Write a notification regarding public holiday declared by government.  
+- Issue a letter to departments for monthly/annual progress report submission.  
+
+## 📊 Report Writing & Summary Generation
+
+- Summarize this one-page report into 3 key points for the Deputy Director.  
+
+- Write a one-page summary of a lengthy report on flood response efforts. 
+
+- Convert these bullet points into a monthly performance report.  
+- Draft a field visit report including objectives, observations, and suggestions. 
+
+- Write an inspection report for a public school using provided notes.  
+
+## 📆 Meeting Support & Agenda Planning
+
+- Create an agenda for a department-level meeting on budget planning.  
+- Draft minutes of a meeting discussing the new project proposal. 
+
+- Summarize this meeting discussion into minutes with action points.  
+
+- Draft discussion questions for a union council coordination meeting.  
+- Write follow-up instructions for a team meeting held on flood response.  
+
+## 👥 Citizen Service Communication
+
+- Write a clear message for citizens about CNIC verification deadlines.  
+- Translate this public awareness message into simple Urdu.  
+- Create an SMS alert for health camp in the local area.  
+- Simplify this technical water supply document for general public.  
+
+## 📎 Documentation & Filing Support
+
+- Generate a checklist for files required to process land allotment cases.  
+- Create a file cover note for submitting project proposal to the directorate.  
+- Write a document index for a complaint file containing 5 letters and 3 reports.  
+- Summarize contents of a file for final approval note.  
+
+## 📖 Policy & Rule Explanation
+
+- Explain the pension rules for government employees in simple language.  
+- Summarize the official procurement SOP in 5 easy steps.  
+- Write FAQs about staff promotion rules in public departments.  
+- Create a simple guide for applying leave under medical grounds.  
+
+## 📈 Basic Excel/Numbers Assistance
+
+- Write an Excel formula to calculate the total cost including 17% sales tax.  
+- Create a table showing district-wise population from this data.  
+- Explain how to use Excel to make monthly expense chart.  
+- Help me format this staff salary sheet neatly.  
+
+## 🔐 Compliance, Audit & Governance
+
+- Draft a response to audit observation on unverified expenses.  
+- Write a clarification note for missing attendance records in Jan 2021.  
+- Summarize guidelines for maintaining petty cash register.  
+- Create a checklist for internal office audit readiness.  
+
+## 🔄 Translation & Accessibility
+
+- Translate this English circular to Urdu for notice board.  
+- Summarize this technical document in plain language for field staff.  
+- Convert this voice note into written report format.  
+- Write the same message in both English and Urdu.  
+
+## 🧠 Bonus General Prompts
+
+- Improve this paragraph to sound more professional.  
+- Organize these scattered notes into a formal document.  
+- Check grammar and spelling of this letter before printing.  
+- Shorten this long message to be more clear and effective.  

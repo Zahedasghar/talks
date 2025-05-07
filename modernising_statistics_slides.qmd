@@ -10,16 +10,17 @@ editor: visual
 
 **Context and Importance:**  
 Modernizing National Statistical Systems is critical for ensuring timely, accurate, and reliable data to inform evidence-based policymaking. As data ecosystems expand—encompassing big data, administrative records, and new digital sources 
-—NSS must evolve technologically, organizationally, and culturally to remain credible and relevant.
+
+— NSS must evolve technologically, organizationally, and culturally to remain credible and relevant.
 
 **Key Objectives:**  
-- Enhance interoperability, data quality, and standardization. 
+
+Enhance interoperability, data quality, and standardization. 
 
 - Adopt advanced technologies (AI, ML, and cloud-based platforms) to improve data production and analysis. 
 
 - Foster trust, transparency, and user-centric data dissemination.  
 
----
 
 ## Drivers of Change in National Statistical Systems
 

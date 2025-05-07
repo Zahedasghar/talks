@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="ai_parliament_04052025_files/libs/clipboard/clipboard.min.js"></script>
+<script src="ai_parliament_04052025_files/libs/quarto-html/tabby.min.js"></script>
+<script src="ai_parliament_04052025_files/libs/quarto-html/popper.min.js"></script>
+<script src="ai_parliament_04052025_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="ai_parliament_04052025_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="ai_parliament_04052025_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="ai_parliament_04052025_files/libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.6.40">
+
+  <meta name="author" content="Zahid Asghar">
+  <meta name="dcterms.date" content="2025-05-07">
+  <title>AI for Parliamentary Research</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="ai_parliament_04052025_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="ai_parliament_04052025_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="ai_parliament_04052025_files/libs/revealjs/dist/theme/quarto-d5e19a78c6aeac80b14b5e0e3e7e9c63.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href="ai_parliament_04052025_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="ai_parliament_04052025_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="ai_parliament_04052025_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="ai_parliament_04052025_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+  <script src="ai_parliament_04052025_files/libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="ai_parliament_04052025_files/libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="ai_parliament_04052025_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" data-background-color="rgba(0, 0, 0, 0.5)" data-background-image="images/all_assemb.jpg" data-background-opacity="0.4" data-background-size="cover" class="quarto-title-block center">
+  <h1 class="title"><span class="yellow">AI for Parliamentary Research</span></h1>
+  <p class="subtitle">09th Annual National Parliamentary Researchers Workshop</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Zahid Asghar 
+</div>
+</div>
+</div>
+
+  <p class="date">2025-05-07</p>
+</section>
+<section>
+<section id="ai-wont-replace-humans-but-humans-with-ai-will-replace-humans-without-ai" class="title-slide slide level1 center">
+<h1><span class="hi-purple">AI Won’t Replace Humans</span> <span class="red">— But Humans With AI Will Replace Humans Without AI</span></h1>
+<p><a href="https://hbr.org/2023/08/ai-wont-replace-humans-but-humans-with-ai-will-replace-humans-without-ai">HBR</a></p>
+</section>
+<section id="what-is-ai" class="slide level2">
+<h2>What is AI?</h2>
+<p><strong>Artificial Intelligence (AI):</strong></p>
+<ul>
+<li class="fragment"><p>The broad concept where machines simulate human intelligence.</p></li>
+<li class="fragment"><p>AI allows machines to perform tasks like decision-making, speech recognition, and problem-solving.</p></li>
+</ul>
+<p><strong>Examples:</strong></p>
+<ul>
+<li class="fragment">Medical Diagnosis Systems, Recommendation Engines, Autonomous Vehicles, Virtual Assistants like Siri or Alexa and Chatbots.</li>
+</ul>
+<aside class="notes">
+<p>Medical Diagnosis Systems: AI algorithms analyze medical images (e.g., X-rays or MRIs) to detect diseases like cancer with high accuracy, assisting doctors in early diagnosis. Recommendation Engines: Platforms like Netflix or Spotify use AI to analyze user preferences and suggest personalized movies, shows, or music. Chatbots with Contextual Understanding: Advanced AI chatbots, like customer service bots on e-commerce sites, understand and respond to user queries in natural language, resolving issues or guiding purchases. Autonomous Drones: AI-powered drones navigate environments, avoid obstacles, and perform tasks like package delivery or aerial mapping in real-time.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="what-is-machine-learning-ml" class="slide level2">
+<h2>What is Machine Learning (ML)?</h2>
+<p><strong>Machine Learning (ML):</strong>- A subset of AI that enables machines to learn from data and improve performance over time.</p>
+<ul>
+<li class="fragment">ML doesn’t require explicit programming for each task.</li>
+</ul>
+<p><strong>Types of ML:</strong></p>
+<ul>
+<li class="fragment">Supervised Learning: Uses labeled data.</li>
+<li class="fragment">Unsupervised Learning: Finds hidden patterns in unlabeled data.</li>
+<li class="fragment">Reinforcement Learning: Learns through rewards and penalties.</li>
+</ul>
+<p><strong>Examples:</strong> - Netflix recommendation system - Spam filters in email</p>
+</section>
+<section id="what-is-natural-language-processing-nlp" class="slide level2">
+<h2>What is Natural Language Processing (NLP)?</h2>
+<p><strong>Natural Language Processing (NLP):</strong></p>
+<ul>
+<li class="fragment"><p>A branch of AI focused on the interaction between computers and human (natural) languages.</p></li>
+<li class="fragment"><p>Helps machines understand, interpret, and respond to human language.</p></li>
+</ul>
+<p><strong>Applications:</strong> - Sentiment analysis (understanding opinions) - Chatbots and language translation tools</p>
+<p><strong>Examples:</strong> - Google Translate - Virtual Assistants</p>
+</section>
+<section id="generative-ai" class="slide level2">
+<h2>Generative AI</h2>
+<ul>
+<li class="fragment"><p>A form of AI that creates new content—whether it’s text, images, music, or other media—by learning from patterns in existing data.</p></li>
+<li class="fragment"><p>Uses deep learning models such as transformers (like GPT) and GANs (Generative Adversarial Networks).</p></li>
+</ul>
+<p><strong>Examples:</strong> - GPT-4o for text generation - DALL-E for creating images from text descriptions - AI-generated music or art</p>
+</section>
+<section id="traditional-ai-vs.-generative-ai" class="slide level2 scrollable">
+<h2>Traditional AI vs.&nbsp;Generative AI</h2>
+<p><strong>Traditional AI</strong></p>
+<ul>
+<li class="fragment">Analyzes existing data to uncover patterns, trends, or insights.</li>
+</ul>
+<p><strong>Purpose:</strong><br>
+- Understand and summarize what’s already there.</p>
+<p><strong>Techniques:</strong> - Statistical analysis, clustering, classification.</p>
+<p><strong>Examples:</strong> - Business reports summarizing sales performance. - Tools like Google Analytics offering insights based on historical data.</p>
+</section>
+<section id="generative-ai-1" class="slide level2 scrollable">
+<h2>Generative AI</h2>
+<ul>
+<li class="fragment">Focuses on creating new content by learning from existing patterns.</li>
+</ul>
+<p><strong>Purpose:</strong><br>
+- To generate something new—whether it’s text, art, or even videos.</p>
+<p><strong>Techniques:</strong> - Deep learning models, transformers.</p>
+<p><strong>Examples:</strong> MidJourney generating artwork</p>
+<p>Stable Diffusion creating images</p>
+<p>Runway ML producing videos</p>
+<p>MusicLM composing songs</p>
+<p>Jukebox generating music tracks</p>
+<p>Copilot writing code</p>
+<p>Claude drafting text - ChatGPT generating human-like text responses. VALL-E synthesizing speech</p>
+<ul>
+<li class="fragment">DALL-E creating images from text prompts.</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="generative-ai-in-a-nutshell">Generative AI in a Nutshell</h3>
+
+<img data-src="images/AI/genAI1.png" class="r-stretch"></section>
+<section id="section" class="slide level2">
+<h2></h2>
+
+<img data-src="images/AI/genAI2.png" class="r-stretch"></section>
+<section id="section-1" class="slide level2">
+<h2></h2>
+<p><img data-src="images/AI/genAI4.png"></p>
+<h3 id="llms">LLMs</h3>
+<p><img data-src="images/AI/LLM.webp" class="stretch"></p>
+<p><img data-src="images/AI/genAI7.png"></p>
+</section>
+<section id="generative-ai-in-a-nutshell-1" class="slide level2">
+<h2>Generative AI in a Nutshell</h2>
+
+<img data-src="https://blog.crisp.se/wp-content/uploads/2024/01/generative-AI-in-a-nutshell.png" class="r-stretch"></section>
+<section id="key-takeaway" class="slide level2">
+<h2>Key Takeaway</h2>
+<ul>
+<li class="fragment"><strong>Artificial Intelligence (AI)</strong> is the broad field enabling machines to mimic human intelligence.</li>
+<li class="fragment"><strong>Machine Learning (ML)</strong> is a technique within AI, focused on learning from data.</li>
+<li class="fragment"><strong>NLP</strong> allows AI to understand and interact with human language.</li>
+<li class="fragment"><strong>Generative AI</strong> creates new, original content based on learned patterns.</li>
+<li class="fragment"><strong>Traditional AI</strong> analyzes existing data to provide insights, while <strong>Generative AI</strong> creates something entirely new.</li>
+</ul>
+</section>
+<section id="ai-race" class="slide level2">
+<h2>AI Race</h2>
+<video style="width: 100vw; height: 100vh; object-fit: cover;" autoplay="" loop="" muted="" playsinline="">
+<source src="images/business_ai_race_us_china.mp4" type="video/mp4">
+<p>Your browser does not support the video tag. </p>
+</video></section>
+<section id="myth-you-need-to-be-a-coder-or-ai-expert" class="slide level2">
+<h2>Myth : You need to be a coder or AI expert</h2>
+<p><span class="hi-orange"><strong>Reality</strong></span></p>
+<p>You <span class="yellow"><strong>don’t need to build AI models</strong></span> or be a data scientist.<br>
+Instead, <span class="yellow"><strong>you need to be a problem-solver</strong></span> who can <span class="pink"><strong>apply AI to real-world challenges</strong></span>.</p>
+<p>The key skill for most of us today isn’t coding or prompt engineering, but:</p>
+<ul>
+<li class="fragment"><p><strong>Understanding who you help</strong></p></li>
+<li class="fragment"><p><strong>Identifying a painful, valuable problem</strong><br>
+</p></li>
+<li class="fragment"><p><strong>Using AI to automate 80–90% of the heavy lifting</strong></p></li>
+</ul>
+</section>
+<section id="introduction-to-ai" class="slide level2">
+<h2>Introduction to AI</h2>
+<ul>
+<li class="fragment">What is Artificial Intelligence?</li>
+<li class="fragment">Key Concepts:
+<ul>
+<li class="fragment">Natural Language Processing (NLP)</li>
+<li class="fragment">Machine Learning</li>
+<li class="fragment">Generative AI (ChatGPT, Claude)</li>
+</ul></li>
+<li class="fragment">Real-world examples across sectors</li>
+<li class="fragment"><strong>Why AI now?</strong>
+<ul>
+<li class="fragment">Advances in compute power, data, algorithms</li>
+</ul></li>
+</ul>
+</section>
+<section id="global-context-of-ai-in-parliaments" class="slide level2">
+<h2>Global Context of AI in Parliaments</h2>
+<ul>
+<li class="fragment"><strong>Key trend</strong>: Parliaments are not just legislating AI, but implementing it</li>
+<li class="fragment"><strong>Transformation path</strong>: From paper-based to data-driven institutions</li>
+<li class="fragment"><strong>International guidance</strong>:
+<ul>
+<li class="fragment">Inter-Parliamentary Union (IPU) use cases</li>
+<li class="fragment">Westminster Foundation for Democracy (WFD) guidelines</li>
+</ul></li>
+<li class="fragment"><strong>Pakistan’s opportunity</strong>: Learn from international best practices</li>
+</ul>
+</section>
+<section id="why-ai-for-parliamentary-research" class="slide level2">
+<h2>Why AI for Parliamentary Research?</h2>
+<ul>
+<li class="fragment">Data deluge &amp; complex policy issues</li>
+<li class="fragment">Limited time &amp; human resources</li>
+<li class="fragment">AI’s value proposition:
+<ul>
+<li class="fragment">Automating information gathering</li>
+<li class="fragment">Enhancing analysis and predictions</li>
+<li class="fragment">Improving evidence-based decision-making</li>
+</ul></li>
+</ul>
+</section>
+<section id="current-applications-of-ai-in-parliaments-worldwide" class="slide level2">
+<h2>Current Applications of AI in Parliaments Worldwide</h2>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Transcription &amp; Translation</a></li><li><a href="#tabset-1-2">Legislative Drafting</a></li><li><a href="#tabset-1-3">Public Engagement</a></li><li><a href="#tabset-1-4">Data Management</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
+<ul>
+<li class="fragment">Automating stenography (Estonia)</li>
+<li class="fragment">Translating parliamentary documents (Italy)</li>
+<li class="fragment">Creating podcast audio from documents (Finland)</li>
+<li class="fragment">Real-time debate transcription</li>
+</ul>
+</div>
+<div id="tabset-1-2">
+<ul>
+<li class="fragment">Receiving, storing, and numbering amendments</li>
+<li class="fragment">Comparing amendments to identify similarities</li>
+<li class="fragment">Ensuring compliance with drafting rules</li>
+<li class="fragment">Analyzing large volumes of text for insights</li>
+</ul>
+</div>
+<div id="tabset-1-3">
+<ul>
+<li class="fragment">Categorizing citizen comments on bills</li>
+<li class="fragment">Enabling natural language queries</li>
+<li class="fragment">Making parliamentary processes more accessible</li>
+<li class="fragment">Simplifying complex legislative information</li>
+</ul>
+</div>
+<div id="tabset-1-4">
+<ul>
+<li class="fragment">Categorizing plenary session reports</li>
+<li class="fragment">Automatic text classification</li>
+<li class="fragment">Efficient document storage and retrieval</li>
+<li class="fragment">Generation of data analytics dashboards</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="core-ai-tools-techniques" class="slide level2">
+<h2>Core AI Tools &amp; Techniques</h2>
+<ul>
+<li class="fragment"><strong>Generative AI</strong> (ChatGPT, Claude, Copilot, Gemini, DeepSeek, Grok, etc.)</li>
+<li class="fragment"><strong>Text Mining &amp; NLP</strong> (Natural Language Processing)</li>
+<li class="fragment"><strong>Sentiment &amp; Trend Analysis</strong></li>
+<li class="fragment"><strong>Knowledge Graphs &amp; RAG</strong> (Retrieval-Augmented Generation)</li>
+</ul>
+</section>
+<section id="ai-role-in-pakistan-parliamentary-research" class="slide level2">
+<h2>AI Role in Pakistan Parliamentary Research</h2>
+<div class="columns">
+<div class="column" style="width:55%;">
+<ul>
+<li class="fragment">Pakistan’s Parliament faces increasing legislative demands</li>
+<li class="fragment">Global trend: 123 AI-related bills passed in 127 countries (2016-2023)</li>
+<li class="fragment">AI presents significant opportunities to enhance parliamentary efficiency</li>
+<li class="fragment">Need for a democratic governance framework specific to Pakistan’s context</li>
+</ul>
+</div><div class="column" style="width:45%;">
+<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Parliament_House%2C_Islamabad_-_panoramio.jpg/640px-Parliament_House%2C_Islamabad_-_panoramio.jpg"></p>
+</div></div>
+</section>
+<section id="practical-use-cases-for-pakistans-parliament" class="slide level2 scrollable">
+<h2>Practical Use Cases for Pakistan’s Parliament</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Short-term Opportunities</strong></p>
+<ul>
+<li class="fragment">Automated transcription of National Assembly and Senate proceedings</li>
+<li class="fragment">Multilingual translation (Urdu, English, provincial languages)</li>
+<li class="fragment">Document classification and retrieval system</li>
+<li class="fragment">Basic chatbot for public inquiries</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Long-term Vision</strong></p>
+<ul>
+<li class="fragment">AI-assisted legislative drafting</li>
+<li class="fragment">Public sentiment analysis on proposed bills</li>
+<li class="fragment">Advanced citizen engagement platforms</li>
+<li class="fragment">Cross-referencing historical legislation</li>
+<li class="fragment">Legislative impact prediction models</li>
+</ul>
+</div></div>
+</section>
+<section id="drafting-policy-briefs-talking-points" class="slide level2">
+<h2>Drafting Policy Briefs &amp; Talking Points</h2>
+<ul>
+<li class="fragment"><strong>Task:</strong> Quickly generate drafts using Generative AI</li>
+<li class="fragment"><strong>Capabilities:</strong> Tailor content for different audiences (lawmakers, media, public), maintain consistency and reduce writing time</li>
+</ul>
+<p><strong>Example:</strong><br>
+A researcher uses ChatGPT to draft a <strong>brief summarizing the economic impact of proposed tax reforms</strong>, customized for both legislators and the press.</p>
+</section>
+<section id="summarizing-bills-committee-reports" class="slide level2">
+<h2>Summarizing Bills &amp; Committee Reports</h2>
+<ul>
+<li class="fragment"><strong>Task:</strong> Use NLP and AI summarization tools</li>
+<li class="fragment"><strong>Capabilities:</strong> Extract key points, amendments, and policy impacts; speed up legislative analysis and briefing preparation</li>
+</ul>
+<p><strong>Example:</strong><br>
+An AI tool summarizes a <strong>200-page infrastructure bill</strong>, highlighting funding allocations, environmental implications, and changes from previous drafts for committee members.</p>
+</section>
+<section id="pilot-project-ai-powered-transcription-service" class="slide level2">
+<h2>Pilot Project: AI-Powered Transcription Service</h2>
+</section>
+<section id="key-governance-principles" class="slide level2">
+<h2>Key Governance Principles</h2>
+<blockquote>
+<p>“AI systems must be developed and used in accordance with ethical principles to prevent biases and ensure fair representation.” — WFD Guidelines</p>
+</blockquote>
+<ol type="1">
+<li class="fragment"><strong>Cautious, step-by-step approach</strong></li>
+<li class="fragment"><strong>Ethical development with cultural sensitivity</strong></li>
+<li class="fragment"><strong>Clear governance structures &amp; transparency</strong></li>
+<li class="fragment"><strong>Collaborative learning &amp; knowledge sharing</strong></li>
+<li class="fragment"><strong>Continuous policy updates &amp; education</strong></li>
+<li class="fragment"><strong>Protection of democratic values &amp; accountability</strong></li>
+</ol>
+</section>
+<section id="best-practices-limitations" class="slide level2">
+<h2>Best Practices &amp; Limitations</h2>
+<ul>
+<li class="fragment">Ensure factual accuracy</li>
+<li class="fragment">Mitigate bias</li>
+<li class="fragment">Data privacy and security</li>
+<li class="fragment">Maintain human oversight</li>
+</ul>
+</section>
+<section id="building-public-trust-in-ai-systems" class="slide level2">
+<h2>Building Public Trust in AI Systems</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<ul>
+<li class="fragment"><strong>Transparency</strong>: Clear communication about AI use</li>
+<li class="fragment"><strong>Accountability</strong>: Human oversight and verification</li>
+<li class="fragment"><strong>Privacy protection</strong>: Strict data handling protocols</li>
+<li class="fragment"><strong>Public education</strong>: Demystifying AI technology</li>
+<li class="fragment"><strong>Inclusive design</strong>: Systems that work for all Pakistanis</li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/National_emblem_of_Pakistan.svg/640px-National_emblem_of_Pakistan.svg.png"></p>
+</div></div>
+</section>
+<section id="required-resources-and-support" class="slide level2">
+<h2>Required Resources and Support</h2>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>Critical Success Factors</strong></p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li class="fragment"><strong>Technical infrastructure</strong> upgrades</li>
+<li class="fragment"><strong>Specialized AI expertise</strong> recruitment</li>
+<li class="fragment"><strong>Training programs</strong> for parliamentary staff</li>
+<li class="fragment"><strong>Cross-party political support</strong></li>
+<li class="fragment"><strong>Adequate funding</strong> allocation</li>
+<li class="fragment"><strong>Public-private partnerships</strong></li>
+<li class="fragment"><strong>Academic collaboration</strong></li>
+</ol>
+</section>
+<section id="risk-assessment-and-mitigation" class="slide level2">
+<h2>Risk Assessment and Mitigation</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 25%">
+<col style="width: 17%">
+<col style="width: 44%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Risk</th>
+<th>Likelihood</th>
+<th>Impact</th>
+<th>Mitigation Strategy</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Algorithmic bias</td>
+<td>Medium</td>
+<td>High</td>
+<td>Diverse training data; human oversight</td>
+</tr>
+<tr class="even">
+<td>Security vulnerabilities</td>
+<td>Medium</td>
+<td>Critical</td>
+<td>Robust security protocols; regular testing</td>
+</tr>
+<tr class="odd">
+<td>Staff resistance</td>
+<td>High</td>
+<td>Medium</td>
+<td>Training; change management; incentives</td>
+</tr>
+<tr class="even">
+<td>Public mistrust</td>
+<td>Medium</td>
+<td>High</td>
+<td>Transparency; public education; gradual rollout</td>
+</tr>
+<tr class="odd">
+<td>Technical failures</td>
+<td>Medium</td>
+<td>Medium</td>
+<td>Backup systems; pilot testing; redundancies</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="case-study-estonias-parliament-ai-integration" class="slide level2 scrollable">
+<h2>Case Study: Estonia’s Parliament AI Integration</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li class="fragment">Population: 1.3 million (vs.&nbsp;Pakistan’s 220+ million)</li>
+<li class="fragment">Implemented AI for:
+<ul>
+<li class="fragment">Automated stenography</li>
+<li class="fragment">Live broadcast subtitling</li>
+<li class="fragment">Document management</li>
+</ul></li>
+<li class="fragment">Results:
+<ul>
+<li class="fragment">65% increase in efficiency</li>
+<li class="fragment">30% cost reduction</li>
+<li class="fragment">Improved accessibility</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Lessons for Pakistan:</strong></p>
+<ul>
+<li class="fragment">Start with well-defined, limited-scope projects</li>
+<li class="fragment">Focus on accessibility and inclusion</li>
+<li class="fragment">Build technical capacity gradually</li>
+<li class="fragment">Develop Pakistan-specific AI models trained on local languages and accents</li>
+</ul>
+</div></div>
+</section>
+<section id="implementation-roadmap" class="slide level2">
+<h2>Implementation Roadmap</h2>
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">gantt
+    title Pakistan Parliament AI Integration Roadmap
+    dateFormat  YYYY-MM-DD
+    section Assessment
+    Infrastructure analysis       :a1, 2025-04-01, 90d
+    Staff capability assessment   :a2, 2025-04-01, 90d
+    section Pilot Projects
+    Transcription service         :b1, 2025-07-01, 180d
+    Document classification       :b2, 2025-10-01, 180d
+    Simple public chatbot         :b3, 2026-01-01, 180d
+    section Expansion
+    Translation services          :c1, 2026-04-01, 270d
+    Legislative drafting assist   :c2, 2026-07-01, 360d
+    section Full Integration
+    Comprehensive AI platform     :d1, 2027-01-01, 360d
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="next-steps" class="slide level2">
+<h2>Next Steps</h2>
+<ol type="1">
+<li class="fragment"><strong>Establish AI Steering Committee</strong> with cross-party representation</li>
+<li class="fragment"><strong>Conduct comprehensive needs assessment</strong></li>
+<li class="fragment"><strong>Develop Pakistan-specific AI governance framework</strong></li>
+<li class="fragment"><strong>Initiate staff training and awareness programs</strong></li>
+<li class="fragment"><strong>Launch transcription pilot project</strong></li>
+<li class="fragment"><strong>Document and share lessons learned</strong></li>
+<li class="fragment"><strong>Present comprehensive AI strategy to Parliament</strong></li>
+</ol>
+</section>
+<section id="quick-start-guide" class="slide level2">
+<h2>Quick Start Guide</h2>
+<ul>
+<li class="fragment">Start with small, well-defined projects</li>
+<li class="fragment">Focus on existing pain points in parliamentary research</li>
+<li class="fragment">Use available AI tools (ChatGPT, Claude, etc.) to experiment</li>
+<li class="fragment">Document successes and challenges</li>
+<li class="fragment">Share learning with colleagues</li>
+<li class="fragment">Join the parliamentary AI community of practice</li>
+</ul>
+</section>
+<section id="questions-discussion" class="slide level2">
+<h2>Questions &amp; Discussion</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><strong>Thank you for your attention!</strong></p>
+</div><div class="column" style="width:40%;">
+<p><img data-src="https://moib.gov.pk/images/News/Cyber_Wing_Minstry_of_IB_and_NH_60035.jpg"></p>
+</div></div>
+</section>
+<section id="references" class="slide level2">
+<h2>References</h2>
+<div class="smaller">
+<ul>
+<li class="fragment">Westminster Foundation for Democracy. (2024). “Guidelines for AI in Parliaments.”</li>
+<li class="fragment">Stanford University. (2024). “AI Index Report.”</li>
+<li class="fragment">Inter-Parliamentary Union. (2023). “Use cases for AI in parliaments.”- Fitsilis, F. (2024). “Transforming legislatures from paper-based organisations into data-driven institutions.” WFD Blog.</li>
+<li class="fragment">Harris, M. (2024). “Global Community of Practice on Post-Legislative Scrutiny.” POPVOX Foundation.</li>
+<li class="fragment">National Assembly of Pakistan. (2024). “Digital Transformation Strategy 2024-2029.”</li>
+</ul>
+</div>
+
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="https://www.pips.gov.pk/wp-content/uploads/2020/01/500-x500.png" class="slide-logo"></p>
+<div class="footer footer-default">
+<p>Pakistan Institute for Parliamentary Services (PIPS)</p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="ai_parliament_04052025_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="ai_parliament_04052025_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="ai_parliament_04052025_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="ai_parliament_04052025_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="ai_parliament_04052025_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="ai_parliament_04052025_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="ai_parliament_04052025_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="ai_parliament_04052025_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="ai_parliament_04052025_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="ai_parliament_04052025_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'slow',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
+      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+      tabsets.forEach(function(tabset) {
+        const tabby = new Tabby('#' + tabset.id);
+      });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const onCopySuccess = function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
+      });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+        const config = {
+          allowHTML: true,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.closest('section.slide') || el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start',
+        };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
+          config['offset'] = [0,0];
+          config['maxWidth'] = 700;
+        window.tippy(el, config); 
+      }
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
+        });
+      }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
+          });
+        }
+      }
+    });
+    </script>
+    
+
+</body></html>

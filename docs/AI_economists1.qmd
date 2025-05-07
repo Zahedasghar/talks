@@ -1,16 +1,15 @@
 ---
 title: ""
 author: "Zahid Asghar"
-date: "2024-09-24"
+date: "2025-01-01"
 format: 
-  html:
+  docx:
     logo: "images/qau1.jpg"
     theme: [default, custom2.scss]
     chalkboard: true
     slideNumber: c/t
     title-slide-attributes:
       data-background-image: images/ai_pub_pol.png
-
 execute:
   freeze: auto
   echo: false
@@ -18,15 +17,15 @@ execute:
   warning: false
 ---
 
-
 ## []{.yellow style="text-align: center;"}
 
-![](images/ai.gif){style="display: block; margin: 0 auto;"}
+![](images/university.webp){style="display: block; margin: 0 auto;"}
 
-[**Zahid Asghar, QAU**]{.yellow} \
-[MS Public Policy and Governance , MPhil Economics and MS-ESME, GCU, Lahore]{.orange}
+[**Zahid Asghar, QAU**, 01-01-2025]{.yellow}  
 
-# AI Won’t Replace Humans — But Humans With AI Will Replace Humans Without AI
+[Teaching with AI Seminar at Rawalpindi Women University, Rawalpindi]{.orange}
+
+# AI Won’t Replace Humans — But [Humans With AI]{.yellow} Will Replace Humans Without AI
 
 [HBR](https://hbr.org/2023/08/ai-wont-replace-humans-but-humans-with-ai-will-replace-humans-without-ai)
 

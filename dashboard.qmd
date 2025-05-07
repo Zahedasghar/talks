@@ -1,64 +1,183 @@
 ---
-title: "Example dashboard with static data from Google"
-output:
-  flexdashboard::flex_dashboard:
-    orientation: rows
-    theme: yeti
+title: "Pakistan Economy at a Glance"
+author: "Zahid Asghar"
+format: 
+  dashboard
+
 ---
 
-
 ```{r setup, include=FALSE}
-library(tidyverse)
-library(googlesheets4)
+# Load required libraries
 library(flexdashboard)
+library(ggplot2)
+library(readxl)
+library(tidyverse)
 library(plotly)
+library(ggthemes)
+if(!require(pacman)) install.packages("pacman")
 
-# Make googlesheets4 not try to authenticate, since we're using a public sheet
-gs4_deauth()
+pacman::p_load(tidyverse,reactable,
+  gapminder, plotly,shiny, bsicons,bslib, rnaturalearth, countrycode, htmltools)
 ```
 
-```{r get-data, message=FALSE, include=FALSE}
-# The 1RKNn84xVLUanhGyX8DPvDSd8zt4GX_eBmK2ZX2nf0BI comes from the shared link
-# URL from Google Sheets. You can also refer to sheets by name if you're
-# authenticated into your account. See the googlesheets4 documentation for more
-# details
-remote_data <- read_sheet("1RKNn84xVLUanhGyX8DPvDSd8zt4GX_eBmK2ZX2nf0BI")
-```
+# HOME
 
-## Row
+## head {height=70%}
 
-### Categories {.value-box}
+### GDP Trends
 
 ```{r}
-# Find the number of unique categories
-n_categories <- remote_data %>% distinct(Category) %>% nrow()
+# Load GDP data
+gdp <- read_excel("D:/RepTemplates/Dashboard/gdp.xlsx")
 
-# Show the number in a special valueBox (note the {.value-box} CSS class
-# above—that applies the CSS class to the HTML output and makes it render
-# correctly)
-valueBox(value = n_categories, icon = "fas fa-users")
-```
-
-### Total {.value-box}
-
-```{r}
-# Get a total of all the counts
-total <- sum(remote_data$Count)
-
-# Show the number in a valueBox
-valueBox(value = total, icon = "fas fa-cubes")
-```
-
-## Row
-
-###
-
-```{r}
-# Make a basic column plot
-my_plot <- ggplot(remote_data, aes(x = Category, y = Count)) +
-  geom_col(aes(text = Count)) +
+# Create GDP plot
+g <- ggplot(gdp, aes(x = Date, y = GDP_constant)) +
+  geom_line(color = "blue") +
+  labs(
+    title = "GDP in Constant Prices (Millions of PKR)",
+    caption = "Source: Karandaz"
+  ) +
   theme_minimal()
 
-# Show the plot with plotly
-ggplotly(my_plot, tooltip = "text")
+# Render interactive plot
+ggplotly(g)
 ```
+
+## head {height=30%}
+
+### Income Per Capita
+
+
+```{r}
+value_box(
+  title = "GDP Per Capita",
+  value = 1500,
+  showcase = bsicons::bs_icon("currency-dollar"),
+  theme = value_box_theme(bg="#518fd6")#,
+  #p(paste(highest_life_exp_country))
+ )
+```
+
+
+### Inflation Rate
+
+```{r}
+value_box(value = 13, showcase = bsicons::bs_icon("cash-stack"),
+          theme = value_box_theme(bg = "#f0ad4e")
+
+, title = "Inflation Year on Year Basis Jan-2022", color = "red")
+```
+
+### Policy Rate
+
+```{r}
+value_box(
+  title = "Policy Rate",
+  value = "9%",
+  showcase = bsicons::bs_icon("percent"),
+  theme = value_box_theme(bg = "#f0ad4e") # Orange for moderate concern
+)
+
+```
+
+Balance of Trade
+================
+
+## head {height=70%}
+### Balance of Trade Trends
+
+```{r}
+# Load Balance of Trade data
+X_M <- read_excel("D:/RepTemplates/Dashboard/Balance of Trade.xlsx")
+
+# Reshape data for visualization
+Trade_balance <- X_M %>%
+  select(Date, Exports, Imports, BoT) %>%
+  pivot_longer(cols = -Date, names_to = "variable", values_to = "value")
+
+# Create trade balance plot
+p <- ggplot(Trade_balance, aes(x = Date, y = value, color = variable)) +
+  geom_line() +
+  scale_color_manual(values = c("darkred", "steelblue", "purple")) +
+  labs(
+    title = "Pakistan Balance of Trade (Millions of USD)",
+    caption = "Source: Karandaz"
+  ) +
+  theme_minimal()
+
+# Render interactive plot
+ggplotly(p)
+```
+
+## head {height=30%}
+
+### Trade Deficit FY2021-22
+
+```{r}
+value_box(value = 24, showcase=bsicons::bs_icon("currency-dollar") , title = "Trade Deficit in FY21-22 (Billions of USD)", color = "red")
+```
+
+### Freelancing Revenue
+
+```{r}
+value_box(
+  value = 216, 
+  showcase = bsicons::bs_icon("globe"), 
+  title = "Freelancing Revenue (Millions of USD)", 
+  theme = value_box_theme(bg = "#5bc0de")
+)
+```
+
+### Reflection
+
+Hoping against hope, it's been more than two decades of promises to overcome trade deficits. Improving exports requires significant investment in human capital and governance. Without addressing these challenges, progress in reducing the trade deficit may remain elusive.
+
+Fiscal Report Card: Half-Year22
+===============================
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Fiscal Operations
+
+```{r}
+# Load fiscal data
+fiscal <- read_excel("D:/RepTemplates/Dashboard/Fiscal_operations.xlsx")
+
+# Reshape data for visualization
+fiscal_balance <- fiscal %>%
+  select(Year, `Total Fiscal Expenditure`, `Net Fiscal Revnue`, `Overall Fiscal Balance`) %>%
+  pivot_longer(cols = -Year, names_to = "variable", values_to = "value")
+
+# Create fiscal operations plot
+g1 <- ggplot(fiscal_balance, aes(x = Year, y = value, color = variable)) +
+  geom_line() +
+  scale_color_manual(values = c("darkred", "steelblue", "purple")) +
+  labs(
+    title = "Half-Year: Federal Fiscal Operations (PKR in Billion)",
+    x = "Year",
+    y = "PKR (Billion)",
+    caption = "Source: Ministry of Finance"
+  ) +
+  theme_minimal()
+
+# Render interactive plot
+ggplotly(g1)
+```
+
+### Notes
+
+- Data Source: Ministry of Finance
+- Half-year data provides a snapshot of fiscal trends in expenditures and revenues.
+```
+
+### Steps to Use
+1. Save the file as `pakistan_economy_dashboard.qmd`.
+2. Open your R environment and set your working directory to the location of the `.qmd` file.
+3. Run the following command in the R console to render the dashboard:
+   ```r
+   quarto::quarto_render("pakistan_economy_dashboard.qmd")
+   ```
+4. The rendered dashboard will open in your web browser.
+
+This layout integrates flexdashboard features with tidyverse data manipulation and ggplot2 for visualization, making it interactive and visually appealing.

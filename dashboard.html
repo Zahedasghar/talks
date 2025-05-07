@@ -2,12 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Zahid Asghar">
 
-<title>Example dashboard with static data from Google</title>
+<title>Pakistan Economy at a Glance</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -17,72 +18,9 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { color: #008000; } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { color: #008000; font-weight: bold; } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -92,103 +30,279 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <script src="dashboard_files/libs/quarto-html/tippy.umd.min.js"></script>
 <script src="dashboard_files/libs/quarto-html/anchor.min.js"></script>
 <link href="dashboard_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="dashboard_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="dashboard_files/libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="dashboard_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="dashboard_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="dashboard_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="dashboard_files/libs/value-box-core-0.6.0/value-box.css" rel="stylesheet">
-<link href="dashboard_files/libs/font-awesome-5.1.0/css/all.css" rel="stylesheet">
-<link href="dashboard_files/libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet">
-<script src="dashboard_files/libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
-<script src="dashboard_files/libs/plotly-binding-4.10.0/plotly.js"></script>
+<link href="dashboard_files/libs/bootstrap/bootstrap-c32a939f2755232d77f87cc82aeecf6f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="dashboard_files/libs/quarto-dashboard/quarto-dashboard.js"></script>
+<script src="dashboard_files/libs/quarto-dashboard/stickythead.js"></script>
+<script src="dashboard_files/libs/quarto-dashboard/datatables.min.js" kdttablesentinel="true"></script>
+<script src="dashboard_files/libs/quarto-dashboard/pdfmake.min.js" kdttablesentinel="true"></script>
+<script src="dashboard_files/libs/quarto-dashboard/vfs_fonts.js" kdttablesentinel="true"></script>
+<script src="dashboard_files/libs/quarto-dashboard/web-components.js" type="module"></script>
+<script src="dashboard_files/libs/quarto-dashboard/components.js"></script>
+<link href="dashboard_files/libs/quarto-dashboard/datatables.min.css" rel="stylesheet" kdttablesentinel="true">
+<link href="dashboard_files/libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+
+<script src="dashboard_files/libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+
+<script src="dashboard_files/libs/plotly-binding-4.10.4/plotly.js"></script>
+
 <script src="dashboard_files/libs/typedarray-0.1/typedarray.min.js"></script>
+
 <script src="dashboard_files/libs/jquery-3.5.1/jquery.min.js"></script>
-<link href="dashboard_files/libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet">
-<script src="dashboard_files/libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
-<link href="dashboard_files/libs/plotly-htmlwidgets-css-2.5.1/plotly-htmlwidgets.css" rel="stylesheet">
-<script src="dashboard_files/libs/plotly-main-2.5.1/plotly-latest.min.js"></script>
+
+<link href="dashboard_files/libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
+
+<script src="dashboard_files/libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
+
+<link href="dashboard_files/libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet">
+
+<script src="dashboard_files/libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
+
+<script src="dashboard_files/libs/bslib-component-js-0.8.0/components.min.js"></script>
+
+<script src="dashboard_files/libs/bslib-component-js-0.8.0/web-components.min.js" type="module"></script>
+
+<link href="dashboard_files/libs/bslib-component-css-0.8.0/components.css" rel="stylesheet">
+
+<script src="dashboard_files/libs/bslib-tag-require-0.8.0/tag-require.js"></script>
+
 
 
 </head>
 
-<body class="fullcontent">
+<body class="quarto-dashboard dashboard-fill fullcontent">
 
-<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Example dashboard with static data from Google</h1>
-</div>
+<header id="quarto-dashboard-header">
+<nav class="navbar navbar-expand-md slim" data-bs-theme="dark">
+  <div class="navbar-container container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-controls="dashboard-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>    
 
 
+    <div class="navbar-brand-container">       
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
+      <div class="navbar-title">
+        <div class="navbar-title-text"><a href="#">Pakistan Economy at a Glance</a></div>
+        
+        <div class="navbar-author">Zahid Asghar</div>
+      </div>
+    </div>
+<div id="dashboard-collapse" class="navbar-collapse collapse"><ul class="navbar-nav navbar-nav-scroll me-auto" role="tablist"><li class="nav-item" role="presentation"><a id="tab-home" class="nav-link active" data-bs-toggle="tab" role="tab" data-bs-target="#home" data-scrolling="false" href="#home" aria-controls="home" aria-selected="true"><span class="nav-link-text">HOME</span></a></li><li class="nav-item" role="presentation"><a id="tab-balance-of-trade" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#balance-of-trade" data-scrolling="false" href="#balance-of-trade" aria-controls="balance-of-trade" aria-selected="false"><span class="nav-link-text">Balance of Trade</span></a></li><li class="nav-item" role="presentation"><a id="tab-fiscal-report-card-half-year22" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#fiscal-report-card-half-year22" data-scrolling="false" href="#fiscal-report-card-half-year22" aria-controls="fiscal-report-card-half-year22" aria-selected="false"><span class="nav-link-text">Fiscal Report Card: Half-Year22</span></a></li></ul></div></div>
+</nav>
 </header>
+<div class="page-layout-custom quarto-dashboard-content bslib-gap-spacing html-fill-container bslib-page-fill quarto-dashboard-pages">  
 
-<section id="row" class="level2">
-<h2 class="anchored" data-anchor-id="row">Row</h2>
-<section id="categories" class="level3 value-box">
-<h3 class="value-box anchored" data-anchor-id="categories">Categories</h3>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Find the number of unique categories</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>n_categories <span class="ot">&lt;-</span> remote_data <span class="sc">%&gt;%</span> <span class="fu">distinct</span>(Category) <span class="sc">%&gt;%</span> <span class="fu">nrow</span>()</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Show the number in a special valueBox (note the {.value-box} CSS class</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># above—that applies the CSS class to the HTML output and makes it render</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># correctly)</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">valueBox</span>(<span class="at">value =</span> n_categories, <span class="at">icon =</span> <span class="st">"fas fa-users"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<p><span class="value-output" data-icon="fas fa-users" data-color-accent="primary">4</span></p>
+<div class="bslib-grid-item html-fill-item tab-content bslib-grid" data-layout="fill" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div id="home" class="dashboard-page tab-pane show active html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-home">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 70fr) minmax(3em, 30fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="card cell html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<div class="cell-output-display html-fill-item html-fill-container">
+<div class="plotly html-widget html-fill-item html-fill-container" id="htmlwidget-1e41891b25f7314a6253" style="width:100%;height:406px;"></div>
+<script type="application/json" data-for="htmlwidget-1e41891b25f7314a6253">{"x":{"data":[{"x":[1136073600,1167609600,1199145600,1230768000,1262304000,1293840000,1325376000,1356998400,1388534400,1420070400,1451606400,1483228800,1514764800,1546300800,1577836800,1609459200],"y":[7715777,8142696,8549148,8579987,8801394,9120336,9470255,9819055,10217056,10631649,11116802,11696934,12344266,12600651,12541834,13036381],"text":["Date: 2006-01-01<br />GDP_constant:  7715777","Date: 2007-01-01<br />GDP_constant:  8142696","Date: 2008-01-01<br />GDP_constant:  8549148","Date: 2009-01-01<br />GDP_constant:  8579987","Date: 2010-01-01<br />GDP_constant:  8801394","Date: 2011-01-01<br />GDP_constant:  9120336","Date: 2012-01-01<br />GDP_constant:  9470255","Date: 2013-01-01<br />GDP_constant:  9819055","Date: 2014-01-01<br />GDP_constant: 10217056","Date: 2015-01-01<br />GDP_constant: 10631649","Date: 2016-01-01<br />GDP_constant: 11116802","Date: 2017-01-01<br />GDP_constant: 11696934","Date: 2018-01-01<br />GDP_constant: 12344266","Date: 2019-01-01<br />GDP_constant: 12600651","Date: 2020-01-01<br />GDP_constant: 12541834","Date: 2021-01-01<br />GDP_constant: 13036381"],"type":"scatter","mode":"lines","line":{"width":1.8897637795275593,"color":"rgba(0,0,255,1)","dash":"solid"},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":45.223744292237441,"r":7.3059360730593621,"b":41.643835616438366,"l":66.484018264840216},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724},"title":{"text":"GDP in Constant Prices (Millions of PKR)","font":{"color":"rgba(0,0,0,1)","family":"","size":17.534246575342465},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[1112404320,1633128480],"tickmode":"array","ticktext":["2010","2015","2020"],"tickvals":[1262304000,1420070400,1577836800],"categoryorder":"array","categoryarray":["2010","2015","2020"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"y","title":{"text":"Date","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[7449746.7999999998,13302411.199999999],"tickmode":"array","ticktext":["8.0e+06","9.0e+06","1.0e+07","1.1e+07","1.2e+07","1.3e+07"],"tickvals":[8000000,9000000,10000000,11000000,12000000,13000000],"categoryorder":"array","categoryarray":["8.0e+06","9.0e+06","1.0e+07","1.1e+07","1.2e+07","1.3e+07"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716894984},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"x","title":{"text":"GDP_constant","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.68949771689498}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"77a438701ec6":{"x":{},"y":{},"type":"scatter"}},"cur_data":"77a438701ec6","visdat":{"77a438701ec6":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
-</section>
-<section id="total" class="level3 value-box">
-<h3 class="value-box anchored" data-anchor-id="total">Total</h3>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Get a total of all the counts</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>total <span class="ot">&lt;-</span> <span class="fu">sum</span>(remote_data<span class="sc">$</span>Count)</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Show the number in a valueBox</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">valueBox</span>(<span class="at">value =</span> total, <span class="at">icon =</span> <span class="st">"fas fa-cubes"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<p><span class="value-output" data-icon="fas fa-cubes" data-color-accent="primary">17</span></p>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
 </div>
 </div>
-</section>
-</section>
-<section id="row-1" class="level2">
-<h2 class="anchored" data-anchor-id="row-1">Row</h2>
-<section id="section" class="level3">
-<h3 class="anchored" data-anchor-id="section"></h3>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Make a basic column plot</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>my_plot <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(remote_data, <span class="fu">aes</span>(<span class="at">x =</span> Category, <span class="at">y =</span> Count)) <span class="sc">+</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="fu">aes</span>(<span class="at">text =</span> Count)) <span class="sc">+</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning in geom_col(aes(text = Count)): Ignoring unknown aesthetics: text</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Show the plot with plotly</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplotly</span>(my_plot, <span class="at">tooltip =</span> <span class="st">"text"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div id="htmlwidget-c46bbcd7f606fc57440e" style="width:100%;height:464px;" class="plotly html-widget"></div>
-<script type="application/json" data-for="htmlwidget-c46bbcd7f606fc57440e">{"x":{"data":[{"orientation":"v","width":[0.9,0.9,0.9,0.9],"base":[0,0,0,0],"x":[1,2,3,4],"y":[4,3,8,2],"text":["4","3","8","2"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(89,89,89,1)","line":{"width":null,"color":"transparent"}},"showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":26.2283105022831,"r":7.30593607305936,"b":40.1826484018265,"l":31.4155251141553},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[0.4,4.6],"tickmode":"array","ticktext":["A","B","C","D"],"tickvals":[1,2,3,4],"categoryorder":"array","categoryarray":["A","B","C","D"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0,"zeroline":false,"anchor":"y","title":{"text":"Category","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-0.4,8.4],"tickmode":"array","ticktext":["0","2","4","6","8"],"tickvals":[0,2,4,6,8],"categoryorder":"array","categoryarray":["0","2","4","6","8"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0,"zeroline":false,"anchor":"x","title":{"text":"Count","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"68c426c33200":{"x":{},"y":{},"text":{},"type":"bar"}},"cur_data":"68c426c33200","visdat":{"68c426c33200":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr) minmax(3em, 1fr) minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="card bslib-card bslib-mb-spacing html-fill-item html-fill-container bslib-value-box showcase-left-center" data-bslib-card-init="" data-require-bs-caller="card()" data-require-bs-version="5 5" style="color:#000000;background-color:#518fd6;--bslib-color-fg:#000000;--bslib-color-bg:#518fd6;" data-full-screen="false">
+<div class="card-body bslib-gap-spacing html-fill-item html-fill-container" style="margin-top:auto;margin-bottom:auto;flex:1 1 auto; padding:0;">
+<div class="value-box-grid html-fill-item" style="--bslib-grid-height:auto;--bslib-grid-height-mobile:auto;---bslib-value-box-showcase-w:30%;---bslib-value-box-showcase-w-fs:1fr;---bslib-value-box-showcase-max-h:100px;---bslib-value-box-showcase-max-h-fs:67%;">
+<div class="value-box-showcase html-fill-item html-fill-container"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" class="bi bi-currency-dollar " style="height:1em;width:1em;fill:currentColor;vertical-align:-0.125em;" aria-hidden="true" role="img"><path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z"></path></svg></div>
+<div class="value-box-area html-fill-item html-fill-container">
+<p class="value-box-title">GDP Per Capita</p>
+<p class="value-box-value">1500</p>
 </div>
 </div>
-</section>
-</section>
+</div>
+<script data-bslib-card-init="">bslib.Card.initializeAllCards();</script>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div><div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="card bslib-card bslib-mb-spacing html-fill-item html-fill-container bslib-value-box showcase-left-center" color="red" data-bslib-card-init="" data-require-bs-caller="card()" data-require-bs-version="5 5" style="color:#000000;background-color:#f0ad4e;--bslib-color-fg:#000000;--bslib-color-bg:#f0ad4e;" data-full-screen="false">
+<div class="card-body bslib-gap-spacing html-fill-item html-fill-container" style="margin-top:auto;margin-bottom:auto;flex:1 1 auto; padding:0;">
+<div class="value-box-grid html-fill-item" style="--bslib-grid-height:auto;--bslib-grid-height-mobile:auto;---bslib-value-box-showcase-w:30%;---bslib-value-box-showcase-w-fs:1fr;---bslib-value-box-showcase-max-h:100px;---bslib-value-box-showcase-max-h-fs:67%;">
+<div class="value-box-showcase html-fill-item html-fill-container"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" class="bi bi-cash-stack " style="height:1em;width:1em;fill:currentColor;vertical-align:-0.125em;" aria-hidden="true" role="img"><path d="M1 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1H1zm7 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"></path>
+<path d="M0 5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V5zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V7a2 2 0 0 1-2-2H3z"></path></svg></div>
+<div class="value-box-area html-fill-item html-fill-container">
+<p class="value-box-title">Inflation Year on Year Basis Jan-2022</p>
+<p class="value-box-value">13</p>
+</div>
+</div>
+</div>
+<script data-bslib-card-init="">bslib.Card.initializeAllCards();</script>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div><div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="card bslib-card bslib-mb-spacing html-fill-item html-fill-container bslib-value-box showcase-left-center" data-bslib-card-init="" data-require-bs-caller="card()" data-require-bs-version="5 5" style="color:#000000;background-color:#f0ad4e;--bslib-color-fg:#000000;--bslib-color-bg:#f0ad4e;" data-full-screen="false">
+<div class="card-body bslib-gap-spacing html-fill-item html-fill-container" style="margin-top:auto;margin-bottom:auto;flex:1 1 auto; padding:0;">
+<div class="value-box-grid html-fill-item" style="--bslib-grid-height:auto;--bslib-grid-height-mobile:auto;---bslib-value-box-showcase-w:30%;---bslib-value-box-showcase-w-fs:1fr;---bslib-value-box-showcase-max-h:100px;---bslib-value-box-showcase-max-h-fs:67%;">
+<div class="value-box-showcase html-fill-item html-fill-container"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" class="bi bi-percent " style="height:1em;width:1em;fill:currentColor;vertical-align:-0.125em;" aria-hidden="true" role="img"><path d="M13.442 2.558a.625.625 0 0 1 0 .884l-10 10a.625.625 0 1 1-.884-.884l10-10a.625.625 0 0 1 .884 0zM4.5 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm7 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"></path></svg></div>
+<div class="value-box-area html-fill-item html-fill-container">
+<p class="value-box-title">Policy Rate</p>
+<p class="value-box-value">9%</p>
+</div>
+</div>
+</div>
+<script data-bslib-card-init="">bslib.Card.initializeAllCards();</script>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+</div>
+</div>
+</div>
+<div id="balance-of-trade" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-balance-of-trade">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 70fr) minmax(3em, 30fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="card cell html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<div class="cell-output-display html-fill-item html-fill-container">
+<div class="plotly html-widget html-fill-item html-fill-container" id="htmlwidget-009d336e0588613a824e" style="width:100%;height:406px;"></div>
+<script type="application/json" data-for="htmlwidget-009d336e0588613a824e">{"x":{"data":[{"x":[1262304000,1264982400,1267401600,1270080000,1272672000,1275350400,1277942400,1280620800,1283299200,1285891200,1288569600,1291161600,1293840000,1296518400,1298937600,1301616000,1304208000,1306886400,1309478400,1312156800,1314835200,1317427200,1320105600,1322697600,1325376000,1328054400,1330560000,1333238400,1335830400,1338508800,1341100800,1343779200,1346457600,1349049600,1351728000,1354320000,1356998400,1359676800,1362096000,1364774400,1367366400,1370044800,1372636800,1375315200,1377993600,1380585600,1383264000,1385856000,1388534400,1391212800,1393632000,1396310400,1398902400,1401580800,1404172800,1406851200,1409529600,1412121600,1414800000,1417392000,1420070400,1422748800,1425168000,1427846400,1430438400,1433116800,1435708800,1438387200,1441065600,1443657600,1446336000,1448928000,1451606400,1454284800,1456790400,1459468800,1462060800,1464739200,1467331200,1470009600,1472688000,1475280000,1477958400,1480550400,1483228800,1485907200,1488326400,1491004800,1493596800,1496275200,1498867200,1501545600,1504224000,1506816000,1509494400,1512086400,1514764800,1517443200,1519862400,1522540800,1525132800,1527811200,1530403200,1533081600,1535760000,1538352000,1541030400,1543622400,1546300800,1548979200,1551398400,1554076800,1556668800,1559347200,1561939200,1564617600,1567296000,1569888000,1572566400,1575158400,1577836800,1580515200,1583020800,1585699200,1588291200,1590969600,1593561600,1596240000,1598918400,1601510400,1604188800,1606780800,1609459200,1612137600,1614556800,1617235200,1619827200,1622505600,1625097600,1627776000,1630454400,1633046400,1635724800,1638316800,1640995200],"y":[-896.66976,-798.018013,-618.55035099999998,-1095.151924,-916.03295400000002,-1312.4297590000001,-1265.8544429999999,-1106.1913340000001,-595.90787499999999,-772.016795,-870.14828799999998,-1115.3445690000001,-752.24519999999995,-813.09223699999995,-811.10389599999996,-333.032759,-1111.1662980000001,-881.18161499999997,-1033.5965160000001,-1552.756907,-1626.469726,-1260.1543630000001,-1271.8550729999999,-1219.7830409999999,-1392.3577780000001,-1557.834216,-841.59705799999995,-1019.93061,-1272.725688,-1602.3732600000001,-1425.552921,-1202.5563059999999,-996.98910999999998,-1625.1105580000001,-1397.888878,-1257.96648,-1316.8576399999999,-1146.7986759999999,-1215.528057,-1236.9526269999999,-1209.9581720000001,-1322.410543,-1264.332332,-1459.173035,-1660.667293,-1553.7411079999999,-1445.227181,-1266.6501920000001,-1467.2836600000001,-1100.7862379999999,-1262.196549,-1231.970194,-1398.1195760000001,-1480.091197,-2102.0002410000002,-2051.9996930000002,-1931.0000970000001,-1481.996069,-1238.996846,-1152.0001050000001,-1051.001119,-945.99997599999995,-1245.000037,-978.00007100000005,-1590.00333,-1498.9999640000001,-1836.999992,-1483.9999869999999,-1435.9999889999999,-1475.999994,-1411.9999800000001,-2154.000016,-1664.999994,-1222.0000130000001,-1332.0000030000001,-1350.0000010000001,-1618.0040180000001,-2159.9999590000002,-1611.000045,-2058.9999969999999,-1435.9998849999999,-1655.9755479999999,-2079.9708820000001,-2191.0000209999998,-2516.0000359999999,-2224.0000140000002,-2272.9999849999999,-2244.9750279999998,-2604.9999659999999,-3101.9999889999999,-2982,-2440,-2141,-2435,-2342,-2289,-2840,-2203,-2750,-2611,-2810,-3059.9642159999999,-3277.0346850000001,-2531.0067370000002,-2203.040023,-2619.031508,-2243.9847960000002,-2762.983483,-2011.035018,-1532.002369,-2081.0211210000002,-2050.9248849999999,-2061.0114619999999,-2238.967576,-1968.005375,-1630.0622900000001,-1450.0073030000001,-1441.049278,-1571.056259,-1682.9650610000001,-1854.9449320000001,-1567.961043,-1645,-1733.0200259999999,-1541.0665750000001,-1977.0472219999999,-1672.00577,-1727.0319939999999,-1884.0242350000001,-1513.0747799999999,-1827.9706940000001,-2761.9724609999998,-2325.9680600000002,-2317.9787419999998,-2801.0191420000001,-2694.0583940000001,-2825.0153209999999,-3837.9510009999999,-3147.9956889999999,-3649.9733099999999,-3418.9934939999998,-3647.0027049999999,-3707.0014350000001,-3614,-3362],"text":["Date: 2010-01-01<br />value:  -896.6698<br />variable: BoT","Date: 2010-02-01<br />value:  -798.0180<br />variable: BoT","Date: 2010-03-01<br />value:  -618.5504<br />variable: BoT","Date: 2010-04-01<br />value: -1095.1519<br />variable: BoT","Date: 2010-05-01<br />value:  -916.0330<br />variable: BoT","Date: 2010-06-01<br />value: -1312.4298<br />variable: BoT","Date: 2010-07-01<br />value: -1265.8544<br />variable: BoT","Date: 2010-08-01<br />value: -1106.1913<br />variable: BoT","Date: 2010-09-01<br />value:  -595.9079<br />variable: BoT","Date: 2010-10-01<br />value:  -772.0168<br />variable: BoT","Date: 2010-11-01<br />value:  -870.1483<br />variable: BoT","Date: 2010-12-01<br />value: -1115.3446<br />variable: BoT","Date: 2011-01-01<br />value:  -752.2452<br />variable: BoT","Date: 2011-02-01<br />value:  -813.0922<br />variable: BoT","Date: 2011-03-01<br />value:  -811.1039<br />variable: BoT","Date: 2011-04-01<br />value:  -333.0328<br />variable: BoT","Date: 2011-05-01<br />value: -1111.1663<br />variable: BoT","Date: 2011-06-01<br />value:  -881.1816<br />variable: BoT","Date: 2011-07-01<br />value: -1033.5965<br />variable: BoT","Date: 2011-08-01<br />value: -1552.7569<br />variable: BoT","Date: 2011-09-01<br />value: -1626.4697<br />variable: BoT","Date: 2011-10-01<br />value: -1260.1544<br />variable: BoT","Date: 2011-11-01<br />value: -1271.8551<br />variable: BoT","Date: 2011-12-01<br />value: -1219.7830<br />variable: BoT","Date: 2012-01-01<br />value: -1392.3578<br />variable: BoT","Date: 2012-02-01<br />value: -1557.8342<br />variable: BoT","Date: 2012-03-01<br />value:  -841.5971<br />variable: BoT","Date: 2012-04-01<br />value: -1019.9306<br />variable: BoT","Date: 2012-05-01<br />value: -1272.7257<br />variable: BoT","Date: 2012-06-01<br />value: -1602.3733<br />variable: BoT","Date: 2012-07-01<br />value: -1425.5529<br />variable: BoT","Date: 2012-08-01<br />value: -1202.5563<br />variable: BoT","Date: 2012-09-01<br />value:  -996.9891<br />variable: BoT","Date: 2012-10-01<br />value: -1625.1106<br />variable: BoT","Date: 2012-11-01<br />value: -1397.8889<br />variable: BoT","Date: 2012-12-01<br />value: -1257.9665<br />variable: BoT","Date: 2013-01-01<br />value: -1316.8576<br />variable: BoT","Date: 2013-02-01<br />value: -1146.7987<br />variable: BoT","Date: 2013-03-01<br />value: -1215.5281<br />variable: BoT","Date: 2013-04-01<br />value: -1236.9526<br />variable: BoT","Date: 2013-05-01<br />value: -1209.9582<br />variable: BoT","Date: 2013-06-01<br />value: -1322.4105<br />variable: BoT","Date: 2013-07-01<br />value: -1264.3323<br />variable: BoT","Date: 2013-08-01<br />value: -1459.1730<br />variable: BoT","Date: 2013-09-01<br />value: -1660.6673<br />variable: BoT","Date: 2013-10-01<br />value: -1553.7411<br />variable: BoT","Date: 2013-11-01<br />value: -1445.2272<br />variable: BoT","Date: 2013-12-01<br />value: -1266.6502<br />variable: BoT","Date: 2014-01-01<br />value: -1467.2837<br />variable: BoT","Date: 2014-02-01<br />value: -1100.7862<br />variable: BoT","Date: 2014-03-01<br />value: -1262.1965<br />variable: BoT","Date: 2014-04-01<br />value: -1231.9702<br />variable: BoT","Date: 2014-05-01<br />value: -1398.1196<br />variable: BoT","Date: 2014-06-01<br />value: -1480.0912<br />variable: BoT","Date: 2014-07-01<br />value: -2102.0002<br />variable: BoT","Date: 2014-08-01<br />value: -2051.9997<br />variable: BoT","Date: 2014-09-01<br />value: -1931.0001<br />variable: BoT","Date: 2014-10-01<br />value: -1481.9961<br />variable: BoT","Date: 2014-11-01<br />value: -1238.9968<br />variable: BoT","Date: 2014-12-01<br />value: -1152.0001<br />variable: BoT","Date: 2015-01-01<br />value: -1051.0011<br />variable: BoT","Date: 2015-02-01<br />value:  -946.0000<br />variable: BoT","Date: 2015-03-01<br />value: -1245.0000<br />variable: BoT","Date: 2015-04-01<br />value:  -978.0001<br />variable: BoT","Date: 2015-05-01<br />value: -1590.0033<br />variable: BoT","Date: 2015-06-01<br />value: -1499.0000<br />variable: BoT","Date: 2015-07-01<br />value: -1837.0000<br />variable: BoT","Date: 2015-08-01<br />value: -1484.0000<br />variable: BoT","Date: 2015-09-01<br />value: -1436.0000<br />variable: BoT","Date: 2015-10-01<br />value: -1476.0000<br />variable: BoT","Date: 2015-11-01<br />value: -1412.0000<br />variable: BoT","Date: 2015-12-01<br />value: -2154.0000<br />variable: BoT","Date: 2016-01-01<br />value: -1665.0000<br />variable: BoT","Date: 2016-02-01<br />value: -1222.0000<br />variable: BoT","Date: 2016-03-01<br />value: -1332.0000<br />variable: BoT","Date: 2016-04-01<br />value: -1350.0000<br />variable: BoT","Date: 2016-05-01<br />value: -1618.0040<br />variable: BoT","Date: 2016-06-01<br />value: -2160.0000<br />variable: BoT","Date: 2016-07-01<br />value: -1611.0000<br />variable: BoT","Date: 2016-08-01<br />value: -2059.0000<br />variable: BoT","Date: 2016-09-01<br />value: -1435.9999<br />variable: BoT","Date: 2016-10-01<br />value: -1655.9755<br />variable: BoT","Date: 2016-11-01<br />value: -2079.9709<br />variable: BoT","Date: 2016-12-01<br />value: -2191.0000<br />variable: BoT","Date: 2017-01-01<br />value: -2516.0000<br />variable: BoT","Date: 2017-02-01<br />value: -2224.0000<br />variable: BoT","Date: 2017-03-01<br />value: -2273.0000<br />variable: BoT","Date: 2017-04-01<br />value: -2244.9750<br />variable: BoT","Date: 2017-05-01<br />value: -2605.0000<br />variable: BoT","Date: 2017-06-01<br />value: -3102.0000<br />variable: BoT","Date: 2017-07-01<br />value: -2982.0000<br />variable: BoT","Date: 2017-08-01<br />value: -2440.0000<br />variable: BoT","Date: 2017-09-01<br />value: -2141.0000<br />variable: BoT","Date: 2017-10-01<br />value: -2435.0000<br />variable: BoT","Date: 2017-11-01<br />value: -2342.0000<br />variable: BoT","Date: 2017-12-01<br />value: -2289.0000<br />variable: BoT","Date: 2018-01-01<br />value: -2840.0000<br />variable: BoT","Date: 2018-02-01<br />value: -2203.0000<br />variable: BoT","Date: 2018-03-01<br />value: -2750.0000<br />variable: BoT","Date: 2018-04-01<br />value: -2611.0000<br />variable: BoT","Date: 2018-05-01<br />value: -2810.0000<br />variable: BoT","Date: 2018-06-01<br />value: -3059.9642<br />variable: BoT","Date: 2018-07-01<br />value: -3277.0347<br />variable: BoT","Date: 2018-08-01<br />value: -2531.0067<br />variable: BoT","Date: 2018-09-01<br />value: -2203.0400<br />variable: BoT","Date: 2018-10-01<br />value: -2619.0315<br />variable: BoT","Date: 2018-11-01<br />value: -2243.9848<br />variable: BoT","Date: 2018-12-01<br />value: -2762.9835<br />variable: BoT","Date: 2019-01-01<br />value: -2011.0350<br />variable: BoT","Date: 2019-02-01<br />value: -1532.0024<br />variable: BoT","Date: 2019-03-01<br />value: -2081.0211<br />variable: BoT","Date: 2019-04-01<br />value: -2050.9249<br />variable: BoT","Date: 2019-05-01<br />value: -2061.0115<br />variable: BoT","Date: 2019-06-01<br />value: -2238.9676<br />variable: BoT","Date: 2019-07-01<br />value: -1968.0054<br />variable: BoT","Date: 2019-08-01<br />value: -1630.0623<br />variable: BoT","Date: 2019-09-01<br />value: -1450.0073<br />variable: BoT","Date: 2019-10-01<br />value: -1441.0493<br />variable: BoT","Date: 2019-11-01<br />value: -1571.0563<br />variable: BoT","Date: 2019-12-01<br />value: -1682.9651<br />variable: BoT","Date: 2020-01-01<br />value: -1854.9449<br />variable: BoT","Date: 2020-02-01<br />value: -1567.9610<br />variable: BoT","Date: 2020-03-01<br />value: -1645.0000<br />variable: BoT","Date: 2020-04-01<br />value: -1733.0200<br />variable: BoT","Date: 2020-05-01<br />value: -1541.0666<br />variable: BoT","Date: 2020-06-01<br />value: -1977.0472<br />variable: BoT","Date: 2020-07-01<br />value: -1672.0058<br />variable: BoT","Date: 2020-08-01<br />value: -1727.0320<br />variable: BoT","Date: 2020-09-01<br />value: -1884.0242<br />variable: BoT","Date: 2020-10-01<br />value: -1513.0748<br />variable: BoT","Date: 2020-11-01<br />value: -1827.9707<br />variable: BoT","Date: 2020-12-01<br />value: -2761.9725<br />variable: BoT","Date: 2021-01-01<br />value: -2325.9681<br />variable: BoT","Date: 2021-02-01<br />value: -2317.9787<br />variable: BoT","Date: 2021-03-01<br />value: -2801.0191<br />variable: BoT","Date: 2021-04-01<br />value: -2694.0584<br />variable: BoT","Date: 2021-05-01<br />value: -2825.0153<br />variable: BoT","Date: 2021-06-01<br />value: -3837.9510<br />variable: BoT","Date: 2021-07-01<br />value: -3147.9957<br />variable: BoT","Date: 2021-08-01<br />value: -3649.9733<br />variable: BoT","Date: 2021-09-01<br />value: -3418.9935<br />variable: BoT","Date: 2021-10-01<br />value: -3647.0027<br />variable: BoT","Date: 2021-11-01<br />value: -3707.0014<br />variable: BoT","Date: 2021-12-01<br />value: -3614.0000<br />variable: BoT","Date: 2022-01-01<br />value: -3362.0000<br />variable: BoT"],"type":"scatter","mode":"lines","line":{"width":1.8897637795275593,"color":"rgba(139,0,0,1)","dash":"solid"},"hoveron":"points","name":"BoT","legendgroup":"BoT","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[1262304000,1264982400,1267401600,1270080000,1272672000,1275350400,1277942400,1280620800,1283299200,1285891200,1288569600,1291161600,1293840000,1296518400,1298937600,1301616000,1304208000,1306886400,1309478400,1312156800,1314835200,1317427200,1320105600,1322697600,1325376000,1328054400,1330560000,1333238400,1335830400,1338508800,1341100800,1343779200,1346457600,1349049600,1351728000,1354320000,1356998400,1359676800,1362096000,1364774400,1367366400,1370044800,1372636800,1375315200,1377993600,1380585600,1383264000,1385856000,1388534400,1391212800,1393632000,1396310400,1398902400,1401580800,1404172800,1406851200,1409529600,1412121600,1414800000,1417392000,1420070400,1422748800,1425168000,1427846400,1430438400,1433116800,1435708800,1438387200,1441065600,1443657600,1446336000,1448928000,1451606400,1454284800,1456790400,1459468800,1462060800,1464739200,1467331200,1470009600,1472688000,1475280000,1477958400,1480550400,1483228800,1485907200,1488326400,1491004800,1493596800,1496275200,1498867200,1501545600,1504224000,1506816000,1509494400,1512086400,1514764800,1517443200,1519862400,1522540800,1525132800,1527811200,1530403200,1533081600,1535760000,1538352000,1541030400,1543622400,1546300800,1548979200,1551398400,1554076800,1556668800,1559347200,1561939200,1564617600,1567296000,1569888000,1572566400,1575158400,1577836800,1580515200,1583020800,1585699200,1588291200,1590969600,1593561600,1596240000,1598918400,1601510400,1604188800,1606780800,1609459200,1612137600,1614556800,1617235200,1619827200,1622505600,1625097600,1627776000,1630454400,1633046400,1635724800,1638316800,1640995200],"y":[1636.0351840000001,1543.2660969999999,1855.6914159999999,1819.147641,1716.7841969999999,1789.3225,1654.2206880000001,1818.6646619999999,1796.048313,1840.8857740000001,1934.8975089999999,2075.688924,2038.648727,2260.492702,2476.877097,2570.7184999999999,2239.2500920000002,2662.1597740000002,2138.4488849999998,2120.2938060000001,1895.066278,1969.439942,1900.1764860000001,2056.1216220000001,1973.743964,2153.9454909999999,2142.4786709999998,2138.357602,2179.3179220000002,2050.7194399999998,2020.2307269999999,2029.5734190000001,2100.8698979999999,2117.210345,2026.9087569999999,1859.1048310000001,2085.2282719999998,1930.162047,2176.8221789999998,2204.0568840000001,2257.8687439999999,1994.286415,2193.8180269999998,2008.7640819999999,2054.3613690000002,2063.1642240000001,1819.6927439999999,2327.2284180000001,2128.8512249999999,2058.246858,2091.7518220000002,2097.0991749999998,2132.8463360000001,2102.069919,1918.9999749999999,1879.9999769999999,2160.999973,2087.9999640000001,1861.000376,2257.000016,1963.9999949999999,1853.0000379999999,2049.0000020000002,2066.9999499999999,1879.996631,2111.0000409999998,1759.000008,1738.0000130000001,1821.0000110000001,1778.000006,1740.0000199999999,1946.999984,1692.000006,1863.9999869999999,1988.9999969999999,1817.9999989999999,1958.9959819999999,1867.000041,1507.999955,1857.0000030000001,1689.0001150000001,1826.0244520000001,1860.0000439999999,1890.9999789999999,1810.9999640000001,1796.999986,2075.0000150000001,1827.0249719999999,1978.0000339999999,1884.0000110000001,1817,2090,1743,1960,2173,2008,2090,2057,2316,2235,2265,2014,2012.980055,2075.0420610000001,1805.000196,2060.9906299999998,1898.0135190000001,2012.983651,2273.953884,1874.951092,2036.9857320000001,2084.0377290000001,2323.0197039999998,1799.0148139999999,2216.9631749999999,1888.9723610000001,1878.9666360000001,2188.9582070000001,2110.9732960000001,2108.0424699999999,2053.034314,1992.9982230000001,1821,1406.951636,1258.974929,1581.973962,1884.999593,1513.991452,1954.9889519999999,1968.9581310000001,2238.9821019999999,2253.0046379999999,2100.0273259999999,2178.0428109999998,2611.0073510000002,2303.9539249999998,2129.9661799999999,2492.0112469999999,2251.0240840000001,2348.0457029999998,2633.981507,2381.0362650000002,2715.9823759999999,2924,2546],"text":["Date: 2010-01-01<br />value:  1636.0352<br />variable: Exports","Date: 2010-02-01<br />value:  1543.2661<br />variable: Exports","Date: 2010-03-01<br />value:  1855.6914<br />variable: Exports","Date: 2010-04-01<br />value:  1819.1476<br />variable: Exports","Date: 2010-05-01<br />value:  1716.7842<br />variable: Exports","Date: 2010-06-01<br />value:  1789.3225<br />variable: Exports","Date: 2010-07-01<br />value:  1654.2207<br />variable: Exports","Date: 2010-08-01<br />value:  1818.6647<br />variable: Exports","Date: 2010-09-01<br />value:  1796.0483<br />variable: Exports","Date: 2010-10-01<br />value:  1840.8858<br />variable: Exports","Date: 2010-11-01<br />value:  1934.8975<br />variable: Exports","Date: 2010-12-01<br />value:  2075.6889<br />variable: Exports","Date: 2011-01-01<br />value:  2038.6487<br />variable: Exports","Date: 2011-02-01<br />value:  2260.4927<br />variable: Exports","Date: 2011-03-01<br />value:  2476.8771<br />variable: Exports","Date: 2011-04-01<br />value:  2570.7185<br />variable: Exports","Date: 2011-05-01<br />value:  2239.2501<br />variable: Exports","Date: 2011-06-01<br />value:  2662.1598<br />variable: Exports","Date: 2011-07-01<br />value:  2138.4489<br />variable: Exports","Date: 2011-08-01<br />value:  2120.2938<br />variable: Exports","Date: 2011-09-01<br />value:  1895.0663<br />variable: Exports","Date: 2011-10-01<br />value:  1969.4399<br />variable: Exports","Date: 2011-11-01<br />value:  1900.1765<br />variable: Exports","Date: 2011-12-01<br />value:  2056.1216<br />variable: Exports","Date: 2012-01-01<br />value:  1973.7440<br />variable: Exports","Date: 2012-02-01<br />value:  2153.9455<br />variable: Exports","Date: 2012-03-01<br />value:  2142.4787<br />variable: Exports","Date: 2012-04-01<br />value:  2138.3576<br />variable: Exports","Date: 2012-05-01<br />value:  2179.3179<br />variable: Exports","Date: 2012-06-01<br />value:  2050.7194<br />variable: Exports","Date: 2012-07-01<br />value:  2020.2307<br />variable: Exports","Date: 2012-08-01<br />value:  2029.5734<br />variable: Exports","Date: 2012-09-01<br />value:  2100.8699<br />variable: Exports","Date: 2012-10-01<br />value:  2117.2103<br />variable: Exports","Date: 2012-11-01<br />value:  2026.9088<br />variable: Exports","Date: 2012-12-01<br />value:  1859.1048<br />variable: Exports","Date: 2013-01-01<br />value:  2085.2283<br />variable: Exports","Date: 2013-02-01<br />value:  1930.1620<br />variable: Exports","Date: 2013-03-01<br />value:  2176.8222<br />variable: Exports","Date: 2013-04-01<br />value:  2204.0569<br />variable: Exports","Date: 2013-05-01<br />value:  2257.8687<br />variable: Exports","Date: 2013-06-01<br />value:  1994.2864<br />variable: Exports","Date: 2013-07-01<br />value:  2193.8180<br />variable: Exports","Date: 2013-08-01<br />value:  2008.7641<br />variable: Exports","Date: 2013-09-01<br />value:  2054.3614<br />variable: Exports","Date: 2013-10-01<br />value:  2063.1642<br />variable: Exports","Date: 2013-11-01<br />value:  1819.6927<br />variable: Exports","Date: 2013-12-01<br />value:  2327.2284<br />variable: Exports","Date: 2014-01-01<br />value:  2128.8512<br />variable: Exports","Date: 2014-02-01<br />value:  2058.2469<br />variable: Exports","Date: 2014-03-01<br />value:  2091.7518<br />variable: Exports","Date: 2014-04-01<br />value:  2097.0992<br />variable: Exports","Date: 2014-05-01<br />value:  2132.8463<br />variable: Exports","Date: 2014-06-01<br />value:  2102.0699<br />variable: Exports","Date: 2014-07-01<br />value:  1919.0000<br />variable: Exports","Date: 2014-08-01<br />value:  1880.0000<br />variable: Exports","Date: 2014-09-01<br />value:  2161.0000<br />variable: Exports","Date: 2014-10-01<br />value:  2088.0000<br />variable: Exports","Date: 2014-11-01<br />value:  1861.0004<br />variable: Exports","Date: 2014-12-01<br />value:  2257.0000<br />variable: Exports","Date: 2015-01-01<br />value:  1964.0000<br />variable: Exports","Date: 2015-02-01<br />value:  1853.0000<br />variable: Exports","Date: 2015-03-01<br />value:  2049.0000<br />variable: Exports","Date: 2015-04-01<br />value:  2066.9999<br />variable: Exports","Date: 2015-05-01<br />value:  1879.9966<br />variable: Exports","Date: 2015-06-01<br />value:  2111.0000<br />variable: Exports","Date: 2015-07-01<br />value:  1759.0000<br />variable: Exports","Date: 2015-08-01<br />value:  1738.0000<br />variable: Exports","Date: 2015-09-01<br />value:  1821.0000<br />variable: Exports","Date: 2015-10-01<br />value:  1778.0000<br />variable: Exports","Date: 2015-11-01<br />value:  1740.0000<br />variable: Exports","Date: 2015-12-01<br />value:  1947.0000<br />variable: Exports","Date: 2016-01-01<br />value:  1692.0000<br />variable: Exports","Date: 2016-02-01<br />value:  1864.0000<br />variable: Exports","Date: 2016-03-01<br />value:  1989.0000<br />variable: Exports","Date: 2016-04-01<br />value:  1818.0000<br />variable: Exports","Date: 2016-05-01<br />value:  1958.9960<br />variable: Exports","Date: 2016-06-01<br />value:  1867.0000<br />variable: Exports","Date: 2016-07-01<br />value:  1508.0000<br />variable: Exports","Date: 2016-08-01<br />value:  1857.0000<br />variable: Exports","Date: 2016-09-01<br />value:  1689.0001<br />variable: Exports","Date: 2016-10-01<br />value:  1826.0245<br />variable: Exports","Date: 2016-11-01<br />value:  1860.0000<br />variable: Exports","Date: 2016-12-01<br />value:  1891.0000<br />variable: Exports","Date: 2017-01-01<br />value:  1811.0000<br />variable: Exports","Date: 2017-02-01<br />value:  1797.0000<br />variable: Exports","Date: 2017-03-01<br />value:  2075.0000<br />variable: Exports","Date: 2017-04-01<br />value:  1827.0250<br />variable: Exports","Date: 2017-05-01<br />value:  1978.0000<br />variable: Exports","Date: 2017-06-01<br />value:  1884.0000<br />variable: Exports","Date: 2017-07-01<br />value:  1817.0000<br />variable: Exports","Date: 2017-08-01<br />value:  2090.0000<br />variable: Exports","Date: 2017-09-01<br />value:  1743.0000<br />variable: Exports","Date: 2017-10-01<br />value:  1960.0000<br />variable: Exports","Date: 2017-11-01<br />value:  2173.0000<br />variable: Exports","Date: 2017-12-01<br />value:  2008.0000<br />variable: Exports","Date: 2018-01-01<br />value:  2090.0000<br />variable: Exports","Date: 2018-02-01<br />value:  2057.0000<br />variable: Exports","Date: 2018-03-01<br />value:  2316.0000<br />variable: Exports","Date: 2018-04-01<br />value:  2235.0000<br />variable: Exports","Date: 2018-05-01<br />value:  2265.0000<br />variable: Exports","Date: 2018-06-01<br />value:  2014.0000<br />variable: Exports","Date: 2018-07-01<br />value:  2012.9801<br />variable: Exports","Date: 2018-08-01<br />value:  2075.0421<br />variable: Exports","Date: 2018-09-01<br />value:  1805.0002<br />variable: Exports","Date: 2018-10-01<br />value:  2060.9906<br />variable: Exports","Date: 2018-11-01<br />value:  1898.0135<br />variable: Exports","Date: 2018-12-01<br />value:  2012.9837<br />variable: Exports","Date: 2019-01-01<br />value:  2273.9539<br />variable: Exports","Date: 2019-02-01<br />value:  1874.9511<br />variable: Exports","Date: 2019-03-01<br />value:  2036.9857<br />variable: Exports","Date: 2019-04-01<br />value:  2084.0377<br />variable: Exports","Date: 2019-05-01<br />value:  2323.0197<br />variable: Exports","Date: 2019-06-01<br />value:  1799.0148<br />variable: Exports","Date: 2019-07-01<br />value:  2216.9632<br />variable: Exports","Date: 2019-08-01<br />value:  1888.9724<br />variable: Exports","Date: 2019-09-01<br />value:  1878.9666<br />variable: Exports","Date: 2019-10-01<br />value:  2188.9582<br />variable: Exports","Date: 2019-11-01<br />value:  2110.9733<br />variable: Exports","Date: 2019-12-01<br />value:  2108.0425<br />variable: Exports","Date: 2020-01-01<br />value:  2053.0343<br />variable: Exports","Date: 2020-02-01<br />value:  1992.9982<br />variable: Exports","Date: 2020-03-01<br />value:  1821.0000<br />variable: Exports","Date: 2020-04-01<br />value:  1406.9516<br />variable: Exports","Date: 2020-05-01<br />value:  1258.9749<br />variable: Exports","Date: 2020-06-01<br />value:  1581.9740<br />variable: Exports","Date: 2020-07-01<br />value:  1884.9996<br />variable: Exports","Date: 2020-08-01<br />value:  1513.9915<br />variable: Exports","Date: 2020-09-01<br />value:  1954.9890<br />variable: Exports","Date: 2020-10-01<br />value:  1968.9581<br />variable: Exports","Date: 2020-11-01<br />value:  2238.9821<br />variable: Exports","Date: 2020-12-01<br />value:  2253.0046<br />variable: Exports","Date: 2021-01-01<br />value:  2100.0273<br />variable: Exports","Date: 2021-02-01<br />value:  2178.0428<br />variable: Exports","Date: 2021-03-01<br />value:  2611.0074<br />variable: Exports","Date: 2021-04-01<br />value:  2303.9539<br />variable: Exports","Date: 2021-05-01<br />value:  2129.9662<br />variable: Exports","Date: 2021-06-01<br />value:  2492.0112<br />variable: Exports","Date: 2021-07-01<br />value:  2251.0241<br />variable: Exports","Date: 2021-08-01<br />value:  2348.0457<br />variable: Exports","Date: 2021-09-01<br />value:  2633.9815<br />variable: Exports","Date: 2021-10-01<br />value:  2381.0363<br />variable: Exports","Date: 2021-11-01<br />value:  2715.9824<br />variable: Exports","Date: 2021-12-01<br />value:  2924.0000<br />variable: Exports","Date: 2022-01-01<br />value:  2546.0000<br />variable: Exports"],"type":"scatter","mode":"lines","line":{"width":1.8897637795275593,"color":"rgba(70,130,180,1)","dash":"solid"},"hoveron":"points","name":"Exports","legendgroup":"Exports","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[1262304000,1264982400,1267401600,1270080000,1272672000,1275350400,1277942400,1280620800,1283299200,1285891200,1288569600,1291161600,1293840000,1296518400,1298937600,1301616000,1304208000,1306886400,1309478400,1312156800,1314835200,1317427200,1320105600,1322697600,1325376000,1328054400,1330560000,1333238400,1335830400,1338508800,1341100800,1343779200,1346457600,1349049600,1351728000,1354320000,1356998400,1359676800,1362096000,1364774400,1367366400,1370044800,1372636800,1375315200,1377993600,1380585600,1383264000,1385856000,1388534400,1391212800,1393632000,1396310400,1398902400,1401580800,1404172800,1406851200,1409529600,1412121600,1414800000,1417392000,1420070400,1422748800,1425168000,1427846400,1430438400,1433116800,1435708800,1438387200,1441065600,1443657600,1446336000,1448928000,1451606400,1454284800,1456790400,1459468800,1462060800,1464739200,1467331200,1470009600,1472688000,1475280000,1477958400,1480550400,1483228800,1485907200,1488326400,1491004800,1493596800,1496275200,1498867200,1501545600,1504224000,1506816000,1509494400,1512086400,1514764800,1517443200,1519862400,1522540800,1525132800,1527811200,1530403200,1533081600,1535760000,1538352000,1541030400,1543622400,1546300800,1548979200,1551398400,1554076800,1556668800,1559347200,1561939200,1564617600,1567296000,1569888000,1572566400,1575158400,1577836800,1580515200,1583020800,1585699200,1588291200,1590969600,1593561600,1596240000,1598918400,1601510400,1604188800,1606780800,1609459200,1612137600,1614556800,1617235200,1619827200,1622505600,1625097600,1627776000,1630454400,1633046400,1635724800,1638316800,1640995200],"y":[2532.7049440000001,2341.2841100000001,2474.241767,2914.2995649999998,2632.8171510000002,3101.7522589999999,2920.0751310000001,2924.8559959999998,2391.9561880000001,2612.9025689999999,2805.0457970000002,3191.0334929999999,2790.8939270000001,3073.5849389999998,3287.9809930000001,2903.7512590000001,3350.4163899999999,3543.3413890000002,3172.0454,3673.0507120000002,3521.5360030000002,3229.5943050000001,3172.031559,3275.9046629999998,3366.1017419999998,3711.7797070000001,2984.0757279999998,3158.288211,3452.0436100000002,3653.0927000000001,3445.7836480000001,3232.1297249999998,3097.8590079999999,3742.3209029999998,3424.7976349999999,3117.0713110000002,3402.085912,3076.960724,3392.3502360000002,3441.0095110000002,3467.826916,3316.696958,3458.1503590000002,3467.9371169999999,3715.0286620000002,3616.9053319999998,3264.9199250000001,3593.8786089999999,3596.1348849999999,3159.0330960000001,3353.948371,3329.0693689999998,3530.9659120000001,3582.1611160000002,4021.0002159999999,3931.9996700000002,4092.0000700000001,3569.9960329999999,3099.997222,3409.000121,3015.0011140000001,2799.0000140000002,3294.000039,3045.0000209999998,3469.999961,3610.0000049999999,3596,3222,3257,3254,3152,4101,3357,3086,3321,3168,3577,4027,3119,3916,3125,3482,3939.970926,4082,4327,4021,4348,4072,4583,4986,4799,4530,3884,4395,4515,4297,4930,4260,5066,4846,5075,5073.9642160000003,5290.0147399999996,4606.0487979999998,4008.040219,4680.0221380000003,4141.9983149999998,4775.9671349999999,4284.9889030000004,3406.9534610000001,4118.0068540000002,4134.962614,4384.0311650000003,4037.982391,4184.9685499999996,3519.0346500000001,3328.973939,3630.007486,3682.029556,3791.0075320000001,3907.9792459999999,3560.9592659999998,3310,3139.9716619999999,2800.0415050000001,3559.0211840000002,3557.0053630000002,3241.0234460000001,3839.013187,3482.0329109999998,4066.952796,5014.9770989999997,4425.9953859999996,4496.0215529999996,5412.0264930000003,4998.0123190000004,4954.9815010000002,6329.9622470000004,5399.0197740000003,5998.0190130000001,6052.9750020000001,6028.0389699999996,6422.9838110000001,6538,5908],"text":["Date: 2010-01-01<br />value:  2532.7049<br />variable: Imports","Date: 2010-02-01<br />value:  2341.2841<br />variable: Imports","Date: 2010-03-01<br />value:  2474.2418<br />variable: Imports","Date: 2010-04-01<br />value:  2914.2996<br />variable: Imports","Date: 2010-05-01<br />value:  2632.8172<br />variable: Imports","Date: 2010-06-01<br />value:  3101.7523<br />variable: Imports","Date: 2010-07-01<br />value:  2920.0751<br />variable: Imports","Date: 2010-08-01<br />value:  2924.8560<br />variable: Imports","Date: 2010-09-01<br />value:  2391.9562<br />variable: Imports","Date: 2010-10-01<br />value:  2612.9026<br />variable: Imports","Date: 2010-11-01<br />value:  2805.0458<br />variable: Imports","Date: 2010-12-01<br />value:  3191.0335<br />variable: Imports","Date: 2011-01-01<br />value:  2790.8939<br />variable: Imports","Date: 2011-02-01<br />value:  3073.5849<br />variable: Imports","Date: 2011-03-01<br />value:  3287.9810<br />variable: Imports","Date: 2011-04-01<br />value:  2903.7513<br />variable: Imports","Date: 2011-05-01<br />value:  3350.4164<br />variable: Imports","Date: 2011-06-01<br />value:  3543.3414<br />variable: Imports","Date: 2011-07-01<br />value:  3172.0454<br />variable: Imports","Date: 2011-08-01<br />value:  3673.0507<br />variable: Imports","Date: 2011-09-01<br />value:  3521.5360<br />variable: Imports","Date: 2011-10-01<br />value:  3229.5943<br />variable: Imports","Date: 2011-11-01<br />value:  3172.0316<br />variable: Imports","Date: 2011-12-01<br />value:  3275.9047<br />variable: Imports","Date: 2012-01-01<br />value:  3366.1017<br />variable: Imports","Date: 2012-02-01<br />value:  3711.7797<br />variable: Imports","Date: 2012-03-01<br />value:  2984.0757<br />variable: Imports","Date: 2012-04-01<br />value:  3158.2882<br />variable: Imports","Date: 2012-05-01<br />value:  3452.0436<br />variable: Imports","Date: 2012-06-01<br />value:  3653.0927<br />variable: Imports","Date: 2012-07-01<br />value:  3445.7836<br />variable: Imports","Date: 2012-08-01<br />value:  3232.1297<br />variable: Imports","Date: 2012-09-01<br />value:  3097.8590<br />variable: Imports","Date: 2012-10-01<br />value:  3742.3209<br />variable: Imports","Date: 2012-11-01<br />value:  3424.7976<br />variable: Imports","Date: 2012-12-01<br />value:  3117.0713<br />variable: Imports","Date: 2013-01-01<br />value:  3402.0859<br />variable: Imports","Date: 2013-02-01<br />value:  3076.9607<br />variable: Imports","Date: 2013-03-01<br />value:  3392.3502<br />variable: Imports","Date: 2013-04-01<br />value:  3441.0095<br />variable: Imports","Date: 2013-05-01<br />value:  3467.8269<br />variable: Imports","Date: 2013-06-01<br />value:  3316.6970<br />variable: Imports","Date: 2013-07-01<br />value:  3458.1504<br />variable: Imports","Date: 2013-08-01<br />value:  3467.9371<br />variable: Imports","Date: 2013-09-01<br />value:  3715.0287<br />variable: Imports","Date: 2013-10-01<br />value:  3616.9053<br />variable: Imports","Date: 2013-11-01<br />value:  3264.9199<br />variable: Imports","Date: 2013-12-01<br />value:  3593.8786<br />variable: Imports","Date: 2014-01-01<br />value:  3596.1349<br />variable: Imports","Date: 2014-02-01<br />value:  3159.0331<br />variable: Imports","Date: 2014-03-01<br />value:  3353.9484<br />variable: Imports","Date: 2014-04-01<br />value:  3329.0694<br />variable: Imports","Date: 2014-05-01<br />value:  3530.9659<br />variable: Imports","Date: 2014-06-01<br />value:  3582.1611<br />variable: Imports","Date: 2014-07-01<br />value:  4021.0002<br />variable: Imports","Date: 2014-08-01<br />value:  3931.9997<br />variable: Imports","Date: 2014-09-01<br />value:  4092.0001<br />variable: Imports","Date: 2014-10-01<br />value:  3569.9960<br />variable: Imports","Date: 2014-11-01<br />value:  3099.9972<br />variable: Imports","Date: 2014-12-01<br />value:  3409.0001<br />variable: Imports","Date: 2015-01-01<br />value:  3015.0011<br />variable: Imports","Date: 2015-02-01<br />value:  2799.0000<br />variable: Imports","Date: 2015-03-01<br />value:  3294.0000<br />variable: Imports","Date: 2015-04-01<br />value:  3045.0000<br />variable: Imports","Date: 2015-05-01<br />value:  3470.0000<br />variable: Imports","Date: 2015-06-01<br />value:  3610.0000<br />variable: Imports","Date: 2015-07-01<br />value:  3596.0000<br />variable: Imports","Date: 2015-08-01<br />value:  3222.0000<br />variable: Imports","Date: 2015-09-01<br />value:  3257.0000<br />variable: Imports","Date: 2015-10-01<br />value:  3254.0000<br />variable: Imports","Date: 2015-11-01<br />value:  3152.0000<br />variable: Imports","Date: 2015-12-01<br />value:  4101.0000<br />variable: Imports","Date: 2016-01-01<br />value:  3357.0000<br />variable: Imports","Date: 2016-02-01<br />value:  3086.0000<br />variable: Imports","Date: 2016-03-01<br />value:  3321.0000<br />variable: Imports","Date: 2016-04-01<br />value:  3168.0000<br />variable: Imports","Date: 2016-05-01<br />value:  3577.0000<br />variable: Imports","Date: 2016-06-01<br />value:  4027.0000<br />variable: Imports","Date: 2016-07-01<br />value:  3119.0000<br />variable: Imports","Date: 2016-08-01<br />value:  3916.0000<br />variable: Imports","Date: 2016-09-01<br />value:  3125.0000<br />variable: Imports","Date: 2016-10-01<br />value:  3482.0000<br />variable: Imports","Date: 2016-11-01<br />value:  3939.9709<br />variable: Imports","Date: 2016-12-01<br />value:  4082.0000<br />variable: Imports","Date: 2017-01-01<br />value:  4327.0000<br />variable: Imports","Date: 2017-02-01<br />value:  4021.0000<br />variable: Imports","Date: 2017-03-01<br />value:  4348.0000<br />variable: Imports","Date: 2017-04-01<br />value:  4072.0000<br />variable: Imports","Date: 2017-05-01<br />value:  4583.0000<br />variable: Imports","Date: 2017-06-01<br />value:  4986.0000<br />variable: Imports","Date: 2017-07-01<br />value:  4799.0000<br />variable: Imports","Date: 2017-08-01<br />value:  4530.0000<br />variable: Imports","Date: 2017-09-01<br />value:  3884.0000<br />variable: Imports","Date: 2017-10-01<br />value:  4395.0000<br />variable: Imports","Date: 2017-11-01<br />value:  4515.0000<br />variable: Imports","Date: 2017-12-01<br />value:  4297.0000<br />variable: Imports","Date: 2018-01-01<br />value:  4930.0000<br />variable: Imports","Date: 2018-02-01<br />value:  4260.0000<br />variable: Imports","Date: 2018-03-01<br />value:  5066.0000<br />variable: Imports","Date: 2018-04-01<br />value:  4846.0000<br />variable: Imports","Date: 2018-05-01<br />value:  5075.0000<br />variable: Imports","Date: 2018-06-01<br />value:  5073.9642<br />variable: Imports","Date: 2018-07-01<br />value:  5290.0147<br />variable: Imports","Date: 2018-08-01<br />value:  4606.0488<br />variable: Imports","Date: 2018-09-01<br />value:  4008.0402<br />variable: Imports","Date: 2018-10-01<br />value:  4680.0221<br />variable: Imports","Date: 2018-11-01<br />value:  4141.9983<br />variable: Imports","Date: 2018-12-01<br />value:  4775.9671<br />variable: Imports","Date: 2019-01-01<br />value:  4284.9889<br />variable: Imports","Date: 2019-02-01<br />value:  3406.9535<br />variable: Imports","Date: 2019-03-01<br />value:  4118.0069<br />variable: Imports","Date: 2019-04-01<br />value:  4134.9626<br />variable: Imports","Date: 2019-05-01<br />value:  4384.0312<br />variable: Imports","Date: 2019-06-01<br />value:  4037.9824<br />variable: Imports","Date: 2019-07-01<br />value:  4184.9685<br />variable: Imports","Date: 2019-08-01<br />value:  3519.0347<br />variable: Imports","Date: 2019-09-01<br />value:  3328.9739<br />variable: Imports","Date: 2019-10-01<br />value:  3630.0075<br />variable: Imports","Date: 2019-11-01<br />value:  3682.0296<br />variable: Imports","Date: 2019-12-01<br />value:  3791.0075<br />variable: Imports","Date: 2020-01-01<br />value:  3907.9792<br />variable: Imports","Date: 2020-02-01<br />value:  3560.9593<br />variable: Imports","Date: 2020-03-01<br />value:  3310.0000<br />variable: Imports","Date: 2020-04-01<br />value:  3139.9717<br />variable: Imports","Date: 2020-05-01<br />value:  2800.0415<br />variable: Imports","Date: 2020-06-01<br />value:  3559.0212<br />variable: Imports","Date: 2020-07-01<br />value:  3557.0054<br />variable: Imports","Date: 2020-08-01<br />value:  3241.0234<br />variable: Imports","Date: 2020-09-01<br />value:  3839.0132<br />variable: Imports","Date: 2020-10-01<br />value:  3482.0329<br />variable: Imports","Date: 2020-11-01<br />value:  4066.9528<br />variable: Imports","Date: 2020-12-01<br />value:  5014.9771<br />variable: Imports","Date: 2021-01-01<br />value:  4425.9954<br />variable: Imports","Date: 2021-02-01<br />value:  4496.0216<br />variable: Imports","Date: 2021-03-01<br />value:  5412.0265<br />variable: Imports","Date: 2021-04-01<br />value:  4998.0123<br />variable: Imports","Date: 2021-05-01<br />value:  4954.9815<br />variable: Imports","Date: 2021-06-01<br />value:  6329.9622<br />variable: Imports","Date: 2021-07-01<br />value:  5399.0198<br />variable: Imports","Date: 2021-08-01<br />value:  5998.0190<br />variable: Imports","Date: 2021-09-01<br />value:  6052.9750<br />variable: Imports","Date: 2021-10-01<br />value:  6028.0390<br />variable: Imports","Date: 2021-11-01<br />value:  6422.9838<br />variable: Imports","Date: 2021-12-01<br />value:  6538.0000<br />variable: Imports","Date: 2022-01-01<br />value:  5908.0000<br />variable: Imports"],"type":"scatter","mode":"lines","line":{"width":1.8897637795275593,"color":"rgba(160,32,240,1)","dash":"solid"},"hoveron":"points","name":"Imports","legendgroup":"Imports","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":45.223744292237441,"r":7.3059360730593621,"b":41.643835616438366,"l":54.794520547945226},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724},"title":{"text":"Pakistan Balance of Trade (Millions of USD)","font":{"color":"rgba(0,0,0,1)","family":"","size":17.534246575342465},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[1243369440,1659929760],"tickmode":"array","ticktext":["2010","2015","2020"],"tickvals":[1262304000,1420070400,1577836800],"categoryorder":"array","categoryarray":["2010","2015","2020"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"y","title":{"text":"Date","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-4356.7485510500001,7056.7975500499997],"tickmode":"array","ticktext":["-2500","0","2500","5000"],"tickvals":[-2500,0,2500.0000000000009,5000.0000000000009],"categoryorder":"array","categoryarray":["-2500","0","2500","5000"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716894984},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"x","title":{"text":"value","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":true,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.68949771689498},"title":{"text":"variable","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"77a42239570":{"x":{},"y":{},"colour":{},"type":"scatter"}},"cur_data":"77a42239570","visdat":{"77a42239570":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+</div>
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr) minmax(3em, 1fr) minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="card bslib-card bslib-mb-spacing html-fill-item html-fill-container bslib-value-box default showcase-left-center" color="red" data-bslib-card-init="" data-require-bs-caller="card()" data-require-bs-version="5 5" data-full-screen="false">
+<div class="card-body bslib-gap-spacing html-fill-item html-fill-container" style="margin-top:auto;margin-bottom:auto;flex:1 1 auto; padding:0;">
+<div class="value-box-grid html-fill-item" style="--bslib-grid-height:auto;--bslib-grid-height-mobile:auto;---bslib-value-box-showcase-w:30%;---bslib-value-box-showcase-w-fs:1fr;---bslib-value-box-showcase-max-h:100px;---bslib-value-box-showcase-max-h-fs:67%;">
+<div class="value-box-showcase html-fill-item html-fill-container"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" class="bi bi-currency-dollar " style="height:1em;width:1em;fill:currentColor;vertical-align:-0.125em;" aria-hidden="true" role="img"><path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z"></path></svg></div>
+<div class="value-box-area html-fill-item html-fill-container">
+<p class="value-box-title">Trade Deficit in FY21-22 (Billions of USD)</p>
+<p class="value-box-value">24</p>
+</div>
+</div>
+</div>
+<script data-bslib-card-init="">bslib.Card.initializeAllCards();</script>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div><div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="card bslib-card bslib-mb-spacing html-fill-item html-fill-container bslib-value-box showcase-left-center" data-bslib-card-init="" data-require-bs-caller="card()" data-require-bs-version="5 5" style="color:#000000;background-color:#5bc0de;--bslib-color-fg:#000000;--bslib-color-bg:#5bc0de;" data-full-screen="false">
+<div class="card-body bslib-gap-spacing html-fill-item html-fill-container" style="margin-top:auto;margin-bottom:auto;flex:1 1 auto; padding:0;">
+<div class="value-box-grid html-fill-item" style="--bslib-grid-height:auto;--bslib-grid-height-mobile:auto;---bslib-value-box-showcase-w:30%;---bslib-value-box-showcase-w-fs:1fr;---bslib-value-box-showcase-max-h:100px;---bslib-value-box-showcase-max-h-fs:67%;">
+<div class="value-box-showcase html-fill-item html-fill-container"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" class="bi bi-globe " style="height:1em;width:1em;fill:currentColor;vertical-align:-0.125em;" aria-hidden="true" role="img"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"></path></svg></div>
+<div class="value-box-area html-fill-item html-fill-container">
+<p class="value-box-title">Freelancing Revenue (Millions of USD)</p>
+<p class="value-box-value">216</p>
+</div>
+</div>
+</div>
+<script data-bslib-card-init="">bslib.Card.initializeAllCards();</script>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div><div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<p>Hoping against hope, it’s been more than two decades of promises to overcome trade deficits. Improving exports requires significant investment in human capital and governance. Without addressing these challenges, progress in reducing the trade deficit may remain elusive.</p>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+</div>
+</div>
+</div>
+<div id="fiscal-report-card-half-year22" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-fiscal-report-card-half-year22">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr) minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="card cell html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<div class="cell-output-display html-fill-item html-fill-container">
+<div class="plotly html-widget html-fill-item html-fill-container" id="htmlwidget-85153253071e96f1db6a" style="width:100%;height:406px;"></div>
+<script type="application/json" data-for="htmlwidget-85153253071e96f1db6a">{"x":{"data":[{"x":[2013,2014,2015,2016,2017,2018,2019,2020,2021,2022],"y":[772,913,912,989,949,1057,919,1644,1792,1941],"text":["Year: 2013<br />value:   772<br />variable: Net Fiscal Revnue","Year: 2014<br />value:   913<br />variable: Net Fiscal Revnue","Year: 2015<br />value:   912<br />variable: Net Fiscal Revnue","Year: 2016<br />value:   989<br />variable: Net Fiscal Revnue","Year: 2017<br />value:   949<br />variable: Net Fiscal Revnue","Year: 2018<br />value:  1057<br />variable: Net Fiscal Revnue","Year: 2019<br />value:   919<br />variable: Net Fiscal Revnue","Year: 2020<br />value:  1644<br />variable: Net Fiscal Revnue","Year: 2021<br />value:  1792<br />variable: Net Fiscal Revnue","Year: 2022<br />value:  1941<br />variable: Net Fiscal Revnue"],"type":"scatter","mode":"lines","line":{"width":1.8897637795275593,"color":"rgba(139,0,0,1)","dash":"solid"},"hoveron":"points","name":"Net Fiscal Revnue","legendgroup":"Net Fiscal Revnue","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2013,2014,2015,2016,2017,2018,2019,2020,2021,2022],"y":[-680,-713,-714,-679,-784,-927,-1274,-1286,-1393,-1852],"text":["Year: 2013<br />value:  -680<br />variable: Overall Fiscal Balance","Year: 2014<br />value:  -713<br />variable: Overall Fiscal Balance","Year: 2015<br />value:  -714<br />variable: Overall Fiscal Balance","Year: 2016<br />value:  -679<br />variable: Overall Fiscal Balance","Year: 2017<br />value:  -784<br />variable: Overall Fiscal Balance","Year: 2018<br />value:  -927<br />variable: Overall Fiscal Balance","Year: 2019<br />value: -1274<br />variable: Overall Fiscal Balance","Year: 2020<br />value: -1286<br />variable: Overall Fiscal Balance","Year: 2021<br />value: -1393<br />variable: Overall Fiscal Balance","Year: 2022<br />value: -1852<br />variable: Overall Fiscal Balance"],"type":"scatter","mode":"lines","line":{"width":1.8897637795275593,"color":"rgba(70,130,180,1)","dash":"solid"},"hoveron":"points","name":"Overall Fiscal Balance","legendgroup":"Overall Fiscal Balance","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2013,2014,2015,2016,2017,2018,2019,2020,2021,2022],"y":[1452,1626,1626,1668,1733,1984,2193,2930,3185,3793],"text":["Year: 2013<br />value:  1452<br />variable: Total Fiscal Expenditure","Year: 2014<br />value:  1626<br />variable: Total Fiscal Expenditure","Year: 2015<br />value:  1626<br />variable: Total Fiscal Expenditure","Year: 2016<br />value:  1668<br />variable: Total Fiscal Expenditure","Year: 2017<br />value:  1733<br />variable: Total Fiscal Expenditure","Year: 2018<br />value:  1984<br />variable: Total Fiscal Expenditure","Year: 2019<br />value:  2193<br />variable: Total Fiscal Expenditure","Year: 2020<br />value:  2930<br />variable: Total Fiscal Expenditure","Year: 2021<br />value:  3185<br />variable: Total Fiscal Expenditure","Year: 2022<br />value:  3793<br />variable: Total Fiscal Expenditure"],"type":"scatter","mode":"lines","line":{"width":1.8897637795275593,"color":"rgba(160,32,240,1)","dash":"solid"},"hoveron":"points","name":"Total Fiscal Expenditure","legendgroup":"Total Fiscal Expenditure","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":45.223744292237441,"r":7.3059360730593621,"b":41.643835616438366,"l":54.794520547945226},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724},"title":{"text":"Half-Year: Federal Fiscal Operations (PKR in Billion)","font":{"color":"rgba(0,0,0,1)","family":"","size":17.534246575342465},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[2012.55,2022.45],"tickmode":"array","ticktext":["2015.0","2017.5","2020.0"],"tickvals":[2015,2017.5,2020],"categoryorder":"array","categoryarray":["2015.0","2017.5","2020.0"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"y","title":{"text":"Year","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-2134.25,4075.25],"tickmode":"array","ticktext":["-2000","0","2000","4000"],"tickvals":[-2000,0,2000,4000],"categoryorder":"array","categoryarray":["-2000","0","2000","4000"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716894984},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"x","title":{"text":"PKR (Billion)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":true,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.68949771689498},"title":{"text":"variable","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"77a44c9da21":{"x":{},"y":{},"colour":{},"type":"scatter"}},"cur_data":"77a44c9da21","visdat":{"77a44c9da21":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div><div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<ul>
+<li>Data Source: Ministry of Finance</li>
+<li>Half-year data provides a snapshot of fiscal trends in expenditures and revenues.</li>
+</ul>
+<pre><code>
+### Steps to Use
+1. Save the file as `pakistan_economy_dashboard.qmd`.
+2. Open your R environment and set your working directory to the location of the `.qmd` file.
+3. Run the following command in the R console to render the dashboard:
+   ```r
+   quarto::quarto_render("pakistan_economy_dashboard.qmd")</code></pre>
+<ol start="4" type="1">
+<li>The rendered dashboard will open in your web browser.</li>
+</ol>
+<p>This layout integrates flexdashboard features with tidyverse data manipulation and ggplot2 for visualization, making it interactive and visually appealing.</p>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+<div id="3ade8a4a-fb1d-4a6c-8409-ac45482d5fc9" class="hidden html-fill-item html-fill-container">
 
-</main>
-<!-- /main column -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -216,12 +330,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
     }
-  });
-  clipboard.on('success', function(e) {
+    return false;
+  }
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -253,11 +370,48 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -267,8 +421,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -280,9 +443,244 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -322,7 +720,16 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-</div> <!-- /content -->
+</div> <!-- /container fluid -->
+
+<script type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (_event) {
+  if (window.bslib.Card) {
+    window.bslib.Card.initializeAllCards();
+  }
+}); 
+</script>
+  
 
 
 

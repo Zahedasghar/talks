@@ -1,8 +1,12 @@
 .quarto-title-block .quarto-title-banner {
-  background-image: url(images/qau1.jpg);
+  background-image: url(images/union.webp);
   background-size: 600px;
   background-position: left;
   background-repeat: no-repeat;
   padding-left: 20px;
   background-origin: content-box;
+}
+
+.reveal .slide-background {
+  background-color: rgba(0.1, 0, 0, 0.1); /* white with 50% opacity */
 }

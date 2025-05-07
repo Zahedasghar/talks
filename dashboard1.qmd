@@ -1,0 +1,187 @@
+---
+title: "Gapminder"
+author: "Quinten Sandberg"
+format: 
+  dashboard:
+    embed-resources: true
+---
+
+```{r}
+#| warning: false
+#| message: false
+#| echo: false
+library(tidyverse)
+library(DT)
+library(gapminder)
+library(ggpmisc)
+library(ggbump)
+library(plotly)
+library(leaflet)
+library(countrycode)
+library(sf)
+library(rnaturalearth)
+library(crosstalk)
+```
+
+```{r}
+# Calculate some values
+# Average gdpPercap per year
+mean_gdpPercap <- gapminder %>%
+  group_by(year) %>%
+  reframe(mean_gdpPercap = mean(gdpPercap)) %>%
+  pull(mean_gdpPercap)
+
+perc_growth_gdpPercap <- 100*((mean_gdpPercap[length(mean_gdpPercap)] - mean_gdpPercap[1])/mean_gdpPercap[1])
+
+# Average lifeExp per year
+mean_lifeExp <- gapminder %>%
+  group_by(year) %>%
+  reframe(mean_lifeExp = mean(lifeExp)) %>%
+  pull(mean_lifeExp)
+
+perc_growth_lifeExp <- 100*((mean_lifeExp[length(mean_lifeExp)] - mean_lifeExp[1])/mean_lifeExp[1])
+
+```
+
+```{r}
+# Create dataset for leaflet map
+df <- gapminder %>% #filter(year == 2007) %>% 
+  mutate(iso_a3 = countrycode(country, "country.name", "iso3c"), 
+         gdpPercap = round(gdpPercap, 0), 
+         lifeExp = round(lifeExp, 0))
+
+world <- ne_countries(type = "countries",  returnclass = 'sf') %>% 
+  left_join(., df, by = "iso_a3") %>% 
+  filter(!is.na(country)) %>% 
+  select("country", "continent" = "continent.y", "year", "lifeExp", "pop", "gdpPercap", "geometry") %>% 
+  as('Spatial')
+
+world_NA <- ne_countries(type = "countries",  returnclass = 'sf')
+
+sd <-  SharedData$new(world)
+sd_df <- SharedData$new(world@data, group = sd$groupName())
+```
+
+
+# {.sidebar}
+
+This is a static dashboard with some hover options to give you some insights of the Gapminder dataset. This dashboard is developed using [Quarto](https://quarto.org) [v1.4](https://quarto.org/docs/blog/posts/2024-01-24-1.4-release/).
+
+***
+
+Below you can select some settings to filter the map and table:
+
+```{r}
+filter_select("year", "Choose the year:", sd_df, ~year)
+filter_slider("lifeExp", "Life expectancy (years):", sd_df, ~lifeExp)
+filter_slider("gdpPercap", "Income per person ($):", sd_df, ~gdpPercap)
+```
+
+***
+
+::: {.callout-note collapse="true"}
+## Disclaimer
+This is just a simple static dashboard as demonstration to show what is possible with the latest version of Quarto.
+:::
+
+# Analysis
+
+## Row {height=20%}
+
+```{r}
+#| content: valuebox
+#| title: "Percentage growth 1952-2007 of average lifeExp"
+list(
+  icon = "arrow-up",
+  color = "green",
+  value = paste0(round(perc_growth_lifeExp,1), "%")
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Percentage growth 1952-2007 of average gdpPercap"
+list(
+  icon = "graph-up",
+  color = "light",
+  value = paste0(round(perc_growth_gdpPercap,1), "%")
+)
+```
+
+## Row {height=80%}
+
+### Column {.tabset}
+
+```{r}
+#| title: "World map"
+pal <- colorFactor(c("#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd"), domain = c("Africa", "Americas", "Asia", "Europe", "Oceania"), ordered = FALSE)
+
+leaflet(sd) %>% 
+  addProviderTiles("CartoDB.Positron") %>% 
+  addPolygons(data = world_NA, color = "#969696", weight = 1, fillColor = "#808080") %>% 
+  addPolygons(color = "#969696", weight = 2, fillColor = ~pal(continent), fillOpacity = 0.8)
+```
+
+
+```{r}
+#| title: "gdpPercap vs lifeExp"
+gapminder %>%
+  ggplot(aes(x = gdpPercap, y = lifeExp)) +
+  geom_point() +
+  geom_smooth(method = loess) +
+  theme_minimal()
+```
+
+
+### Column {.tabset}
+
+```{r}
+#| title: "Top 10 countries life expectancy per year"
+df <- gapminder %>% 
+  group_by(year) %>%
+  arrange(desc(lifeExp)) %>% 
+  slice(1:10) %>%
+  mutate(rank = row_number()) %>%
+  ungroup()
+
+p <- ggplot(df, aes(year, rank, color = continent, group = country)) +
+  geom_bump() +
+  geom_point() +
+  geom_text(data = df %>% filter(year == min(year)),
+            aes(x = year - .1, label = country), size = 2, vjust = -1.5) +
+  geom_text(data = df %>% filter(year == max(year)),
+            aes(x = year + .1, label = country), size = 2, vjust = -1.5) +
+  scale_x_continuous(breaks = c(unique(df$year))) +
+  scale_y_continuous(breaks = c(1:10), trans = "reverse") +
+  guides(x =  guide_axis(angle = 45)) +
+  theme(panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        panel.background = element_blank()) +
+  labs(x = "Year", y = "Rank", color = "Continent") +
+  coord_cartesian(clip = "off") 
+p
+```
+
+```{r}
+#| title: "Average life expectancy per continent over time"
+p <- gapminder %>%
+  group_by(continent, year) %>%
+  summarise(lifeExp=mean(lifeExp)) %>%
+  ggplot(aes(x=year, y=lifeExp, color=continent)) +
+  geom_line() + 
+  geom_point() +
+  theme_minimal()
+plotly::ggplotly(p)
+```
+
+# Table
+
+`Below you can search in the gapminder dataset:`
+
+```{r}
+DT::datatable(sd_df)
+```
+
+# Source
+
+The data is from the [`gapminder`](https://github.com/jennybc/gapminder) R package which has a pre-build dataset about the life expectancy and gdp per countries and continents across multiple years. 

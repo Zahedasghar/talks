@@ -1,0 +1,338 @@
+---
+title: "[Union University]{.yellow}"
+subtitle: "Pak Union"
+author: "Zahid Asghar"
+date: "2024-10-24"
+format:
+  revealjs:
+    theme: [default, custom1.scss]
+    css: "logo1.css" 
+    title-slide-attributes:
+      data-background-image: images/university.webp
+      data-background-size: cover
+execute:
+  echo: false
+  warning: false
+  freeze: auto
+
+---
+
+
+
+## Starting a University
+
+- Legal requirements 
+
+- Financial planning 
+
+- Academic development 
+
+- Addressing workplace skill gaps
+
+---
+
+## Team (Smart )
+
+- Executive Director (Overall leadership)
+- Registrar  (All documentation process under ED)
+- 2 Office Assistants 
+- Secretary 
+
+### Professional Project Manager after 3 to 5 months 
+
+## Board of Governor
+
+11, 13 or 15 Members (as per HEC requirements) 
+
+## Timelines
+
+### University Feasibility, Land Requirements 
+- 3/5 months 
+- If land and some other requirements are fulfilled: Jan-26 (Optimistic Scenario)
+- Otherwise May-June 2026
+
+## Logistics
+- After approval by Assembly Bill: 
+  - 3 Labs, Library, 4 Departments
+  - 4/6 Academic Departments: Management, Computer Science, IR, Supply and Logistics, Data Science, Economics 
+  
+## Deliberations on Name of the University 
+
+### Media: Logo , Webpage, Social Media platforms icons
+
+### IPO registration after Logo Design
+
+
+---
+
+## Key Steps
+
+- **First Steps**: Mission, financial projections, legal permissions, academic programs.
+- **Legal Compliance**: State authorization and accreditation.
+- **Financial Planning**: Infrastructure, salaries, operational costs.
+- **Academic Programs**: Industry-aligned curricula.
+- **Technology Infrastructure**: Modern learning tools.
+
+---
+
+## Essential First Steps
+
+1. Develop a clear **mission statement**.
+2. Create **financial projections**.
+3. Secure **legal permissions**. 
+  - Obtaining **Approvals from HEC and N/P Assembly** (6 months to 1&1/2 years).
+4. Plan **academic programs**.
+5. Build **infrastructure plans**.
+
+---
+
+
+## Financial Planning
+
+Allocate funding for:
+- **Campus development** (50M–300M). 
+
+- **Technology systems**. 
+
+- **Faculty recruitment**. 
+
+- **Operational costs**. 
+
+---
+
+## Academic Programs
+
+Focus on: 
+
+- Industry partnerships. 
+
+- Practical skills integration. 
+
+- Experiential learning.
+
+Include: 
+
+- Internships. 
+
+- Research projects. 
+
+- Mentorships.
+
+---
+
+## Building a Team
+
+Recruit: 
+
+- **Academics** with PhDs. 
+
+- **Industry professionals** for practical skills teaching. 
+
+- **Research leaders**.
+
+---
+
+## Technology Infrastructure
+
+Key Investments: 
+
+- Learning management systems. 
+
+- Research and remote tools. 
+
+- Security and scalability.
+
+---
+
+## Quality Assurance
+
+Track: 
+
+- Program effectiveness. 
+
+- Student outcomes. 
+
+- Job readiness metrics. 
+
+
+Implement: 
+
+- Academic reviews. 
+
+- Employer feedback systems.
+
+---
+
+## Student Services
+
+Support students through: 
+
+- Academic mentoring. 
+
+- Career resources. 
+
+- Health and wellness programs.
+
+---
+
+## Strategic Evolution
+
+- Regularly assess and adapt to changing needs. 
+
+- Plan for **technological advancements**.
+
+
+## Establishing a University
+
+### Objective
+
+“To establish a new university as a breeding ground for intellectually sound human resources and serve as a laboratory for new technology and management practices to support local and international industry.”
+
+---
+
+## Key Takeaways
+
+- **Vision and Mission:** Foundation for institutional purpose and direction.
+- **Legal Compliance:** Trust formation, state authorization, and accreditation.
+- **Financial Sustainability:** Robust planning for endowment, operations, and growth.
+- **Academic Development:** Market-relevant programs and experiential learning.
+- **Infrastructure:** Modern facilities and technology.
+- **Marketing and Promotion:** Strategic visibility to attract students and funding.
+
+---
+
+## Vision and Mission
+
+Define a clear and actionable vision to:
+- Align institutional efforts.
+- Inspire stakeholders.
+- Meet academic and societal needs.
+
+---
+
+## Legal Compliance
+
+**Key Steps:**
+1. Register a Trust under the relevant Trust Act.
+2. Secure a non-transferable endowment fund (e.g., Rs. 50M as per HEC guidelines).
+3. Submit feasibility and compliance reports to the Education Department.
+4. Undergo facility inspection and approval.
+
+---
+
+## Financial Sustainability
+
+**Core Funding Requirements (HEC Guidelines):**
+- Endowment Fund: Rs. 50M
+- Tangible Assets (e.g., land/building): Rs. 100M
+- Working Capital: Rs. 50M
+
+**Revenue Sources:**
+- Tuition fees
+- Industry funding and grants
+- Consultancy and applied research services
+
+---
+
+## Academic Programs and Accreditation
+
+### Proposed Faculties:
+- **Information Technology**
+  - Programs like B.S. in Software Engineering and Information Systems.
+- **Business Management**
+  - BBA and MBA programs in HR, IT, and Finance.
+- **Social Sciences and Humanities**
+  - BS in Psychology, Sociology, Economics, and more.
+
+### Accreditation:
+- Initiate multi-year processes with Higher Education authorities.
+
+---
+
+## Infrastructure
+
+### Physical Resources:
+- Admin block, academic buildings, library, and labs.
+- Hostels, sports grounds, and IT infrastructure.
+- Power backup and modern facilities.
+
+### Land Requirement:
+- Minimum 10 acres (or a rented facility initially).
+
+---
+
+## Technology and Research
+
+**Investments in:**
+- Learning Management Systems
+- Research tools
+- Remote and hybrid learning platforms
+
+**Objective:**
+Bridge the gap between theoretical learning and practical applications.
+
+---
+
+## Faculty Recruitment
+
+**Key Roles:**
+- Professors: Blend of academic and industry expertise.
+- Support Staff: Maintain a 1:2 ratio of admin to teaching staff.
+
+### Hiring Timeline:
+- Final hiring after infrastructure setup.
+- Combine permanent, visiting, and adjunct faculty.
+
+---
+
+## Promotion and Marketing
+
+**Strategies:**
+- Media advertisements and orientations.
+- Collaboration with industries for research and internships.
+- Highlight renowned faculty and state-of-the-art facilities.
+
+---
+
+## Student Services
+
+- Academic mentoring and career counseling.
+- Comprehensive wellness programs.
+- Resources to ensure workplace readiness.
+
+---
+
+## Timeline for Establishment
+
+### Initial Steps:
+1. Create Education Trust (1 Month)
+2. Feasibility Study (2 Months)
+3. Facility Acquisition and Development (2–4 Months)
+4. Staff and Faculty Recruitment (1 Month)
+5. Launch and Admissions (2 Months)
+
+**Parallel Activities:**
+- Building infrastructure and promoting the institution.
+
+---
+
+## Quality Assurance
+
+**Focus Areas:**
+- Regular program reviews and assessments.
+- Track student and graduate outcomes.
+- Continuous improvement through employer feedback.
+
+---
+
+## Strategic Roadmap
+
+- Increase faculties from 4 to 6 in 5 years (e.g., Engineering, Pharmacy).
+- Target enrollment growth from 200 to 1,000 students in 5 years.
+- Diversify into school and college sectors for pipeline development.
+
+---
+
+## Questions?
+
+Thank you! For further details, contact: **info@pakunion.com**
