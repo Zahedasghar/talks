@@ -1,9 +1,9 @@
 ---
-title: "[How AI Can Help Public Policy Professoinals Improve Efficiency]{.yellow}"
+title: "[Leveraging AI for Public Policy Professionals ]{.yellow}"
 author: "Zahid Asghar"
 date: "today"
 format: 
-  docx:
+  html:
     theme: [default, custom2.scss]
     # toc: true
     # toc-float: true
@@ -12,7 +12,10 @@ format:
 
 ### [**Workshop Overview**]{.yellow} 
 
-This workshop is crafted to introduce public policy professionals, to understand AI and the practical applications of AI tools in decision-making and governance. The focus is on using AI to enhance the efficiency of public service operations and policy formulation. AI tools like [**Policy Advisor**]{.yellow} will be demonstrated, with an emphasis on how these technologies can be used in roles like policy assistants, getting insights from data without having coding background and making sense of written text (text data).
+This workshop is crafted to introduce public policy professionals, to understand AI and the practical applications of AI tools in decision-making and governance. The focus is on using AI to enhance the efficiency of public service operations and policy formulation. AI tools like [**Policy Advisor**]{.yellow} will be demonstrated, with an emphasis on how these technologies can be used in roles like policy assistants, getting insights from data without having coding background and making sense of written text (text data). 
+
+> You [**don’t need to build AI models**]{.yellow} or be a data scientist.   
+Instead, [**you need to be a problem-solver**]{.yellow} who can [**apply AI to real-world challenges**]{.pink}.
 
 Participants will explore [**Generative AI**]{.yellow} and its potential to streamline tasks in the public sector, such as creating policy briefs, economic reports, and decision support systems. The workshop includes hands-on exercises and scenario-based learning, ensuring participants gain real-world experience in AI integration.
 
@@ -38,7 +41,7 @@ Participants will explore [**Generative AI**]{.yellow} and its potential to stre
 **Introduction to AI and Basic Terminologies**
 
 - What is Artificial Intelligence (AI)?
-- Overview of AI Tools in Public Policy: ChatGPT, Bard, Binge, ...
+- Overview of AI Tools in Public Policy: ChatGPT, Bard, Copilot, Grok ...
 - AI Applications in Public Policy: Policy Analysis, Budget Planning, Forecasting.
 - Basics of Big Data and Large Language Models (LLMs).
 

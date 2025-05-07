@@ -1,7 +1,7 @@
 ---
-title: ""
+title: "AI Writing Prompts for Government & Public Service Communication"
 author: "Zahid Asghar"
-date: "2024-09-24"
+date: "2025-05-07"
 format: 
   html:
     logo: "images/qau1.jpg"
@@ -23,23 +23,23 @@ execute:
 
 ## 📬 Official Letter & Email Writing
 
-- Write a polite reminder letter to a contractor who has not completed the assigned work using C.A.T.S. method.
+- [Write a polite reminder letter to a contractor who has not completed the assigned work]{.yellow} using [C.A.T.S.]{.yellow} method.
 
-  - **Context**: The contractor was supposed to finish the work by last week, but there has been no communication or progress.
-  - **Action**: Request an update on the status of the work. 
-  - **Task**: Emphasize the importance of timely completion for project success. 
-  - **Style**: Use a formal and respectful tone. Attach a copy of the original contract for reference.  
+  - [**Context**]{.yellow}: The contractor was supposed to finish the work by last week, but there has been no communication or progress.
+  - [**Action**]{.yellow}: Request an update on the status of the work. 
+  - [**Task**]{.yellow}: Emphasize the importance of timely completion for project success. 
+  - [**Style**]{.yellow}: Use a formal and respectful tone. Attach a copy of the original contract for reference.  
   
-- Draft a formal email to request meeting rescheduling due to urgent field visit.  
-- Reply to a citizen complaint about electricity outage in professional tone using D.O.G.S method.
+- [Draft a formal email to request meeting rescheduling due to urgent field visit.]{.yellow}   
+- [Reply to a citizen complaint about electricity outage in professional tone]{.yellow} using [D.O.G.S]{.yellow} method.
   - **Details**: Acknowledge the complaint and express understanding of the inconvenience caused. 
   - **Objective**: Provide information about the ongoing repair work and expected resolution time. 
   - **Goal**: Assure the citizen that their concern is being addressed. 
   - **Style**: Use a friendly yet professional tone. 
   
-- Compose a letter to inform staff about office timings during Ramadan.  
+- [Compose a letter to inform staff about office timings during Ramadan. ]{.yellow} 
 
-## 📝 Office Circulars, Memos & Notifications
+## 📝 [Office Circulars, Memos & Notifications]{.yellow}
 
 - Draft a circular announcing upcoming training for staff on using AI tools. 
   - **Context**: The training is scheduled for next week and is mandatory for all staff.
@@ -53,7 +53,7 @@ execute:
 - Write a notification regarding public holiday declared by government.  
 - Issue a letter to departments for monthly/annual progress report submission.  
 
-## 📊 Report Writing & Summary Generation
+## 📊 [Report Writing & Summary Generation]{.yellow}
 
 - Summarize this one-page report into 3 key points for the Deputy Director.  
 
@@ -64,7 +64,7 @@ execute:
 
 - Write an inspection report for a public school using provided notes.  
 
-## 📆 Meeting Support & Agenda Planning
+## 📆 [Meeting Support & Agenda Planning]{.yellow}
 
 - Create an agenda for a department-level meeting on budget planning.  
 - Draft minutes of a meeting discussing the new project proposal. 
@@ -74,49 +74,49 @@ execute:
 - Draft discussion questions for a union council coordination meeting.  
 - Write follow-up instructions for a team meeting held on flood response.  
 
-## 👥 Citizen Service Communication
+## 👥 [Citizen Service Communication]{.yellow}
 
 - Write a clear message for citizens about CNIC verification deadlines.  
 - Translate this public awareness message into simple Urdu.  
 - Create an SMS alert for health camp in the local area.  
 - Simplify this technical water supply document for general public.  
 
-## 📎 Documentation & Filing Support
+## 📎 [Documentation & Filing Support]{.yellow}
 
 - Generate a checklist for files required to process land allotment cases.  
 - Create a file cover note for submitting project proposal to the directorate.  
 - Write a document index for a complaint file containing 5 letters and 3 reports.  
 - Summarize contents of a file for final approval note.  
 
-## 📖 Policy & Rule Explanation
+## 📖 [Policy & Rule Explanations]{.yellow}
 
 - Explain the pension rules for government employees in simple language.  
 - Summarize the official procurement SOP in 5 easy steps.  
 - Write FAQs about staff promotion rules in public departments.  
 - Create a simple guide for applying leave under medical grounds.  
 
-## 📈 Basic Excel/Numbers Assistance
+## 📈 [Basic Excel/Numbers Assistance]{.yellow}
 
 - Write an Excel formula to calculate the total cost including 17% sales tax.  
 - Create a table showing district-wise population from this data.  
 - Explain how to use Excel to make monthly expense chart.  
 - Help me format this staff salary sheet neatly.  
 
-## 🔐 Compliance, Audit & Governance
+## 🔐 [Compliance, Audit & Governance]{.yellow}
 
 - Draft a response to audit observation on unverified expenses.  
 - Write a clarification note for missing attendance records in Jan 2021.  
 - Summarize guidelines for maintaining petty cash register.  
 - Create a checklist for internal office audit readiness.  
 
-## 🔄 Translation & Accessibility
+## 🔄 [Translation & Accessibility]{.yellow}
 
 - Translate this English circular to Urdu for notice board.  
 - Summarize this technical document in plain language for field staff.  
 - Convert this voice note into written report format.  
 - Write the same message in both English and Urdu.  
 
-## 🧠 Bonus General Prompts
+## 🧠 [Bonus General Prompts]{.yellow}
 
 - Improve this paragraph to sound more professional.  
 - Organize these scattered notes into a formal document.  
