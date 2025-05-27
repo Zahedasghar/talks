@@ -42,11 +42,7 @@ execute:
 ## 📝 [Office Circulars, Memos & Notifications]{.yellow}
 
 - Draft a circular announcing upcoming training for staff on using AI tools. 
-  - **Context**: The training is scheduled for next week and is mandatory for all staff.
-  - **Action**: Provide details about the training schedule, location, and registration process.
-  - **Task**: Encourage all staff to participate and enhance their skills.
-  - **Style**: Use a clear and concise format with bullet points for easy reading.
-  
+ 
   
 - Write a memo to inform staff about the new office policy on remote work.
 - Create a memo to remind staff about attendance policies.  

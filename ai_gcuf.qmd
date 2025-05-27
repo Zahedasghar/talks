@@ -1,0 +1,165 @@
+---
+title: "Introduction to Artificial Intelligence"
+author: Your Name
+date: 2025-05-15
+format:
+  revealjs:
+    slide-number: true
+    transition: slide
+---
+
+# Welcome
+
+Thank you for the introduction.  
+First time in Pohang—what a beautiful campus!
+
+---
+
+# What Is AI?
+
+- **Intelligent machines** aim to **achieve objectives** reliably.  
+- Rooted in philosophy & economics—what it means “to do the right thing.”
+
+---
+
+# Simple Examples
+
+- **AlphaGo**: objective = win at Go  
+- **Navigation apps**: objective = shortest route  
+- **Automated corporations**: objective = maximize shareholder return  
+
+---
+
+# Artificial General Intelligence
+
+- **AGI**: systems that learn high-quality behavior **as well as or better than humans** across any task.  
+
+---
+
+# Historical Eras of AI
+
+1. **Birth (1956)**  
+   - Dartmouth conference  
+   - **Symbolic AI** & **perceptrons**  
+2. **Engineering Era (1970–2010)**  
+   - Logic, probability, statistics, optimization  
+   - Expert systems → **AI Winter** (~1988–1998)  
+3. **Renaissance (1990s–2010)**  
+   - Mathematical depth ↑, commercial interest still low  
+
+---
+
+# Deep Learning Emerges (~2010)
+
+- **Many-layer neural nets** (“deep”)  
+- Breakthroughs in speech, vision, translation  
+- Rise of **foundation models** on massive text corpora  
+
+---
+
+# Anatomy of an AI System
+
+1. **Input** (keyboard, camera, sensors)  
+2. **Core** (“the box”): logic? probabilistic model? deep net?  
+3. **Output**: steering, text, speech, etc.  
+
+---
+
+# Probabilistic Programming
+
+- Combines **probability theory** + **general-purpose code**  
+- **Nuclear Test Monitoring** example:  
+  - CTBT’s seismic network → raw data  
+  - Encode wave‐propagation & noise models  
+  - **20 minutes of code**, 3× more accurate than legacy pipelines  
+
+---
+
+# Deep Learning at Scale
+
+- Fill the box with a **huge circuit** of trillions of connections  
+- Tune via **stochastic gradient descent**  
+- Requires **vast data** and compute  
+
+---
+
+# Breakthrough Applications
+
+- **Protein Folding**: billions of structures predicted  
+- **Scientific Simulation**: 100 000× speed-up in climate models  
+- **Generative Design**: organic, lightweight wheelchair parts  
+- **Adaptive Robotics**: dynamic warehouse bots  
+
+---
+
+# Automation & Employment
+
+- Amazon’s warehouse robots → replace **over 1 million** workers  
+- Raises issues of **re-skilling** and **social safety nets**
+
+---
+
+# Self-Driving Cars
+
+- Cruise taxis in SF use **pre-built 3D maps**, not true perception  
+- Failures:  
+  - Drove into **wet cement** (unseen in training)  
+  - Dragged a pedestrian ~50 m → operation suspended  
+
+---
+
+# AI in Healthcare
+
+- 2011: hype over **skin-cancer apps**  
+- 2018: FDA **removed** them for poor performance  
+- Medicine demands **deep clinical expertise**, not just data fitting  
+
+---
+
+# AI for Education
+
+- LLMs master **elementary curricula**  
+- Potential to **double–triple** learning speed (uni by age 11)  
+- Challenge: low **profitability** in ed-tech  
+
+---
+
+# Limits of Deep Learning
+
+- **Linear-time circuits** → cannot solve NP-hard tasks feasibly  
+- **Data hunger**: child learns “giraffe” from one drawing; AI needs millions  
+
+---
+
+# AlphaGo Revisited
+
+- 2017: AlphaGo beats Ke Jie (rating 3800)  
+- Program rating 5200 → superhuman  
+- **9-stone handicap** match vs amateur (2300) → human wins 15 ×  
+- Shows AI lacks **common-sense grouping**  
+
+---
+
+# Toward Safe, Beneficial AI
+
+- **Assistance Games** framework:  
+  1. AI’s objective = serve **human interests**  
+  2. Remain **uncertain** about our goals → learn them  
+  3. Incentivized to allow **shutdown**  
+- Only two viable paths:  
+  1. **Safe-by-design** AI  
+  2. **No AI**  
+
+---
+
+# Closing Thoughts
+
+- AI’s history: **symbolic → probabilistic → deep**  
+- Frontier: **hybrid** methods for robust AGI  
+- Safety by **design**, not patchwork fixes
+
+---
+
+# Questions?
+
+Feel free to ask about any slide or example!

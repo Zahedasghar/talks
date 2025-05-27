@@ -1,0 +1,156 @@
+Gets error in ---
+title: "Population Growth & Economic Policy in Pakistan"
+author: "Your Name"
+format:
+  revealjs:
+    theme: solarized
+    slide-number: true
+    transition: fade
+---
+
+## Key Points
+
+- Pakistan’s rapid population growth (1.89% p.a.) will strain job creation & poverty reduction.  
+- Investing in **education**, **health**, and **female labor participation** can harness a demographic dividend.  
+- **Urbanization** and **infrastructure** gaps must be addressed to maintain economic stability.  
+- A **balanced** approach—family planning + growth policies—is the most promising path forward.
+
+---
+
+## Introduction
+
+Pakistan’s economy and its population trajectory are tightly linked.  
+Over the next 20 years, policies must manage a booming youth cohort while boosting jobs and incomes.
+
+---
+
+## Demographic Context
+
+- **Population (2023):** 247 million  
+- **Under-15 share:** 36% → high dependency ratio  
+- **Working-age ratio:** < 60% vs ~66% regionally  
+- **Urbanization:** 54% of Sindh; Karachi (18.9 m), Lahore (13 m)
+
+---
+
+## Economic Implications
+
+- **Saving & Investment:** Depressed by high dependency  
+- **Growth drag:** 1–1.5 p.p. annually over 25 years vs peers  
+- **Poverty volatility:** 22–35% over two decades  
+- **Fiscal pressure:** Energy shortages, debt servicing (> 9 tln Rs)
+
+---
+
+## Comparative Snapshot
+
+| Indicator                | Pakistan | Bangladesh | India | Sri Lanka |
+|--------------------------|---------:|-----------:|------:|----------:|
+| Pop. Growth Rate (%)     |    1.89  |       1.01 |  0.95 |      0.28 |
+| Working-Age Ratio (%)    |     < 60 |       > 66 |  > 66 |      > 66 |
+| Female LFPR (%) (FY21)   |      23  |       27   |   54  |      68   |
+| Domestic Savings (% GDP) |      15  |       30   |   30  |      25   |
+
+---
+
+## Job Creation & Poverty
+
+- **Sector focus:** Agri & textiles—low value added  
+- **Female workforce:** +10 p.p. LFPR → +4–5% GDP  
+- **Poverty headcount:** sensitive to growth shocks (floods, inflation)
+
+---
+
+## Policy Recommendations
+
+1. **Family Planning & Health**  
+   - Raise contraceptive use to 55%, cut fertility to ~2.1 births/woman  
+2. **Human Capital & Jobs**  
+   - Scale vocational & digital skills programs for youth  
+3. **Female Empowerment**  
+   - Remove barriers (transport, childcare), incentivize firms  
+4. **Infrastructure & Urban Planning**  
+   - Invest in power, transport, water for growing cities  
+5. **International Support**  
+   - Leverage remittances, concessional financing for social programs
+
+
+---
+## Primary Research Question
+
+To what extent can a **simultaneous approach** to population management and inclusive economic growth serve as an optimal development strategy for Pakistan’s long-term stability and prosperity (2025–2045)?
+
+---
+
+## Secondary Questions: Population Dynamics Track
+
+1. **Demographic Projections**  
+   What are the projected demographic trends for Pakistan through 2045—fertility, age structure, urbanization—and how do they affect economic planning?  
+
+2. **Cross-Country Lessons**  
+   How effective have population management policies been in comparable developing economies, and what can Pakistan learn?  
+
+3. **Historical Linkages**  
+   What is the quantifiable relationship between past population growth rates and per capita economic indicators in Pakistan?
+
+---
+
+## Secondary Questions: Inclusive Economic Expansion Track
+
+1. **Mechanisms of Inclusive Growth**  
+   Which levers—employment generation, income distribution, sectoral diversification—matter most in Pakistan’s context?  
+
+2. **Human Capital & Demographic Dividend**  
+   How can Pakistan align education and skills policies to harness its youth bulge?  
+
+3. **Institutional Enablers**  
+   What role do governance, rule of law, and corruption indices play in enabling inclusive expansion?
+
+---
+
+## Secondary Questions: Integration & Synergy
+
+- **Interaction Effects**  
+  How do population management and growth strategies interact—complementary or conflicting?  
+
+- **Sequencing & Timing**  
+  What is the optimal order and timing for dual-track policy rollout?  
+
+- **Balancing Short & Long Term**  
+  How can Pakistan meet immediate needs while ensuring demographic sustainability?
+
+---
+
+## Methodological Approach
+
+### Quantitative  
+- **Econometric Modeling** (VAR / VECM)  
+- **Panel Data** (Diff-in-Diff, Synthetic Control)  
+- **Demographic‐Economic Scenarios**  
+- **Policy Impact (IV, RDD)**  
+
+### Qualitative  
+- **Institutional Analysis**  
+- **Comparative Case Studies** (e.g. Bangladesh, Vietnam)  
+- **Policy Process Evaluation**  
+
+---
+
+## Key Variables & Indicators
+
+### Population Track  
+- Total fertility rate, crude birth rate  
+- Dependency ratios, working-age share  
+- Urbanization, migration patterns  
+- Female education & health metrics  
+
+### Economic Track  
+- GDP & per capita growth  
+- Sectoral employment rates  
+- Gini coefficient, income quintiles  
+- FDI, export diversification, financial inclusion  
+---
+
+## Q&A
+
+Happy to discuss which policy area you’d prioritize!  
